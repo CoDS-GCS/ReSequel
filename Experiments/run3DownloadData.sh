@@ -9,7 +9,7 @@ cd ${data_path}
 rm -rf datasets
 git clone https://github.com/fathollahzadeh/datasets.git
 
-# rm -rf "${data_path}/stats"
+rm -rf "${data_path}/stats"
 rm -rf "${data_path}/imdb"
 rm -rf "${data_path}/PublicBIbenchmark"
 mkdir "${data_path}/stats"

@@ -125,9 +125,7 @@ rbot_path="${path}/Baselines/R-Bot/"
 rm -rf ${rbot_path}
 mkdir -p ${rbot_path}
 
-#git clone -b ReSequel https://github.com/fathollahzadeh/R-Bot.git
-cp -r /home/saeed/Documents/Github/R-Bot/* ${rbot_path}
-
+git clone -b ReSequel https://github.com/fathollahzadeh/R-Bot.git
 cd ${rbot_path}
 
 cd rag

@@ -14,6 +14,7 @@ CMDBaselineRBotAnalyze=./explocal/exp2_Baselines/runExperiment2-R-Bot-Analyze.sh
 CMDRunLRVerify=./explocal/exp2_Baselines/runExperiment2-Verify-LearnRewrite.sh
 CMDRunLLMR2Verify=./explocal/exp2_Baselines/runExperiment2-Verify-LLM-R2.sh
 CMDRunRBotVerify=./explocal/exp2_Baselines/runExperiment2-Verify-R-Bot.sh
+CMDRunSQLSolverVerify=./explocal/exp2_Baselines/runExperiment2-Verify-SQLSolver.sh
 
 ## Rewrite Queries by LearnedRewrite
 ##################################################
@@ -164,3 +165,14 @@ $CMDRunLR dsb PostgreSQL R-Bot-Gemini
 $CMDRunLR tpch PostgreSQL R-Bot-OSS-120B
 $CMDRunLR imdb PostgreSQL R-Bot-OSS-120B
 $CMDRunLR dsb PostgreSQL R-Bot-OSS-120B
+
+### Run SQLSolver Baseline
+## ***************************************
+$CMDRunSQLSolverVerify stats PostgreSQL gemini-2.5-pro
+$CMDRunSQLSolverVerify stats_ceb PostgreSQL gemini-2.5-pro
+$CMDRunSQLSolverVerify imdb PostgreSQL gemini-2.5-pro
+$CMDRunSQLSolverVerify imdb_13k PostgreSQL gemini-2.5-pro
+$CMDRunSQLSolverVerify dsb PostgreSQL gemini-2.5-pro
+$CMDRunSQLSolverVerify stackoverflow PostgreSQL gemini-2.5-pro
+$CMDRunSQLSolverVerify publicbibenchmark PostgreSQL gemini-2.5-pro
+$CMDRunSQLSolverVerify tpch PostgreSQL gemini-2.5-pro
