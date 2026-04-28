@@ -29,7 +29,7 @@ psql -U postgres -c "\i ${pg_config}"
 ./initpgSQL.sh
 sleep 3
 
-# ## Install MySQL
+### Install MySQL
 #*****************
 sudo apt-get install -y mysql-server-8.0
 sudo bash -c "echo -e '[mysql]\nlocal-infile=1\n\n[mysqld]\nlocal-infile=1\n' > /etc/mysql/conf.d/local_infile.cnf"
@@ -39,7 +39,7 @@ sudo mysql -e "CREATE USER 'admin'@'localhost' IDENTIFIED BY 'admin';"
 sudo mysql -e "GRANT ALL PRIVILEGES ON *.* TO 'admin'@'localhost' WITH GRANT OPTION;"
 sudo mysql -e "FLUSH PRIVILEGES;"
 
-# ## Install DouckDB
+### Install DouckDB
 #*******************
 export CC=clang
 export CXX=clang++
@@ -51,8 +51,8 @@ git checkout v1.2-histrionicus
 GEN=ninja NATIVE_ARCH=1 LTO=thin make
 cd ..
 
-#### Install TPC-H Dataset Generator
-####**********************************
+### Install TPC-H Dataset Generator
+###**********************************
 cd "${baseline_path}/GDB/TPC-H"
 ./run1Compile.sh
 
@@ -61,7 +61,7 @@ cd "${baseline_path}/GDB/DSB"
 ./run1Compile.sh
 
 
-# ## Setup ReSequel
+### Setup ReSequel
 #******************
 resql_path="${path}/Baselines/ReSequel/"
 rm -rf ${resql_path}
@@ -78,7 +78,7 @@ source venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 
-## Setup Workload Executor:
+### Setup Workload Executor:
 #*************************
 wl_path="${path}/Baselines/Workload/"
 rm -rf ${wl_path}
@@ -96,7 +96,8 @@ pip install --upgrade pip
 pip install -r requirements.txt
 
 
-## Setup Baselines (LearnRewrite and LLM-R2)
+### Setup Baselines (LearnRewrite and LLM-R2)
+#*******************************************
 lr_path="${path}/Baselines/LearnRewrite/"
 rm -rf ${lr_path}
 mkdir -p ${lr_path}
@@ -120,6 +121,7 @@ rm -rf ~/.cargo/registry ~/.cargo/git
 pip install --no-build-isolation -r requirements.txt
 
 ### setup R-Bot
+#**************
 cd ${baseline_path}
 rbot_path="${path}/Baselines/R-Bot/"
 rm -rf ${rbot_path}
@@ -143,3 +145,17 @@ cd ${rbot_path}
  source venv/bin/activate
  pip install --upgrade pip
  pip install -r requirements.txt
+
+### Install SQLSolver Baseline
+#*****************************
+cd ${baseline_path}
+sqlsolver_path="${path}/Baselines/SQLSolver/"
+rm -rf ${sqlsolver_path}
+
+
+cd ${root_path}
+cd baselines
+cp -r SQLSolver ${baseline_path}
+cd ${sqlsolver_path}
+
+mvn clean install
