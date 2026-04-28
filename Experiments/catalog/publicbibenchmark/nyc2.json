@@ -1,0 +1,222 @@
+{
+    "table": "nyc2",
+    "rows": 9618625,
+    "columns": [
+        {
+            "name": "unique_key",
+            "type": "integer"
+        },
+        {
+            "name": "taxi_pick_up_location",
+            "type": "character varying"
+        },
+        {
+            "name": "school_phone_number",
+            "type": "character varying"
+        },
+        {
+            "name": "longitude",
+            "type": "numeric"
+        },
+        {
+            "name": "bridge_highway_name",
+            "type": "character varying"
+        },
+        {
+            "name": "school_number",
+            "type": "character varying"
+        },
+        {
+            "name": "city",
+            "type": "character varying"
+        },
+        {
+            "name": "location",
+            "type": "character varying"
+        },
+        {
+            "name": "street_name",
+            "type": "character varying"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "agency",
+            "type": "character varying"
+        },
+        {
+            "name": "school_region",
+            "type": "character varying"
+        },
+        {
+            "name": "road_ramp",
+            "type": "character varying"
+        },
+        {
+            "name": "cross_street2",
+            "type": "character varying"
+        },
+        {
+            "name": "closed_date",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "bridge_highway_segment",
+            "type": "date"
+        },
+        {
+            "name": "y_coordinate__state_plane_",
+            "type": "integer"
+        },
+        {
+            "name": "due_date",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "x_coordinate__state_plane_",
+            "type": "integer"
+        },
+        {
+            "name": "school_state",
+            "type": "character varying"
+        },
+        {
+            "name": "intersection_street1",
+            "type": "character varying"
+        },
+        {
+            "name": "school_address",
+            "type": "character varying"
+        },
+        {
+            "name": "borough",
+            "type": "character varying"
+        },
+        {
+            "name": "taxi_company_borough",
+            "type": "character varying"
+        },
+        {
+            "name": "incident_zip",
+            "type": "bigint"
+        },
+        {
+            "name": "address_type",
+            "type": "character varying"
+        },
+        {
+            "name": "school_zip",
+            "type": "character varying"
+        },
+        {
+            "name": "school_name",
+            "type": "character varying"
+        },
+        {
+            "name": "complaint_type",
+            "type": "character varying"
+        },
+        {
+            "name": "park_borough",
+            "type": "character varying"
+        },
+        {
+            "name": "facility_type",
+            "type": "character varying"
+        },
+        {
+            "name": "resolution_action_updated_date",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "created_date",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "community_board",
+            "type": "character varying"
+        },
+        {
+            "name": "resolution_description",
+            "type": "character varying"
+        },
+        {
+            "name": "ferry_direction",
+            "type": "character varying"
+        },
+        {
+            "name": "agency_name",
+            "type": "character varying"
+        },
+        {
+            "name": "garage_lot_name",
+            "type": "character varying"
+        },
+        {
+            "name": "landmark",
+            "type": "character varying"
+        },
+        {
+            "name": "latitude",
+            "type": "numeric"
+        },
+        {
+            "name": "location_type",
+            "type": "character varying"
+        },
+        {
+            "name": "ferry_terminal_name",
+            "type": "character varying"
+        },
+        {
+            "name": "school_city",
+            "type": "character varying"
+        },
+        {
+            "name": "vehicle_type",
+            "type": "character varying"
+        },
+        {
+            "name": "intersection_street2",
+            "type": "character varying"
+        },
+        {
+            "name": "park_facility_name",
+            "type": "character varying"
+        },
+        {
+            "name": "school_code",
+            "type": "character varying"
+        },
+        {
+            "name": "status",
+            "type": "character varying"
+        },
+        {
+            "name": "school_not_found",
+            "type": "character varying"
+        },
+        {
+            "name": "descriptor",
+            "type": "character varying"
+        },
+        {
+            "name": "school_or_citywide_complaint",
+            "type": "character varying"
+        },
+        {
+            "name": "cross_street1",
+            "type": "character varying"
+        },
+        {
+            "name": "incident_address",
+            "type": "character varying"
+        },
+        {
+            "name": "bridge_highway_direction",
+            "type": "character varying"
+        }
+    ]
+}

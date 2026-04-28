@@ -1,0 +1,65 @@
+{
+    "columns": [
+        {
+            "name": "w_warehouse_sk",
+            "type": "integer"
+        },
+        {
+            "name": "w_warehouse_sq_ft",
+            "type": "integer"
+        },
+        {
+            "name": "w_gmt_offset",
+            "type": "numeric"
+        },
+        {
+            "name": "w_country",
+            "type": "character varying"
+        },
+        {
+            "name": "w_street_number",
+            "type": "character"
+        },
+        {
+            "name": "w_street_name",
+            "type": "character varying"
+        },
+        {
+            "name": "w_street_type",
+            "type": "character"
+        },
+        {
+            "name": "w_suite_number",
+            "type": "character"
+        },
+        {
+            "name": "w_city",
+            "type": "character varying"
+        },
+        {
+            "name": "w_county",
+            "type": "character varying"
+        },
+        {
+            "name": "w_state",
+            "type": "character"
+        },
+        {
+            "name": "w_zip",
+            "type": "character"
+        },
+        {
+            "name": "w_warehouse_id",
+            "type": "character"
+        },
+        {
+            "name": "w_warehouse_name",
+            "type": "character varying"
+        }
+    ],
+    "indexes": [
+        "w_warehouse_sk"
+    ],
+    "rows": 0,
+    "table": "warehouse"
+}

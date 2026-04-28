@@ -1,0 +1,94 @@
+{
+    "table": "posts",
+    "rows": 246673,
+    "columns": [
+        {
+            "name": "answercount",
+            "type": "integer"
+        },
+        {
+            "name": "commentcount",
+            "type": "integer"
+        },
+        {
+            "name": "favoritecount",
+            "type": "integer"
+        },
+        {
+            "name": "closeddate",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "communityowneddate",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "id",
+            "type": "integer"
+        },
+        {
+            "name": "viewcount",
+            "type": "integer"
+        },
+        {
+            "name": "posttypeid",
+            "type": "smallint"
+        },
+        {
+            "name": "owneruserid",
+            "type": "integer"
+        },
+        {
+            "name": "acceptedanswerid",
+            "type": "integer"
+        },
+        {
+            "name": "lasteditoruserid",
+            "type": "integer"
+        },
+        {
+            "name": "parentid",
+            "type": "integer"
+        },
+        {
+            "name": "lasteditdate",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "lastactivitydate",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "creationdate",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "score",
+            "type": "integer"
+        },
+        {
+            "name": "contentlicense",
+            "type": "character varying"
+        },
+        {
+            "name": "body",
+            "type": "text"
+        },
+        {
+            "name": "ownerdisplayname",
+            "type": "character varying"
+        },
+        {
+            "name": "lasteditordisplayname",
+            "type": "character varying"
+        },
+        {
+            "name": "title",
+            "type": "character varying"
+        },
+        {
+            "name": "tags",
+            "type": "character varying"
+        }
+    ]
+}

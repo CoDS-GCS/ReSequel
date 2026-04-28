@@ -1,0 +1,3 @@
+SELECT commongovernment3.fundingagencyname AS fundingagencyname
+FROM commongovernment3
+GROUP BY commongovernment3.fundingagencyname;

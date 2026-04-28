@@ -1,0 +1,61 @@
+{
+    "columns": [
+        {
+            "name": "ca_gmt_offset",
+            "type": "numeric"
+        },
+        {
+            "name": "ca_address_sk",
+            "type": "integer"
+        },
+        {
+            "name": "ca_street_number",
+            "type": "character"
+        },
+        {
+            "name": "ca_street_name",
+            "type": "character varying"
+        },
+        {
+            "name": "ca_street_type",
+            "type": "character"
+        },
+        {
+            "name": "ca_suite_number",
+            "type": "character"
+        },
+        {
+            "name": "ca_city",
+            "type": "character varying"
+        },
+        {
+            "name": "ca_county",
+            "type": "character varying"
+        },
+        {
+            "name": "ca_state",
+            "type": "character"
+        },
+        {
+            "name": "ca_zip",
+            "type": "character"
+        },
+        {
+            "name": "ca_country",
+            "type": "character varying"
+        },
+        {
+            "name": "ca_location_type",
+            "type": "character"
+        },
+        {
+            "name": "ca_address_id",
+            "type": "character"
+        }
+    ],
+    "indexes": [
+        "ca_address_sk"
+    ],
+    "rows": 250000,
+    "table": "customer_address"
+}

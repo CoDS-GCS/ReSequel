@@ -1,0 +1,38 @@
+{
+    "table": "comments",
+    "rows": 351440,
+    "columns": [
+        {
+            "name": "id",
+            "type": "integer"
+        },
+        {
+            "name": "postid",
+            "type": "integer"
+        },
+        {
+            "name": "score",
+            "type": "integer"
+        },
+        {
+            "name": "creationdate",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "userid",
+            "type": "integer"
+        },
+        {
+            "name": "userdisplayname",
+            "type": "character varying"
+        },
+        {
+            "name": "text",
+            "type": "character varying"
+        },
+        {
+            "name": "contentlicense",
+            "type": "character varying"
+        }
+    ]
+}

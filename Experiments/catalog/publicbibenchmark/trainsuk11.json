@@ -1,0 +1,18 @@
+{
+    "table": "trainsuk11",
+    "rows": 1,
+    "columns": [
+        {
+            "name": "test",
+            "type": "smallint"
+        },
+        {
+            "name": "date",
+            "type": "date"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "table": "postlinks",
+    "rows": 20146,
+    "columns": [
+        {
+            "name": "id",
+            "type": "bigint"
+        },
+        {
+            "name": "creationdate",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "postid",
+            "type": "integer"
+        },
+        {
+            "name": "relatedpostid",
+            "type": "integer"
+        },
+        {
+            "name": "linktypeid",
+            "type": "smallint"
+        }
+    ]
+}

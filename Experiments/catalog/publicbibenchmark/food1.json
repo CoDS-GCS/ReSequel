@@ -1,0 +1,30 @@
+{
+    "table": "food1",
+    "rows": 5216593,
+    "columns": [
+        {
+            "name": "volumetotalbytes",
+            "type": "double precision"
+        },
+        {
+            "name": "device",
+            "type": "character varying"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "application",
+            "type": "character varying"
+        },
+        {
+            "name": "activitysec",
+            "type": "integer"
+        },
+        {
+            "name": "subscribers",
+            "type": "smallint"
+        }
+    ]
+}

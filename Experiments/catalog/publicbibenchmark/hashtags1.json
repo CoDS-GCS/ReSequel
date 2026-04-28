@@ -1,0 +1,410 @@
+{
+    "table": "hashtags1",
+    "rows": 511511,
+    "columns": [
+        {
+            "name": "contains__scandal__copy3_",
+            "type": "smallint"
+        },
+        {
+            "name": "contains__rookieblue__copy_",
+            "type": "smallint"
+        },
+        {
+            "name": "twitter_user_name",
+            "type": "character varying"
+        },
+        {
+            "name": "twitter_place_name",
+            "type": "character varying"
+        },
+        {
+            "name": "contains__killerwomen__copy_",
+            "type": "smallint"
+        },
+        {
+            "name": "contains__rookieblue__copy4_",
+            "type": "smallint"
+        },
+        {
+            "name": "contains__theneighbors__copy_",
+            "type": "smallint"
+        },
+        {
+            "name": "twitter_id",
+            "type": "double precision"
+        },
+        {
+            "name": "interaction_author_link",
+            "type": "character varying"
+        },
+        {
+            "name": "twitter_place_id",
+            "type": "character varying"
+        },
+        {
+            "name": "twitter_user_verified",
+            "type": "character varying"
+        },
+        {
+            "name": "twitter_user_favouritescount",
+            "type": "integer"
+        },
+        {
+            "name": "twitter_user_followerscount",
+            "type": "integer"
+        },
+        {
+            "name": "contains__castle__copy_",
+            "type": "smallint"
+        },
+        {
+            "name": "contains__theneighbors__copy2_",
+            "type": "smallint"
+        },
+        {
+            "name": "contains__afv__copy_",
+            "type": "smallint"
+        },
+        {
+            "name": "interaction_author_username",
+            "type": "character varying"
+        },
+        {
+            "name": "contains__scandal__copy2_",
+            "type": "smallint"
+        },
+        {
+            "name": "calculation6220303224029615",
+            "type": "smallint"
+        },
+        {
+            "name": "twitter_hashtags",
+            "type": "character varying"
+        },
+        {
+            "name": "twitter_user_createdat",
+            "type": "character varying"
+        },
+        {
+            "name": "contains__abc2020__copy_",
+            "type": "smallint"
+        },
+        {
+            "name": "contains__castle__copy2_",
+            "type": "smallint"
+        },
+        {
+            "name": "twitter_inreplytoscreenname",
+            "type": "character varying"
+        },
+        {
+            "name": "twitter_user_screenname",
+            "type": "character varying"
+        },
+        {
+            "name": "twitter_user_statusescount",
+            "type": "integer"
+        },
+        {
+            "name": "interaction_content",
+            "type": "character varying"
+        },
+        {
+            "name": "contains__motive__copy_",
+            "type": "smallint"
+        },
+        {
+            "name": "interaction_author_name",
+            "type": "character varying"
+        },
+        {
+            "name": "twitter_place_placetype",
+            "type": "character varying"
+        },
+        {
+            "name": "interaction_author_avatar",
+            "type": "character varying"
+        },
+        {
+            "name": "contains__onceuponatime__copy_",
+            "type": "smallint"
+        },
+        {
+            "name": "twitter_user_profileimageurlhttps",
+            "type": "character varying"
+        },
+        {
+            "name": "interaction_id",
+            "type": "character varying"
+        },
+        {
+            "name": "twitter_media",
+            "type": "character varying"
+        },
+        {
+            "name": "twitter_user_location",
+            "type": "character varying"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "twitter_createdat",
+            "type": "character varying"
+        },
+        {
+            "name": "twitter_user_description",
+            "type": "character varying"
+        },
+        {
+            "name": "contains__rookieblue__copy2_",
+            "type": "smallint"
+        },
+        {
+            "name": "twitter_possiblysensitive",
+            "type": "character varying"
+        },
+        {
+            "name": "contains__revenge__copy_",
+            "type": "smallint"
+        },
+        {
+            "name": "twitter_user_profileimageurl",
+            "type": "character varying"
+        },
+        {
+            "name": "contains__theneighbors__copy3_",
+            "type": "smallint"
+        },
+        {
+            "name": "interaction_mentionids",
+            "type": "character varying"
+        },
+        {
+            "name": "twitter_user_id",
+            "type": "double precision"
+        },
+        {
+            "name": "twitter_mentionids",
+            "type": "character varying"
+        },
+        {
+            "name": "interaction_author_id",
+            "type": "double precision"
+        },
+        {
+            "name": "contains__greysanatomy__copy_",
+            "type": "smallint"
+        },
+        {
+            "name": "twitter_user_geoenabled",
+            "type": "character varying"
+        },
+        {
+            "name": "twitter_place_url",
+            "type": "character varying"
+        },
+        {
+            "name": "twitter_displayurls",
+            "type": "character varying"
+        },
+        {
+            "name": "interaction_geo_longitude",
+            "type": "numeric"
+        },
+        {
+            "name": "interaction_createdat",
+            "type": "character varying"
+        },
+        {
+            "name": "twitter_links",
+            "type": "character varying"
+        },
+        {
+            "name": "interaction_receivedat",
+            "type": "double precision"
+        },
+        {
+            "name": "contains__afv__copy2_",
+            "type": "smallint"
+        },
+        {
+            "name": "twitter_user_timezone",
+            "type": "character varying"
+        },
+        {
+            "name": "contains__modernfamily__copy_",
+            "type": "smallint"
+        },
+        {
+            "name": "demographic_gender",
+            "type": "character varying"
+        },
+        {
+            "name": "contains__nashville__copy_",
+            "type": "smallint"
+        },
+        {
+            "name": "twitter_place_countrycode",
+            "type": "character varying"
+        },
+        {
+            "name": "interaction_geo_latitude",
+            "type": "numeric"
+        },
+        {
+            "name": "interaction_mentions",
+            "type": "character varying"
+        },
+        {
+            "name": "twitter_lang",
+            "type": "character varying"
+        },
+        {
+            "name": "twitter_user_utcoffset",
+            "type": "integer"
+        },
+        {
+            "name": "contains__motive__copy2_",
+            "type": "smallint"
+        },
+        {
+            "name": "twitter_user_listedcount",
+            "type": "integer"
+        },
+        {
+            "name": "twitter_inreplytostatusid",
+            "type": "double precision"
+        },
+        {
+            "name": "contains__rookieblue__copy6_",
+            "type": "smallint"
+        },
+        {
+            "name": "twitter_filterlevel",
+            "type": "character varying"
+        },
+        {
+            "name": "twitter_geo_latitude",
+            "type": "numeric"
+        },
+        {
+            "name": "twitter_geo_longitude",
+            "type": "numeric"
+        },
+        {
+            "name": "contains__greysanatomy__copy2_",
+            "type": "smallint"
+        },
+        {
+            "name": "interaction_source",
+            "type": "character varying"
+        },
+        {
+            "name": "contains__themiddle__copy_",
+            "type": "smallint"
+        },
+        {
+            "name": "contains__rookieblue__copy3_",
+            "type": "smallint"
+        },
+        {
+            "name": "twitter_inreplytouserid",
+            "type": "bigint"
+        },
+        {
+            "name": "contains__scandal__copy_",
+            "type": "smallint"
+        },
+        {
+            "name": "calculation6610227171140491",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "twitter_domains",
+            "type": "character varying"
+        },
+        {
+            "name": "contains__suburgatory__copy_",
+            "type": "smallint"
+        },
+        {
+            "name": "twitter_user_idstr",
+            "type": "double precision"
+        },
+        {
+            "name": "twitter_place_country",
+            "type": "character varying"
+        },
+        {
+            "name": "contains__agentsofshield__copy_",
+            "type": "smallint"
+        },
+        {
+            "name": "interaction_schema_version",
+            "type": "smallint"
+        },
+        {
+            "name": "twitter_mentions",
+            "type": "character varying"
+        },
+        {
+            "name": "twitter_user_url",
+            "type": "character varying"
+        },
+        {
+            "name": "twitter_user_friendscount",
+            "type": "integer"
+        },
+        {
+            "name": "interaction_hashtags",
+            "type": "character varying"
+        },
+        {
+            "name": "contains__killerwomen__copy2_",
+            "type": "smallint"
+        },
+        {
+            "name": "interaction_type",
+            "type": "character varying"
+        },
+        {
+            "name": "interaction_author_language",
+            "type": "character varying"
+        },
+        {
+            "name": "twitter_text",
+            "type": "character varying"
+        },
+        {
+            "name": "contains__rookieblue__copy5_",
+            "type": "smallint"
+        },
+        {
+            "name": "interaction_link",
+            "type": "character varying"
+        },
+        {
+            "name": "twitter_source",
+            "type": "character varying"
+        },
+        {
+            "name": "contains__lastmanstanding__copy_",
+            "type": "smallint"
+        },
+        {
+            "name": "contains__suburgatory__copy2_",
+            "type": "smallint"
+        },
+        {
+            "name": "twitter_place_fullname",
+            "type": "character varying"
+        },
+        {
+            "name": "twitter_user_lang",
+            "type": "character varying"
+        }
+    ]
+}

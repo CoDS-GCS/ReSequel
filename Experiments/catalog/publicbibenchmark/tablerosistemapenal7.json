@@ -1,0 +1,114 @@
+{
+    "table": "tablerosistemapenal7",
+    "rows": 2246539,
+    "columns": [
+        {
+            "name": "tiptrib",
+            "type": "smallint"
+        },
+        {
+            "name": "tipo",
+            "type": "character varying"
+        },
+        {
+            "name": "tribunal",
+            "type": "character varying"
+        },
+        {
+            "name": "mes_ingreso",
+            "type": "character varying"
+        },
+        {
+            "name": "latitud",
+            "type": "character varying"
+        },
+        {
+            "name": "calculation0640821194248948",
+            "type": "character varying"
+        },
+        {
+            "name": "cod__tribunal",
+            "type": "smallint"
+        },
+        {
+            "name": "año_ingreso",
+            "type": "character varying"
+        },
+        {
+            "name": "calculation7430825124450529",
+            "type": "numeric"
+        },
+        {
+            "name": "jurisdicción",
+            "type": "character varying"
+        },
+        {
+            "name": "delito",
+            "type": "character varying"
+        },
+        {
+            "name": "cod__región",
+            "type": "smallint"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "ingresos",
+            "type": "numeric"
+        },
+        {
+            "name": "rpa",
+            "type": "character varying"
+        },
+        {
+            "name": "longitud",
+            "type": "character varying"
+        },
+        {
+            "name": "crea_ruc",
+            "type": "character varying"
+        },
+        {
+            "name": "comuna",
+            "type": "character varying"
+        },
+        {
+            "name": "agrupador",
+            "type": "character varying"
+        },
+        {
+            "name": "país",
+            "type": "character varying"
+        },
+        {
+            "name": "ingresos__garantia__copy_",
+            "type": "numeric"
+        },
+        {
+            "name": "cod_delito",
+            "type": "double precision"
+        },
+        {
+            "name": "región",
+            "type": "character varying"
+        },
+        {
+            "name": "calculation0520821013255406",
+            "type": "character varying"
+        },
+        {
+            "name": "corte",
+            "type": "character varying"
+        },
+        {
+            "name": "clase",
+            "type": "character varying"
+        },
+        {
+            "name": "forma_inicio",
+            "type": "character varying"
+        }
+    ]
+}

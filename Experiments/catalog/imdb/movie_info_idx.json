@@ -1,0 +1,26 @@
+{
+    "table": "movie_info_idx",
+    "rows": 1380035,
+    "columns": [
+        {
+            "name": "id",
+            "type": "integer"
+        },
+        {
+            "name": "movie_id",
+            "type": "integer"
+        },
+        {
+            "name": "info_type_id",
+            "type": "integer"
+        },
+        {
+            "name": "info",
+            "type": "character varying"
+        },
+        {
+            "name": "note",
+            "type": "character varying"
+        }
+    ]
+}

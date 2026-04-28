@@ -1,0 +1,130 @@
+{
+    "table": "hatred1",
+    "rows": 873166,
+    "columns": [
+        {
+            "name": "lpf",
+            "type": "numeric"
+        },
+        {
+            "name": "name",
+            "type": "character varying"
+        },
+        {
+            "name": "f27",
+            "type": "character varying"
+        },
+        {
+            "name": "joined",
+            "type": "numeric"
+        },
+        {
+            "name": "location_type",
+            "type": "character varying"
+        },
+        {
+            "name": "self_report_location",
+            "type": "character varying"
+        },
+        {
+            "name": "long",
+            "type": "numeric"
+        },
+        {
+            "name": "statepopnum",
+            "type": "integer"
+        },
+        {
+            "name": "state_",
+            "type": "character varying"
+        },
+        {
+            "name": "statepopname",
+            "type": "character varying"
+        },
+        {
+            "name": "profile_desc",
+            "type": "character varying"
+        },
+        {
+            "name": "lat",
+            "type": "numeric"
+        },
+        {
+            "name": "gender",
+            "type": "character varying"
+        },
+        {
+            "name": "client",
+            "type": "character varying"
+        },
+        {
+            "name": "following",
+            "type": "integer"
+        },
+        {
+            "name": "influencer_",
+            "type": "smallint"
+        },
+        {
+            "name": "listed",
+            "type": "integer"
+        },
+        {
+            "name": "region",
+            "type": "character varying"
+        },
+        {
+            "name": "f26",
+            "type": "character varying"
+        },
+        {
+            "name": "language",
+            "type": "character varying"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "city",
+            "type": "character varying"
+        },
+        {
+            "name": "keyword",
+            "type": "character varying"
+        },
+        {
+            "name": "created_date",
+            "type": "double precision"
+        },
+        {
+            "name": "ff_ratio",
+            "type": "double precision"
+        },
+        {
+            "name": "followers",
+            "type": "integer"
+        },
+        {
+            "name": "tweet_text",
+            "type": "character varying"
+        },
+        {
+            "name": "username",
+            "type": "character varying"
+        },
+        {
+            "name": "favorites",
+            "type": "integer"
+        },
+        {
+            "name": "tweets",
+            "type": "integer"
+        },
+        {
+            "name": "f28",
+            "type": "character varying"
+        }
+    ]
+}

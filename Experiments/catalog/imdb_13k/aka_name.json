@@ -1,0 +1,38 @@
+{
+    "table": "aka_name",
+    "rows": 901343,
+    "columns": [
+        {
+            "name": "id",
+            "type": "integer"
+        },
+        {
+            "name": "person_id",
+            "type": "integer"
+        },
+        {
+            "name": "name",
+            "type": "character varying"
+        },
+        {
+            "name": "imdb_index",
+            "type": "character varying"
+        },
+        {
+            "name": "name_pcode_cf",
+            "type": "character varying"
+        },
+        {
+            "name": "name_pcode_nf",
+            "type": "character varying"
+        },
+        {
+            "name": "surname_pcode",
+            "type": "character varying"
+        },
+        {
+            "name": "md5sum",
+            "type": "character varying"
+        }
+    ]
+}

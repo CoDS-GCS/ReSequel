@@ -1,0 +1,25 @@
+{
+    "columns": [
+        {
+            "name": "inv_date_sk",
+            "type": "integer"
+        },
+        {
+            "name": "inv_item_sk",
+            "type": "integer"
+        },
+        {
+            "name": "inv_warehouse_sk",
+            "type": "integer"
+        },
+        {
+            "name": "inv_quantity_on_hand",
+            "type": "integer"
+        }
+    ],
+    "indexes": [
+        "inv_date_sk, inv_item_sk, inv_warehouse_sk"
+    ],
+    "rows": 133110000,
+    "table": "inventory"
+}

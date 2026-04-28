@@ -1,0 +1,114 @@
+{
+    "table": "iublibrary1",
+    "rows": 1795,
+    "columns": [
+        {
+            "name": "catalogkey",
+            "type": "integer"
+        },
+        {
+            "name": "totalcharges",
+            "type": "smallint"
+        },
+        {
+            "name": "marckey",
+            "type": "integer"
+        },
+        {
+            "name": "author",
+            "type": "character varying"
+        },
+        {
+            "name": "title",
+            "type": "character varying"
+        },
+        {
+            "name": "lastactivitydate",
+            "type": "date"
+        },
+        {
+            "name": "callsequence",
+            "type": "smallint"
+        },
+        {
+            "name": "datelastcharged",
+            "type": "date"
+        },
+        {
+            "name": "format",
+            "type": "character varying"
+        },
+        {
+            "name": "dateofpublication260c",
+            "type": "character varying"
+        },
+        {
+            "name": "copynumber",
+            "type": "smallint"
+        },
+        {
+            "name": "library",
+            "type": "character varying"
+        },
+        {
+            "name": "classcodelcsudocnlm",
+            "type": "character varying"
+        },
+        {
+            "name": "titlecreateddate",
+            "type": "date"
+        },
+        {
+            "name": "language",
+            "type": "character varying"
+        },
+        {
+            "name": "sh",
+            "type": "character varying"
+        },
+        {
+            "name": "type",
+            "type": "character varying"
+        },
+        {
+            "name": "titlecontrolnumber",
+            "type": "character varying"
+        },
+        {
+            "name": "calculation649925789325832192",
+            "type": "character varying"
+        },
+        {
+            "name": "inactive__group_",
+            "type": "character varying"
+        },
+        {
+            "name": "elvingkey",
+            "type": "character varying"
+        },
+        {
+            "name": "oclc",
+            "type": "integer"
+        },
+        {
+            "name": "itemcreateddate",
+            "type": "date"
+        },
+        {
+            "name": "callnumber",
+            "type": "character varying"
+        },
+        {
+            "name": "pubyear",
+            "type": "smallint"
+        },
+        {
+            "name": "inactive",
+            "type": "character varying"
+        },
+        {
+            "name": "itemtype",
+            "type": "character varying"
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "columns": [
+        {
+            "name": "web_tax_percentage",
+            "type": "numeric"
+        },
+        {
+            "name": "web_rec_start_date",
+            "type": "date"
+        },
+        {
+            "name": "web_rec_end_date",
+            "type": "date"
+        },
+        {
+            "name": "web_open_date_sk",
+            "type": "integer"
+        },
+        {
+            "name": "web_close_date_sk",
+            "type": "integer"
+        },
+        {
+            "name": "web_mkt_id",
+            "type": "integer"
+        },
+        {
+            "name": "web_company_id",
+            "type": "integer"
+        },
+        {
+            "name": "web_gmt_offset",
+            "type": "numeric"
+        },
+        {
+            "name": "web_site_sk",
+            "type": "integer"
+        },
+        {
+            "name": "web_zip",
+            "type": "character"
+        },
+        {
+            "name": "web_mkt_class",
+            "type": "character varying"
+        },
+        {
+            "name": "web_mkt_desc",
+            "type": "character varying"
+        },
+        {
+            "name": "web_market_manager",
+            "type": "character varying"
+        },
+        {
+            "name": "web_country",
+            "type": "character varying"
+        },
+        {
+            "name": "web_company_name",
+            "type": "character"
+        },
+        {
+            "name": "web_street_number",
+            "type": "character"
+        },
+        {
+            "name": "web_street_name",
+            "type": "character varying"
+        },
+        {
+            "name": "web_street_type",
+            "type": "character"
+        },
+        {
+            "name": "web_site_id",
+            "type": "character"
+        },
+        {
+            "name": "web_suite_number",
+            "type": "character"
+        },
+        {
+            "name": "web_city",
+            "type": "character varying"
+        },
+        {
+            "name": "web_name",
+            "type": "character varying"
+        },
+        {
+            "name": "web_county",
+            "type": "character varying"
+        },
+        {
+            "name": "web_state",
+            "type": "character"
+        },
+        {
+            "name": "web_class",
+            "type": "character varying"
+        },
+        {
+            "name": "web_manager",
+            "type": "character varying"
+        }
+    ],
+    "indexes": [
+        "web_site_sk"
+    ],
+    "rows": 42,
+    "table": "web_site"
+}

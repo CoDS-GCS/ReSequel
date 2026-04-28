@@ -1,0 +1,70 @@
+{
+    "table": "mlb52",
+    "rows": 416,
+    "columns": [
+        {
+            "name": "obp",
+            "type": "numeric"
+        },
+        {
+            "name": "ld_",
+            "type": "numeric"
+        },
+        {
+            "name": "year",
+            "type": "smallint"
+        },
+        {
+            "name": "gb_",
+            "type": "numeric"
+        },
+        {
+            "name": "avg",
+            "type": "numeric"
+        },
+        {
+            "name": "fb_",
+            "type": "numeric"
+        },
+        {
+            "name": "split",
+            "type": "character varying"
+        },
+        {
+            "name": "ops",
+            "type": "numeric"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "slg",
+            "type": "numeric"
+        },
+        {
+            "name": "league",
+            "type": "character varying"
+        },
+        {
+            "name": "pu_",
+            "type": "numeric"
+        },
+        {
+            "name": "babip",
+            "type": "numeric"
+        },
+        {
+            "name": "woba",
+            "type": "numeric"
+        },
+        {
+            "name": "month",
+            "type": "character varying"
+        },
+        {
+            "name": "iso",
+            "type": "numeric"
+        }
+    ]
+}

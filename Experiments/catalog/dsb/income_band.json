@@ -1,0 +1,21 @@
+{
+    "columns": [
+        {
+            "name": "ib_income_band_sk",
+            "type": "integer"
+        },
+        {
+            "name": "ib_lower_bound",
+            "type": "integer"
+        },
+        {
+            "name": "ib_upper_bound",
+            "type": "integer"
+        }
+    ],
+    "indexes": [
+        "ib_income_band_sk"
+    ],
+    "rows": 20,
+    "table": "income_band"
+}

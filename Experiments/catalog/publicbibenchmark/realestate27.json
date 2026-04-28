@@ -1,0 +1,114 @@
+{
+    "table": "realestate27",
+    "rows": 9487983,
+    "columns": [
+        {
+            "name": "calculation222787466265260036",
+            "type": "character varying"
+        },
+        {
+            "name": "propertytype",
+            "type": "character varying"
+        },
+        {
+            "name": "postcode",
+            "type": "character varying"
+        },
+        {
+            "name": "town_city",
+            "type": "character varying"
+        },
+        {
+            "name": "dateoftransfer",
+            "type": "date"
+        },
+        {
+            "name": "postcoderegion",
+            "type": "character varying"
+        },
+        {
+            "name": "longitude",
+            "type": "double precision"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "pricepaidtransactiontype",
+            "type": "character varying"
+        },
+        {
+            "name": "address2",
+            "type": "character varying"
+        },
+        {
+            "name": "newbuild",
+            "type": "character varying"
+        },
+        {
+            "name": "price",
+            "type": "integer"
+        },
+        {
+            "name": "calculation222787466264023043",
+            "type": "character varying"
+        },
+        {
+            "name": "calculation222787466257584130",
+            "type": "boolean"
+        },
+        {
+            "name": "town_city_url_string__copy_",
+            "type": "character varying"
+        },
+        {
+            "name": "street",
+            "type": "character varying"
+        },
+        {
+            "name": "locality",
+            "type": "character varying"
+        },
+        {
+            "name": "duration",
+            "type": "character varying"
+        },
+        {
+            "name": "county",
+            "type": "character varying"
+        },
+        {
+            "name": "postcodedistrict",
+            "type": "character varying"
+        },
+        {
+            "name": "transactionid",
+            "type": "character varying"
+        },
+        {
+            "name": "address1",
+            "type": "character varying"
+        },
+        {
+            "name": "postcodesector",
+            "type": "character varying"
+        },
+        {
+            "name": "calculation342484700263473152",
+            "type": "character varying"
+        },
+        {
+            "name": "county__copy_",
+            "type": "character varying"
+        },
+        {
+            "name": "district",
+            "type": "character varying"
+        },
+        {
+            "name": "latitude",
+            "type": "numeric"
+        }
+    ]
+}

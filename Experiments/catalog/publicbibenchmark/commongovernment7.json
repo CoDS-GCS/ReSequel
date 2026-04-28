@@ -1,0 +1,230 @@
+{
+    "table": "commongovernment7",
+    "rows": 10590308,
+    "columns": [
+        {
+            "name": "signeddate",
+            "type": "character varying"
+        },
+        {
+            "name": "shortname",
+            "type": "character varying"
+        },
+        {
+            "name": "primarycontractpiid",
+            "type": "character varying"
+        },
+        {
+            "name": "aserowid",
+            "type": "integer"
+        },
+        {
+            "name": "fundingagencyname",
+            "type": "character varying"
+        },
+        {
+            "name": "prodorservcode",
+            "type": "character varying"
+        },
+        {
+            "name": "gsadollar",
+            "type": "double precision"
+        },
+        {
+            "name": "refidvidagencyid",
+            "type": "character varying"
+        },
+        {
+            "name": "fundingagencykey",
+            "type": "integer"
+        },
+        {
+            "name": "awardtypecode",
+            "type": "character varying"
+        },
+        {
+            "name": "naicscode",
+            "type": "character varying"
+        },
+        {
+            "name": "cdcontactiontype",
+            "type": "character varying"
+        },
+        {
+            "name": "aaidacontidpiid",
+            "type": "character varying"
+        },
+        {
+            "name": "prodorservcodedesc",
+            "type": "character varying"
+        },
+        {
+            "name": "awardtype",
+            "type": "character varying"
+        },
+        {
+            "name": "awardtypekey",
+            "type": "smallint"
+        },
+        {
+            "name": "description",
+            "type": "character varying"
+        },
+        {
+            "name": "psccode",
+            "type": "character varying"
+        },
+        {
+            "name": "venddunsnumber",
+            "type": "character varying"
+        },
+        {
+            "name": "agname",
+            "type": "character varying"
+        },
+        {
+            "name": "naicsname",
+            "type": "character varying"
+        },
+        {
+            "name": "vendvendorname",
+            "type": "character varying"
+        },
+        {
+            "name": "costate",
+            "type": "character varying"
+        },
+        {
+            "name": "psccodedescription",
+            "type": "character varying"
+        },
+        {
+            "name": "refidvidpiid",
+            "type": "character varying"
+        },
+        {
+            "name": "counttotal",
+            "type": "integer"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "gsaotherdollar",
+            "type": "double precision"
+        },
+        {
+            "name": "level1category",
+            "type": "character varying"
+        },
+        {
+            "name": "code",
+            "type": "character varying"
+        },
+        {
+            "name": "baseandexercisedoptionsvalue",
+            "type": "double precision"
+        },
+        {
+            "name": "obligatedamount1",
+            "type": "numeric"
+        },
+        {
+            "name": "aaidacontidagencyid",
+            "type": "character varying"
+        },
+        {
+            "name": "contractnum",
+            "type": "character varying"
+        },
+        {
+            "name": "level2category",
+            "type": "character varying"
+        },
+        {
+            "name": "bureaucode",
+            "type": "character varying"
+        },
+        {
+            "name": "baseandalloptionsvalue",
+            "type": "double precision"
+        },
+        {
+            "name": "contractingofficeagencyid",
+            "type": "character varying"
+        },
+        {
+            "name": "fundingagency",
+            "type": "character varying"
+        },
+        {
+            "name": "ftsdollar",
+            "type": "double precision"
+        },
+        {
+            "name": "fkrecmat",
+            "type": "smallint"
+        },
+        {
+            "name": "vendcontoffbussizedeterm",
+            "type": "character varying"
+        },
+        {
+            "name": "nongsadollar",
+            "type": "double precision"
+        },
+        {
+            "name": "contractsigneddate",
+            "type": "character varying"
+        },
+        {
+            "name": "obligatedamount",
+            "type": "double precision"
+        },
+        {
+            "name": "whocanuse",
+            "type": "character varying"
+        },
+        {
+            "name": "fkepadesprod",
+            "type": "smallint"
+        },
+        {
+            "name": "gwacs",
+            "type": "double precision"
+        },
+        {
+            "name": "year",
+            "type": "character varying"
+        },
+        {
+            "name": "pbsdollar",
+            "type": "double precision"
+        },
+        {
+            "name": "psckey",
+            "type": "integer"
+        },
+        {
+            "name": "coname",
+            "type": "character varying"
+        },
+        {
+            "name": "quarter",
+            "type": "character varying"
+        },
+        {
+            "name": "agencycode",
+            "type": "character varying"
+        },
+        {
+            "name": "countfetched",
+            "type": "integer"
+        },
+        {
+            "name": "bureauname",
+            "type": "character varying"
+        }
+    ]
+}

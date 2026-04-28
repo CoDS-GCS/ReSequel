@@ -1,0 +1,94 @@
+{
+    "table": "tablerosistemapenal2",
+    "rows": 3531593,
+    "columns": [
+        {
+            "name": "mes_ingreso",
+            "type": "character varying"
+        },
+        {
+            "name": "forma_inicio",
+            "type": "character varying"
+        },
+        {
+            "name": "tribunal",
+            "type": "character varying"
+        },
+        {
+            "name": "crridcausa",
+            "type": "integer"
+        },
+        {
+            "name": "tiptrib",
+            "type": "character varying"
+        },
+        {
+            "name": "tipo",
+            "type": "character varying"
+        },
+        {
+            "name": "fecha_ingreso_delito",
+            "type": "character varying"
+        },
+        {
+            "name": "rit",
+            "type": "smallint"
+        },
+        {
+            "name": "corte",
+            "type": "character varying"
+        },
+        {
+            "name": "fecha_ingreso",
+            "type": "character varying"
+        },
+        {
+            "name": "región",
+            "type": "character varying"
+        },
+        {
+            "name": "año",
+            "type": "smallint"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "codformainicio",
+            "type": "smallint"
+        },
+        {
+            "name": "materia__group_",
+            "type": "character varying"
+        },
+        {
+            "name": "agrupador",
+            "type": "character varying"
+        },
+        {
+            "name": "año_ingreso",
+            "type": "character varying"
+        },
+        {
+            "name": "materia",
+            "type": "character varying"
+        },
+        {
+            "name": "cod__tribunal",
+            "type": "smallint"
+        },
+        {
+            "name": "cod_materia",
+            "type": "smallint"
+        },
+        {
+            "name": "cod__corte",
+            "type": "smallint"
+        },
+        {
+            "name": "calculation6580723191504157",
+            "type": "character varying"
+        }
+    ]
+}

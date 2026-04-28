@@ -1,0 +1,282 @@
+{
+    "table": "mlb61",
+    "rows": 24799,
+    "columns": [
+        {
+            "name": "calculation40532458113540111",
+            "type": "numeric"
+        },
+        {
+            "name": "wh_sw",
+            "type": "numeric"
+        },
+        {
+            "name": "tb",
+            "type": "smallint"
+        },
+        {
+            "name": "calculation212021079765098497",
+            "type": "numeric"
+        },
+        {
+            "name": "slg",
+            "type": "numeric"
+        },
+        {
+            "name": "bip_",
+            "type": "numeric"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "sol",
+            "type": "smallint"
+        },
+        {
+            "name": "pwrc_",
+            "type": "smallint"
+        },
+        {
+            "name": "woba",
+            "type": "numeric"
+        },
+        {
+            "name": "obp",
+            "type": "numeric"
+        },
+        {
+            "name": "swing",
+            "type": "smallint"
+        },
+        {
+            "name": "ld",
+            "type": "smallint"
+        },
+        {
+            "name": "bipp",
+            "type": "smallint"
+        },
+        {
+            "name": "rbi",
+            "type": "smallint"
+        },
+        {
+            "name": "called",
+            "type": "smallint"
+        },
+        {
+            "name": "ubb",
+            "type": "smallint"
+        },
+        {
+            "name": "babip",
+            "type": "numeric"
+        },
+        {
+            "name": "sos",
+            "type": "smallint"
+        },
+        {
+            "name": "bip",
+            "type": "smallint"
+        },
+        {
+            "name": "ba_",
+            "type": "numeric"
+        },
+        {
+            "name": "wraa",
+            "type": "numeric"
+        },
+        {
+            "name": "hr",
+            "type": "smallint"
+        },
+        {
+            "name": "so",
+            "type": "smallint"
+        },
+        {
+            "name": "x2b",
+            "type": "smallint"
+        },
+        {
+            "name": "bb_",
+            "type": "numeric"
+        },
+        {
+            "name": "r",
+            "type": "smallint"
+        },
+        {
+            "name": "x3b",
+            "type": "smallint"
+        },
+        {
+            "name": "fb_",
+            "type": "numeric"
+        },
+        {
+            "name": "teamname",
+            "type": "character varying"
+        },
+        {
+            "name": "str_",
+            "type": "numeric"
+        },
+        {
+            "name": "hbp",
+            "type": "smallint"
+        },
+        {
+            "name": "swinging",
+            "type": "smallint"
+        },
+        {
+            "name": "ab",
+            "type": "smallint"
+        },
+        {
+            "name": "parentteam",
+            "type": "character varying"
+        },
+        {
+            "name": "pa",
+            "type": "smallint"
+        },
+        {
+            "name": "league",
+            "type": "character varying"
+        },
+        {
+            "name": "year",
+            "type": "smallint"
+        },
+        {
+            "name": "pu",
+            "type": "smallint"
+        },
+        {
+            "name": "fb",
+            "type": "smallint"
+        },
+        {
+            "name": "cs",
+            "type": "smallint"
+        },
+        {
+            "name": "sf",
+            "type": "smallint"
+        },
+        {
+            "name": "avg",
+            "type": "numeric"
+        },
+        {
+            "name": "wrc_",
+            "type": "smallint"
+        },
+        {
+            "name": "foul",
+            "type": "smallint"
+        },
+        {
+            "name": "pitches",
+            "type": "smallint"
+        },
+        {
+            "name": "balls",
+            "type": "smallint"
+        },
+        {
+            "name": "ca_",
+            "type": "numeric"
+        },
+        {
+            "name": "gb",
+            "type": "smallint"
+        },
+        {
+            "name": "ld_",
+            "type": "numeric"
+        },
+        {
+            "name": "k_",
+            "type": "numeric"
+        },
+        {
+            "name": "iso",
+            "type": "numeric"
+        },
+        {
+            "name": "x1b",
+            "type": "smallint"
+        },
+        {
+            "name": "wrc",
+            "type": "numeric"
+        },
+        {
+            "name": "sb_",
+            "type": "numeric"
+        },
+        {
+            "name": "gb_",
+            "type": "numeric"
+        },
+        {
+            "name": "sb",
+            "type": "smallint"
+        },
+        {
+            "name": "battername",
+            "type": "character varying"
+        },
+        {
+            "name": "calculation40532458107371522",
+            "type": "numeric"
+        },
+        {
+            "name": "h",
+            "type": "smallint"
+        },
+        {
+            "name": "pu_",
+            "type": "numeric"
+        },
+        {
+            "name": "ibb",
+            "type": "smallint"
+        },
+        {
+            "name": "sh",
+            "type": "smallint"
+        },
+        {
+            "name": "strikes",
+            "type": "smallint"
+        },
+        {
+            "name": "f_",
+            "type": "numeric"
+        },
+        {
+            "name": "swstr_",
+            "type": "numeric"
+        },
+        {
+            "name": "bb",
+            "type": "smallint"
+        },
+        {
+            "name": "gidp",
+            "type": "smallint"
+        },
+        {
+            "name": "calculation496521907637829636",
+            "type": "numeric"
+        }
+    ]
+}

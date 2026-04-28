@@ -1,0 +1,65 @@
+{
+    "columns": [
+        {
+            "name": "wp_max_ad_count",
+            "type": "integer"
+        },
+        {
+            "name": "wp_char_count",
+            "type": "integer"
+        },
+        {
+            "name": "wp_link_count",
+            "type": "integer"
+        },
+        {
+            "name": "wp_image_count",
+            "type": "integer"
+        },
+        {
+            "name": "wp_web_page_sk",
+            "type": "integer"
+        },
+        {
+            "name": "wp_rec_start_date",
+            "type": "date"
+        },
+        {
+            "name": "wp_rec_end_date",
+            "type": "date"
+        },
+        {
+            "name": "wp_creation_date_sk",
+            "type": "integer"
+        },
+        {
+            "name": "wp_access_date_sk",
+            "type": "integer"
+        },
+        {
+            "name": "wp_customer_sk",
+            "type": "integer"
+        },
+        {
+            "name": "wp_web_page_id",
+            "type": "character"
+        },
+        {
+            "name": "wp_url",
+            "type": "character varying"
+        },
+        {
+            "name": "wp_autogen_flag",
+            "type": "character"
+        },
+        {
+            "name": "wp_type",
+            "type": "character"
+        }
+    ],
+    "indexes": [
+        "wp_web_page_sk"
+    ],
+    "rows": 0,
+    "table": "web_page"
+}

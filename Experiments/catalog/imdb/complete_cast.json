@@ -1,0 +1,22 @@
+{
+    "table": "complete_cast",
+    "rows": 135086,
+    "columns": [
+        {
+            "name": "id",
+            "type": "integer"
+        },
+        {
+            "name": "movie_id",
+            "type": "integer"
+        },
+        {
+            "name": "subject_id",
+            "type": "integer"
+        },
+        {
+            "name": "status_id",
+            "type": "integer"
+        }
+    ]
+}

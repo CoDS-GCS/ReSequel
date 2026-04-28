@@ -1,0 +1,26 @@
+{
+    "table": "tags",
+    "rows": 1032,
+    "columns": [
+        {
+            "name": "id",
+            "type": "integer"
+        },
+        {
+            "name": "count",
+            "type": "integer"
+        },
+        {
+            "name": "excerptpostid",
+            "type": "integer"
+        },
+        {
+            "name": "wikipostid",
+            "type": "integer"
+        },
+        {
+            "name": "tagname",
+            "type": "character varying"
+        }
+    ]
+}

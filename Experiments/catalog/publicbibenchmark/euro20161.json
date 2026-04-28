@@ -1,0 +1,50 @@
+{
+    "table": "euro20161",
+    "rows": 2052497,
+    "columns": [
+        {
+            "name": "tweetedat",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "tweet",
+            "type": "character varying"
+        },
+        {
+            "name": "id",
+            "type": "integer"
+        },
+        {
+            "name": "longitude",
+            "type": "character varying"
+        },
+        {
+            "name": "polarity",
+            "type": "character varying"
+        },
+        {
+            "name": "subjectivity",
+            "type": "character varying"
+        },
+        {
+            "name": "lang",
+            "type": "character varying"
+        },
+        {
+            "name": "subjectivityconfidence",
+            "type": "numeric"
+        },
+        {
+            "name": "polarityconfidence",
+            "type": "numeric"
+        },
+        {
+            "name": "latitude",
+            "type": "character varying"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        }
+    ]
+}

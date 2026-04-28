@@ -1,0 +1,2594 @@
+{
+    "table": "wins2",
+    "rows": 519794,
+    "columns": [
+        {
+            "name": "nh4c",
+            "type": "smallint"
+        },
+        {
+            "name": "nk2line",
+            "type": "smallint"
+        },
+        {
+            "name": "nacl",
+            "type": "smallint"
+        },
+        {
+            "name": "n2cp0",
+            "type": "smallint"
+        },
+        {
+            "name": "n2ct5",
+            "type": "numeric"
+        },
+        {
+            "name": "tpp0trk",
+            "type": "character varying"
+        },
+        {
+            "name": "ntbuzz",
+            "type": "smallint"
+        },
+        {
+            "name": "npp8race",
+            "type": "smallint"
+        },
+        {
+            "name": "npp0cla",
+            "type": "smallint"
+        },
+        {
+            "name": "nb29",
+            "type": "smallint"
+        },
+        {
+            "name": "tpp3trp",
+            "type": "character varying"
+        },
+        {
+            "name": "nlclas",
+            "type": "smallint"
+        },
+        {
+            "name": "npp8sur",
+            "type": "smallint"
+        },
+        {
+            "name": "npp8cla",
+            "type": "smallint"
+        },
+        {
+            "name": "rjky",
+            "type": "smallint"
+        },
+        {
+            "name": "ntr365winp",
+            "type": "smallint"
+        },
+        {
+            "name": "nkentender",
+            "type": "smallint"
+        },
+        {
+            "name": "ncla",
+            "type": "smallint"
+        },
+        {
+            "name": "nstbl6",
+            "type": "numeric"
+        },
+        {
+            "name": "naodds",
+            "type": "numeric"
+        },
+        {
+            "name": "calculation_2642768498540482557",
+            "type": "double precision"
+        },
+        {
+            "name": "n2ct3",
+            "type": "numeric"
+        },
+        {
+            "name": "raodd",
+            "type": "smallint"
+        },
+        {
+            "name": "tpp4trk",
+            "type": "character varying"
+        },
+        {
+            "name": "nn10",
+            "type": "smallint"
+        },
+        {
+            "name": "npp4date",
+            "type": "date"
+        },
+        {
+            "name": "tpgm2",
+            "type": "smallint"
+        },
+        {
+            "name": "npp3fin",
+            "type": "smallint"
+        },
+        {
+            "name": "nkmsechart",
+            "type": "numeric"
+        },
+        {
+            "name": "rk2",
+            "type": "smallint"
+        },
+        {
+            "name": "nidx",
+            "type": "integer"
+        },
+        {
+            "name": "nbigloser",
+            "type": "smallint"
+        },
+        {
+            "name": "npp3cla",
+            "type": "smallint"
+        },
+        {
+            "name": "rper",
+            "type": "smallint"
+        },
+        {
+            "name": "n2cp4",
+            "type": "smallint"
+        },
+        {
+            "name": "n1cp7",
+            "type": "smallint"
+        },
+        {
+            "name": "nb10",
+            "type": "smallint"
+        },
+        {
+            "name": "nfnbl7",
+            "type": "numeric"
+        },
+        {
+            "name": "n2cbl1",
+            "type": "numeric"
+        },
+        {
+            "name": "npp3shf",
+            "type": "numeric"
+        },
+        {
+            "name": "nn14",
+            "type": "smallint"
+        },
+        {
+            "name": "nlonerazor",
+            "type": "smallint"
+        },
+        {
+            "name": "nhag",
+            "type": "smallint"
+        },
+        {
+            "name": "npp7epo",
+            "type": "smallint"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "nrace1",
+            "type": "smallint"
+        },
+        {
+            "name": "tpp1trk",
+            "type": "character varying"
+        },
+        {
+            "name": "nb16",
+            "type": "smallint"
+        },
+        {
+            "name": "njktdsroi",
+            "type": "smallint"
+        },
+        {
+            "name": "nmlfav",
+            "type": "smallint"
+        },
+        {
+            "name": "n2cp8",
+            "type": "smallint"
+        },
+        {
+            "name": "rmlo",
+            "type": "smallint"
+        },
+        {
+            "name": "rwksc",
+            "type": "smallint"
+        },
+        {
+            "name": "n2cbl9",
+            "type": "numeric"
+        },
+        {
+            "name": "npp4cla",
+            "type": "smallint"
+        },
+        {
+            "name": "nvi",
+            "type": "smallint"
+        },
+        {
+            "name": "n1cp8",
+            "type": "smallint"
+        },
+        {
+            "name": "npp1sor",
+            "type": "smallint"
+        },
+        {
+            "name": "nneg",
+            "type": "smallint"
+        },
+        {
+            "name": "npp4sor",
+            "type": "smallint"
+        },
+        {
+            "name": "nldist",
+            "type": "numeric"
+        },
+        {
+            "name": "nfnbl4",
+            "type": "numeric"
+        },
+        {
+            "name": "nkat",
+            "type": "smallint"
+        },
+        {
+            "name": "nxbuy",
+            "type": "numeric"
+        },
+        {
+            "name": "nstbl4",
+            "type": "numeric"
+        },
+        {
+            "name": "npp6sor",
+            "type": "smallint"
+        },
+        {
+            "name": "nfr1adv",
+            "type": "smallint"
+        },
+        {
+            "name": "n1cp1",
+            "type": "smallint"
+        },
+        {
+            "name": "ntrnbuzz",
+            "type": "smallint"
+        },
+        {
+            "name": "npp7per",
+            "type": "numeric"
+        },
+        {
+            "name": "nlay90",
+            "type": "smallint"
+        },
+        {
+            "name": "ncourse8",
+            "type": "smallint"
+        },
+        {
+            "name": "nb27",
+            "type": "smallint"
+        },
+        {
+            "name": "npp1fin",
+            "type": "smallint"
+        },
+        {
+            "name": "rprob",
+            "type": "smallint"
+        },
+        {
+            "name": "n2cp9",
+            "type": "smallint"
+        },
+        {
+            "name": "nper",
+            "type": "smallint"
+        },
+        {
+            "name": "nped",
+            "type": "smallint"
+        },
+        {
+            "name": "nkms",
+            "type": "numeric"
+        },
+        {
+            "name": "nedif",
+            "type": "smallint"
+        },
+        {
+            "name": "nimp1",
+            "type": "smallint"
+        },
+        {
+            "name": "nunk",
+            "type": "smallint"
+        },
+        {
+            "name": "nbtl",
+            "type": "smallint"
+        },
+        {
+            "name": "nc90",
+            "type": "smallint"
+        },
+        {
+            "name": "nb12",
+            "type": "smallint"
+        },
+        {
+            "name": "reps365d",
+            "type": "smallint"
+        },
+        {
+            "name": "nkgapx",
+            "type": "numeric"
+        },
+        {
+            "name": "njk365winp",
+            "type": "smallint"
+        },
+        {
+            "name": "nn03",
+            "type": "smallint"
+        },
+        {
+            "name": "nlonekat6",
+            "type": "smallint"
+        },
+        {
+            "name": "ncourse0",
+            "type": "smallint"
+        },
+        {
+            "name": "nkprob3",
+            "type": "smallint"
+        },
+        {
+            "name": "njktdsstr",
+            "type": "smallint"
+        },
+        {
+            "name": "npp5date",
+            "type": "date"
+        },
+        {
+            "name": "nimprove",
+            "type": "smallint"
+        },
+        {
+            "name": "tpp0trp",
+            "type": "character varying"
+        },
+        {
+            "name": "npp0date",
+            "type": "date"
+        },
+        {
+            "name": "nxadj",
+            "type": "smallint"
+        },
+        {
+            "name": "ndist2",
+            "type": "numeric"
+        },
+        {
+            "name": "nrace3",
+            "type": "smallint"
+        },
+        {
+            "name": "n1cbl2",
+            "type": "numeric"
+        },
+        {
+            "name": "tpp2trk",
+            "type": "character varying"
+        },
+        {
+            "name": "nlshock",
+            "type": "smallint"
+        },
+        {
+            "name": "tpp2trp",
+            "type": "character varying"
+        },
+        {
+            "name": "nqp",
+            "type": "smallint"
+        },
+        {
+            "name": "npp4fin",
+            "type": "smallint"
+        },
+        {
+            "name": "nfr1",
+            "type": "numeric"
+        },
+        {
+            "name": "tdate3",
+            "type": "date"
+        },
+        {
+            "name": "nfnbl6",
+            "type": "numeric"
+        },
+        {
+            "name": "nvel",
+            "type": "numeric"
+        },
+        {
+            "name": "nn26",
+            "type": "smallint"
+        },
+        {
+            "name": "nsys2",
+            "type": "smallint"
+        },
+        {
+            "name": "nsys1",
+            "type": "smallint"
+        },
+        {
+            "name": "nn28",
+            "type": "smallint"
+        },
+        {
+            "name": "nepr",
+            "type": "smallint"
+        },
+        {
+            "name": "npp8pac",
+            "type": "numeric"
+        },
+        {
+            "name": "npp9sur",
+            "type": "smallint"
+        },
+        {
+            "name": "npp1race",
+            "type": "smallint"
+        },
+        {
+            "name": "nfnt6",
+            "type": "numeric"
+        },
+        {
+            "name": "n1cbl4",
+            "type": "numeric"
+        },
+        {
+            "name": "nqfives",
+            "type": "smallint"
+        },
+        {
+            "name": "npp7race",
+            "type": "smallint"
+        },
+        {
+            "name": "nlper",
+            "type": "numeric"
+        },
+        {
+            "name": "n2ct8",
+            "type": "numeric"
+        },
+        {
+            "name": "npp0fin",
+            "type": "smallint"
+        },
+        {
+            "name": "nstbl9",
+            "type": "numeric"
+        },
+        {
+            "name": "tlclass",
+            "type": "character varying"
+        },
+        {
+            "name": "npp1per",
+            "type": "numeric"
+        },
+        {
+            "name": "nstp2",
+            "type": "smallint"
+        },
+        {
+            "name": "n1cbl9",
+            "type": "numeric"
+        },
+        {
+            "name": "ttrk",
+            "type": "character varying"
+        },
+        {
+            "name": "nclassfit",
+            "type": "smallint"
+        },
+        {
+            "name": "nds",
+            "type": "smallint"
+        },
+        {
+            "name": "nexa",
+            "type": "numeric"
+        },
+        {
+            "name": "rwksc1",
+            "type": "smallint"
+        },
+        {
+            "name": "neps365d",
+            "type": "integer"
+        },
+        {
+            "name": "nfin",
+            "type": "smallint"
+        },
+        {
+            "name": "nimp3",
+            "type": "smallint"
+        },
+        {
+            "name": "ntopper",
+            "type": "numeric"
+        },
+        {
+            "name": "tltrip",
+            "type": "character varying"
+        },
+        {
+            "name": "n2cbl0",
+            "type": "numeric"
+        },
+        {
+            "name": "nstp8",
+            "type": "smallint"
+        },
+        {
+            "name": "njkyhw",
+            "type": "smallint"
+        },
+        {
+            "name": "n2cbl8",
+            "type": "numeric"
+        },
+        {
+            "name": "rpfig",
+            "type": "smallint"
+        },
+        {
+            "name": "nfld1",
+            "type": "smallint"
+        },
+        {
+            "name": "nlong",
+            "type": "smallint"
+        },
+        {
+            "name": "npp9pac",
+            "type": "numeric"
+        },
+        {
+            "name": "xpl",
+            "type": "smallint"
+        },
+        {
+            "name": "calculation_2642768498540806143",
+            "type": "numeric"
+        },
+        {
+            "name": "nn11",
+            "type": "smallint"
+        },
+        {
+            "name": "npp8shf",
+            "type": "numeric"
+        },
+        {
+            "name": "ntspot",
+            "type": "smallint"
+        },
+        {
+            "name": "nb11",
+            "type": "smallint"
+        },
+        {
+            "name": "npp5per",
+            "type": "numeric"
+        },
+        {
+            "name": "nfnbl2",
+            "type": "numeric"
+        },
+        {
+            "name": "nfnbl9",
+            "type": "numeric"
+        },
+        {
+            "name": "tjky",
+            "type": "character varying"
+        },
+        {
+            "name": "nhotjky",
+            "type": "smallint"
+        },
+        {
+            "name": "n2ct6",
+            "type": "numeric"
+        },
+        {
+            "name": "nn06",
+            "type": "smallint"
+        },
+        {
+            "name": "ttpg",
+            "type": "character varying"
+        },
+        {
+            "name": "npp1epo",
+            "type": "smallint"
+        },
+        {
+            "name": "tcla",
+            "type": "character varying"
+        },
+        {
+            "name": "towner",
+            "type": "character varying"
+        },
+        {
+            "name": "npp9shf",
+            "type": "numeric"
+        },
+        {
+            "name": "npp8dis",
+            "type": "numeric"
+        },
+        {
+            "name": "nqflag",
+            "type": "smallint"
+        },
+        {
+            "name": "nepslife",
+            "type": "integer"
+        },
+        {
+            "name": "npp7pac",
+            "type": "numeric"
+        },
+        {
+            "name": "nb21",
+            "type": "smallint"
+        },
+        {
+            "name": "npp5race",
+            "type": "smallint"
+        },
+        {
+            "name": "tltrn",
+            "type": "character varying"
+        },
+        {
+            "name": "nqpc",
+            "type": "smallint"
+        },
+        {
+            "name": "nfpsx",
+            "type": "smallint"
+        },
+        {
+            "name": "nbomb",
+            "type": "smallint"
+        },
+        {
+            "name": "ngelding",
+            "type": "smallint"
+        },
+        {
+            "name": "twk1",
+            "type": "character varying"
+        },
+        {
+            "name": "nhtr",
+            "type": "smallint"
+        },
+        {
+            "name": "twk3",
+            "type": "character varying"
+        },
+        {
+            "name": "nppo2",
+            "type": "smallint"
+        },
+        {
+            "name": "nppo1",
+            "type": "smallint"
+        },
+        {
+            "name": "nfnt8",
+            "type": "numeric"
+        },
+        {
+            "name": "nc90x",
+            "type": "smallint"
+        },
+        {
+            "name": "rimp4",
+            "type": "smallint"
+        },
+        {
+            "name": "nsurf",
+            "type": "smallint"
+        },
+        {
+            "name": "rap",
+            "type": "smallint"
+        },
+        {
+            "name": "npp2cla",
+            "type": "smallint"
+        },
+        {
+            "name": "npp3epo",
+            "type": "smallint"
+        },
+        {
+            "name": "nn86",
+            "type": "smallint"
+        },
+        {
+            "name": "rfr2",
+            "type": "smallint"
+        },
+        {
+            "name": "npp3dis",
+            "type": "numeric"
+        },
+        {
+            "name": "nhottrn",
+            "type": "smallint"
+        },
+        {
+            "name": "n1ct3",
+            "type": "numeric"
+        },
+        {
+            "name": "nodpick",
+            "type": "smallint"
+        },
+        {
+            "name": "nlrace",
+            "type": "smallint"
+        },
+        {
+            "name": "nb18",
+            "type": "smallint"
+        },
+        {
+            "name": "nb23",
+            "type": "smallint"
+        },
+        {
+            "name": "n2cp3",
+            "type": "smallint"
+        },
+        {
+            "name": "nn19",
+            "type": "smallint"
+        },
+        {
+            "name": "tclass",
+            "type": "character varying"
+        },
+        {
+            "name": "nb19",
+            "type": "smallint"
+        },
+        {
+            "name": "npp2race",
+            "type": "smallint"
+        },
+        {
+            "name": "nfin1",
+            "type": "smallint"
+        },
+        {
+            "name": "n1ct5",
+            "type": "numeric"
+        },
+        {
+            "name": "nrazor",
+            "type": "smallint"
+        },
+        {
+            "name": "nfnt3",
+            "type": "numeric"
+        },
+        {
+            "name": "nwgtch",
+            "type": "smallint"
+        },
+        {
+            "name": "ntrnhst",
+            "type": "smallint"
+        },
+        {
+            "name": "n2ct7",
+            "type": "numeric"
+        },
+        {
+            "name": "tpp6trk",
+            "type": "character varying"
+        },
+        {
+            "name": "npp0dis",
+            "type": "numeric"
+        },
+        {
+            "name": "nclassx",
+            "type": "smallint"
+        },
+        {
+            "name": "tpp8trp",
+            "type": "character varying"
+        },
+        {
+            "name": "npp5shf",
+            "type": "numeric"
+        },
+        {
+            "name": "nclm",
+            "type": "smallint"
+        },
+        {
+            "name": "n1cbl3",
+            "type": "numeric"
+        },
+        {
+            "name": "nstp9",
+            "type": "smallint"
+        },
+        {
+            "name": "nfts",
+            "type": "smallint"
+        },
+        {
+            "name": "ncoupled",
+            "type": "smallint"
+        },
+        {
+            "name": "nodds",
+            "type": "numeric"
+        },
+        {
+            "name": "nfnt2",
+            "type": "numeric"
+        },
+        {
+            "name": "rfc",
+            "type": "smallint"
+        },
+        {
+            "name": "npace",
+            "type": "smallint"
+        },
+        {
+            "name": "nb04",
+            "type": "smallint"
+        },
+        {
+            "name": "nn25",
+            "type": "smallint"
+        },
+        {
+            "name": "nxsell",
+            "type": "numeric"
+        },
+        {
+            "name": "nstbl7",
+            "type": "numeric"
+        },
+        {
+            "name": "rped",
+            "type": "smallint"
+        },
+        {
+            "name": "tpp5trp",
+            "type": "character varying"
+        },
+        {
+            "name": "npp3sur",
+            "type": "smallint"
+        },
+        {
+            "name": "nfnbl8",
+            "type": "numeric"
+        },
+        {
+            "name": "nbeatclm",
+            "type": "smallint"
+        },
+        {
+            "name": "nb08",
+            "type": "smallint"
+        },
+        {
+            "name": "ntoppac",
+            "type": "numeric"
+        },
+        {
+            "name": "npp6date",
+            "type": "date"
+        },
+        {
+            "name": "npp5pac",
+            "type": "numeric"
+        },
+        {
+            "name": "nldr",
+            "type": "smallint"
+        },
+        {
+            "name": "tpgm1",
+            "type": "smallint"
+        },
+        {
+            "name": "nkline2",
+            "type": "numeric"
+        },
+        {
+            "name": "naml",
+            "type": "numeric"
+        },
+        {
+            "name": "npp8epo",
+            "type": "smallint"
+        },
+        {
+            "name": "nidx1",
+            "type": "character varying"
+        },
+        {
+            "name": "nfav2",
+            "type": "smallint"
+        },
+        {
+            "name": "npp2pac",
+            "type": "numeric"
+        },
+        {
+            "name": "nluck",
+            "type": "smallint"
+        },
+        {
+            "name": "nsurf1",
+            "type": "smallint"
+        },
+        {
+            "name": "n1ct4",
+            "type": "numeric"
+        },
+        {
+            "name": "nstbl0",
+            "type": "numeric"
+        },
+        {
+            "name": "nlcsf",
+            "type": "smallint"
+        },
+        {
+            "name": "ntr365starts",
+            "type": "smallint"
+        },
+        {
+            "name": "n1cbl1",
+            "type": "numeric"
+        },
+        {
+            "name": "rkms",
+            "type": "smallint"
+        },
+        {
+            "name": "rsys4",
+            "type": "smallint"
+        },
+        {
+            "name": "ndaymeet",
+            "type": "smallint"
+        },
+        {
+            "name": "n2cbl6",
+            "type": "numeric"
+        },
+        {
+            "name": "ntrn",
+            "type": "smallint"
+        },
+        {
+            "name": "nb03",
+            "type": "smallint"
+        },
+        {
+            "name": "nloneluck",
+            "type": "smallint"
+        },
+        {
+            "name": "ntrtdswnp",
+            "type": "smallint"
+        },
+        {
+            "name": "njkyhst",
+            "type": "smallint"
+        },
+        {
+            "name": "nb05",
+            "type": "smallint"
+        },
+        {
+            "name": "rimp1",
+            "type": "smallint"
+        },
+        {
+            "name": "nprob",
+            "type": "smallint"
+        },
+        {
+            "name": "npp5epo",
+            "type": "smallint"
+        },
+        {
+            "name": "npp6cla",
+            "type": "smallint"
+        },
+        {
+            "name": "tdate2",
+            "type": "date"
+        },
+        {
+            "name": "rfr1",
+            "type": "smallint"
+        },
+        {
+            "name": "nfr2",
+            "type": "numeric"
+        },
+        {
+            "name": "n2ct4",
+            "type": "numeric"
+        },
+        {
+            "name": "nstp7",
+            "type": "smallint"
+        },
+        {
+            "name": "nb14",
+            "type": "smallint"
+        },
+        {
+            "name": "ncourse4",
+            "type": "smallint"
+        },
+        {
+            "name": "ntopperago",
+            "type": "smallint"
+        },
+        {
+            "name": "nrace",
+            "type": "smallint"
+        },
+        {
+            "name": "n2cbl7",
+            "type": "numeric"
+        },
+        {
+            "name": "tpp5trk",
+            "type": "character varying"
+        },
+        {
+            "name": "nlonedd",
+            "type": "smallint"
+        },
+        {
+            "name": "npp1cla",
+            "type": "smallint"
+        },
+        {
+            "name": "npp2date",
+            "type": "date"
+        },
+        {
+            "name": "nbugboy",
+            "type": "smallint"
+        },
+        {
+            "name": "npp6dis",
+            "type": "numeric"
+        },
+        {
+            "name": "nstbl1",
+            "type": "numeric"
+        },
+        {
+            "name": "npp2epo",
+            "type": "smallint"
+        },
+        {
+            "name": "n2cp5",
+            "type": "smallint"
+        },
+        {
+            "name": "nstp3",
+            "type": "smallint"
+        },
+        {
+            "name": "rlp",
+            "type": "smallint"
+        },
+        {
+            "name": "njktdswnp",
+            "type": "smallint"
+        },
+        {
+            "name": "n2cp6",
+            "type": "smallint"
+        },
+        {
+            "name": "tclass1",
+            "type": "character varying"
+        },
+        {
+            "name": "ntri",
+            "type": "double precision"
+        },
+        {
+            "name": "nvk1",
+            "type": "smallint"
+        },
+        {
+            "name": "nhottj",
+            "type": "smallint"
+        },
+        {
+            "name": "npp0race",
+            "type": "smallint"
+        },
+        {
+            "name": "npp7dis",
+            "type": "numeric"
+        },
+        {
+            "name": "naodd",
+            "type": "numeric"
+        },
+        {
+            "name": "nscratches",
+            "type": "smallint"
+        },
+        {
+            "name": "nabout",
+            "type": "smallint"
+        },
+        {
+            "name": "neshock",
+            "type": "smallint"
+        },
+        {
+            "name": "npp2dis",
+            "type": "numeric"
+        },
+        {
+            "name": "rimp2",
+            "type": "smallint"
+        },
+        {
+            "name": "nwksc",
+            "type": "numeric"
+        },
+        {
+            "name": "ntrackwins",
+            "type": "smallint"
+        },
+        {
+            "name": "nfti",
+            "type": "smallint"
+        },
+        {
+            "name": "nclmvalue",
+            "type": "smallint"
+        },
+        {
+            "name": "npp9fin",
+            "type": "smallint"
+        },
+        {
+            "name": "npp5fin",
+            "type": "smallint"
+        },
+        {
+            "name": "nn22",
+            "type": "smallint"
+        },
+        {
+            "name": "nlwinf",
+            "type": "smallint"
+        },
+        {
+            "name": "nlfin",
+            "type": "smallint"
+        },
+        {
+            "name": "npp4race",
+            "type": "smallint"
+        },
+        {
+            "name": "ntrtdsstr",
+            "type": "smallint"
+        },
+        {
+            "name": "npp0sor",
+            "type": "smallint"
+        },
+        {
+            "name": "ncourse2",
+            "type": "smallint"
+        },
+        {
+            "name": "notx",
+            "type": "smallint"
+        },
+        {
+            "name": "ntour",
+            "type": "smallint"
+        },
+        {
+            "name": "nrunks",
+            "type": "smallint"
+        },
+        {
+            "name": "nabl2",
+            "type": "numeric"
+        },
+        {
+            "name": "npp3sor",
+            "type": "smallint"
+        },
+        {
+            "name": "npp9race",
+            "type": "smallint"
+        },
+        {
+            "name": "twk4",
+            "type": "character varying"
+        },
+        {
+            "name": "npp3pac",
+            "type": "numeric"
+        },
+        {
+            "name": "tpost",
+            "type": "time without time zone"
+        },
+        {
+            "name": "nwindaysx",
+            "type": "smallint"
+        },
+        {
+            "name": "racl",
+            "type": "smallint"
+        },
+        {
+            "name": "nxfav",
+            "type": "smallint"
+        },
+        {
+            "name": "nn23",
+            "type": "smallint"
+        },
+        {
+            "name": "nn13",
+            "type": "smallint"
+        },
+        {
+            "name": "n1cp6",
+            "type": "smallint"
+        },
+        {
+            "name": "nn07",
+            "type": "smallint"
+        },
+        {
+            "name": "nfld",
+            "type": "smallint"
+        },
+        {
+            "name": "nsex",
+            "type": "smallint"
+        },
+        {
+            "name": "ntneg",
+            "type": "smallint"
+        },
+        {
+            "name": "nfnt4",
+            "type": "numeric"
+        },
+        {
+            "name": "nslash",
+            "type": "smallint"
+        },
+        {
+            "name": "nn01",
+            "type": "smallint"
+        },
+        {
+            "name": "n1cbl0",
+            "type": "numeric"
+        },
+        {
+            "name": "nn21",
+            "type": "smallint"
+        },
+        {
+            "name": "nwmar",
+            "type": "numeric"
+        },
+        {
+            "name": "nstp1",
+            "type": "smallint"
+        },
+        {
+            "name": "npp6shf",
+            "type": "numeric"
+        },
+        {
+            "name": "rpac",
+            "type": "smallint"
+        },
+        {
+            "name": "nepr2",
+            "type": "smallint"
+        },
+        {
+            "name": "nstr",
+            "type": "integer"
+        },
+        {
+            "name": "npp0per",
+            "type": "numeric"
+        },
+        {
+            "name": "rpscn",
+            "type": "smallint"
+        },
+        {
+            "name": "nstbl5",
+            "type": "numeric"
+        },
+        {
+            "name": "thor2",
+            "type": "character varying"
+        },
+        {
+            "name": "npp7cla",
+            "type": "smallint"
+        },
+        {
+            "name": "ntour1",
+            "type": "smallint"
+        },
+        {
+            "name": "rotx",
+            "type": "smallint"
+        },
+        {
+            "name": "nfr160",
+            "type": "smallint"
+        },
+        {
+            "name": "rhtr",
+            "type": "smallint"
+        },
+        {
+            "name": "rsys2",
+            "type": "smallint"
+        },
+        {
+            "name": "nsuperf",
+            "type": "double precision"
+        },
+        {
+            "name": "rclass",
+            "type": "smallint"
+        },
+        {
+            "name": "nkline",
+            "type": "numeric"
+        },
+        {
+            "name": "ntrnhw",
+            "type": "smallint"
+        },
+        {
+            "name": "rlcsf",
+            "type": "smallint"
+        },
+        {
+            "name": "nb15",
+            "type": "smallint"
+        },
+        {
+            "name": "n1cbl8",
+            "type": "numeric"
+        },
+        {
+            "name": "ntoppacago",
+            "type": "smallint"
+        },
+        {
+            "name": "npp4pac",
+            "type": "numeric"
+        },
+        {
+            "name": "nk2",
+            "type": "numeric"
+        },
+        {
+            "name": "nn24",
+            "type": "smallint"
+        },
+        {
+            "name": "n1cp0",
+            "type": "smallint"
+        },
+        {
+            "name": "npp3date",
+            "type": "date"
+        },
+        {
+            "name": "nb07",
+            "type": "smallint"
+        },
+        {
+            "name": "n2cp1",
+            "type": "smallint"
+        },
+        {
+            "name": "nimp4",
+            "type": "smallint"
+        },
+        {
+            "name": "tsurf",
+            "type": "character varying"
+        },
+        {
+            "name": "nage",
+            "type": "smallint"
+        },
+        {
+            "name": "neprpac",
+            "type": "smallint"
+        },
+        {
+            "name": "nstp0",
+            "type": "smallint"
+        },
+        {
+            "name": "nclch",
+            "type": "smallint"
+        },
+        {
+            "name": "nb01",
+            "type": "smallint"
+        },
+        {
+            "name": "ncourse",
+            "type": "smallint"
+        },
+        {
+            "name": "nmlo1",
+            "type": "numeric"
+        },
+        {
+            "name": "nlpos1",
+            "type": "smallint"
+        },
+        {
+            "name": "nclass",
+            "type": "smallint"
+        },
+        {
+            "name": "tdate1",
+            "type": "date"
+        },
+        {
+            "name": "rsys3",
+            "type": "smallint"
+        },
+        {
+            "name": "nfnt5",
+            "type": "numeric"
+        },
+        {
+            "name": "n2ct1",
+            "type": "numeric"
+        },
+        {
+            "name": "n2cbl5",
+            "type": "numeric"
+        },
+        {
+            "name": "npp2per",
+            "type": "numeric"
+        },
+        {
+            "name": "npp0pac",
+            "type": "numeric"
+        },
+        {
+            "name": "npp1sur",
+            "type": "smallint"
+        },
+        {
+            "name": "nn00",
+            "type": "smallint"
+        },
+        {
+            "name": "nstp6",
+            "type": "smallint"
+        },
+        {
+            "name": "npp0sur",
+            "type": "smallint"
+        },
+        {
+            "name": "npp1shf",
+            "type": "numeric"
+        },
+        {
+            "name": "nodscore",
+            "type": "smallint"
+        },
+        {
+            "name": "tpp8trk",
+            "type": "character varying"
+        },
+        {
+            "name": "nrunssolo",
+            "type": "smallint"
+        },
+        {
+            "name": "npp8fin",
+            "type": "smallint"
+        },
+        {
+            "name": "nn17",
+            "type": "smallint"
+        },
+        {
+            "name": "thor1",
+            "type": "character varying"
+        },
+        {
+            "name": "npp9cla",
+            "type": "smallint"
+        },
+        {
+            "name": "npp7shf",
+            "type": "numeric"
+        },
+        {
+            "name": "n2cp2",
+            "type": "smallint"
+        },
+        {
+            "name": "npar",
+            "type": "smallint"
+        },
+        {
+            "name": "ttrk2",
+            "type": "character varying"
+        },
+        {
+            "name": "nstb",
+            "type": "smallint"
+        },
+        {
+            "name": "npurs",
+            "type": "smallint"
+        },
+        {
+            "name": "npp5sor",
+            "type": "smallint"
+        },
+        {
+            "name": "npp6race",
+            "type": "smallint"
+        },
+        {
+            "name": "nmaxwinsx",
+            "type": "smallint"
+        },
+        {
+            "name": "nwksc1",
+            "type": "numeric"
+        },
+        {
+            "name": "nlay",
+            "type": "smallint"
+        },
+        {
+            "name": "npp4epo",
+            "type": "smallint"
+        },
+        {
+            "name": "nablf",
+            "type": "numeric"
+        },
+        {
+            "name": "n2ct0",
+            "type": "numeric"
+        },
+        {
+            "name": "npp6sur",
+            "type": "smallint"
+        },
+        {
+            "name": "nfnbl3",
+            "type": "numeric"
+        },
+        {
+            "name": "ntan",
+            "type": "smallint"
+        },
+        {
+            "name": "nn20",
+            "type": "smallint"
+        },
+        {
+            "name": "rk",
+            "type": "smallint"
+        },
+        {
+            "name": "nrule50",
+            "type": "smallint"
+        },
+        {
+            "name": "ncont",
+            "type": "smallint"
+        },
+        {
+            "name": "n2cbl3",
+            "type": "numeric"
+        },
+        {
+            "name": "nlodds",
+            "type": "numeric"
+        },
+        {
+            "name": "npp2fin",
+            "type": "smallint"
+        },
+        {
+            "name": "nluckx",
+            "type": "smallint"
+        },
+        {
+            "name": "xsho",
+            "type": "numeric"
+        },
+        {
+            "name": "nhotped",
+            "type": "smallint"
+        },
+        {
+            "name": "njk365starts",
+            "type": "smallint"
+        },
+        {
+            "name": "npp2sor",
+            "type": "smallint"
+        },
+        {
+            "name": "rc90",
+            "type": "smallint"
+        },
+        {
+            "name": "npp8per",
+            "type": "numeric"
+        },
+        {
+            "name": "n1ct7",
+            "type": "numeric"
+        },
+        {
+            "name": "nb09",
+            "type": "smallint"
+        },
+        {
+            "name": "nmlo2",
+            "type": "numeric"
+        },
+        {
+            "name": "nb02",
+            "type": "smallint"
+        },
+        {
+            "name": "npnt",
+            "type": "smallint"
+        },
+        {
+            "name": "nfit",
+            "type": "smallint"
+        },
+        {
+            "name": "npsf",
+            "type": "smallint"
+        },
+        {
+            "name": "ttrn",
+            "type": "character varying"
+        },
+        {
+            "name": "nsys3",
+            "type": "smallint"
+        },
+        {
+            "name": "npp8date",
+            "type": "date"
+        },
+        {
+            "name": "nb24",
+            "type": "smallint"
+        },
+        {
+            "name": "ttrk3",
+            "type": "character varying"
+        },
+        {
+            "name": "nn09",
+            "type": "smallint"
+        },
+        {
+            "name": "ncourse3",
+            "type": "smallint"
+        },
+        {
+            "name": "nmspot",
+            "type": "smallint"
+        },
+        {
+            "name": "tltrk",
+            "type": "character varying"
+        },
+        {
+            "name": "nfnt7",
+            "type": "numeric"
+        },
+        {
+            "name": "n1cp9",
+            "type": "smallint"
+        },
+        {
+            "name": "nfnbl5",
+            "type": "numeric"
+        },
+        {
+            "name": "nblowout",
+            "type": "smallint"
+        },
+        {
+            "name": "npp4per",
+            "type": "numeric"
+        },
+        {
+            "name": "nfav1",
+            "type": "smallint"
+        },
+        {
+            "name": "nkgap",
+            "type": "smallint"
+        },
+        {
+            "name": "npp9date",
+            "type": "date"
+        },
+        {
+            "name": "tljky",
+            "type": "character varying"
+        },
+        {
+            "name": "npac",
+            "type": "smallint"
+        },
+        {
+            "name": "nsys4",
+            "type": "smallint"
+        },
+        {
+            "name": "nbadclass",
+            "type": "smallint"
+        },
+        {
+            "name": "npp6epo",
+            "type": "smallint"
+        },
+        {
+            "name": "rsp",
+            "type": "smallint"
+        },
+        {
+            "name": "njky",
+            "type": "smallint"
+        },
+        {
+            "name": "npp9sor",
+            "type": "smallint"
+        },
+        {
+            "name": "nweight",
+            "type": "smallint"
+        },
+        {
+            "name": "njk365roi",
+            "type": "numeric"
+        },
+        {
+            "name": "npp6pac",
+            "type": "numeric"
+        },
+        {
+            "name": "tdate",
+            "type": "date"
+        },
+        {
+            "name": "nbadfav",
+            "type": "smallint"
+        },
+        {
+            "name": "n1cp4",
+            "type": "smallint"
+        },
+        {
+            "name": "xfin",
+            "type": "smallint"
+        },
+        {
+            "name": "nlonesp",
+            "type": "smallint"
+        },
+        {
+            "name": "n2cbl2",
+            "type": "numeric"
+        },
+        {
+            "name": "npriceplay",
+            "type": "smallint"
+        },
+        {
+            "name": "n2cp7",
+            "type": "smallint"
+        },
+        {
+            "name": "ttrk1",
+            "type": "character varying"
+        },
+        {
+            "name": "npp3per",
+            "type": "numeric"
+        },
+        {
+            "name": "noutlook",
+            "type": "smallint"
+        },
+        {
+            "name": "n5grzr",
+            "type": "smallint"
+        },
+        {
+            "name": "npp3race",
+            "type": "smallint"
+        },
+        {
+            "name": "ntl30w",
+            "type": "smallint"
+        },
+        {
+            "name": "npp1dis",
+            "type": "numeric"
+        },
+        {
+            "name": "tfcid",
+            "type": "character varying"
+        },
+        {
+            "name": "nn18",
+            "type": "smallint"
+        },
+        {
+            "name": "tpgm3",
+            "type": "smallint"
+        },
+        {
+            "name": "npp5sur",
+            "type": "smallint"
+        },
+        {
+            "name": "tpp7trk",
+            "type": "character varying"
+        },
+        {
+            "name": "nlivep",
+            "type": "smallint"
+        },
+        {
+            "name": "nblank",
+            "type": "smallint"
+        },
+        {
+            "name": "ntrtdsroi",
+            "type": "smallint"
+        },
+        {
+            "name": "npp9per",
+            "type": "numeric"
+        },
+        {
+            "name": "npp9epo",
+            "type": "smallint"
+        },
+        {
+            "name": "rtrn",
+            "type": "smallint"
+        },
+        {
+            "name": "nb20",
+            "type": "smallint"
+        },
+        {
+            "name": "nkey",
+            "type": "smallint"
+        },
+        {
+            "name": "n1ct2",
+            "type": "numeric"
+        },
+        {
+            "name": "nkprob1",
+            "type": "smallint"
+        },
+        {
+            "name": "nqt3",
+            "type": "smallint"
+        },
+        {
+            "name": "npp7sur",
+            "type": "smallint"
+        },
+        {
+            "name": "nn27",
+            "type": "smallint"
+        },
+        {
+            "name": "npp5cla",
+            "type": "smallint"
+        },
+        {
+            "name": "neen",
+            "type": "numeric"
+        },
+        {
+            "name": "nb17",
+            "type": "smallint"
+        },
+        {
+            "name": "nxprob",
+            "type": "numeric"
+        },
+        {
+            "name": "rfx",
+            "type": "smallint"
+        },
+        {
+            "name": "npp0shf",
+            "type": "numeric"
+        },
+        {
+            "name": "npp2sur",
+            "type": "smallint"
+        },
+        {
+            "name": "n1ct0",
+            "type": "numeric"
+        },
+        {
+            "name": "nb06",
+            "type": "smallint"
+        },
+        {
+            "name": "nltop",
+            "type": "smallint"
+        },
+        {
+            "name": "ncourse7",
+            "type": "smallint"
+        },
+        {
+            "name": "nj14st",
+            "type": "smallint"
+        },
+        {
+            "name": "n1ct1",
+            "type": "numeric"
+        },
+        {
+            "name": "nfnbl1",
+            "type": "numeric"
+        },
+        {
+            "name": "ncourse6",
+            "type": "smallint"
+        },
+        {
+            "name": "nn12",
+            "type": "smallint"
+        },
+        {
+            "name": "npp7date",
+            "type": "date"
+        },
+        {
+            "name": "npp4shf",
+            "type": "numeric"
+        },
+        {
+            "name": "npp4dis",
+            "type": "numeric"
+        },
+        {
+            "name": "njkch",
+            "type": "smallint"
+        },
+        {
+            "name": "ngatebrk",
+            "type": "smallint"
+        },
+        {
+            "name": "nlwins",
+            "type": "smallint"
+        },
+        {
+            "name": "npp6per",
+            "type": "numeric"
+        },
+        {
+            "name": "nchaos",
+            "type": "smallint"
+        },
+        {
+            "name": "nlivel",
+            "type": "smallint"
+        },
+        {
+            "name": "nepr1",
+            "type": "smallint"
+        },
+        {
+            "name": "npp5dis",
+            "type": "numeric"
+        },
+        {
+            "name": "nn88",
+            "type": "smallint"
+        },
+        {
+            "name": "nj14wn",
+            "type": "smallint"
+        },
+        {
+            "name": "repslife",
+            "type": "smallint"
+        },
+        {
+            "name": "nlwd",
+            "type": "smallint"
+        },
+        {
+            "name": "tpp4trp",
+            "type": "character varying"
+        },
+        {
+            "name": "ntrnroix",
+            "type": "numeric"
+        },
+        {
+            "name": "nppo",
+            "type": "smallint"
+        },
+        {
+            "name": "npp0epo",
+            "type": "smallint"
+        },
+        {
+            "name": "nsupers",
+            "type": "smallint"
+        },
+        {
+            "name": "nb25",
+            "type": "smallint"
+        },
+        {
+            "name": "npp1date",
+            "type": "date"
+        },
+        {
+            "name": "n1cp5",
+            "type": "smallint"
+        },
+        {
+            "name": "npp6fin",
+            "type": "smallint"
+        },
+        {
+            "name": "nlsurf",
+            "type": "smallint"
+        },
+        {
+            "name": "tlracetext",
+            "type": "character varying"
+        },
+        {
+            "name": "nn05",
+            "type": "smallint"
+        },
+        {
+            "name": "nchg",
+            "type": "smallint"
+        },
+        {
+            "name": "nlfwp",
+            "type": "smallint"
+        },
+        {
+            "name": "nb30",
+            "type": "smallint"
+        },
+        {
+            "name": "nrace2",
+            "type": "smallint"
+        },
+        {
+            "name": "xwin",
+            "type": "numeric"
+        },
+        {
+            "name": "ntl30s",
+            "type": "smallint"
+        },
+        {
+            "name": "nimp2",
+            "type": "smallint"
+        },
+        {
+            "name": "tpp9trp",
+            "type": "character varying"
+        },
+        {
+            "name": "ntj",
+            "type": "smallint"
+        },
+        {
+            "name": "nrs",
+            "type": "smallint"
+        },
+        {
+            "name": "rep",
+            "type": "smallint"
+        },
+        {
+            "name": "tldate",
+            "type": "date"
+        },
+        {
+            "name": "nmlo",
+            "type": "numeric"
+        },
+        {
+            "name": "tpgm",
+            "type": "smallint"
+        },
+        {
+            "name": "rsys1",
+            "type": "smallint"
+        },
+        {
+            "name": "ndist3",
+            "type": "numeric"
+        },
+        {
+            "name": "n2ct9",
+            "type": "numeric"
+        },
+        {
+            "name": "nstp4",
+            "type": "smallint"
+        },
+        {
+            "name": "tpp9trk",
+            "type": "character varying"
+        },
+        {
+            "name": "nb28",
+            "type": "smallint"
+        },
+        {
+            "name": "npp7sor",
+            "type": "smallint"
+        },
+        {
+            "name": "nfirsttag",
+            "type": "smallint"
+        },
+        {
+            "name": "ngoodies",
+            "type": "smallint"
+        },
+        {
+            "name": "nruns",
+            "type": "smallint"
+        },
+        {
+            "name": "rvel",
+            "type": "smallint"
+        },
+        {
+            "name": "calculation_2642768498540609534",
+            "type": "numeric"
+        },
+        {
+            "name": "npp1pac",
+            "type": "numeric"
+        },
+        {
+            "name": "nafin",
+            "type": "smallint"
+        },
+        {
+            "name": "tclmspec",
+            "type": "character varying"
+        },
+        {
+            "name": "nwintype",
+            "type": "smallint"
+        },
+        {
+            "name": "nae",
+            "type": "smallint"
+        },
+        {
+            "name": "nb26",
+            "type": "smallint"
+        },
+        {
+            "name": "noffgrass",
+            "type": "smallint"
+        },
+        {
+            "name": "nfnt0",
+            "type": "numeric"
+        },
+        {
+            "name": "tpp7trp",
+            "type": "character varying"
+        },
+        {
+            "name": "tpp6trp",
+            "type": "character varying"
+        },
+        {
+            "name": "nkline1",
+            "type": "numeric"
+        },
+        {
+            "name": "nfnt9",
+            "type": "numeric"
+        },
+        {
+            "name": "nn02",
+            "type": "smallint"
+        },
+        {
+            "name": "npp9dis",
+            "type": "numeric"
+        },
+        {
+            "name": "npdif",
+            "type": "numeric"
+        },
+        {
+            "name": "n1cbl5",
+            "type": "numeric"
+        },
+        {
+            "name": "nn16",
+            "type": "smallint"
+        },
+        {
+            "name": "n1cbl7",
+            "type": "numeric"
+        },
+        {
+            "name": "ntopshf",
+            "type": "numeric"
+        },
+        {
+            "name": "n1ct9",
+            "type": "numeric"
+        },
+        {
+            "name": "ndist1",
+            "type": "numeric"
+        },
+        {
+            "name": "tpp1trp",
+            "type": "character varying"
+        },
+        {
+            "name": "ndistwins",
+            "type": "smallint"
+        },
+        {
+            "name": "ncourse9",
+            "type": "smallint"
+        },
+        {
+            "name": "n1cp3",
+            "type": "smallint"
+        },
+        {
+            "name": "npfig",
+            "type": "smallint"
+        },
+        {
+            "name": "nstbl3",
+            "type": "numeric"
+        },
+        {
+            "name": "nlayzone",
+            "type": "smallint"
+        },
+        {
+            "name": "npp7fin",
+            "type": "smallint"
+        },
+        {
+            "name": "npp4sur",
+            "type": "smallint"
+        },
+        {
+            "name": "nfr3",
+            "type": "numeric"
+        },
+        {
+            "name": "thor",
+            "type": "character varying"
+        },
+        {
+            "name": "npp8sor",
+            "type": "smallint"
+        },
+        {
+            "name": "nb22",
+            "type": "smallint"
+        },
+        {
+            "name": "nfnbl0",
+            "type": "numeric"
+        },
+        {
+            "name": "nlfst",
+            "type": "smallint"
+        },
+        {
+            "name": "tpp3trk",
+            "type": "character varying"
+        },
+        {
+            "name": "npl",
+            "type": "smallint"
+        },
+        {
+            "name": "n1cp2",
+            "type": "smallint"
+        },
+        {
+            "name": "npp2shf",
+            "type": "numeric"
+        },
+        {
+            "name": "nk",
+            "type": "numeric"
+        },
+        {
+            "name": "nstbl2",
+            "type": "numeric"
+        },
+        {
+            "name": "nstbl8",
+            "type": "numeric"
+        },
+        {
+            "name": "nlives",
+            "type": "smallint"
+        },
+        {
+            "name": "ntrch",
+            "type": "smallint"
+        },
+        {
+            "name": "n1ct8",
+            "type": "numeric"
+        },
+        {
+            "name": "ntopshfago",
+            "type": "smallint"
+        },
+        {
+            "name": "nn04",
+            "type": "smallint"
+        },
+        {
+            "name": "nstp5",
+            "type": "smallint"
+        },
+        {
+            "name": "twk2",
+            "type": "character varying"
+        },
+        {
+            "name": "nfc",
+            "type": "smallint"
+        },
+        {
+            "name": "nb13",
+            "type": "smallint"
+        },
+        {
+            "name": "rkat",
+            "type": "smallint"
+        },
+        {
+            "name": "ndist",
+            "type": "numeric"
+        },
+        {
+            "name": "nabl1",
+            "type": "numeric"
+        },
+        {
+            "name": "nbarn",
+            "type": "smallint"
+        },
+        {
+            "name": "n2ct2",
+            "type": "numeric"
+        },
+        {
+            "name": "npscn",
+            "type": "numeric"
+        },
+        {
+            "name": "ttr_jk",
+            "type": "character varying"
+        },
+        {
+            "name": "xpla",
+            "type": "numeric"
+        },
+        {
+            "name": "ntopkat",
+            "type": "smallint"
+        },
+        {
+            "name": "nkprob2",
+            "type": "smallint"
+        },
+        {
+            "name": "nn08",
+            "type": "smallint"
+        },
+        {
+            "name": "n1ct6",
+            "type": "numeric"
+        },
+        {
+            "name": "nfr1dom",
+            "type": "smallint"
+        },
+        {
+            "name": "rfr3",
+            "type": "smallint"
+        },
+        {
+            "name": "n2cbl4",
+            "type": "numeric"
+        },
+        {
+            "name": "nkat1",
+            "type": "smallint"
+        },
+        {
+            "name": "ncourse5",
+            "type": "smallint"
+        },
+        {
+            "name": "nturns",
+            "type": "smallint"
+        },
+        {
+            "name": "nlivea",
+            "type": "smallint"
+        },
+        {
+            "name": "nn15",
+            "type": "smallint"
+        },
+        {
+            "name": "n1cbl6",
+            "type": "numeric"
+        },
+        {
+            "name": "rimp3",
+            "type": "smallint"
+        },
+        {
+            "name": "ncourse1",
+            "type": "smallint"
+        },
+        {
+            "name": "nvbet",
+            "type": "numeric"
+        },
+        {
+            "name": "ntr365roi",
+            "type": "numeric"
+        },
+        {
+            "name": "nsurf2",
+            "type": "smallint"
+        },
+        {
+            "name": "nwsr",
+            "type": "smallint"
+        },
+        {
+            "name": "nfnt1",
+            "type": "numeric"
+        }
+    ]
+}

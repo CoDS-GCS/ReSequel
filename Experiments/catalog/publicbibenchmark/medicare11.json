@@ -1,0 +1,110 @@
+{
+    "table": "medicare11",
+    "rows": 8645072,
+    "columns": [
+        {
+            "name": "calculation7130826185400024",
+            "type": "double precision"
+        },
+        {
+            "name": "descriptionflag",
+            "type": "character varying"
+        },
+        {
+            "name": "drugname",
+            "type": "character varying"
+        },
+        {
+            "name": "calculation9030826185528129",
+            "type": "double precision"
+        },
+        {
+            "name": "benecountge65redactflag",
+            "type": "character varying"
+        },
+        {
+            "name": "nppesproviderfirstname",
+            "type": "character varying"
+        },
+        {
+            "name": "benecount",
+            "type": "smallint"
+        },
+        {
+            "name": "totaldaysupplyge65",
+            "type": "integer"
+        },
+        {
+            "name": "nppesproviderstate",
+            "type": "character varying"
+        },
+        {
+            "name": "calculation3170826185336909",
+            "type": "numeric"
+        },
+        {
+            "name": "totaldrugcost",
+            "type": "double precision"
+        },
+        {
+            "name": "npi",
+            "type": "integer"
+        },
+        {
+            "name": "ge65redactflag",
+            "type": "character varying"
+        },
+        {
+            "name": "specialtydesc",
+            "type": "character varying"
+        },
+        {
+            "name": "benecountge65",
+            "type": "smallint"
+        },
+        {
+            "name": "genericname",
+            "type": "character varying"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "calculation6710826185428006",
+            "type": "smallint"
+        },
+        {
+            "name": "avg_day_supply_bene__bin_",
+            "type": "smallint"
+        },
+        {
+            "name": "totalclaimcountge65",
+            "type": "smallint"
+        },
+        {
+            "name": "totaldrugcostge65",
+            "type": "double precision"
+        },
+        {
+            "name": "totalclaimcount",
+            "type": "smallint"
+        },
+        {
+            "name": "nppesprovidercity",
+            "type": "character varying"
+        },
+        {
+            "name": "totaldaysupply",
+            "type": "integer"
+        },
+        {
+            "name": "calculation3170826185505725",
+            "type": "double precision"
+        },
+        {
+            "name": "nppesproviderlastorgname",
+            "type": "character varying"
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "columns": [
+        {
+            "name": "t_time_sk",
+            "type": "integer"
+        },
+        {
+            "name": "t_time",
+            "type": "integer"
+        },
+        {
+            "name": "t_hour",
+            "type": "integer"
+        },
+        {
+            "name": "t_minute",
+            "type": "integer"
+        },
+        {
+            "name": "t_second",
+            "type": "integer"
+        },
+        {
+            "name": "t_meal_time",
+            "type": "character"
+        },
+        {
+            "name": "t_time_id",
+            "type": "character"
+        },
+        {
+            "name": "t_am_pm",
+            "type": "character"
+        },
+        {
+            "name": "t_shift",
+            "type": "character"
+        },
+        {
+            "name": "t_sub_shift",
+            "type": "character"
+        }
+    ],
+    "indexes": [
+        "t_time_sk"
+    ],
+    "rows": 0,
+    "table": "time_dim"
+}

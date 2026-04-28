@@ -1,0 +1,14 @@
+SELECT generico5.categoria AS categoria
+FROM generico5
+WHERE ((generico5.anunciante IN (N_SSS))
+       AND (CAST(EXTRACT(YEAR
+                         FROM generico5.fecha) AS BIGINT) >= 2010)
+       AND (CAST(EXTRACT(YEAR
+                         FROM generico5.fecha) AS BIGINT) <= 2015)
+       AND (((CAST(EXTRACT(MONTH
+                           FROM generico5.fecha) AS BIGINT) >= 1)
+             AND (CAST(EXTRACT(MONTH
+                               FROM generico5.fecha) AS BIGINT) <= 7))
+            OR (CAST(EXTRACT(MONTH
+                             FROM generico5.fecha) AS BIGINT) IS NULL)))
+GROUP BY generico5.categoria;

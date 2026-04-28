@@ -1,0 +1,15 @@
+Pgmpy
+sqlparse
+scikit-learn
+PyYAML==6.0.1
+psycopg2-binary
+groq==0.31.1
+openai==1.6.1
+pandas==2.1.4
+tiktoken==0.7
+google-genai
+sql-metadata
+duckdb
+httpx==0.27.2
+sqlglot
+subsetter

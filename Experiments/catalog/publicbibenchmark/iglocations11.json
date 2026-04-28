@@ -1,0 +1,78 @@
+{
+    "table": "iglocations11",
+    "rows": 81611,
+    "columns": [
+        {
+            "name": "estimatesbase2010",
+            "type": "integer"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "funcstat",
+            "type": "character varying"
+        },
+        {
+            "name": "place",
+            "type": "integer"
+        },
+        {
+            "name": "popestimate2014",
+            "type": "integer"
+        },
+        {
+            "name": "cousub",
+            "type": "integer"
+        },
+        {
+            "name": "census2010pop",
+            "type": "integer"
+        },
+        {
+            "name": "city",
+            "type": "character varying"
+        },
+        {
+            "name": "sumlev",
+            "type": "smallint"
+        },
+        {
+            "name": "concit",
+            "type": "integer"
+        },
+        {
+            "name": "popestimate2012",
+            "type": "integer"
+        },
+        {
+            "name": "popestimate2010",
+            "type": "integer"
+        },
+        {
+            "name": "state",
+            "type": "character varying"
+        },
+        {
+            "name": "state_code",
+            "type": "smallint"
+        },
+        {
+            "name": "popestimate2011",
+            "type": "integer"
+        },
+        {
+            "name": "county_code",
+            "type": "smallint"
+        },
+        {
+            "name": "popestimate2013",
+            "type": "integer"
+        },
+        {
+            "name": "primgeoflag",
+            "type": "smallint"
+        }
+    ]
+}

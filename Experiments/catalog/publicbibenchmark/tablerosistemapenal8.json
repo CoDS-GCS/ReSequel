@@ -1,0 +1,94 @@
+{
+    "table": "tablerosistemapenal8",
+    "rows": 1804269,
+    "columns": [
+        {
+            "name": "sexo",
+            "type": "character varying"
+        },
+        {
+            "name": "estadorelacion",
+            "type": "character varying"
+        },
+        {
+            "name": "medidas_cautelares",
+            "type": "character varying"
+        },
+        {
+            "name": "ruc",
+            "type": "character varying"
+        },
+        {
+            "name": "audiencias",
+            "type": "character varying"
+        },
+        {
+            "name": "fecha",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "rpa",
+            "type": "smallint"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "tribunal",
+            "type": "character varying"
+        },
+        {
+            "name": "corte",
+            "type": "character varying"
+        },
+        {
+            "name": "país",
+            "type": "character varying"
+        },
+        {
+            "name": "salidas_tempranas",
+            "type": "character varying"
+        },
+        {
+            "name": "calculation6750825005603169",
+            "type": "character varying"
+        },
+        {
+            "name": "crridcausa",
+            "type": "integer"
+        },
+        {
+            "name": "acusación_fiscal",
+            "type": "character varying"
+        },
+        {
+            "name": "tipo_sentencia",
+            "type": "character varying"
+        },
+        {
+            "name": "rit",
+            "type": "character varying"
+        },
+        {
+            "name": "codtribunal",
+            "type": "smallint"
+        },
+        {
+            "name": "delito",
+            "type": "character varying"
+        },
+        {
+            "name": "crridparticipante",
+            "type": "integer"
+        },
+        {
+            "name": "cod_delito",
+            "type": "smallint"
+        },
+        {
+            "name": "otros_términos",
+            "type": "character varying"
+        }
+    ]
+}

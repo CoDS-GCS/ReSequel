@@ -1,0 +1,33 @@
+{
+    "columns": [
+        {
+            "name": "sm_ship_mode_sk",
+            "type": "integer"
+        },
+        {
+            "name": "sm_ship_mode_id",
+            "type": "character"
+        },
+        {
+            "name": "sm_type",
+            "type": "character"
+        },
+        {
+            "name": "sm_code",
+            "type": "character"
+        },
+        {
+            "name": "sm_carrier",
+            "type": "character"
+        },
+        {
+            "name": "sm_contract",
+            "type": "character"
+        }
+    ],
+    "indexes": [
+        "sm_ship_mode_sk"
+    ],
+    "rows": 20,
+    "table": "ship_mode"
+}

@@ -1,0 +1,34 @@
+{
+    "table": "cast_info",
+    "rows": 36244344,
+    "columns": [
+        {
+            "name": "person_role_id",
+            "type": "integer"
+        },
+        {
+            "name": "person_id",
+            "type": "integer"
+        },
+        {
+            "name": "movie_id",
+            "type": "integer"
+        },
+        {
+            "name": "id",
+            "type": "integer"
+        },
+        {
+            "name": "role_id",
+            "type": "integer"
+        },
+        {
+            "name": "nr_order",
+            "type": "integer"
+        },
+        {
+            "name": "note",
+            "type": "character varying"
+        }
+    ]
+}

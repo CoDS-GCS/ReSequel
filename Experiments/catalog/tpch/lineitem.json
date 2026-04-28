@@ -1,0 +1,70 @@
+{
+    "table": "lineitem",
+    "rows": 6001215,
+    "columns": [
+        {
+            "name": "l_orderkey",
+            "type": "integer"
+        },
+        {
+            "name": "l_partkey",
+            "type": "integer"
+        },
+        {
+            "name": "l_suppkey",
+            "type": "integer"
+        },
+        {
+            "name": "l_linenumber",
+            "type": "integer"
+        },
+        {
+            "name": "l_quantity",
+            "type": "numeric"
+        },
+        {
+            "name": "l_extendedprice",
+            "type": "numeric"
+        },
+        {
+            "name": "l_discount",
+            "type": "numeric"
+        },
+        {
+            "name": "l_tax",
+            "type": "numeric"
+        },
+        {
+            "name": "l_returnflag",
+            "type": "character"
+        },
+        {
+            "name": "l_linestatus",
+            "type": "character"
+        },
+        {
+            "name": "l_shipdate",
+            "type": "date"
+        },
+        {
+            "name": "l_commitdate",
+            "type": "date"
+        },
+        {
+            "name": "l_receiptdate",
+            "type": "date"
+        },
+        {
+            "name": "l_shipinstruct",
+            "type": "character"
+        },
+        {
+            "name": "l_shipmode",
+            "type": "character"
+        },
+        {
+            "name": "l_comment",
+            "type": "character varying"
+        }
+    ]
+}

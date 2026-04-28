@@ -1,0 +1,18 @@
+{
+    "table": "movie_keyword",
+    "rows": 4523930,
+    "columns": [
+        {
+            "name": "id",
+            "type": "integer"
+        },
+        {
+            "name": "movie_id",
+            "type": "integer"
+        },
+        {
+            "name": "keyword_id",
+            "type": "integer"
+        }
+    ]
+}

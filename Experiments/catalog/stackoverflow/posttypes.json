@@ -1,0 +1,14 @@
+{
+    "table": "posttypes",
+    "rows": 8,
+    "columns": [
+        {
+            "name": "id",
+            "type": "smallint"
+        },
+        {
+            "name": "name",
+            "type": "character varying"
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+{
+    "table": "realestate11",
+    "rows": 19531359,
+    "columns": [
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "property_type",
+            "type": "character varying"
+        },
+        {
+            "name": "street",
+            "type": "character varying"
+        },
+        {
+            "name": "postcode_district",
+            "type": "character varying"
+        },
+        {
+            "name": "new_build_",
+            "type": "character varying"
+        },
+        {
+            "name": "address2",
+            "type": "character varying"
+        },
+        {
+            "name": "transaction_id",
+            "type": "character varying"
+        },
+        {
+            "name": "calculation0390512122057182",
+            "type": "character varying"
+        },
+        {
+            "name": "calculation2630509165701334",
+            "type": "double precision"
+        },
+        {
+            "name": "year",
+            "type": "smallint"
+        },
+        {
+            "name": "town_city",
+            "type": "character varying"
+        },
+        {
+            "name": "calculation5480628224156393",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "postcode",
+            "type": "character varying"
+        },
+        {
+            "name": "postcode_region",
+            "type": "character varying"
+        },
+        {
+            "name": "district",
+            "type": "character varying"
+        },
+        {
+            "name": "month",
+            "type": "smallint"
+        },
+        {
+            "name": "duration",
+            "type": "character varying"
+        },
+        {
+            "name": "locality",
+            "type": "character varying"
+        },
+        {
+            "name": "average_monthly_price_per_km2__copy_",
+            "type": "double precision"
+        },
+        {
+            "name": "county",
+            "type": "character varying"
+        },
+        {
+            "name": "postcode_sector",
+            "type": "character varying"
+        },
+        {
+            "name": "longitude",
+            "type": "double precision"
+        },
+        {
+            "name": "latitude",
+            "type": "numeric"
+        },
+        {
+            "name": "price",
+            "type": "integer"
+        },
+        {
+            "name": "date_of_transfer",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "calculation5960512115909696",
+            "type": "character varying"
+        },
+        {
+            "name": "address1",
+            "type": "character varying"
+        },
+        {
+            "name": "calculation7270508194941839",
+            "type": "smallint"
+        }
+    ]
+}

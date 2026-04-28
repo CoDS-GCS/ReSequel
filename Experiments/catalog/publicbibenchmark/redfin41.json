@@ -1,0 +1,198 @@
+{
+    "table": "redfin41",
+    "rows": 3267279,
+    "columns": [
+        {
+            "name": "mediandommom",
+            "type": "numeric"
+        },
+        {
+            "name": "medianppsf",
+            "type": "double precision"
+        },
+        {
+            "name": "city",
+            "type": "character varying"
+        },
+        {
+            "name": "statecode",
+            "type": "character varying"
+        },
+        {
+            "name": "medianlistppsf",
+            "type": "double precision"
+        },
+        {
+            "name": "state",
+            "type": "character varying"
+        },
+        {
+            "name": "propertytype",
+            "type": "character varying"
+        },
+        {
+            "name": "newlistingsmom",
+            "type": "double precision"
+        },
+        {
+            "name": "mediansaleprice",
+            "type": "double precision"
+        },
+        {
+            "name": "pricedropsmom",
+            "type": "double precision"
+        },
+        {
+            "name": "medianlistpricemom",
+            "type": "double precision"
+        },
+        {
+            "name": "pricedrops",
+            "type": "double precision"
+        },
+        {
+            "name": "calculation875105747585536000",
+            "type": "double precision"
+        },
+        {
+            "name": "mediansalepricemom",
+            "type": "double precision"
+        },
+        {
+            "name": "mediansalepriceyoy",
+            "type": "double precision"
+        },
+        {
+            "name": "medianlistpriceyoy",
+            "type": "double precision"
+        },
+        {
+            "name": "inventorymom",
+            "type": "double precision"
+        },
+        {
+            "name": "mediandom",
+            "type": "numeric"
+        },
+        {
+            "name": "periodbegin",
+            "type": "date"
+        },
+        {
+            "name": "medianlistprice",
+            "type": "double precision"
+        },
+        {
+            "name": "avgsaletolist",
+            "type": "numeric"
+        },
+        {
+            "name": "pricedropsyoy",
+            "type": "double precision"
+        },
+        {
+            "name": "inventoryyoy",
+            "type": "double precision"
+        },
+        {
+            "name": "medianlistppsfyoy",
+            "type": "double precision"
+        },
+        {
+            "name": "newlistingsyoy",
+            "type": "double precision"
+        },
+        {
+            "name": "newlistings",
+            "type": "integer"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "medianppsfmom",
+            "type": "double precision"
+        },
+        {
+            "name": "soldabovelistyoy",
+            "type": "double precision"
+        },
+        {
+            "name": "medianlistppsfmom",
+            "type": "double precision"
+        },
+        {
+            "name": "periodend",
+            "type": "date"
+        },
+        {
+            "name": "avgsaletolistyoy",
+            "type": "double precision"
+        },
+        {
+            "name": "soldabovelistmom",
+            "type": "double precision"
+        },
+        {
+            "name": "medianppsfyoy",
+            "type": "double precision"
+        },
+        {
+            "name": "inventory",
+            "type": "integer"
+        },
+        {
+            "name": "homessoldmom",
+            "type": "double precision"
+        },
+        {
+            "name": "soldabovelist",
+            "type": "double precision"
+        },
+        {
+            "name": "avgsaletolistmom",
+            "type": "double precision"
+        },
+        {
+            "name": "mediandomyoy",
+            "type": "numeric"
+        },
+        {
+            "name": "periodduration",
+            "type": "smallint"
+        },
+        {
+            "name": "homessoldyoy",
+            "type": "double precision"
+        },
+        {
+            "name": "monthsofsupply",
+            "type": "numeric"
+        },
+        {
+            "name": "tableid",
+            "type": "integer"
+        },
+        {
+            "name": "monthsofsupplyyoy",
+            "type": "double precision"
+        },
+        {
+            "name": "regiontype",
+            "type": "character varying"
+        },
+        {
+            "name": "monthsofsupplymom",
+            "type": "double precision"
+        },
+        {
+            "name": "homessold",
+            "type": "integer"
+        },
+        {
+            "name": "region",
+            "type": "character varying"
+        }
+    ]
+}

@@ -1,0 +1,85 @@
+{
+    "columns": [
+        {
+            "name": "p_end_date_sk",
+            "type": "integer"
+        },
+        {
+            "name": "p_item_sk",
+            "type": "integer"
+        },
+        {
+            "name": "p_cost",
+            "type": "numeric"
+        },
+        {
+            "name": "p_response_target",
+            "type": "integer"
+        },
+        {
+            "name": "p_start_date_sk",
+            "type": "integer"
+        },
+        {
+            "name": "p_promo_sk",
+            "type": "integer"
+        },
+        {
+            "name": "p_channel_tv",
+            "type": "character"
+        },
+        {
+            "name": "p_channel_radio",
+            "type": "character"
+        },
+        {
+            "name": "p_channel_press",
+            "type": "character"
+        },
+        {
+            "name": "p_channel_event",
+            "type": "character"
+        },
+        {
+            "name": "p_channel_demo",
+            "type": "character"
+        },
+        {
+            "name": "p_channel_details",
+            "type": "character varying"
+        },
+        {
+            "name": "p_purpose",
+            "type": "character"
+        },
+        {
+            "name": "p_discount_active",
+            "type": "character"
+        },
+        {
+            "name": "p_promo_id",
+            "type": "character"
+        },
+        {
+            "name": "p_promo_name",
+            "type": "character"
+        },
+        {
+            "name": "p_channel_dmail",
+            "type": "character"
+        },
+        {
+            "name": "p_channel_email",
+            "type": "character"
+        },
+        {
+            "name": "p_channel_catalog",
+            "type": "character"
+        }
+    ],
+    "indexes": [
+        "p_promo_sk"
+    ],
+    "rows": 500,
+    "table": "promotion"
+}

@@ -1,0 +1,101 @@
+{
+    "columns": [
+        {
+            "name": "i_item_sk",
+            "type": "integer"
+        },
+        {
+            "name": "i_rec_start_date",
+            "type": "date"
+        },
+        {
+            "name": "i_rec_end_date",
+            "type": "date"
+        },
+        {
+            "name": "i_current_price",
+            "type": "numeric"
+        },
+        {
+            "name": "i_wholesale_cost",
+            "type": "numeric"
+        },
+        {
+            "name": "i_brand_id",
+            "type": "integer"
+        },
+        {
+            "name": "i_class_id",
+            "type": "integer"
+        },
+        {
+            "name": "i_category_id",
+            "type": "integer"
+        },
+        {
+            "name": "i_manufact_id",
+            "type": "integer"
+        },
+        {
+            "name": "i_manager_id",
+            "type": "integer"
+        },
+        {
+            "name": "i_class",
+            "type": "character"
+        },
+        {
+            "name": "i_container",
+            "type": "character"
+        },
+        {
+            "name": "i_category",
+            "type": "character"
+        },
+        {
+            "name": "i_item_id",
+            "type": "character"
+        },
+        {
+            "name": "i_product_name",
+            "type": "character"
+        },
+        {
+            "name": "i_manufact",
+            "type": "character"
+        },
+        {
+            "name": "i_item_desc",
+            "type": "character varying"
+        },
+        {
+            "name": "i_size",
+            "type": "character"
+        },
+        {
+            "name": "i_formulation",
+            "type": "character"
+        },
+        {
+            "name": "i_color",
+            "type": "character"
+        },
+        {
+            "name": "i_brand",
+            "type": "character"
+        },
+        {
+            "name": "i_units",
+            "type": "character"
+        }
+    ],
+    "indexes": [
+        "i_item_sk",
+        "i_item_sk) INCLUDE (i_item_id, i_item_desc",
+        "i_category, i_class, i_item_sk",
+        "i_color",
+        "i_item_id, i_item_sk"
+    ],
+    "rows": 102000,
+    "table": "item"
+}

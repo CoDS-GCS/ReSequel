@@ -1,0 +1,10 @@
+SELECT CAST(EXTRACT(MONTH
+                    FROM generico4.fecha) AS BIGINT) AS mnfechaok
+FROM generico4
+WHERE ((generico4.anunciante IN (N_SSS))
+       AND (CAST(EXTRACT(YEAR
+                         FROM generico4.fecha) AS BIGINT) >= 2010)
+       AND (CAST(EXTRACT(YEAR
+                         FROM generico4.fecha) AS BIGINT) <= 2015))
+GROUP BY mnfechaok
+ORDER BY mnfechaok ASC ;

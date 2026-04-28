@@ -1,0 +1,247 @@
+---
+
+- Config: Implement
+  Task: |
+    Implement only-and-only functions in {} for a database that are breakdown the performance. Don't implement naive functions, including but not limited to the following:
+    1. **Anticipate Join Enhancements**: 
+      - Develop functions that leverage advanced techniques to optimize join operations. For instance, consider implementing a Bloom filter or data sketching to enhance sequence scans and filtering processes. These techniques can significantly reduce the computational overhead by pre-filtering data.
+
+    2. **Cardinality Estimation Functions**: 
+      - Create functions that accurately estimate cardinality (more sophisticated methods might involve histograms), which is crucial for optimizing query plans. Accurate cardinality estimation helps in selecting the most efficient join strategies and execution paths.
+
+    3. **Data Skipping Functions**: 
+      - Implement functions that intelligently skip large volumes of unnecessary data during join and filter operations. This can be achieved by using techniques like partition pruning or leveraging metadata to avoid processing irrelevant data, thus improving performance.
+    
+    4. **Correlation Analysis and Key Identification**:
+      - Analyze the schema to identify correlations between columns, primary keys (PK), and foreign keys (FK).
+      - Determine potential candidate keys not explicitly mentioned in the schema, such as columns with distinct counts equal to the number of table records (e.g., `social_code`).
+      - Use this analysis to optimize query processing by leveraging these candidate keys.
+    
+    5. **Filter Function Implementation for Query Optimization**:
+       - Develop filter functions to enhance the performance of range queries, especially for string values used in "LIKE" operations, as well as numerical and datetime ranges.
+       - Consider implementing advanced string matching algorithms or indexing strategies to accelerate these queries.    
+    
+    6. **Hash Data Structure Recommendations**:
+       - Implement specific hash data structures tailored to the table and column characteristics. Do exactly with SQL commands and don't return a pure string results.
+       - For instance, implement enabling Table Hash over Binary Hash when it aligns better with the data distribution and access patterns.    
+    
+    7. **Reuse Metadata**:
+      -- Instead of calculating the statistical numbers for a table, utilize the existing metadata within the SCHEMA that available in Prompt. For instance, min, max. avg, distinct values are available in our prompt.
+  Input: |
+     **Database Schema Definition**: 
+      - Define tables and columns with precision, specifying data types, primary keys, foreign keys, and indexes. 
+      - Ensure clarity in the schema to facilitate understanding by LLMs like GPT, Llama, and Gemini.
+      - Incorporate data catalog information, including statistical data for each column, such as distinct value counts and data distribution, to enhance the model's comprehension and response accuracy.
+
+     **Focused Table Implementation**:
+        - Identify a specific table for which individual functions need to be implemented.
+        - Develop functions tailored to this table, ensuring they are well-documented and aligned with the schema.
+        - Utilize the capabilities of LLMs to generate, refine, and optimize these functions for improved database interaction and performance.
+  Output: |
+    1. **Implemented Functions**: A list of implemented functions, start with "```sql" and end with "```"
+    2. **Metadata of Implemented Functions**: create a list which each item has "Functions Name", "Short Description and Parameters", and "Example", start with "<FUNCTIONS>" and end with "</FUNCTIONS>"
+    
+
+- Config: Setting
+  Task: |
+    Rewrite the provided {} query template to optimize their performance. The query template has the following masked data:
+    1. **STRING values**: masked by "&&&"
+    2. **List of STRINGS**: masked "N_SSS". for example a list of strings "'a','b','c'" masked by "N_SSS".
+    3. DOUBLE values masked by "^^^".
+    4. **List of DOUBLE values**: masked "N_DDD". for example a list of strings "0.3,0.66,1.98" masked by "N_DDD".
+    5. and INT values masked by "###" strings. 
+    6. **List of IN values**: masked "N_III". for example a list of strings "10,20,30" masked by "N_III".
+  Input: Database schema which is table and column definitions, including data types, primary keys, foreign keys, and indexes. Data catalog information which is statistical data for each column, such as distinct value counts and data distribution.
+  Output: An optimized list of SQL query, start with "```sql" and end with "```"
+  OutputList: |
+      1. ** Query Template Format**: Keep masked strings "&&&", "^^^", "###", "N_SSS", "N_III", and "N_DDD".
+      2. **Generate Optimized Queries**: Create a list of {} optimized SQL queries, strictly following the provided rules and schema metadata. Ensure each query is well-structured and efficient.
+      3. **Sort Queries by Performance**: Rank the generated queries based on their performance, placing the highest-performing queries first. Performance should be determined based on efficiency metrics such as execution time and resource utilization.
+      4. **Format the Output:**: The output must be enclosed within SQL code block markers:
+          + ```sql  
+            ... (queries) ...  
+            ```
+          + Each query should be formatted as:
+            - Query#ID: SQL
+            - #ID represents the unique query identifier.
+            - SQL is the generated SQL query.
+- Config: General
+  Rules: |
+    1. **Leverage {} Optimizations**: Utilize specific optimization techniques and features available in the current version of the database system.
+    2. **Temporary Table**: Create a temporary table for subqueries not accessing the outer query. Example: "WITH t AS (SELECT a2 AS a FROM t2 WHERE a2 > 10) SELECT t1.* FROM t1, t WHERE a1 < a;"
+    3. **Split Subquery**: Divide the query into sub-queries if there are AND/OR in predicates. Example: "SELECT * FROM t WHERE (c1 = 'f' AND c2 > 5) UNION ALL SELECT * FROM t WHERE c2 > 8;"
+    4. **Value-Based Optimization**:
+        The optimization process should address two key aspects:
+        a. Query Reordering & Execution Optimization – Operations within queries should be intelligently reordered and optimized for performance.
+        b. Range-Aware Query Generation – The generated queries should be optimized for data values that fall within specified ranges. Relevant data distribution statistics are already provided in the schema information.
+    5. **Concise Output Formatting**: Present each optimized query on a single line, clearly labeled with a sequential number.
+
+- Config: Aggregation
+  Rules: |    
+    1. **Remove Redundant Aggregates**: Eliminate unnecessary aggregates (e.g., duplicate DISTINCT, constants, or splittable functions).
+    2. **Expand Distinct Aggregates to Join**: Convert COUNT(DISTINCT x) into joins for efficient execution.
+    3. **Transpose Aggregate Through Join (Extended)**: Push aggregates past joins to optimize downstream operations.
+    4. **Merge Aggregate and Project Operations**: Collapse redundant projections into aggregates.
+    5. **Transpose Aggregate Past Union**: Push aggregates below non-distinct unions for early computation.
+    6. **Combine Aggregates Over Union**: Fuse multiple aggregates across unions into a single operation.
+    7. **Pull Up Constants in Aggregates**: Simplify queries by lifting constant values out of aggregates.
+
+- Config: Filter
+  Rules: |
+    1. **Eliminate Redundant Conditions**: Leverage schema information to remove unnecessary conditions. For example, if the minimum value for the 'salary' column is 0, checking 'salary >= 0' is redundant.
+    2. **Filter Aggregate Transpose**: Move filter conditions before aggregation operations to enhance performance.
+    3. **Filter Correlate**: Optimize correlated subqueries by applying filters early, pushing them into the inputs of the correlate.
+    4. **Filter Into Join**: Convert filter conditions into join conditions when possible, pushing filter expressions into join conditions and inputs.
+    5. **Join Condition Push**: Push join conditions down to the earliest possible stage in the query to optimize execution.
+    6. **Filter Merge**: Combine multiple filter conditions into a single, more efficient filter.
+    7. **Filter Multi Join Merge**: Merge filters across multiple joins for optimization, creating a richer multi-join.
+    8. **Filter Project Transpose**: Reorder filters and projections for better performance.
+    9. **Filter Set Op Transpose**: Apply filters before set operations like UNION or INTERSECT to improve efficiency.
+    10. **Filter Table Function Transpose**: Move filters before table function calls to optimize execution.
+    11. **Filter Scan**: Apply filters at the scan level to reduce data early, enhancing performance.
+    12. **Filter Reduce Expressions**: Simplify filter expressions to enhance performance by reducing constants inside a LogicalFilter.
+    13. **Project Reduce Expressions**: Simplify projection expressions for efficiency by reducing constants inside a LogicalProject.
+    14. **Filter Instance Optimization**: Optimize filter instances for repeated use or complex conditions.
+    15. **Range Queries Optimization**: Use data catalog information to refine range conditions and improve query performance.
+    16. **LIKE Filter Optimization**: Optimize LIKE filters by splitting values, creating indexes, and applying filters efficiently.
+    17. **Normalize Predicate**: Transform predicates with common expressions for simplification and performance improvement.
+    18. **Simplify Predicate**: Replace "IN" with "=" for simplification, e.g., converting "IN" clauses to multiple "OR" conditions.   
+
+- Config: Join
+  Rules: |
+    1. **Extract Filters from JOIN Conditions**: Improve performance by extracting filters from JOIN conditions and converting inner joins to filters on top of cartesian inner joins.
+      - Example: Convert "SELECT * FROM t1 JOIN t2 ON t1.id = t2.id AND t2.value > 10" to "SELECT * FROM t1 JOIN t2 ON t1.id = t2.id WHERE t2.value > 10".
+
+    2. **Transpose JOIN and PROJECT Operations**: Optimize by transposing JOIN and PROJECT operations, including both sides, left side, and right side.
+       - Example: For a query with projects on both sides of a join, pull the project expressions up to optimize execution.
+    
+    3. **Transpose JOIN with UNION**: Enhance execution by transposing JOIN with UNION operations on both the left and right sides.
+       - Example: Push a JOIN past a non-distinct UNION to optimize the query plan.
+    
+    4. **Remove Unnecessary SEMI JOINs**: Streamline the query by removing unnecessary SEMI JOINs from the join tree.
+       - Example: Remove a SEMI JOIN if it does not contribute to the final result set.
+    
+    5. **Reduce Expressions within JOIN Conditions**: Simplify the query by reducing expressions and constants within JOIN conditions.
+       - Example: Simplify "SELECT * FROM t1 JOIN t2 ON t1.id = t2.id + 0" to "SELECT * FROM t1 JOIN t2 ON t1.id = t2.id".
+    
+    6. **Optimize Instance-Specific JOINs**: Use instance-specific JOINs on both the left and right sides for optimization.
+       - Example: Apply specific optimizations for JOINs that are frequently used in the query.
+    
+    7. **Subquery to Join**: Pull up subqueries as joins if they are correlated with the outer query to improve performance.
+       - Example: Convert "SELECT t1.* FROM t1 WHERE a1 IN (SELECT a2 FROM t2 WHERE a2 < 2)" to "SELECT t1.* FROM t1 SEMI JOIN t2 ON a1 = a2 AND a2 < 2".
+
+- Config: Project
+  Rules: |
+    1. Merge calculations within a project to reduce redundancy.
+    2. Correlate and transpose projects to optimize data retrieval.
+    3. Merge multiple projects to streamline execution.
+    4. Optimize multi-join operations by merging related projects.
+    5. Remove unnecessary projects to simplify the query.
+    6. Convert projects into calculations for efficiency.
+    7. Transform sub-queries into correlated queries for better performance.
+    8. Reduce complex expressions within projects to enhance execution speed.
+    9. Optimize project instances for improved query performance.
+
+- Config: Calc
+  Rules: |
+    1. **CALC MERGE**: Combine multiple calculations into a single operation to reduce redundancy.
+    2. **CALC REMOVE**: Eliminate unnecessary calculations that do not affect the final result.
+    3. **SORT JOIN TRANSPOSE**: Reorder join operations to enhance sorting performance.
+       - Example: Push a Sort past a Join to optimize the sorting process.
+    
+    4. **SORT PROJECT TRANSPOSE**: Adjust projection operations to optimize sorting.
+       - Example: Push a Sort past a Project to improve sorting efficiency.
+    
+    5. **SORT UNION TRANSPOSE**: Reorganize union operations to improve sorting efficiency.
+       - Example: Push a Sort past a Union to streamline sorting.
+    
+    6. **SORT REMOVE CONSTANT KEYS**: Remove constant keys from sorting operations to streamline processing.
+       - Example: Eliminate sorting keys that are constant, or remove the entire Sort if all keys are constant.
+    
+    7. **SORT REMOVE**: Eliminate redundant sorting operations to enhance query performance.
+       - Example: Remove a Sort if its input is already sorted.
+    
+    8. **RULE ORDERBY**: Optimize the use of ORDER BY clauses to improve sorting efficiency.
+       - Example: Simplify ORDER BY clauses by removing unnecessary columns or expressions.
+    
+    9. **SORT INSTANCE**: Optimize sorting instances to reduce computational overhead.
+       - Example: Apply specific optimizations for frequently used sorting operations.
+    
+    10. **SORT FETCH ZERO INSTANCE**: Avoid fetching zero instances in sorting operations to save resources.
+        - Example: Skip sorting operations when the result set is empty or when no rows need to be fetched.
+
+- Config: Union
+  Rules: |
+    1. **Merge Multiple UNION Operations**: Combine multiple UNION operations into a single UNION when possible to streamline the query.
+      - Example: Flatten "SELECT * FROM t1 UNION (SELECT * FROM t2 UNION SELECT * FROM t3)" into "SELECT * FROM t1 UNION SELECT * FROM t2 UNION SELECT * FROM t3".
+
+    2. **Remove Unnecessary UNION Operations**: Eliminate UNION operations if they do not affect the result, such as when there is only one input.
+       - Example: Remove "SELECT * FROM t1 UNION SELECT * FROM t1" if it results in the same dataset as "SELECT * FROM t1".
+    
+    3. **Convert UNION to UNION DISTINCT**: Use UNION DISTINCT when duplicate elimination is required to ensure unique results.
+       - Example: Convert "SELECT * FROM t1 UNION ALL SELECT * FROM t2" to "SELECT * FROM t1 UNION SELECT * FROM t2" if duplicates need to be removed.
+    
+    4. **Pull Up Constants from UNION Operations**: Simplify the query by pulling up constants through a UNION operator.
+       - Example: Transform "SELECT 1, a FROM t1 UNION SELECT 1, b FROM t2" to "SELECT 1, a FROM t1 UNION SELECT 1, b FROM t2" with the constant pulled up.
+    
+    5. **Optimize Individual Instances of UNION Operations**: Enhance efficiency by optimizing specific instances of UNION operations.
+       - Example: Apply optimizations to frequently used UNION operations to reduce computational overhead.
+    
+    6. **Optimize Individual Instances of INTERSECT Operations**: Improve performance by optimizing specific instances of INTERSECT operations.
+       - Example: Apply optimizations to INTERSECT operations to ensure efficient execution.
+    
+    7. **Optimize Individual Instances of MINUS Operations**: Increase efficiency by optimizing specific instances of MINUS operations.
+       - Example: Apply optimizations to MINUS operations to streamline processing.
+    
+
+- Config: With
+  Rules: |
+    1. **Handles CTEs**: Materialize Common Table Expressions (CTE) which aredefined with WITH efficiently.
+    2. **Rewrite Query**: Rewrite the CTE as a subquery in order to improve performance.
+    3. Ensure that the underlying tables used in the CTE have appropriate indexes on the columns used in WHERE clauses, JOIN conditions, and ORDER BY clauses.
+    4. **Avoid unnecessary columns in CTEs**: Only include the columns you actually need in the CTE's SELECT list. This reduces the amount of data processed.
+    5. **Simplify WHERE clauses**: Complex WHERE clauses, especially those with OR conditions or functions, can sometimes be simplified or rewritten for better performance.
+
+- Config: Verify
+  Description: |
+      You are an expert {} SQL query evaluator tasked with determining whether a list of rewritten SQL queries is semantically equivalent to a provided SQL query template, given a database schema. Semantic equivalence means the queries produce the same results for any valid database state, despite syntactic differences.
+  Input: |
+      You will receive:
+        1. **Database Schema**: A detailed schema including table names, column names, data types, constraints, and relationships (e.g., primary keys, foreign keys).
+        2. **Query Template**: A SQL query with masked values to generalize the query structure. The masking follows these rules:
+            - **STRING values**: Masked as `&&&` (e.g., `'John'` → `&&&`).
+            - **List of STRINGS**: Masked as `N_SSS` (e.g., `'a','b','c'` → `N_SSS`).
+            - **DOUBLE values**: Masked as `^^^` (e.g., `3.14` → `^^^`).
+            - **List of DOUBLES**: Masked as `N_DDD` (e.g., `0.3,0.66,1.98` → `N_DDD`).
+            - **INT values**: Masked as `###` (e.g., `42` → `###`).
+            - **List of INTS**: Masked as `N_III` (e.g., `10,20,30` → `N_III`).
+        3. **List of Rewrite Queries**: A list of SQL queries, each in the format `#QUERY #ID: SQL`, where `#ID` is a unique identifier (e.g., `#1`, `#100`), and `SQL` is the rewritten query to evaluate.
+
+  Task: |
+      Determine which rewritten queries are semantically equivalent to the query template by analyzing:
+        - The database schema to understand table structures, relationships, and constraints.
+        - The query template’s logic, structure, and masked placeholders.
+        - Each rewritten query’s logic, ensuring it produces the same results as the template for any valid database state.
+
+  Instructions : |
+      - Focus on **semantic equivalence**, not syntactic similarity. Queries may differ in structure (e.g., join order, subquery vs. join) but must yield identical results.
+      - Consider edge cases (e.g., empty tables, NULL values, duplicate rows) based on the schema.
+      - Ignore masked values (`&&&`, `N_SSS`, etc.) as specific data; treat them as placeholders for any valid value of their type.
+      - If a rewritten query could produce different results (e.g., due to missing conditions, different joins, or incorrect aggregations), mark it as not equivalent.
+      - Provide a clear justification for each query’s evaluation internally, but do not include it in the output unless requested.
+
+  Output: |
+      For each rewritten query, provide a response in the following format:
+        #QUERY ID: Yes/No
+        - `Yes`: The query is semantically equivalent to the template.
+        - `No`: The query is not semantically equivalent to the template.
+        **Example Output**:
+          #QUERY 1: Yes
+          #QUERY 2: Yes
+          #QUERY 3: No
+          #QUERY 4: No
+          #QUERY 5: Yes
+  Notes:
+    - Ensure all queries are evaluated.
+    - Be precise and consistent in applying the schema and template logic.
+    - If the schema or query template is ambiguous, assume standard SQL semantics (e.g., ANSI SQL).

@@ -1,0 +1,23 @@
+{
+    "columns": [
+        {
+            "name": "dv_create_date",
+            "type": "date"
+        },
+        {
+            "name": "dv_create_time",
+            "type": "time without time zone"
+        },
+        {
+            "name": "dv_version",
+            "type": "character varying"
+        },
+        {
+            "name": "dv_cmdline_args",
+            "type": "character varying"
+        }
+    ],
+    "indexes": [],
+    "rows": 1,
+    "table": "dbgen_version"
+}

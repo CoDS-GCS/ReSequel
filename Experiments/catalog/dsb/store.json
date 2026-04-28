@@ -1,0 +1,127 @@
+{
+    "columns": [
+        {
+            "name": "s_tax_precentage",
+            "type": "numeric"
+        },
+        {
+            "name": "s_rec_start_date",
+            "type": "date"
+        },
+        {
+            "name": "s_rec_end_date",
+            "type": "date"
+        },
+        {
+            "name": "s_closed_date_sk",
+            "type": "integer"
+        },
+        {
+            "name": "s_number_employees",
+            "type": "integer"
+        },
+        {
+            "name": "s_floor_space",
+            "type": "integer"
+        },
+        {
+            "name": "s_market_id",
+            "type": "integer"
+        },
+        {
+            "name": "s_division_id",
+            "type": "integer"
+        },
+        {
+            "name": "s_company_id",
+            "type": "integer"
+        },
+        {
+            "name": "s_gmt_offset",
+            "type": "numeric"
+        },
+        {
+            "name": "s_store_sk",
+            "type": "integer"
+        },
+        {
+            "name": "s_geography_class",
+            "type": "character varying"
+        },
+        {
+            "name": "s_market_desc",
+            "type": "character varying"
+        },
+        {
+            "name": "s_market_manager",
+            "type": "character varying"
+        },
+        {
+            "name": "s_zip",
+            "type": "character"
+        },
+        {
+            "name": "s_division_name",
+            "type": "character varying"
+        },
+        {
+            "name": "s_country",
+            "type": "character varying"
+        },
+        {
+            "name": "s_company_name",
+            "type": "character varying"
+        },
+        {
+            "name": "s_street_number",
+            "type": "character varying"
+        },
+        {
+            "name": "s_store_id",
+            "type": "character"
+        },
+        {
+            "name": "s_street_name",
+            "type": "character varying"
+        },
+        {
+            "name": "s_street_type",
+            "type": "character"
+        },
+        {
+            "name": "s_suite_number",
+            "type": "character"
+        },
+        {
+            "name": "s_store_name",
+            "type": "character varying"
+        },
+        {
+            "name": "s_city",
+            "type": "character varying"
+        },
+        {
+            "name": "s_county",
+            "type": "character varying"
+        },
+        {
+            "name": "s_hours",
+            "type": "character"
+        },
+        {
+            "name": "s_manager",
+            "type": "character varying"
+        },
+        {
+            "name": "s_state",
+            "type": "character"
+        }
+    ],
+    "indexes": [
+        "s_store_sk",
+        "s_store_sk) INCLUDE (s_store_id, s_store_name",
+        "s_state, s_store_sk"
+    ],
+    "rows": 102,
+    "table": "store"
+}

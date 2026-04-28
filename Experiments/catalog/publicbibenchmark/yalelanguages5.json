@@ -1,0 +1,126 @@
+{
+    "table": "yalelanguages5",
+    "rows": 1279378,
+    "columns": [
+        {
+            "name": "mfhdid",
+            "type": "integer"
+        },
+        {
+            "name": "patrongroupid1",
+            "type": "smallint"
+        },
+        {
+            "name": "id1",
+            "type": "smallint"
+        },
+        {
+            "name": "dischargedate",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "patrongroupcode",
+            "type": "character varying"
+        },
+        {
+            "name": "chargedate",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "daterangecentury",
+            "type": "character varying"
+        },
+        {
+            "name": "lcbroad",
+            "type": "character varying"
+        },
+        {
+            "name": "date",
+            "type": "character varying"
+        },
+        {
+            "name": "daterangedecade",
+            "type": "character varying"
+        },
+        {
+            "name": "lcnarrow",
+            "type": "character varying"
+        },
+        {
+            "name": "bibformat",
+            "type": "character varying"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "patrongroupname",
+            "type": "character varying"
+        },
+        {
+            "name": "patrontype__pseudo_vs_patron_",
+            "type": "character varying"
+        },
+        {
+            "name": "placecode",
+            "type": "character varying"
+        },
+        {
+            "name": "bibid",
+            "type": "integer"
+        },
+        {
+            "name": "id",
+            "type": "smallint"
+        },
+        {
+            "name": "classnarrow",
+            "type": "character varying"
+        },
+        {
+            "name": "classgroup",
+            "type": "character varying"
+        },
+        {
+            "name": "language",
+            "type": "character varying"
+        },
+        {
+            "name": "callnotype",
+            "type": "character varying"
+        },
+        {
+            "name": "patrongroupid",
+            "type": "smallint"
+        },
+        {
+            "name": "beginpubdate",
+            "type": "character varying"
+        },
+        {
+            "name": "patrongroupdisplay",
+            "type": "character varying"
+        },
+        {
+            "name": "renewalcount",
+            "type": "smallint"
+        },
+        {
+            "name": "classbroad",
+            "type": "character varying"
+        },
+        {
+            "name": "classletter",
+            "type": "character varying"
+        },
+        {
+            "name": "patron_group",
+            "type": "character varying"
+        },
+        {
+            "name": "calculation6550106154858816",
+            "type": "character varying"
+        }
+    ]
+}

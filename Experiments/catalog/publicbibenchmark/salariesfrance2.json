@@ -1,0 +1,50 @@
+{
+    "table": "salariesfrance2",
+    "rows": 98781,
+    "columns": [
+        {
+            "name": "codesromedestination",
+            "type": "character varying"
+        },
+        {
+            "name": "romeliborigine",
+            "type": "character varying"
+        },
+        {
+            "name": "typesmobilite",
+            "type": "character varying"
+        },
+        {
+            "name": "calculation9301203172454540",
+            "type": "smallint"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "description",
+            "type": "character varying"
+        },
+        {
+            "name": "appellation",
+            "type": "character varying"
+        },
+        {
+            "name": "codesromeorigine",
+            "type": "character varying"
+        },
+        {
+            "name": "idtypesmobilite",
+            "type": "numeric"
+        },
+        {
+            "name": "romelibdestination",
+            "type": "character varying"
+        },
+        {
+            "name": "codes_rome_destination__copie_",
+            "type": "character varying"
+        }
+    ]
+}

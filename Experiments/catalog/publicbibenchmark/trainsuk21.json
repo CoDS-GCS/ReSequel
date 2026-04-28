@@ -1,0 +1,154 @@
+{
+    "table": "trainsuk21",
+    "rows": 15561777,
+    "columns": [
+        {
+            "name": "calculation6080608165132814",
+            "type": "character varying"
+        },
+        {
+            "name": "planned_origin_gbtt_datetime",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "financial_year___period",
+            "type": "character varying"
+        },
+        {
+            "name": "planned_dest_gbtt_datetime",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "planned_dest_stanox",
+            "type": "integer"
+        },
+        {
+            "name": "vdest_lateness__wtt_",
+            "type": "numeric"
+        },
+        {
+            "name": "calculation9230610113105724",
+            "type": "smallint"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "planned_total_distance_miles",
+            "type": "numeric"
+        },
+        {
+            "name": "vdest_lateness__gbtt_",
+            "type": "smallint"
+        },
+        {
+            "name": "actual_total_distance_miles",
+            "type": "numeric"
+        },
+        {
+            "name": "vsector",
+            "type": "character varying"
+        },
+        {
+            "name": "planned_dest_actual_datetime",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "vrt_flag",
+            "type": "smallint"
+        },
+        {
+            "name": "vunique_train_id",
+            "type": "character varying"
+        },
+        {
+            "name": "planned_dest_stanox_description",
+            "type": "character varying"
+        },
+        {
+            "name": "tsc",
+            "type": "integer"
+        },
+        {
+            "name": "date__group_",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "vfull_cancellation_flag",
+            "type": "smallint"
+        },
+        {
+            "name": "calculation2510610113130467",
+            "type": "smallint"
+        },
+        {
+            "name": "planned_origin_wtt_datetime",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "vcasl_flag",
+            "type": "smallint"
+        },
+        {
+            "name": "operator",
+            "type": "character varying"
+        },
+        {
+            "name": "planned_origin_actual_datetime",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "corigin_time__gbtt___copy_",
+            "type": "character varying"
+        },
+        {
+            "name": "service_group_code",
+            "type": "character varying"
+        },
+        {
+            "name": "calculation4220604162631191",
+            "type": "character varying"
+        },
+        {
+            "name": "planned_orig_stanox_description",
+            "type": "character varying"
+        },
+        {
+            "name": "date",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "planned_dest_wtt_datetime",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "planned_orig_stanox",
+            "type": "integer"
+        },
+        {
+            "name": "calculation5580608170646388",
+            "type": "character varying"
+        },
+        {
+            "name": "service_group_description",
+            "type": "character varying"
+        },
+        {
+            "name": "train_id",
+            "type": "character varying"
+        },
+        {
+            "name": "vppm_pass_flag",
+            "type": "smallint"
+        },
+        {
+            "name": "vorigin_lateness__gbtt_",
+            "type": "smallint"
+        },
+        {
+            "name": "vorigin_lateness__wtt_",
+            "type": "smallint"
+        }
+    ]
+}

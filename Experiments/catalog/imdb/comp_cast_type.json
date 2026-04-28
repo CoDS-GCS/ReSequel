@@ -1,0 +1,14 @@
+{
+    "table": "comp_cast_type",
+    "rows": 4,
+    "columns": [
+        {
+            "name": "id",
+            "type": "integer"
+        },
+        {
+            "name": "kind",
+            "type": "character varying"
+        }
+    ]
+}

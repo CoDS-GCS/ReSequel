@@ -1,0 +1,54 @@
+{
+    "table": "romance2",
+    "rows": 1586588,
+    "columns": [
+        {
+            "name": "term",
+            "type": "character varying"
+        },
+        {
+            "name": "user_",
+            "type": "bigint"
+        },
+        {
+            "name": "tags",
+            "type": "character varying"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "id",
+            "type": "character varying"
+        },
+        {
+            "name": "lng",
+            "type": "double precision"
+        },
+        {
+            "name": "lat",
+            "type": "numeric"
+        },
+        {
+            "name": "createdtime",
+            "type": "integer"
+        },
+        {
+            "name": "f1",
+            "type": "integer"
+        },
+        {
+            "name": "caption",
+            "type": "character varying"
+        },
+        {
+            "name": "location",
+            "type": "character varying"
+        },
+        {
+            "name": "link",
+            "type": "character varying"
+        }
+    ]
+}

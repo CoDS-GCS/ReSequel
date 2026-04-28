@@ -1,0 +1,114 @@
+{
+    "table": "corporations1",
+    "rows": 741723,
+    "columns": [
+        {
+            "name": "lastfundingdate",
+            "type": "character varying"
+        },
+        {
+            "name": "region",
+            "type": "character varying"
+        },
+        {
+            "name": "city",
+            "type": "character varying"
+        },
+        {
+            "name": "industries",
+            "type": "character varying"
+        },
+        {
+            "name": "name",
+            "type": "character varying"
+        },
+        {
+            "name": "stage",
+            "type": "character varying"
+        },
+        {
+            "name": "numemployees",
+            "type": "integer"
+        },
+        {
+            "name": "website",
+            "type": "character varying"
+        },
+        {
+            "name": "totalfunding",
+            "type": "integer"
+        },
+        {
+            "name": "twitteraccount",
+            "type": "character varying"
+        },
+        {
+            "name": "location",
+            "type": "character varying"
+        },
+        {
+            "name": "foundingdate",
+            "type": "character varying"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "id",
+            "type": "integer"
+        },
+        {
+            "name": "financingstage",
+            "type": "character varying"
+        },
+        {
+            "name": "longdescription",
+            "type": "character varying"
+        },
+        {
+            "name": "businessmodel",
+            "type": "character varying"
+        },
+        {
+            "name": "shortdescriptiion",
+            "type": "character varying"
+        },
+        {
+            "name": "linkedinaccount",
+            "type": "character varying"
+        },
+        {
+            "name": "id1",
+            "type": "integer"
+        },
+        {
+            "name": "score",
+            "type": "integer"
+        },
+        {
+            "name": "keywords",
+            "type": "character varying"
+        },
+        {
+            "name": "angelcoaccount",
+            "type": "character varying"
+        },
+        {
+            "name": "country",
+            "type": "character varying"
+        },
+        {
+            "name": "facebookaccount",
+            "type": "character varying"
+        },
+        {
+            "name": "crunchbaseaccount",
+            "type": "character varying"
+        },
+        {
+            "name": "continent",
+            "type": "character varying"
+        }
+    ]
+}

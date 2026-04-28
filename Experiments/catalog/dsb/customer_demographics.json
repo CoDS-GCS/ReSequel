@@ -1,0 +1,45 @@
+{
+    "columns": [
+        {
+            "name": "cd_dep_college_count",
+            "type": "integer"
+        },
+        {
+            "name": "cd_purchase_estimate",
+            "type": "integer"
+        },
+        {
+            "name": "cd_dep_count",
+            "type": "integer"
+        },
+        {
+            "name": "cd_dep_employed_count",
+            "type": "integer"
+        },
+        {
+            "name": "cd_demo_sk",
+            "type": "integer"
+        },
+        {
+            "name": "cd_gender",
+            "type": "character"
+        },
+        {
+            "name": "cd_marital_status",
+            "type": "character"
+        },
+        {
+            "name": "cd_education_status",
+            "type": "character"
+        },
+        {
+            "name": "cd_credit_rating",
+            "type": "character"
+        }
+    ],
+    "indexes": [
+        "cd_demo_sk"
+    ],
+    "rows": 1920800,
+    "table": "customer_demographics"
+}

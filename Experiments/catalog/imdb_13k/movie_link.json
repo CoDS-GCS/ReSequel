@@ -1,0 +1,22 @@
+{
+    "table": "movie_link",
+    "rows": 29997,
+    "columns": [
+        {
+            "name": "id",
+            "type": "integer"
+        },
+        {
+            "name": "movie_id",
+            "type": "integer"
+        },
+        {
+            "name": "linked_movie_id",
+            "type": "integer"
+        },
+        {
+            "name": "link_type_id",
+            "type": "integer"
+        }
+    ]
+}

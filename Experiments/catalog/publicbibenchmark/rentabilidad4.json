@@ -1,0 +1,570 @@
+{
+    "table": "rentabilidad4",
+    "rows": 399545,
+    "columns": [
+        {
+            "name": "bodega__cedis_propio__costos_bodega",
+            "type": "double precision"
+        },
+        {
+            "name": "mercadeo__pdv__descuentos_no_habituales",
+            "type": "integer"
+        },
+        {
+            "name": "venta___merma_de_venta",
+            "type": "double precision"
+        },
+        {
+            "name": "televenta__costo_de_televendedor_normal",
+            "type": "double precision"
+        },
+        {
+            "name": "reparto__costo_de_bodegas_secundarias",
+            "type": "double precision"
+        },
+        {
+            "name": "autoventa__costo_variable",
+            "type": "double precision"
+        },
+        {
+            "name": "gerentes_venta__coordinadores_bronces",
+            "type": "numeric"
+        },
+        {
+            "name": "mercadeo__pde",
+            "type": "numeric"
+        },
+        {
+            "name": "reparto__costo_supervisores",
+            "type": "double precision"
+        },
+        {
+            "name": "autopreventa__costo_de_devoluciones",
+            "type": "double precision"
+        },
+        {
+            "name": "total_bodega_c_arriendos",
+            "type": "double precision"
+        },
+        {
+            "name": "cf",
+            "type": "double precision"
+        },
+        {
+            "name": "fx_entrega_total",
+            "type": "smallint"
+        },
+        {
+            "name": "autopreventa__costo_fijo",
+            "type": "numeric"
+        },
+        {
+            "name": "longitud",
+            "type": "bigint"
+        },
+        {
+            "name": "precio_prom__cu",
+            "type": "double precision"
+        },
+        {
+            "name": "deudor",
+            "type": "character varying"
+        },
+        {
+            "name": "jefatura_de_reparto_ncb",
+            "type": "character varying"
+        },
+        {
+            "name": "sede_foraneo_sintec",
+            "type": "character varying"
+        },
+        {
+            "name": "mercadeo__costo_refrigeración",
+            "type": "numeric"
+        },
+        {
+            "name": "guc",
+            "type": "character varying"
+        },
+        {
+            "name": "nombre_del_cliente",
+            "type": "character varying"
+        },
+        {
+            "name": "total_t1",
+            "type": "double precision"
+        },
+        {
+            "name": "op__distribuidores__filtro_de_validación_costo_variable",
+            "type": "character varying"
+        },
+        {
+            "name": "ruta_ta_ncb",
+            "type": "character varying"
+        },
+        {
+            "name": "venta__costos_edi",
+            "type": "numeric"
+        },
+        {
+            "name": "calculation1880818214638259",
+            "type": "double precision"
+        },
+        {
+            "name": "televenta_ofic__costo_televendedor_normal",
+            "type": "character varying"
+        },
+        {
+            "name": "latitud",
+            "type": "bigint"
+        },
+        {
+            "name": "ruta_pr_ncb",
+            "type": "character varying"
+        },
+        {
+            "name": "autopreventa__tiempos_de_venta___traslado_autopreventa_normal",
+            "type": "numeric"
+        },
+        {
+            "name": "fx_pr_ncb",
+            "type": "smallint"
+        },
+        {
+            "name": "dias_de_visita_co",
+            "type": "character varying"
+        },
+        {
+            "name": "gerentes_venta__costo_gerente_de_ventas_normal",
+            "type": "numeric"
+        },
+        {
+            "name": "latitud_auto_prev",
+            "type": "numeric"
+        },
+        {
+            "name": "reparto__merma_de_ruta",
+            "type": "double precision"
+        },
+        {
+            "name": "venta__costo_total_mercaderistas",
+            "type": "numeric"
+        },
+        {
+            "name": "reparto__costo_de_mantenimiento",
+            "type": "double precision"
+        },
+        {
+            "name": "gec",
+            "type": "character varying"
+        },
+        {
+            "name": "match_pr_con_ncb",
+            "type": "character varying"
+        },
+        {
+            "name": "preventa_ncb__tiempos_de_venta___traslado_preventa_ncb",
+            "type": "numeric"
+        },
+        {
+            "name": "otros_venta__costo_de_rotación_pre_televendedores",
+            "type": "numeric"
+        },
+        {
+            "name": "televenta_ofic__tiempos_de_venta",
+            "type": "character varying"
+        },
+        {
+            "name": "op__distribuidores__costo_variable",
+            "type": "double precision"
+        },
+        {
+            "name": "población_distribuidor_gvf_gvi",
+            "type": "character varying"
+        },
+        {
+            "name": "gec_ncb",
+            "type": "character varying"
+        },
+        {
+            "name": "gec__group_",
+            "type": "character varying"
+        },
+        {
+            "name": "autoventa__costo_fijo",
+            "type": "double precision"
+        },
+        {
+            "name": "dïas_de_entrega_ncb",
+            "type": "character varying"
+        },
+        {
+            "name": "total_cds",
+            "type": "double precision"
+        },
+        {
+            "name": "municipio",
+            "type": "character varying"
+        },
+        {
+            "name": "venta__costo_renta_equipo_televenta_ncb",
+            "type": "smallint"
+        },
+        {
+            "name": "jefatura_de_reparto",
+            "type": "character varying"
+        },
+        {
+            "name": "nit",
+            "type": "character varying"
+        },
+        {
+            "name": "op__distribuidores__mayoristas",
+            "type": "double precision"
+        },
+        {
+            "name": "jefe_de_ventas_ncb",
+            "type": "character varying"
+        },
+        {
+            "name": "televenta__costo_televendedor_ncb",
+            "type": "smallint"
+        },
+        {
+            "name": "t1__distruidor_tercero",
+            "type": "double precision"
+        },
+        {
+            "name": "reparto__tiempos_de_reparto_fijo___variable",
+            "type": "numeric"
+        },
+        {
+            "name": "preventa_ncb__costo_de_prevendedor_ncb",
+            "type": "double precision"
+        },
+        {
+            "name": "util__bruta",
+            "type": "double precision"
+        },
+        {
+            "name": "autoventa__tiempos_de_venta___traslado_autoventa_normal",
+            "type": "numeric"
+        },
+        {
+            "name": "ruta_de_venta",
+            "type": "character varying"
+        },
+        {
+            "name": "figura_especifica",
+            "type": "character varying"
+        },
+        {
+            "name": "reparto__rutas_fijas__costos_fijos",
+            "type": "double precision"
+        },
+        {
+            "name": "implementación_venta",
+            "type": "character varying"
+        },
+        {
+            "name": "razón_social",
+            "type": "character varying"
+        },
+        {
+            "name": "reparto__rutas_dinamicas__costos_variables",
+            "type": "double precision"
+        },
+        {
+            "name": "días_de_visita_pr",
+            "type": "character varying"
+        },
+        {
+            "name": "tradicional__moderno",
+            "type": "character varying"
+        },
+        {
+            "name": "mercadeo__pdv__descuentos_habituales",
+            "type": "integer"
+        },
+        {
+            "name": "total_mercadeo",
+            "type": "double precision"
+        },
+        {
+            "name": "op__distribuidores__prorrateo_visitas",
+            "type": "double precision"
+        },
+        {
+            "name": "fijo___dinámica",
+            "type": "character varying"
+        },
+        {
+            "name": "precio_prom__cf",
+            "type": "double precision"
+        },
+        {
+            "name": "dias_de_visita_ta_ncb",
+            "type": "character varying"
+        },
+        {
+            "name": "t1__cedis_propio",
+            "type": "double precision"
+        },
+        {
+            "name": "venta__costo_renta_de_equipo_televenta_normal",
+            "type": "numeric"
+        },
+        {
+            "name": "rentabilidad",
+            "type": "double precision"
+        },
+        {
+            "name": "fx_ta_ncb",
+            "type": "character varying"
+        },
+        {
+            "name": "uo",
+            "type": "character varying"
+        },
+        {
+            "name": "locación",
+            "type": "character varying"
+        },
+        {
+            "name": "ncb",
+            "type": "character varying"
+        },
+        {
+            "name": "reparto__rutas_fijas__costos_variables",
+            "type": "double precision"
+        },
+        {
+            "name": "sede_foráneo",
+            "type": "character varying"
+        },
+        {
+            "name": "ruta_de_reparto_ncb",
+            "type": "character varying"
+        },
+        {
+            "name": "jefe_de_ventas",
+            "type": "character varying"
+        },
+        {
+            "name": "modalidad_de_venta",
+            "type": "character varying"
+        },
+        {
+            "name": "fx_pr",
+            "type": "smallint"
+        },
+        {
+            "name": "ruta_de_reparto",
+            "type": "character varying"
+        },
+        {
+            "name": "ciudad_uo",
+            "type": "character varying"
+        },
+        {
+            "name": "reparto__devoluciones",
+            "type": "double precision"
+        },
+        {
+            "name": "bodega__mermas",
+            "type": "character varying"
+        },
+        {
+            "name": "autoventa__carga_paseante",
+            "type": "double precision"
+        },
+        {
+            "name": "deudor_ncb",
+            "type": "integer"
+        },
+        {
+            "name": "in_",
+            "type": "double precision"
+        },
+        {
+            "name": "zona",
+            "type": "character varying"
+        },
+        {
+            "name": "total_venta",
+            "type": "double precision"
+        },
+        {
+            "name": "op__distribuidores__no_gvf",
+            "type": "double precision"
+        },
+        {
+            "name": "op__distribuidores__costo_fijo",
+            "type": "double precision"
+        },
+        {
+            "name": "gerencia",
+            "type": "character varying"
+        },
+        {
+            "name": "cu",
+            "type": "double precision"
+        },
+        {
+            "name": "preventa__tiempos_de_venta___traslado_preventa_normal",
+            "type": "numeric"
+        },
+        {
+            "name": "locación__copy_",
+            "type": "character varying"
+        },
+        {
+            "name": "fxed",
+            "type": "smallint"
+        },
+        {
+            "name": "total_reparto",
+            "type": "double precision"
+        },
+        {
+            "name": "canal_de_ventas",
+            "type": "smallint"
+        },
+        {
+            "name": "venta__descuentos_lista_de_precios",
+            "type": "integer"
+        },
+        {
+            "name": "fx_entrega_total_ncb",
+            "type": "smallint"
+        },
+        {
+            "name": "bodega__costo_arriendo_terceros",
+            "type": "double precision"
+        },
+        {
+            "name": "bodega__distribuidores__costos_fijos_y_variables",
+            "type": "double precision"
+        },
+        {
+            "name": "reparto__visitas_de_reparto_acumulado_ene_may",
+            "type": "smallint"
+        },
+        {
+            "name": "ruta_pr",
+            "type": "character varying"
+        },
+        {
+            "name": "mercadeo__prorrateo_mercaderistas",
+            "type": "double precision"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "ruta_ed",
+            "type": "character varying"
+        },
+        {
+            "name": "on_off",
+            "type": "character varying"
+        },
+        {
+            "name": "autopreventa__costo_variable",
+            "type": "double precision"
+        },
+        {
+            "name": "bodega__costo_especialistas_de_operaciones",
+            "type": "character varying"
+        },
+        {
+            "name": "fx_ta",
+            "type": "smallint"
+        },
+        {
+            "name": "venta__costo_de_handheld_rutas_autoventa",
+            "type": "double precision"
+        },
+        {
+            "name": "venta__coord__ol__merc_14",
+            "type": "integer"
+        },
+        {
+            "name": "reparto__costo_de_depreciación",
+            "type": "double precision"
+        },
+        {
+            "name": "modalidad_reparto",
+            "type": "character varying"
+        },
+        {
+            "name": "fx_co",
+            "type": "smallint"
+        },
+        {
+            "name": "calle",
+            "type": "character varying"
+        },
+        {
+            "name": "figura",
+            "type": "character varying"
+        },
+        {
+            "name": "ruta_de_venta_ncb",
+            "type": "character varying"
+        },
+        {
+            "name": "longitud_auto_prev",
+            "type": "numeric"
+        },
+        {
+            "name": "venta__costo_de_handheld_rutas_preventa",
+            "type": "double precision"
+        },
+        {
+            "name": "días_de_entrega",
+            "type": "character varying"
+        },
+        {
+            "name": "dias_de_visita_ta",
+            "type": "character varying"
+        },
+        {
+            "name": "preventa__costo_de_prevendedor_normal",
+            "type": "double precision"
+        },
+        {
+            "name": "venta__costo_de_handheld_rutas_ncbs",
+            "type": "numeric"
+        },
+        {
+            "name": "días_de_visita_pr_ncb",
+            "type": "character varying"
+        },
+        {
+            "name": "reparto__rutas_dinamicas__costos_fijos",
+            "type": "double precision"
+        },
+        {
+            "name": "televenta__tiempos_de_venta_televenta_normal",
+            "type": "numeric"
+        },
+        {
+            "name": "ruta_ta",
+            "type": "character varying"
+        },
+        {
+            "name": "televenta__tiempos_de_venta_televenta_ncb",
+            "type": "smallint"
+        },
+        {
+            "name": "descripción_de_canal",
+            "type": "character varying"
+        },
+        {
+            "name": "ruta_co",
+            "type": "character varying"
+        }
+    ]
+}

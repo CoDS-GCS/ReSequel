@@ -1,0 +1,234 @@
+{
+    "table": "salariesfrance10",
+    "rows": 1343758,
+    "columns": [
+        {
+            "name": "cpprincipal",
+            "type": "character varying"
+        },
+        {
+            "name": "a88",
+            "type": "character varying"
+        },
+        {
+            "name": "ag5054",
+            "type": "double precision"
+        },
+        {
+            "name": "agp55",
+            "type": "double precision"
+        },
+        {
+            "name": "reglib",
+            "type": "character varying"
+        },
+        {
+            "name": "ze2010lib",
+            "type": "character varying"
+        },
+        {
+            "name": "latitude",
+            "type": "numeric"
+        },
+        {
+            "name": "renseigne",
+            "type": "character varying"
+        },
+        {
+            "name": "ze2010",
+            "type": "character varying"
+        },
+        {
+            "name": "libellesromebonneformation",
+            "type": "character varying"
+        },
+        {
+            "name": "femmes",
+            "type": "double precision"
+        },
+        {
+            "name": "calculation393783518250995712",
+            "type": "double precision"
+        },
+        {
+            "name": "bmosaison",
+            "type": "double precision"
+        },
+        {
+            "name": "libdom2",
+            "type": "character varying"
+        },
+        {
+            "name": "salairevf",
+            "type": "double precision"
+        },
+        {
+            "name": "embauchesnp1",
+            "type": "double precision"
+        },
+        {
+            "name": "embauchesglobal",
+            "type": "double precision"
+        },
+        {
+            "name": "embauchesnm1",
+            "type": "double precision"
+        },
+        {
+            "name": "codgeoprincipal",
+            "type": "character varying"
+        },
+        {
+            "name": "a129libcourt",
+            "type": "character varying"
+        },
+        {
+            "name": "ag4049",
+            "type": "double precision"
+        },
+        {
+            "name": "ag2529",
+            "type": "double precision"
+        },
+        {
+            "name": "interimnm1",
+            "type": "double precision"
+        },
+        {
+            "name": "bmointentions",
+            "type": "double precision"
+        },
+        {
+            "name": "bmodifficile",
+            "type": "double precision"
+        },
+        {
+            "name": "hommes",
+            "type": "double precision"
+        },
+        {
+            "name": "calculation490892384732147714",
+            "type": "character varying"
+        },
+        {
+            "name": "empsalnp1",
+            "type": "double precision"
+        },
+        {
+            "name": "libromeminuscule",
+            "type": "character varying"
+        },
+        {
+            "name": "ag3039",
+            "type": "double precision"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "a129",
+            "type": "character varying"
+        },
+        {
+            "name": "rome",
+            "type": "character varying"
+        },
+        {
+            "name": "calculation163536984210948109",
+            "type": "smallint"
+        },
+        {
+            "name": "libdom1",
+            "type": "character varying"
+        },
+        {
+            "name": "a129lib",
+            "type": "character varying"
+        },
+        {
+            "name": "tksiret",
+            "type": "smallint"
+        },
+        {
+            "name": "nompagesjaunes",
+            "type": "character varying"
+        },
+        {
+            "name": "calculation392657618632466432",
+            "type": "double precision"
+        },
+        {
+            "name": "apprenti",
+            "type": "double precision"
+        },
+        {
+            "name": "uimmfamilles",
+            "type": "character varying"
+        },
+        {
+            "name": "adecconbcandidats",
+            "type": "numeric"
+        },
+        {
+            "name": "adeccosalairesbruts",
+            "type": "numeric"
+        },
+        {
+            "name": "agm25",
+            "type": "double precision"
+        },
+        {
+            "name": "interimnp1",
+            "type": "double precision"
+        },
+        {
+            "name": "nbets",
+            "type": "smallint"
+        },
+        {
+            "name": "a129libcourtpj",
+            "type": "character varying"
+        },
+        {
+            "name": "embauchecdd",
+            "type": "double precision"
+        },
+        {
+            "name": "repere1__copie_",
+            "type": "smallint"
+        },
+        {
+            "name": "empsalnm1",
+            "type": "double precision"
+        },
+        {
+            "name": "adecconbcandmetiersproches",
+            "type": "double precision"
+        },
+        {
+            "name": "embauchecdi",
+            "type": "double precision"
+        },
+        {
+            "name": "a88lib",
+            "type": "character varying"
+        },
+        {
+            "name": "longitude",
+            "type": "double precision"
+        },
+        {
+            "name": "nbdepe",
+            "type": "smallint"
+        },
+        {
+            "name": "romelib",
+            "type": "character varying"
+        },
+        {
+            "name": "salairebrut",
+            "type": "double precision"
+        }
+    ]
+}

@@ -1,0 +1,54 @@
+{
+    "table": "title",
+    "rows": 2528312,
+    "columns": [
+        {
+            "name": "episode_of_id",
+            "type": "integer"
+        },
+        {
+            "name": "season_nr",
+            "type": "integer"
+        },
+        {
+            "name": "episode_nr",
+            "type": "integer"
+        },
+        {
+            "name": "production_year",
+            "type": "integer"
+        },
+        {
+            "name": "id",
+            "type": "integer"
+        },
+        {
+            "name": "imdb_id",
+            "type": "integer"
+        },
+        {
+            "name": "kind_id",
+            "type": "integer"
+        },
+        {
+            "name": "md5sum",
+            "type": "character varying"
+        },
+        {
+            "name": "title",
+            "type": "character varying"
+        },
+        {
+            "name": "imdb_index",
+            "type": "character varying"
+        },
+        {
+            "name": "phonetic_code",
+            "type": "character varying"
+        },
+        {
+            "name": "series_years",
+            "type": "character varying"
+        }
+    ]
+}

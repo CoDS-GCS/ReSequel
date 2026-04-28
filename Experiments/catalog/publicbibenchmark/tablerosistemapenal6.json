@@ -1,0 +1,58 @@
+{
+    "table": "tablerosistemapenal6",
+    "rows": 6521516,
+    "columns": [
+        {
+            "name": "corte",
+            "type": "character varying"
+        },
+        {
+            "name": "tribunal",
+            "type": "character varying"
+        },
+        {
+            "name": "tip_trib",
+            "type": "character varying"
+        },
+        {
+            "name": "año_causa",
+            "type": "smallint"
+        },
+        {
+            "name": "tipo",
+            "type": "smallint"
+        },
+        {
+            "name": "rit",
+            "type": "smallint"
+        },
+        {
+            "name": "codmateria",
+            "type": "smallint"
+        },
+        {
+            "name": "fecha_audiencia",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "país",
+            "type": "character varying"
+        },
+        {
+            "name": "codtrib",
+            "type": "smallint"
+        },
+        {
+            "name": "audiencia",
+            "type": "character varying"
+        },
+        {
+            "name": "delito",
+            "type": "character varying"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        }
+    ]
+}

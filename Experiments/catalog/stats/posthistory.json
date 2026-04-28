@@ -1,0 +1,42 @@
+{
+    "table": "posthistory",
+    "rows": 303187,
+    "columns": [
+        {
+            "name": "id",
+            "type": "integer"
+        },
+        {
+            "name": "posthistorytypeid",
+            "type": "integer"
+        },
+        {
+            "name": "postid",
+            "type": "integer"
+        },
+        {
+            "name": "creationdate",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "userid",
+            "type": "integer"
+        },
+        {
+            "name": "userdisplayname",
+            "type": "character varying"
+        },
+        {
+            "name": "text",
+            "type": "text"
+        },
+        {
+            "name": "revisionguid",
+            "type": "character varying"
+        },
+        {
+            "name": "comment",
+            "type": "text"
+        }
+    ]
+}

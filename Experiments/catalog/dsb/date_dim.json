@@ -1,0 +1,130 @@
+{
+    "columns": [
+        {
+            "name": "d_quarter_seq",
+            "type": "integer"
+        },
+        {
+            "name": "d_year",
+            "type": "integer"
+        },
+        {
+            "name": "d_first_dom",
+            "type": "integer"
+        },
+        {
+            "name": "d_last_dom",
+            "type": "integer"
+        },
+        {
+            "name": "d_same_day_ly",
+            "type": "integer"
+        },
+        {
+            "name": "d_same_day_lq",
+            "type": "integer"
+        },
+        {
+            "name": "d_dow",
+            "type": "integer"
+        },
+        {
+            "name": "d_moy",
+            "type": "integer"
+        },
+        {
+            "name": "d_dom",
+            "type": "integer"
+        },
+        {
+            "name": "d_qoy",
+            "type": "integer"
+        },
+        {
+            "name": "d_date_sk",
+            "type": "integer"
+        },
+        {
+            "name": "d_fy_year",
+            "type": "integer"
+        },
+        {
+            "name": "d_fy_quarter_seq",
+            "type": "integer"
+        },
+        {
+            "name": "d_fy_week_seq",
+            "type": "integer"
+        },
+        {
+            "name": "d_date",
+            "type": "date"
+        },
+        {
+            "name": "d_month_seq",
+            "type": "integer"
+        },
+        {
+            "name": "d_week_seq",
+            "type": "integer"
+        },
+        {
+            "name": "d_current_year",
+            "type": "character"
+        },
+        {
+            "name": "d_date_id",
+            "type": "character"
+        },
+        {
+            "name": "d_day_name",
+            "type": "character"
+        },
+        {
+            "name": "d_quarter_name",
+            "type": "character"
+        },
+        {
+            "name": "d_holiday",
+            "type": "character"
+        },
+        {
+            "name": "d_weekend",
+            "type": "character"
+        },
+        {
+            "name": "d_following_holiday",
+            "type": "character"
+        },
+        {
+            "name": "d_current_day",
+            "type": "character"
+        },
+        {
+            "name": "d_current_week",
+            "type": "character"
+        },
+        {
+            "name": "d_current_month",
+            "type": "character"
+        },
+        {
+            "name": "d_current_quarter",
+            "type": "character"
+        }
+    ],
+    "indexes": [
+        "d_date_sk",
+        "d_year, d_month_seq, d_moy, d_date_sk",
+        "d_year, d_moy, d_date_sk",
+        "d_date_sk, d_year, d_moy",
+        "d_year, d_qoy, d_date_sk",
+        "d_moy, d_year, d_date_sk",
+        "d_month_seq) INCLUDE (d_date_sk",
+        "d_year, d_date_sk",
+        "d_year, d_moy",
+        "d_month_seq, d_date"
+    ],
+    "rows": 73049,
+    "table": "date_dim"
+}

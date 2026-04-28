@@ -1,0 +1,150 @@
+{
+    "columns": [
+        {
+            "name": "ws_sold_date_sk",
+            "type": "integer"
+        },
+        {
+            "name": "ws_sold_time_sk",
+            "type": "integer"
+        },
+        {
+            "name": "ws_ship_date_sk",
+            "type": "integer"
+        },
+        {
+            "name": "ws_item_sk",
+            "type": "integer"
+        },
+        {
+            "name": "ws_bill_customer_sk",
+            "type": "integer"
+        },
+        {
+            "name": "ws_bill_cdemo_sk",
+            "type": "integer"
+        },
+        {
+            "name": "ws_bill_hdemo_sk",
+            "type": "integer"
+        },
+        {
+            "name": "ws_bill_addr_sk",
+            "type": "integer"
+        },
+        {
+            "name": "ws_ship_customer_sk",
+            "type": "integer"
+        },
+        {
+            "name": "ws_ship_cdemo_sk",
+            "type": "integer"
+        },
+        {
+            "name": "ws_ship_hdemo_sk",
+            "type": "integer"
+        },
+        {
+            "name": "ws_ship_addr_sk",
+            "type": "integer"
+        },
+        {
+            "name": "ws_web_page_sk",
+            "type": "integer"
+        },
+        {
+            "name": "ws_web_site_sk",
+            "type": "integer"
+        },
+        {
+            "name": "ws_ship_mode_sk",
+            "type": "integer"
+        },
+        {
+            "name": "ws_warehouse_sk",
+            "type": "integer"
+        },
+        {
+            "name": "ws_promo_sk",
+            "type": "integer"
+        },
+        {
+            "name": "ws_order_number",
+            "type": "integer"
+        },
+        {
+            "name": "ws_quantity",
+            "type": "integer"
+        },
+        {
+            "name": "ws_wholesale_cost",
+            "type": "numeric"
+        },
+        {
+            "name": "ws_list_price",
+            "type": "numeric"
+        },
+        {
+            "name": "ws_sales_price",
+            "type": "numeric"
+        },
+        {
+            "name": "ws_ext_discount_amt",
+            "type": "numeric"
+        },
+        {
+            "name": "ws_ext_sales_price",
+            "type": "numeric"
+        },
+        {
+            "name": "ws_ext_wholesale_cost",
+            "type": "numeric"
+        },
+        {
+            "name": "ws_ext_list_price",
+            "type": "numeric"
+        },
+        {
+            "name": "ws_ext_tax",
+            "type": "numeric"
+        },
+        {
+            "name": "ws_coupon_amt",
+            "type": "numeric"
+        },
+        {
+            "name": "ws_ext_ship_cost",
+            "type": "numeric"
+        },
+        {
+            "name": "ws_net_paid",
+            "type": "numeric"
+        },
+        {
+            "name": "ws_net_paid_inc_tax",
+            "type": "numeric"
+        },
+        {
+            "name": "ws_net_paid_inc_ship",
+            "type": "numeric"
+        },
+        {
+            "name": "ws_net_paid_inc_ship_tax",
+            "type": "numeric"
+        },
+        {
+            "name": "ws_net_profit",
+            "type": "numeric"
+        }
+    ],
+    "indexes": [
+        "ws_item_sk, ws_order_number",
+        "ws_ship_date_sk, ws_order_number, ws_ship_addr_sk, ws_web_site_sk) INCLUDE (ws_warehouse_sk, ws_ext_ship_cost, ws_net_profit",
+        "ws_sold_date_sk, ws_item_sk, ws_bill_customer_sk) INCLUDE (ws_order_number",
+        "ws_sold_date_sk) INCLUDE (ws_bill_addr_sk, ws_ext_sales_price",
+        "ws_order_number) INCLUDE (ws_warehouse_sk",
+        "ws_sold_date_sk, ws_bill_customer_sk"
+    ],
+    "rows": 0,
+    "table": "web_sales"
+}

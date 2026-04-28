@@ -1,0 +1,54 @@
+{
+    "table": "bimbo1",
+    "rows": 74180464,
+    "columns": [
+        {
+            "name": "clienteid",
+            "type": "integer"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "rutasak",
+            "type": "smallint"
+        },
+        {
+            "name": "demandauniequil",
+            "type": "smallint"
+        },
+        {
+            "name": "agenciaid",
+            "type": "smallint"
+        },
+        {
+            "name": "devuniproxima",
+            "type": "integer"
+        },
+        {
+            "name": "productoid",
+            "type": "integer"
+        },
+        {
+            "name": "devproxima",
+            "type": "double precision"
+        },
+        {
+            "name": "ventahoy",
+            "type": "double precision"
+        },
+        {
+            "name": "canalid",
+            "type": "smallint"
+        },
+        {
+            "name": "semana",
+            "type": "smallint"
+        },
+        {
+            "name": "ventaunihoy",
+            "type": "smallint"
+        }
+    ]
+}

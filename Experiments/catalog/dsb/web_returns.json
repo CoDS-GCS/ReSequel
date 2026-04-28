@@ -1,0 +1,105 @@
+{
+    "columns": [
+        {
+            "name": "wr_returned_date_sk",
+            "type": "integer"
+        },
+        {
+            "name": "wr_returned_time_sk",
+            "type": "integer"
+        },
+        {
+            "name": "wr_item_sk",
+            "type": "integer"
+        },
+        {
+            "name": "wr_refunded_customer_sk",
+            "type": "integer"
+        },
+        {
+            "name": "wr_refunded_cdemo_sk",
+            "type": "integer"
+        },
+        {
+            "name": "wr_refunded_hdemo_sk",
+            "type": "integer"
+        },
+        {
+            "name": "wr_refunded_addr_sk",
+            "type": "integer"
+        },
+        {
+            "name": "wr_returning_customer_sk",
+            "type": "integer"
+        },
+        {
+            "name": "wr_returning_cdemo_sk",
+            "type": "integer"
+        },
+        {
+            "name": "wr_returning_hdemo_sk",
+            "type": "integer"
+        },
+        {
+            "name": "wr_returning_addr_sk",
+            "type": "integer"
+        },
+        {
+            "name": "wr_web_page_sk",
+            "type": "integer"
+        },
+        {
+            "name": "wr_reason_sk",
+            "type": "integer"
+        },
+        {
+            "name": "wr_order_number",
+            "type": "integer"
+        },
+        {
+            "name": "wr_return_quantity",
+            "type": "integer"
+        },
+        {
+            "name": "wr_return_amt",
+            "type": "numeric"
+        },
+        {
+            "name": "wr_return_tax",
+            "type": "numeric"
+        },
+        {
+            "name": "wr_return_amt_inc_tax",
+            "type": "numeric"
+        },
+        {
+            "name": "wr_fee",
+            "type": "numeric"
+        },
+        {
+            "name": "wr_return_ship_cost",
+            "type": "numeric"
+        },
+        {
+            "name": "wr_refunded_cash",
+            "type": "numeric"
+        },
+        {
+            "name": "wr_reversed_charge",
+            "type": "numeric"
+        },
+        {
+            "name": "wr_account_credit",
+            "type": "numeric"
+        },
+        {
+            "name": "wr_net_loss",
+            "type": "numeric"
+        }
+    ],
+    "indexes": [
+        "wr_item_sk, wr_order_number"
+    ],
+    "rows": 0,
+    "table": "web_returns"
+}

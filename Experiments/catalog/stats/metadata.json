@@ -1,0 +1,579 @@
+{
+    "dataset_name": "stats",
+    "number_of_tables": 8,
+    "table_names": [
+        "users",
+        "badges",
+        "posts",
+        "tags",
+        "postlinks",
+        "comments",
+        "posthistory",
+        "votes"
+    ],
+    "table_indexes": {
+        "users": [
+            "id"
+        ],
+        "badges": [
+            "id",
+            "userid"
+        ],
+        "posts": [
+            "id",
+            "parentid",
+            "owneruserid",
+            "lasteditoruserid"
+        ],
+        "tags": [
+            "id",
+            "excerptpostid"
+        ],
+        "postlinks": [
+            "id",
+            "postid",
+            "relatedpostid"
+        ],
+        "comments": [
+            "id",
+            "userid",
+            "postid"
+        ],
+        "posthistory": [
+            "id",
+            "userid",
+            "postid"
+        ],
+        "votes": [
+            "id",
+            "userid",
+            "postid"
+        ]
+    },
+    "dependency": {
+        "users": {
+            "primary_key": [
+                "id"
+            ],
+            "foreign_key": []
+        },
+        "badges": {
+            "primary_key": [
+                "id"
+            ],
+            "foreign_key": [
+                {
+                    "column_name": "userid",
+                    "foreign_table_name": "users",
+                    "foreign_column_name": "id"
+                }
+            ]
+        },
+        "posts": {
+            "primary_key": [
+                "id"
+            ],
+            "foreign_key": [
+                {
+                    "column_name": "lasteditoruserid",
+                    "foreign_table_name": "users",
+                    "foreign_column_name": "id"
+                },
+                {
+                    "column_name": "owneruserid",
+                    "foreign_table_name": "users",
+                    "foreign_column_name": "id"
+                },
+                {
+                    "column_name": "parentid",
+                    "foreign_table_name": "posts",
+                    "foreign_column_name": "id"
+                }
+            ]
+        },
+        "tags": {
+            "primary_key": [
+                "id"
+            ],
+            "foreign_key": [
+                {
+                    "column_name": "excerptpostid",
+                    "foreign_table_name": "posts",
+                    "foreign_column_name": "id"
+                }
+            ]
+        },
+        "postlinks": {
+            "primary_key": [
+                "id"
+            ],
+            "foreign_key": [
+                {
+                    "column_name": "postid",
+                    "foreign_table_name": "posts",
+                    "foreign_column_name": "id"
+                },
+                {
+                    "column_name": "relatedpostid",
+                    "foreign_table_name": "posts",
+                    "foreign_column_name": "id"
+                }
+            ]
+        },
+        "comments": {
+            "primary_key": [
+                "id"
+            ],
+            "foreign_key": [
+                {
+                    "column_name": "postid",
+                    "foreign_table_name": "posts",
+                    "foreign_column_name": "id"
+                },
+                {
+                    "column_name": "userid",
+                    "foreign_table_name": "users",
+                    "foreign_column_name": "id"
+                }
+            ]
+        },
+        "posthistory": {
+            "primary_key": [
+                "id"
+            ],
+            "foreign_key": [
+                {
+                    "column_name": "postid",
+                    "foreign_table_name": "posts",
+                    "foreign_column_name": "id"
+                },
+                {
+                    "column_name": "userid",
+                    "foreign_table_name": "users",
+                    "foreign_column_name": "id"
+                }
+            ]
+        },
+        "votes": {
+            "primary_key": [
+                "id"
+            ],
+            "foreign_key": [
+                {
+                    "column_name": "postid",
+                    "foreign_table_name": "posts",
+                    "foreign_column_name": "id"
+                },
+                {
+                    "column_name": "userid",
+                    "foreign_table_name": "users",
+                    "foreign_column_name": "id"
+                }
+            ]
+        }
+    },
+    "profile": {
+        "users": {
+            "rows": 40325,
+            "upvotes": {
+                "min": 0.0,
+                "max": 11442.0,
+                "avg": 6.587451952882827,
+                "stddev": 134.493655316421,
+                "sum": 265639.0,
+                "distinct_count": 332
+            },
+            "downvotes": {
+                "min": 0.0,
+                "max": 1920.0,
+                "avg": 0.2609051456912585,
+                "stddev": 11.25292235403129,
+                "sum": 10521.0,
+                "distinct_count": 76
+            },
+            "accountid": {
+                "min": -1.0,
+                "max": 5027354.0,
+                "avg": 2032547.1615375078,
+                "stddev": 1571883.9549,
+                "sum": 81962464289.0,
+                "distinct_count": 40325
+            },
+            "age": {
+                "min": 13.0,
+                "max": 94.0,
+                "avg": 31.64258235152681,
+                "stddev": 9.29417429168555,
+                "sum": 263203.0,
+                "distinct_count": 70
+            },
+            "reputation": {
+                "min": 1.0,
+                "max": 87393.0,
+                "avg": 84.07873527588345,
+                "stddev": 791.426513187799,
+                "sum": 3390475.0,
+                "distinct_count": 965
+            },
+            "views": {
+                "min": 0.0,
+                "max": 20932.0,
+                "avg": 8.909634221946684,
+                "stddev": 154.27396321575,
+                "sum": 359281.0,
+                "distinct_count": 362
+            },
+            "id": {
+                "distinct_count": 40325
+            },
+            "creationdate": {
+                "distinct_count": 40325
+            },
+            "lastaccessdate": {
+                "distinct_count": 40325
+            },
+            "profileimageurl": {
+                "distinct_count": 40325
+            },
+            "displayname": {
+                "distinct_count": 40325
+            },
+            "websiteurl": {
+                "distinct_count": 40325
+            },
+            "location": {
+                "distinct_count": 40325
+            },
+            "aboutme": {
+                "distinct_count": 40325
+            }
+        },
+        "badges": {
+            "rows": 79851,
+            "userid": {
+                "min": 2.0,
+                "max": 55746.0,
+                "avg": 18638.277792388322,
+                "stddev": 15714.43732578,
+                "sum": 1488285120.0,
+                "distinct_count": 25078
+            },
+            "id": {
+                "distinct_count": 79851
+            },
+            "date": {
+                "distinct_count": 79851
+            },
+            "name": {
+                "distinct_count": 79851
+            }
+        },
+        "posts": {
+            "rows": 91976,
+            "parentid": {
+                "min": 1.0,
+                "max": 115375.0,
+                "avg": 48358.278400167525,
+                "stddev": 34091.46136026,
+                "sum": 2309349585.0,
+                "distinct_count": 29006
+            },
+            "score": {
+                "min": -19.0,
+                "max": 192.0,
+                "avg": 2.7919022353657477,
+                "stddev": 4.981866556567042,
+                "sum": 256788.0,
+                "distinct_count": 130
+            },
+            "viewcount": {
+                "min": 1.0,
+                "max": 175495.0,
+                "avg": 565.7460217609096,
+                "stddev": 2449.796066299833,
+                "sum": 24282385.0,
+                "distinct_count": 3714
+            },
+            "posttypeid": {
+                "min": 1.0,
+                "max": 7.0,
+                "avg": 1.568865791075933,
+                "stddev": 0.6117434087461288,
+                "sum": 144298.0,
+                "distinct_count": 7
+            },
+            "owneruserid": {
+                "min": -1.0,
+                "max": 55746.0,
+                "avg": 16546.764726662546,
+                "stddev": 15273.36710775,
+                "sum": 1498872136.0,
+                "distinct_count": 21983
+            },
+            "acceptedanswerid": {
+                "min": 5.0,
+                "max": 115345.0,
+                "avg": 52241.70299319728,
+                "stddev": 33456.24838314,
+                "sum": 767953034.0,
+                "distinct_count": 14700
+            },
+            "answercount": {
+                "min": 0.0,
+                "max": 136.0,
+                "avg": 1.1126255213065865,
+                "stddev": 1.4905696746655994,
+                "sum": 47755.0,
+                "distinct_count": 31
+            },
+            "commentcount": {
+                "min": 0.0,
+                "max": 45.0,
+                "avg": 1.8951139427676784,
+                "stddev": 2.639020064503524,
+                "sum": 174305.0,
+                "distinct_count": 39
+            },
+            "favoritecount": {
+                "min": 0.0,
+                "max": 233.0,
+                "avg": 2.5434848256077305,
+                "stddev": 5.91926589841814,
+                "sum": 33691.0,
+                "distinct_count": 77
+            },
+            "lasteditoruserid": {
+                "min": -1.0,
+                "max": 55733.0,
+                "avg": 11923.021295196251,
+                "stddev": 13392.70575799,
+                "sum": 531897903.0,
+                "distinct_count": 6578
+            },
+            "communityowneddate": {
+                "distinct_count": 1938
+            },
+            "closeddate": {
+                "distinct_count": 1938
+            },
+            "id": {
+                "distinct_count": 1938
+            },
+            "lasactivitydate": {
+                "distinct_count": 1938
+            },
+            "creationdate": {
+                "distinct_count": 1938
+            },
+            "lasteditdate": {
+                "distinct_count": 1938
+            },
+            "lasteditordisplayname": {
+                "distinct_count": 1938
+            },
+            "body": {
+                "distinct_count": 1938
+            },
+            "title": {
+                "distinct_count": 1938
+            },
+            "tags": {
+                "distinct_count": 1938
+            },
+            "ownerdisplayname": {
+                "distinct_count": 1938
+            }
+        },
+        "tags": {
+            "rows": 1032,
+            "count": {
+                "min": 1.0,
+                "max": 7244.0,
+                "avg": 114.0077519379845,
+                "stddev": 367.419446146208,
+                "sum": 117656.0,
+                "distinct_count": 272
+            },
+            "excerptpostid": {
+                "min": 2331.0,
+                "max": 114058.0,
+                "avg": 54505.44295302013,
+                "stddev": 24552.85907694,
+                "sum": 32485244.0,
+                "distinct_count": 596
+            },
+            "wikipostid": {
+                "min": 2254.0,
+                "max": 114057.0,
+                "avg": 54504.31543624161,
+                "stddev": 24553.13069938,
+                "sum": 32484572.0,
+                "distinct_count": 596
+            },
+            "id": {
+                "distinct_count": 1032
+            },
+            "tagname": {
+                "distinct_count": 1032
+            }
+        },
+        "postlinks": {
+            "rows": 11102,
+            "postid": {
+                "min": 4.0,
+                "max": 115360.0,
+                "avg": 60227.767879661325,
+                "stddev": 32468.37837492,
+                "sum": 668648679.0,
+                "distinct_count": 7604
+            },
+            "relatedpostid": {
+                "min": 1.0,
+                "max": 115163.0,
+                "avg": 32982.605386416864,
+                "stddev": 28950.09231047,
+                "sum": 366172885.0,
+                "distinct_count": 5177
+            },
+            "linktypeid": {
+                "min": 1.0,
+                "max": 3.0,
+                "avg": 1.165015312556296,
+                "stddev": 0.5502979634779245,
+                "sum": 12934.0,
+                "distinct_count": 2
+            },
+            "id": {
+                "distinct_count": 11102
+            },
+            "creationdate": {
+                "distinct_count": 11102
+            }
+        },
+        "comments": {
+            "rows": 174305,
+            "userid": {
+                "min": 3.0,
+                "max": 55746.0,
+                "avg": 12443.055374117923,
+                "stddev": 13612.46902802,
+                "sum": 2133610705.0,
+                "distinct_count": 13647
+            },
+            "postid": {
+                "min": 1.0,
+                "max": 115376.0,
+                "avg": 54243.58109061702,
+                "stddev": 33210.06868157,
+                "sum": 9454927402.0,
+                "distinct_count": 53418
+            },
+            "score": {
+                "min": 0.0,
+                "max": 90.0,
+                "avg": 0.38846275207251657,
+                "stddev": 1.053337619494215,
+                "sum": 67711.0,
+                "distinct_count": 36
+            },
+            "id": {
+                "distinct_count": 174305
+            },
+            "creationdate": {
+                "distinct_count": 174305
+            },
+            "text": {
+                "distinct_count": 174305
+            },
+            "userdisplayname": {
+                "distinct_count": 174305
+            }
+        },
+        "posthistory": {
+            "rows": 303187,
+            "posthistorytypeid": {
+                "min": 1.0,
+                "max": 38.0,
+                "avg": 4.908544891436638,
+                "stddev": 6.416205489031173,
+                "sum": 1488207.0,
+                "distinct_count": 25
+            },
+            "postid": {
+                "min": 1.0,
+                "max": 115378.0,
+                "avg": 56538.34972805562,
+                "stddev": 33367.85084467,
+                "sum": 17141692639.0,
+                "distinct_count": 91976
+            },
+            "userid": {
+                "min": -1.0,
+                "max": 55746.0,
+                "avg": 16035.054630151955,
+                "stddev": 15307.01238876,
+                "sum": 4519624463.0,
+                "distinct_count": 22107
+            },
+            "id": {
+                "distinct_count": 303187
+            },
+            "creationdate": {
+                "distinct_count": 303187
+            },
+            "userdisplayname": {
+                "distinct_count": 303187
+            },
+            "text": {
+                "distinct_count": 303187
+            },
+            "revisionguid": {
+                "distinct_count": 303187
+            },
+            "comment": {
+                "distinct_count": 303187
+            }
+        },
+        "votes": {
+            "rows": 328064,
+            "postid": {
+                "min": 1.0,
+                "max": 115376.0,
+                "avg": 40805.12042162505,
+                "stddev": 33225.08390006,
+                "sum": 13386691026.0,
+                "distinct_count": 76833
+            },
+            "votetypeid": {
+                "min": 1.0,
+                "max": 16.0,
+                "avg": 2.7211733076472884,
+                "stddev": 2.469279391220691,
+                "sum": 892719.0,
+                "distinct_count": 12
+            },
+            "userid": {
+                "min": -1.0,
+                "max": 55706.0,
+                "avg": 14338.121503923654,
+                "stddev": 13488.21290199,
+                "sum": 498808909.0,
+                "distinct_count": 5543
+            },
+            "bountyamount": {
+                "min": 0.0,
+                "max": 500.0,
+                "avg": 67.34518348623853,
+                "stddev": 44.21695974717826,
+                "sum": 117450.0,
+                "distinct_count": 13
+            },
+            "id": {
+                "distinct_count": 328064
+            },
+            "creationdate": {
+                "distinct_count": 328064
+            }
+        }
+    }
+}

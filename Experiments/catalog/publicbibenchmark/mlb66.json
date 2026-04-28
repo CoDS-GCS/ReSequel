@@ -1,0 +1,126 @@
+{
+    "table": "mlb66",
+    "rows": 2840785,
+    "columns": [
+        {
+            "name": "theta",
+            "type": "double precision"
+        },
+        {
+            "name": "battedballtype",
+            "type": "character varying"
+        },
+        {
+            "name": "date",
+            "type": "date"
+        },
+        {
+            "name": "year",
+            "type": "smallint"
+        },
+        {
+            "name": "stand",
+            "type": "character varying"
+        },
+        {
+            "name": "day",
+            "type": "smallint"
+        },
+        {
+            "name": "battername",
+            "type": "character varying"
+        },
+        {
+            "name": "awayteam",
+            "type": "character varying"
+        },
+        {
+            "name": "hometeam",
+            "type": "character varying"
+        },
+        {
+            "name": "our_y",
+            "type": "double precision"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "inningside",
+            "type": "character varying"
+        },
+        {
+            "name": "pthrows",
+            "type": "character varying"
+        },
+        {
+            "name": "b",
+            "type": "smallint"
+        },
+        {
+            "name": "level",
+            "type": "character varying"
+        },
+        {
+            "name": "fieldedby",
+            "type": "character varying"
+        },
+        {
+            "name": "des",
+            "type": "character varying"
+        },
+        {
+            "name": "atbatdes",
+            "type": "character varying"
+        },
+        {
+            "name": "event",
+            "type": "character varying"
+        },
+        {
+            "name": "league",
+            "type": "character varying"
+        },
+        {
+            "name": "r",
+            "type": "numeric"
+        },
+        {
+            "name": "position",
+            "type": "character varying"
+        },
+        {
+            "name": "s",
+            "type": "smallint"
+        },
+        {
+            "name": "o",
+            "type": "smallint"
+        },
+        {
+            "name": "pitchername",
+            "type": "character varying"
+        },
+        {
+            "name": "month",
+            "type": "smallint"
+        },
+        {
+            "name": "gamedaylink",
+            "type": "character varying"
+        },
+        {
+            "name": "bheight",
+            "type": "character varying"
+        },
+        {
+            "name": "our_x",
+            "type": "double precision"
+        },
+        {
+            "name": "inning",
+            "type": "smallint"
+        }
+    ]
+}

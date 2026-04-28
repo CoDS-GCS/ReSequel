@@ -1,0 +1,50 @@
+{
+    "table": "arade1",
+    "rows": 9888775,
+    "columns": [
+        {
+            "name": "wnet__bin_",
+            "type": "smallint"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "f2",
+            "type": "character varying"
+        },
+        {
+            "name": "f5",
+            "type": "numeric"
+        },
+        {
+            "name": "f8",
+            "type": "numeric"
+        },
+        {
+            "name": "f6",
+            "type": "character varying"
+        },
+        {
+            "name": "f4",
+            "type": "numeric"
+        },
+        {
+            "name": "f1",
+            "type": "character varying"
+        },
+        {
+            "name": "f3",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "f9",
+            "type": "numeric"
+        },
+        {
+            "name": "f7",
+            "type": "character varying"
+        }
+    ]
+}

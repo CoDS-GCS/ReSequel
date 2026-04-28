@@ -1,0 +1,101 @@
+{
+    "dependency": {
+        "customer": {
+            "foreign_key": [
+                {
+                    "column_name": "c_nationkey",
+                    "foreign_column_name": "n_nationkey",
+                    "foreign_table_name": "nation"
+                }
+            ],
+            "primary_key": [
+                "c_custkey"
+            ]
+        },
+        "lineitem": {
+            "foreign_key": [
+                {
+                    "column_name": "l_orderkey",
+                    "foreign_column_name": "o_orderkey",
+                    "foreign_table_name": "orders"
+                },
+                {
+                    "column_name": "l_partkey",
+                    "foreign_column_name": "p_partkey",
+                    "foreign_table_name": "part"
+                },
+                {
+                    "column_name": "l_suppkey",
+                    "foreign_column_name": "s_suppkey",
+                    "foreign_table_name": "supplier"
+                }
+            ],
+            "primary_key": ["l_orderkey","l_partkey","l_suppkey"]
+        },
+        "nation": {
+            "foreign_key": [
+                {
+                    "column_name": "n_regionkey",
+                    "foreign_column_name": "r_regionkey",
+                    "foreign_table_name": "region"
+                }
+            ],
+            "primary_key": [
+                "n_nationkey"
+            ]
+        },
+        "orders": {
+            "foreign_key": [
+                {
+                    "column_name": "o_custkey",
+                    "foreign_column_name": "c_custkey",
+                    "foreign_table_name": "customer"
+                }
+            ],
+            "primary_key": [
+                "o_orderkey"
+            ]
+        },
+        "part": {
+            "foreign_key": [],
+            "primary_key": [
+                "p_partkey"
+            ]
+        },
+        "partsupp": {
+            "foreign_key": [
+                {
+                    "column_name": "ps_partkey",
+                    "foreign_column_name": "p_partkey",
+                    "foreign_table_name": "part"
+                },
+                {
+                    "column_name": "ps_suppkey",
+                    "foreign_column_name": "s_suppkey",
+                    "foreign_table_name": "supplier"
+                }
+            ],
+            "primary_key": [
+                "ps_partkey"
+            ]
+        },
+        "region": {
+            "foreign_key": [],
+            "primary_key": [
+                "r_regionkey"
+            ]
+        },
+        "supplier": {
+            "foreign_key": [
+                {
+                    "column_name": "s_nationkey",
+                    "foreign_column_name": "n_nationkey",
+                    "foreign_table_name": "nation"
+                }
+            ],
+            "primary_key": [
+                "s_suppkey"
+            ]
+        }
+    }
+}

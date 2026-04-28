@@ -1,0 +1,34 @@
+{
+    "table": "tags",
+    "rows": 1232,
+    "columns": [
+        {
+            "name": "excerptpostid",
+            "type": "integer"
+        },
+        {
+            "name": "isrequired",
+            "type": "boolean"
+        },
+        {
+            "name": "count",
+            "type": "integer"
+        },
+        {
+            "name": "id",
+            "type": "integer"
+        },
+        {
+            "name": "wikipostid",
+            "type": "integer"
+        },
+        {
+            "name": "ismoderatoronly",
+            "type": "boolean"
+        },
+        {
+            "name": "tagname",
+            "type": "character varying"
+        }
+    ]
+}

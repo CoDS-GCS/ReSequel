@@ -1,0 +1,699 @@
+{
+    "dataset_name": "stackoverflow",
+    "number_of_tables": 13,
+    "table_names": [
+        "posthistorytypes",
+        "linktypes",
+        "posttypes",
+        "closereasontypes",
+        "votetypes",
+        "users",
+        "postlinks",
+        "badges",
+        "posts",
+        "comments",
+        "posthistory",
+        "tags",
+        "votes"
+    ],
+    "table_indexes": {
+        "posthistorytypes": [
+            "id"
+        ],
+        "linktypes": [
+            "id"
+        ],
+        "posttypes": [
+            "id"
+        ],
+        "closereasontypes": [
+            "id"
+        ],
+        "votetypes": [
+            "id"
+        ],
+        "users": [
+            "id"
+        ],
+        "postlinks": [
+            "id"
+        ],
+        "badges": [
+            "id"
+        ],
+        "posts": [
+            "id"
+        ],
+        "comments": [
+            "id"
+        ],
+        "posthistory": [
+            "id"
+        ],
+        "tags": [
+            "id"
+        ],
+        "votes": [
+            "id"
+        ]
+    },
+    "dependency": {
+        "posthistorytypes": {
+            "primary_key": [
+                "id"
+            ],
+            "foreign_key": []
+        },
+        "linktypes": {
+            "primary_key": [
+                "id"
+            ],
+            "foreign_key": []
+        },
+        "posttypes": {
+            "primary_key": [
+                "id"
+            ],
+            "foreign_key": []
+        },
+        "closereasontypes": {
+            "primary_key": [
+                "id"
+            ],
+            "foreign_key": []
+        },
+        "votetypes": {
+            "primary_key": [
+                "id"
+            ],
+            "foreign_key": []
+        },
+        "users": {
+            "primary_key": [
+                "id"
+            ],
+            "foreign_key": []
+        },
+        "postlinks": {
+            "primary_key": [
+                "id"
+            ],
+            "foreign_key": [
+                {
+                    "column_name": "linktypeid",
+                    "foreign_table_name": "linktypes",
+                    "foreign_column_name": "id"
+                },
+                {
+                    "column_name": "postid",
+                    "foreign_table_name": "posts",
+                    "foreign_column_name": "id"
+                },
+                {
+                    "column_name": "relatedpostid",
+                    "foreign_table_name": "posts",
+                    "foreign_column_name": "id"
+                }
+            ]
+        },
+        "badges": {
+            "primary_key": [
+                "id"
+            ],
+            "foreign_key": [
+                {
+                    "column_name": "userid",
+                    "foreign_table_name": "users",
+                    "foreign_column_name": "id"
+                }
+            ]
+        },
+        "posts": {
+            "primary_key": [
+                "id"
+            ],
+            "foreign_key": [
+                {
+                    "column_name": "acceptedanswerid",
+                    "foreign_table_name": "posts",
+                    "foreign_column_name": "id"
+                },
+                {
+                    "column_name": "lasteditoruserid",
+                    "foreign_table_name": "users",
+                    "foreign_column_name": "id"
+                },
+                {
+                    "column_name": "owneruserid",
+                    "foreign_table_name": "users",
+                    "foreign_column_name": "id"
+                },
+                {
+                    "column_name": "parentid",
+                    "foreign_table_name": "posts",
+                    "foreign_column_name": "id"
+                },
+                {
+                    "column_name": "posttypeid",
+                    "foreign_table_name": "posttypes",
+                    "foreign_column_name": "id"
+                }
+            ]
+        },
+        "comments": {
+            "primary_key": [
+                "id"
+            ],
+            "foreign_key": [
+                {
+                    "column_name": "postid",
+                    "foreign_table_name": "posts",
+                    "foreign_column_name": "id"
+                },
+                {
+                    "column_name": "userid",
+                    "foreign_table_name": "users",
+                    "foreign_column_name": "id"
+                }
+            ]
+        },
+        "posthistory": {
+            "primary_key": [
+                "id"
+            ],
+            "foreign_key": [
+                {
+                    "column_name": "posthistorytypeid",
+                    "foreign_table_name": "posthistorytypes",
+                    "foreign_column_name": "id"
+                },
+                {
+                    "column_name": "postid",
+                    "foreign_table_name": "posts",
+                    "foreign_column_name": "id"
+                },
+                {
+                    "column_name": "userid",
+                    "foreign_table_name": "users",
+                    "foreign_column_name": "id"
+                }
+            ]
+        },
+        "tags": {
+            "primary_key": [
+                "id"
+            ],
+            "foreign_key": [
+                {
+                    "column_name": "excerptpostid",
+                    "foreign_table_name": "posts",
+                    "foreign_column_name": "id"
+                },
+                {
+                    "column_name": "wikipostid",
+                    "foreign_table_name": "posts",
+                    "foreign_column_name": "id"
+                }
+            ]
+        },
+        "votes": {
+            "primary_key": [
+                "id"
+            ],
+            "foreign_key": [
+                {
+                    "column_name": "userid",
+                    "foreign_table_name": "users",
+                    "foreign_column_name": "id"
+                },
+                {
+                    "column_name": "votetypeid",
+                    "foreign_table_name": "votetypes",
+                    "foreign_column_name": "id"
+                }
+            ]
+        }
+    },
+    "profile": {
+        "posthistorytypes": {
+            "rows": 34,
+            "id": {
+                "distinct_count": 34
+            },
+            "name": {
+                "distinct_count": 34
+            }
+        },
+        "linktypes": {
+            "rows": 2,
+            "id": {
+                "distinct_count": 2
+            },
+            "name": {
+                "distinct_count": 2
+            }
+        },
+        "posttypes": {
+            "rows": 8,
+            "id": {
+                "distinct_count": 8
+            },
+            "name": {
+                "distinct_count": 8
+            }
+        },
+        "closereasontypes": {
+            "rows": 12,
+            "id": {
+                "distinct_count": 12
+            },
+            "name": {
+                "distinct_count": 12
+            }
+        },
+        "votetypes": {
+            "rows": 15,
+            "id": {
+                "distinct_count": 15
+            },
+            "name": {
+                "distinct_count": 15
+            }
+        },
+        "users": {
+            "rows": 267193,
+            "reputation": {
+                "min": 1.0,
+                "max": 183985.0,
+                "avg": 70.20273360454803,
+                "stddev": 889.889012496068,
+                "sum": 18757679.0,
+                "distinct_count": 1601
+            },
+            "views": {
+                "min": 0.0,
+                "max": 44224.0,
+                "avg": 3.8056236503201806,
+                "stddev": 140.6639368133,
+                "sum": 1016836.0,
+                "distinct_count": 501
+            },
+            "upvotes": {
+                "min": 0.0,
+                "max": 20703.0,
+                "avg": 2.575763586620907,
+                "stddev": 78.51899290592287,
+                "sum": 688226.0,
+                "distinct_count": 443
+            },
+            "downvotes": {
+                "min": 0.0,
+                "max": 11209.0,
+                "avg": 0.22321318298009304,
+                "stddev": 27.982464869172492,
+                "sum": 59641.0,
+                "distinct_count": 141
+            },
+            "accountid": {
+                "min": -1.0,
+                "max": 36091954.0,
+                "avg": 9436899.748039806,
+                "stddev": 9488586.3977,
+                "sum": 2521473554378.0,
+                "distinct_count": 267192
+            },
+            "id": {
+                "distinct_count": 267193
+            },
+            "creationdate": {
+                "distinct_count": 267193
+            },
+            "lastaccessdate": {
+                "distinct_count": 267193
+            },
+            "displayname": {
+                "distinct_count": 267193
+            },
+            "profileimageurl": {
+                "distinct_count": 267193
+            },
+            "websiteurl": {
+                "distinct_count": 267193
+            },
+            "location": {
+                "distinct_count": 267193
+            },
+            "aboutme": {
+                "distinct_count": 267193
+            }
+        },
+        "postlinks": {
+            "rows": 20146,
+            "postid": {
+                "min": 2.0,
+                "max": 342693.0,
+                "avg": 160613.34135808598,
+                "stddev": 99774.42420711,
+                "sum": 3235716375.0,
+                "distinct_count": 13237
+            },
+            "relatedpostid": {
+                "min": 1.0,
+                "max": 342606.0,
+                "avg": 91142.67328501937,
+                "stddev": 86142.57396257,
+                "sum": 1836160296.0,
+                "distinct_count": 9440
+            },
+            "linktypeid": {
+                "min": 1.0,
+                "max": 3.0,
+                "avg": 1.2184056388364937,
+                "stddev": 0.6238025088703496,
+                "sum": 24546.0,
+                "distinct_count": 2
+            },
+            "id": {
+                "distinct_count": 20146
+            },
+            "creationdate": {
+                "distinct_count": 20146
+            }
+        },
+        "badges": {
+            "rows": 439352,
+            "userid": {
+                "min": 2.0,
+                "max": 308122.0,
+                "avg": 101559.30225422895,
+                "stddev": 83780.90641322,
+                "sum": 44620282564.0,
+                "distinct_count": 154017
+            },
+            "class": {
+                "min": 1.0,
+                "max": 3.0,
+                "avg": 2.828379067353739,
+                "stddev": 0.43369844903592775,
+                "sum": 1242654.0,
+                "distinct_count": 3
+            },
+            "id": {
+                "distinct_count": 439352
+            },
+            "date": {
+                "distinct_count": 439352
+            },
+            "tagbased": {
+                "distinct_count": 439352
+            },
+            "name": {
+                "distinct_count": 439352
+            }
+        },
+        "posts": {
+            "rows": 246673,
+            "answercount": {
+                "min": 0.0,
+                "max": 22.0,
+                "avg": 1.345375681032584,
+                "stddev": 0.9978254881426848,
+                "sum": 140507.0,
+                "distinct_count": 21
+            },
+            "commentcount": {
+                "min": 0.0,
+                "max": 37.0,
+                "avg": 1.4248539564524696,
+                "stddev": 2.170191970696623,
+                "sum": 351473.0,
+                "distinct_count": 31
+            },
+            "favoritecount": {
+                "distinct_count": 0
+            },
+            "viewcount": {
+                "min": 6.0,
+                "max": 3260864.0,
+                "avg": 4564.555961967502,
+                "stddev": 21607.09579732,
+                "sum": 476708531.0,
+                "distinct_count": 16745
+            },
+            "posttypeid": {
+                "min": 1.0,
+                "max": 7.0,
+                "avg": 1.5944590611862668,
+                "stddev": 0.553215445028317,
+                "sum": 393310.0,
+                "distinct_count": 6
+            },
+            "owneruserid": {
+                "min": -1.0,
+                "max": 308003.0,
+                "avg": 78794.46429493964,
+                "stddev": 78493.76045802,
+                "sum": 18912404909.0,
+                "distinct_count": 65122
+            },
+            "acceptedanswerid": {
+                "min": 4.0,
+                "max": 342708.0,
+                "avg": 161952.87596468604,
+                "stddev": 99073.22474052,
+                "sum": 8163234713.0,
+                "distinct_count": 50405
+            },
+            "lasteditoruserid": {
+                "min": -1.0,
+                "max": 307961.0,
+                "avg": 50274.80897789935,
+                "stddev": 70329.92144604,
+                "sum": 5771196147.0,
+                "distinct_count": 18577
+            },
+            "parentid": {
+                "min": 1.0,
+                "max": 342706.0,
+                "avg": 156374.0950787934,
+                "stddev": 100679.620932,
+                "sum": 21969622114.0,
+                "distinct_count": 92043
+            },
+            "score": {
+                "min": -12.0,
+                "max": 2043.0,
+                "avg": 2.769914015721218,
+                "stddev": 9.727948145645133,
+                "sum": 683263.0,
+                "distinct_count": 238
+            },
+            "closeddate": {
+                "distinct_count": 7056
+            },
+            "communityowneddate": {
+                "distinct_count": 7056
+            },
+            "id": {
+                "distinct_count": 7056
+            },
+            "lasteditdate": {
+                "distinct_count": 7056
+            },
+            "lastactivitydate": {
+                "distinct_count": 7056
+            },
+            "creationdate": {
+                "distinct_count": 7056
+            },
+            "contentlicense": {
+                "distinct_count": 7056
+            },
+            "body": {
+                "distinct_count": 7056
+            },
+            "ownerdisplayname": {
+                "distinct_count": 7056
+            },
+            "lasteditordisplayname": {
+                "distinct_count": 7056
+            },
+            "title": {
+                "distinct_count": 7056
+            },
+            "tags": {
+                "distinct_count": 7056
+            }
+        },
+        "comments": {
+            "rows": 351440,
+            "postid": {
+                "min": 1.0,
+                "max": 342701.0,
+                "avg": 170410.8306880264,
+                "stddev": 101262.36562701,
+                "sum": 59889182337.0,
+                "distinct_count": 122542
+            },
+            "score": {
+                "min": 0.0,
+                "max": 89.0,
+                "avg": 0.31635556567266104,
+                "stddev": 0.9350864677269981,
+                "sum": 111180.0,
+                "distinct_count": 44
+            },
+            "userid": {
+                "min": -1.0,
+                "max": 307961.0,
+                "avg": 71052.6632493072,
+                "stddev": 75454.99915864,
+                "sum": 23972813317.0,
+                "distinct_count": 41821
+            },
+            "id": {
+                "distinct_count": 351440
+            },
+            "creationdate": {
+                "distinct_count": 351440
+            },
+            "userdisplayname": {
+                "distinct_count": 351440
+            },
+            "text": {
+                "distinct_count": 351440
+            },
+            "contentlicense": {
+                "distinct_count": 351440
+            }
+        },
+        "posthistory": {
+            "rows": 847593,
+            "posthistorytypeid": {
+                "min": 1.0,
+                "max": 66.0,
+                "avg": 8.679239918215464,
+                "stddev": 13.923498195867037,
+                "sum": 7356463.0,
+                "distinct_count": 30
+            },
+            "postid": {
+                "min": 1.0,
+                "max": 342708.0,
+                "avg": 165561.14069252578,
+                "stddev": 97643.81348391,
+                "sum": 140328463923.0,
+                "distinct_count": 246673
+            },
+            "userid": {
+                "min": -1.0,
+                "max": 308003.0,
+                "avg": 66682.29425813131,
+                "stddev": 77724.45712692,
+                "sum": 52100943655.0,
+                "distinct_count": 65628
+            },
+            "id": {
+                "distinct_count": 847593
+            },
+            "creationdate": {
+                "distinct_count": 847593
+            },
+            "contentlicense": {
+                "distinct_count": 847593
+            },
+            "userdisplayname": {
+                "distinct_count": 847593
+            },
+            "comment": {
+                "distinct_count": 847593
+            },
+            "revisionguid": {
+                "distinct_count": 847593
+            },
+            "text": {
+                "distinct_count": 847593
+            }
+        },
+        "tags": {
+            "rows": 1232,
+            "excerptpostid": {
+                "min": 1237.0,
+                "max": 340306.0,
+                "avg": 120430.16485013624,
+                "stddev": 95198.87925536,
+                "sum": 88395741.0,
+                "distinct_count": 734
+            },
+            "count": {
+                "min": 1.0,
+                "max": 34586.0,
+                "avg": 229.09983766233765,
+                "stddev": 1367.448966080066,
+                "sum": 282251.0,
+                "distinct_count": 357
+            },
+            "wikipostid": {
+                "min": 1236.0,
+                "max": 340305.0,
+                "avg": 120429.16485013624,
+                "stddev": 95198.87925536,
+                "sum": 88395007.0,
+                "distinct_count": 734
+            },
+            "isrequired": {
+                "distinct_count": 0
+            },
+            "id": {
+                "distinct_count": 0
+            },
+            "ismoderatoronly": {
+                "distinct_count": 0
+            },
+            "tagname": {
+                "distinct_count": 0
+            }
+        },
+        "votes": {
+            "rows": 926084,
+            "postid": {
+                "min": 1.0,
+                "max": 342704.0,
+                "avg": 130301.57369633856,
+                "stddev": 98514.7937858,
+                "sum": 120670202575.0,
+                "distinct_count": 242635
+            },
+            "votetypeid": {
+                "min": 1.0,
+                "max": 16.0,
+                "avg": 2.865105109255748,
+                "stddev": 2.9722494674716944,
+                "sum": 2653328.0,
+                "distinct_count": 14
+            },
+            "userid": {
+                "min": -1.0,
+                "max": 290611.0,
+                "avg": 62492.09797297297,
+                "stddev": 76146.5007067,
+                "sum": 92488305.0,
+                "distinct_count": 929
+            },
+            "bountyamount": {
+                "min": 25.0,
+                "max": 500.0,
+                "avg": 106.38209697472027,
+                "stddev": 105.427377302991,
+                "sum": 256700.0,
+                "distinct_count": 12
+            },
+            "id": {
+                "distinct_count": 926084
+            },
+            "creationdate": {
+                "distinct_count": 926084
+            }
+        }
+    }
+}

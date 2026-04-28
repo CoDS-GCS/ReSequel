@@ -1,0 +1,30 @@
+{
+    "table": "votes",
+    "rows": 328064,
+    "columns": [
+        {
+            "name": "id",
+            "type": "integer"
+        },
+        {
+            "name": "postid",
+            "type": "integer"
+        },
+        {
+            "name": "votetypeid",
+            "type": "integer"
+        },
+        {
+            "name": "creationdate",
+            "type": "date"
+        },
+        {
+            "name": "userid",
+            "type": "integer"
+        },
+        {
+            "name": "bountyamount",
+            "type": "integer"
+        }
+    ]
+}

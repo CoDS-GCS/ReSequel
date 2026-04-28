@@ -1,0 +1,10 @@
+---
+
+- llm_platform: OpenAI
+  key_1: ''
+
+- llm_platform: Groq
+  key_1: ''
+
+- llm_platform: Google
+  key_1 : ''

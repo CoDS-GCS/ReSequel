@@ -1,0 +1,45 @@
+{
+    "columns": [
+        {
+            "name": "cp_catalog_number",
+            "type": "integer"
+        },
+        {
+            "name": "cp_catalog_page_number",
+            "type": "integer"
+        },
+        {
+            "name": "cp_end_date_sk",
+            "type": "integer"
+        },
+        {
+            "name": "cp_catalog_page_sk",
+            "type": "integer"
+        },
+        {
+            "name": "cp_start_date_sk",
+            "type": "integer"
+        },
+        {
+            "name": "cp_type",
+            "type": "character varying"
+        },
+        {
+            "name": "cp_catalog_page_id",
+            "type": "character"
+        },
+        {
+            "name": "cp_department",
+            "type": "character varying"
+        },
+        {
+            "name": "cp_description",
+            "type": "character varying"
+        }
+    ],
+    "indexes": [
+        "cp_catalog_page_sk"
+    ],
+    "rows": 12000,
+    "table": "catalog_page"
+}

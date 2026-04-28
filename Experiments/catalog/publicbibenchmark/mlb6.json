@@ -1,0 +1,122 @@
+{
+    "table": "mlb6",
+    "rows": 2918552,
+    "columns": [
+        {
+            "name": "date",
+            "type": "date"
+        },
+        {
+            "name": "year",
+            "type": "smallint"
+        },
+        {
+            "name": "battedballtype",
+            "type": "character varying"
+        },
+        {
+            "name": "calculation361765767559729157",
+            "type": "date"
+        },
+        {
+            "name": "league",
+            "type": "character varying"
+        },
+        {
+            "name": "b",
+            "type": "smallint"
+        },
+        {
+            "name": "pitchername",
+            "type": "character varying"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "pthrows",
+            "type": "character varying"
+        },
+        {
+            "name": "awayteam",
+            "type": "character varying"
+        },
+        {
+            "name": "inning",
+            "type": "smallint"
+        },
+        {
+            "name": "day",
+            "type": "smallint"
+        },
+        {
+            "name": "battername",
+            "type": "character varying"
+        },
+        {
+            "name": "our_x",
+            "type": "double precision"
+        },
+        {
+            "name": "s",
+            "type": "smallint"
+        },
+        {
+            "name": "stand",
+            "type": "character varying"
+        },
+        {
+            "name": "theta",
+            "type": "double precision"
+        },
+        {
+            "name": "event",
+            "type": "character varying"
+        },
+        {
+            "name": "level",
+            "type": "character varying"
+        },
+        {
+            "name": "des",
+            "type": "character varying"
+        },
+        {
+            "name": "gamedaylink",
+            "type": "character varying"
+        },
+        {
+            "name": "month",
+            "type": "smallint"
+        },
+        {
+            "name": "atbatdes",
+            "type": "character varying"
+        },
+        {
+            "name": "inningside",
+            "type": "character varying"
+        },
+        {
+            "name": "hometeam",
+            "type": "character varying"
+        },
+        {
+            "name": "our_y",
+            "type": "double precision"
+        },
+        {
+            "name": "bheight",
+            "type": "character varying"
+        },
+        {
+            "name": "o",
+            "type": "smallint"
+        },
+        {
+            "name": "r",
+            "type": "numeric"
+        }
+    ]
+}

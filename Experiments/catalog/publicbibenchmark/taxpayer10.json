@@ -1,0 +1,118 @@
+{
+    "table": "taxpayer10",
+    "rows": 9153273,
+    "columns": [
+        {
+            "name": "nppesprovidergender",
+            "type": "character varying"
+        },
+        {
+            "name": "npi",
+            "type": "integer"
+        },
+        {
+            "name": "averagemedicareallowedamt",
+            "type": "double precision"
+        },
+        {
+            "name": "nppescredentials",
+            "type": "character varying"
+        },
+        {
+            "name": "medicareparticipationindicator",
+            "type": "character varying"
+        },
+        {
+            "name": "nppesproviderlastorgname",
+            "type": "character varying"
+        },
+        {
+            "name": "nppesproviderstate",
+            "type": "character varying"
+        },
+        {
+            "name": "stdevmedicarepaymentamt",
+            "type": "double precision"
+        },
+        {
+            "name": "providertype",
+            "type": "character varying"
+        },
+        {
+            "name": "stdevmedicareallowedamt",
+            "type": "double precision"
+        },
+        {
+            "name": "nppesprovidermi",
+            "type": "character varying"
+        },
+        {
+            "name": "placeofservice",
+            "type": "character varying"
+        },
+        {
+            "name": "nppesprovidercountry",
+            "type": "character varying"
+        },
+        {
+            "name": "nppesproviderstreet1",
+            "type": "character varying"
+        },
+        {
+            "name": "benedaysrvccnt",
+            "type": "integer"
+        },
+        {
+            "name": "nppesentitycode",
+            "type": "character varying"
+        },
+        {
+            "name": "beneuniquecnt",
+            "type": "integer"
+        },
+        {
+            "name": "stdevsubmittedchrgamt",
+            "type": "double precision"
+        },
+        {
+            "name": "hcpcsdescription",
+            "type": "character varying"
+        },
+        {
+            "name": "nppesprovidercity",
+            "type": "character varying"
+        },
+        {
+            "name": "averagemedicarepaymentamt",
+            "type": "double precision"
+        },
+        {
+            "name": "hcpcscode",
+            "type": "integer"
+        },
+        {
+            "name": "linesrvccnt",
+            "type": "integer"
+        },
+        {
+            "name": "nppesproviderzip",
+            "type": "integer"
+        },
+        {
+            "name": "averagesubmittedchrgamt",
+            "type": "double precision"
+        },
+        {
+            "name": "nppesproviderfirstname",
+            "type": "character varying"
+        },
+        {
+            "name": "nppesproviderstreet2",
+            "type": "character varying"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        }
+    ]
+}

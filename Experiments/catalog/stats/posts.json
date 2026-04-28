@@ -1,0 +1,90 @@
+{
+    "table": "posts",
+    "rows": 91976,
+    "columns": [
+        {
+            "name": "communityowneddate",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "parentid",
+            "type": "integer"
+        },
+        {
+            "name": "closeddate",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "score",
+            "type": "integer"
+        },
+        {
+            "name": "id",
+            "type": "integer"
+        },
+        {
+            "name": "viewcount",
+            "type": "integer"
+        },
+        {
+            "name": "posttypeid",
+            "type": "integer"
+        },
+        {
+            "name": "owneruserid",
+            "type": "integer"
+        },
+        {
+            "name": "lasactivitydate",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "acceptedanswerid",
+            "type": "integer"
+        },
+        {
+            "name": "creationdate",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "answercount",
+            "type": "integer"
+        },
+        {
+            "name": "commentcount",
+            "type": "integer"
+        },
+        {
+            "name": "favoritecount",
+            "type": "integer"
+        },
+        {
+            "name": "lasteditoruserid",
+            "type": "integer"
+        },
+        {
+            "name": "lasteditdate",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "lasteditordisplayname",
+            "type": "character varying"
+        },
+        {
+            "name": "body",
+            "type": "text"
+        },
+        {
+            "name": "title",
+            "type": "character varying"
+        },
+        {
+            "name": "tags",
+            "type": "character varying"
+        },
+        {
+            "name": "ownerdisplayname",
+            "type": "character varying"
+        }
+    ]
+}

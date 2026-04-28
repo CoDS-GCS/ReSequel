@@ -1,0 +1,130 @@
+{
+    "table": "citymaxcapita1",
+    "rows": 912657,
+    "columns": [
+        {
+            "name": "listed_number",
+            "type": "integer"
+        },
+        {
+            "name": "username",
+            "type": "character varying"
+        },
+        {
+            "name": "gender",
+            "type": "character varying"
+        },
+        {
+            "name": "city_state",
+            "type": "character varying"
+        },
+        {
+            "name": "long_domain",
+            "type": "character varying"
+        },
+        {
+            "name": "following",
+            "type": "integer"
+        },
+        {
+            "name": "influencer_",
+            "type": "smallint"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "twitter_client",
+            "type": "character varying"
+        },
+        {
+            "name": "tweets",
+            "type": "integer"
+        },
+        {
+            "name": "tweet_text",
+            "type": "character varying"
+        },
+        {
+            "name": "long",
+            "type": "numeric"
+        },
+        {
+            "name": "state",
+            "type": "character varying"
+        },
+        {
+            "name": "language",
+            "type": "character varying"
+        },
+        {
+            "name": "date_joined",
+            "type": "numeric"
+        },
+        {
+            "name": "region",
+            "type": "character varying"
+        },
+        {
+            "name": "keyword",
+            "type": "character varying"
+        },
+        {
+            "name": "user_loc",
+            "type": "character varying"
+        },
+        {
+            "name": "ff_ratio",
+            "type": "numeric"
+        },
+        {
+            "name": "username1",
+            "type": "character varying"
+        },
+        {
+            "name": "user_bio",
+            "type": "character varying"
+        },
+        {
+            "name": "first_link_in_tweet",
+            "type": "character varying"
+        },
+        {
+            "name": "lpf",
+            "type": "double precision"
+        },
+        {
+            "name": "city",
+            "type": "character varying"
+        },
+        {
+            "name": "favorites",
+            "type": "integer"
+        },
+        {
+            "name": "followers",
+            "type": "integer"
+        },
+        {
+            "name": "created_date_time",
+            "type": "double precision"
+        },
+        {
+            "name": "state_country",
+            "type": "character varying"
+        },
+        {
+            "name": "lat",
+            "type": "numeric"
+        },
+        {
+            "name": "city_admin",
+            "type": "character varying"
+        },
+        {
+            "name": "short_domain",
+            "type": "character varying"
+        }
+    ]
+}

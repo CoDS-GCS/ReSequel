@@ -1,0 +1,90 @@
+{
+    "table": "tablerosistemapenal5",
+    "rows": 2974820,
+    "columns": [
+        {
+            "name": "rechaza_prisión_preventiva__copia_",
+            "type": "character varying"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "idevento",
+            "type": "integer"
+        },
+        {
+            "name": "año_causa",
+            "type": "smallint"
+        },
+        {
+            "name": "ilegalidaddetencion",
+            "type": "numeric"
+        },
+        {
+            "name": "rit",
+            "type": "smallint"
+        },
+        {
+            "name": "tipo",
+            "type": "smallint"
+        },
+        {
+            "name": "sentencia",
+            "type": "numeric"
+        },
+        {
+            "name": "país",
+            "type": "character varying"
+        },
+        {
+            "name": "codmateria",
+            "type": "smallint"
+        },
+        {
+            "name": "tribunal",
+            "type": "character varying"
+        },
+        {
+            "name": "prisionpreventivadecretada",
+            "type": "numeric"
+        },
+        {
+            "name": "codtrib",
+            "type": "smallint"
+        },
+        {
+            "name": "delito",
+            "type": "character varying"
+        },
+        {
+            "name": "fecha_audiencia",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "corte",
+            "type": "character varying"
+        },
+        {
+            "name": "cautelar",
+            "type": "numeric"
+        },
+        {
+            "name": "prisionpreventiva",
+            "type": "numeric"
+        },
+        {
+            "name": "agrupador",
+            "type": "character varying"
+        },
+        {
+            "name": "prisionpreventivarechazada",
+            "type": "numeric"
+        },
+        {
+            "name": "codcte",
+            "type": "smallint"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "columns": [
+        {
+            "name": "r_reason_sk",
+            "type": "integer"
+        },
+        {
+            "name": "r_reason_id",
+            "type": "character"
+        },
+        {
+            "name": "r_reason_desc",
+            "type": "character"
+        }
+    ],
+    "indexes": [
+        "r_reason_sk"
+    ],
+    "rows": 45,
+    "table": "reason"
+}

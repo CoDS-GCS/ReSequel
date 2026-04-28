@@ -1,0 +1,118 @@
+{
+    "table": "trainsuk14",
+    "rows": 4303241,
+    "columns": [
+        {
+            "name": "time_to_2_",
+            "type": "numeric"
+        },
+        {
+            "name": "vwtt_and_section_name_and_timing_event",
+            "type": "character varying"
+        },
+        {
+            "name": "vsectionwtttime",
+            "type": "time without time zone"
+        },
+        {
+            "name": "calculation2480421151322357",
+            "type": "character varying"
+        },
+        {
+            "name": "performance_allowance__mins_",
+            "type": "numeric"
+        },
+        {
+            "name": "section_start_location_full_name",
+            "type": "character varying"
+        },
+        {
+            "name": "section_start_location_name",
+            "type": "character varying"
+        },
+        {
+            "name": "planned_dest_location_full_name",
+            "type": "character varying"
+        },
+        {
+            "name": "pathing_allowance__mins_",
+            "type": "numeric"
+        },
+        {
+            "name": "calculation2040623161253421",
+            "type": "numeric"
+        },
+        {
+            "name": "rt_",
+            "type": "numeric"
+        },
+        {
+            "name": "planned_origin_location_full_name",
+            "type": "character varying"
+        },
+        {
+            "name": "engineering_allowance__mins_",
+            "type": "smallint"
+        },
+        {
+            "name": "time_to_5_",
+            "type": "numeric"
+        },
+        {
+            "name": "time_to_10_",
+            "type": "numeric"
+        },
+        {
+            "name": "vheadcode_description",
+            "type": "character varying"
+        },
+        {
+            "name": "operator_name",
+            "type": "character varying"
+        },
+        {
+            "name": "calculation0430624152715434",
+            "type": "character varying"
+        },
+        {
+            "name": "headcode",
+            "type": "character varying"
+        },
+        {
+            "name": "ranking",
+            "type": "smallint"
+        },
+        {
+            "name": "calculation3330422103625946",
+            "type": "numeric"
+        },
+        {
+            "name": "train_count",
+            "type": "smallint"
+        },
+        {
+            "name": "average_lateness",
+            "type": "double precision"
+        },
+        {
+            "name": "timetable",
+            "type": "character varying"
+        },
+        {
+            "name": "calculation2890421151640665",
+            "type": "character varying"
+        },
+        {
+            "name": "punctuality_threshold",
+            "type": "smallint"
+        },
+        {
+            "name": "operator",
+            "type": "character varying"
+        },
+        {
+            "name": "median_lateness",
+            "type": "numeric"
+        }
+    ]
+}

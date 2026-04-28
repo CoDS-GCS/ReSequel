@@ -1,0 +1,116 @@
+{
+    "columns": [
+        {
+            "name": "ss_sold_date_sk",
+            "type": "integer"
+        },
+        {
+            "name": "ss_sold_time_sk",
+            "type": "integer"
+        },
+        {
+            "name": "ss_item_sk",
+            "type": "integer"
+        },
+        {
+            "name": "ss_customer_sk",
+            "type": "integer"
+        },
+        {
+            "name": "ss_cdemo_sk",
+            "type": "integer"
+        },
+        {
+            "name": "ss_hdemo_sk",
+            "type": "integer"
+        },
+        {
+            "name": "ss_addr_sk",
+            "type": "integer"
+        },
+        {
+            "name": "ss_store_sk",
+            "type": "integer"
+        },
+        {
+            "name": "ss_promo_sk",
+            "type": "integer"
+        },
+        {
+            "name": "ss_ticket_number",
+            "type": "integer"
+        },
+        {
+            "name": "ss_quantity",
+            "type": "integer"
+        },
+        {
+            "name": "ss_wholesale_cost",
+            "type": "numeric"
+        },
+        {
+            "name": "ss_list_price",
+            "type": "numeric"
+        },
+        {
+            "name": "ss_sales_price",
+            "type": "numeric"
+        },
+        {
+            "name": "ss_ext_discount_amt",
+            "type": "numeric"
+        },
+        {
+            "name": "ss_ext_sales_price",
+            "type": "numeric"
+        },
+        {
+            "name": "ss_ext_wholesale_cost",
+            "type": "numeric"
+        },
+        {
+            "name": "ss_ext_list_price",
+            "type": "numeric"
+        },
+        {
+            "name": "ss_ext_tax",
+            "type": "numeric"
+        },
+        {
+            "name": "ss_coupon_amt",
+            "type": "numeric"
+        },
+        {
+            "name": "ss_net_paid",
+            "type": "numeric"
+        },
+        {
+            "name": "ss_net_paid_inc_tax",
+            "type": "numeric"
+        },
+        {
+            "name": "ss_net_profit",
+            "type": "numeric"
+        }
+    ],
+    "indexes": [
+        "ss_item_sk, ss_ticket_number",
+        "ss_sold_date_sk, ss_net_profit, ss_sales_price, ss_hdemo_sk, ss_store_sk, ss_cdemo_sk, ss_addr_sk) INCLUDE (ss_item_sk, ss_customer_sk, ss_promo_sk, ss_ticket_number, ss_quantity, ss_wholesale_cost, ss_list_price, ss_ext_sales_price, ss_ext_wholesale_cost, ss_coupon_amt",
+        "ss_sold_date_sk, ss_cdemo_sk, ss_store_sk, ss_item_sk) INCLUDE (ss_quantity, ss_list_price, ss_sales_price, ss_coupon_amt",
+        "ss_sold_date_sk, ss_item_sk, ss_ticket_number, ss_customer_sk, ss_store_sk) INCLUDE (ss_promo_sk, ss_ext_sales_price, ss_net_profit",
+        "ss_customer_sk) INCLUDE (ss_sold_date_sk, ss_item_sk, ss_ticket_number, ss_quantity, ss_sales_price",
+        "ss_sold_date_sk, ss_item_sk, ss_ticket_number, ss_customer_sk, ss_store_sk) INCLUDE (ss_net_profit",
+        "ss_sold_date_sk, ss_store_sk) INCLUDE (ss_item_sk, ss_sales_price, ss_ext_sales_price",
+        "ss_item_sk, ss_ticket_number, ss_customer_sk, ss_sold_date_sk, ss_store_sk",
+        "ss_sold_date_sk, ss_item_sk, ss_addr_sk) INCLUDE (ss_ext_sales_price",
+        "ss_sold_date_sk, ss_addr_sk, ss_item_sk) INCLUDE (ss_ext_sales_price",
+        "ss_sold_date_sk, ss_item_sk) INCLUDE (ss_quantity, ss_list_price",
+        "ss_sold_date_sk, ss_customer_sk, ss_item_sk, ss_ticket_number",
+        "ss_customer_sk, ss_sold_date_sk) INCLUDE (ss_ext_sales_price",
+        "ss_item_sk, ss_ticket_number, ss_customer_sk",
+        "ss_ticket_number, ss_item_sk",
+        "ss_customer_sk, ss_store_sk, ss_item_sk, ss_sold_date_sk) INCLUDE (ss_ext_sales_price"
+    ],
+    "rows": 0,
+    "table": "store_sales"
+}

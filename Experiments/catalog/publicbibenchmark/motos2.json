@@ -1,0 +1,182 @@
+{
+    "table": "motos2",
+    "rows": 14257190,
+    "columns": [
+        {
+            "name": "diasemana",
+            "type": "smallint"
+        },
+        {
+            "name": "horapagina",
+            "type": "integer"
+        },
+        {
+            "name": "categoria",
+            "type": "character varying"
+        },
+        {
+            "name": "extencion",
+            "type": "character varying"
+        },
+        {
+            "name": "duracion",
+            "type": "smallint"
+        },
+        {
+            "name": "marca",
+            "type": "character varying"
+        },
+        {
+            "name": "producto",
+            "type": "character varying"
+        },
+        {
+            "name": "ver_anuncio",
+            "type": "character varying"
+        },
+        {
+            "name": "genero",
+            "type": "character varying"
+        },
+        {
+            "name": "unidad",
+            "type": "character varying"
+        },
+        {
+            "name": "medio",
+            "type": "character varying"
+        },
+        {
+            "name": "mes",
+            "type": "character varying"
+        },
+        {
+            "name": "numanuncios",
+            "type": "smallint"
+        },
+        {
+            "name": "holding",
+            "type": "character varying"
+        },
+        {
+            "name": "sector",
+            "type": "character varying"
+        },
+        {
+            "name": "concatenar2",
+            "type": "character varying"
+        },
+        {
+            "name": "denpags",
+            "type": "smallint"
+        },
+        {
+            "name": "franja",
+            "type": "character varying"
+        },
+        {
+            "name": "aviso",
+            "type": "character varying"
+        },
+        {
+            "name": "corte",
+            "type": "smallint"
+        },
+        {
+            "name": "vehiculo",
+            "type": "character varying"
+        },
+        {
+            "name": "primeralinea",
+            "type": "character varying"
+        },
+        {
+            "name": "fecha",
+            "type": "date"
+        },
+        {
+            "name": "semana",
+            "type": "smallint"
+        },
+        {
+            "name": "inversionq",
+            "type": "double precision"
+        },
+        {
+            "name": "anunciante",
+            "type": "character varying"
+        },
+        {
+            "name": "est",
+            "type": "character varying"
+        },
+        {
+            "name": "inversionus",
+            "type": "double precision"
+        },
+        {
+            "name": "anunciante__grupo_",
+            "type": "character varying"
+        },
+        {
+            "name": "subsector",
+            "type": "character varying"
+        },
+        {
+            "name": "cadena",
+            "type": "character varying"
+        },
+        {
+            "name": "concatenar1",
+            "type": "character varying"
+        },
+        {
+            "name": "codigo",
+            "type": "integer"
+        },
+        {
+            "name": "a_o",
+            "type": "smallint"
+        },
+        {
+            "name": "www2",
+            "type": "character varying"
+        },
+        {
+            "name": "soporte",
+            "type": "character varying"
+        },
+        {
+            "name": "disco",
+            "type": "smallint"
+        },
+        {
+            "name": "cols",
+            "type": "smallint"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "posicionedicion",
+            "type": "smallint"
+        },
+        {
+            "name": "www1",
+            "type": "character varying"
+        },
+        {
+            "name": "circulacion",
+            "type": "character varying"
+        },
+        {
+            "name": "plgs",
+            "type": "smallint"
+        },
+        {
+            "name": "medio2",
+            "type": "character varying"
+        }
+    ]
+}

@@ -1,0 +1,3572 @@
+{
+    "dataset_name": "dsb",
+    "dependency": {
+        "call_center": {
+            "foreign_key": [],
+            "primary_key": [
+                "cc_call_center_sk"
+            ]
+        },
+        "catalog_page": {
+            "foreign_key": [],
+            "primary_key": [
+                "cp_catalog_page_sk"
+            ]
+        },
+        "catalog_returns": {
+            "foreign_key": [],
+            "primary_key": [
+                "cr_item_sk",
+                "cr_item_sk",
+                "cr_order_number",
+                "cr_order_number"
+            ]
+        },
+        "catalog_sales": {
+            "foreign_key": [],
+            "primary_key": [
+                "cs_item_sk",
+                "cs_item_sk",
+                "cs_order_number",
+                "cs_order_number"
+            ]
+        },
+        "customer": {
+            "foreign_key": [],
+            "primary_key": [
+                "c_customer_sk"
+            ]
+        },
+        "customer_address": {
+            "foreign_key": [],
+            "primary_key": [
+                "ca_address_sk"
+            ]
+        },
+        "customer_demographics": {
+            "foreign_key": [],
+            "primary_key": [
+                "cd_demo_sk"
+            ]
+        },
+        "date_dim": {
+            "foreign_key": [],
+            "primary_key": [
+                "d_date_sk"
+            ]
+        },
+        "dbgen_version": {
+            "foreign_key": [],
+            "primary_key": []
+        },
+        "household_demographics": {
+            "foreign_key": [],
+            "primary_key": [
+                "hd_demo_sk"
+            ]
+        },
+        "income_band": {
+            "foreign_key": [],
+            "primary_key": [
+                "ib_income_band_sk"
+            ]
+        },
+        "inventory": {
+            "foreign_key": [],
+            "primary_key": [
+                "inv_date_sk",
+                "inv_date_sk",
+                "inv_date_sk",
+                "inv_item_sk",
+                "inv_item_sk",
+                "inv_item_sk",
+                "inv_warehouse_sk",
+                "inv_warehouse_sk",
+                "inv_warehouse_sk"
+            ]
+        },
+        "item": {
+            "foreign_key": [],
+            "primary_key": [
+                "i_item_sk"
+            ]
+        },
+        "promotion": {
+            "foreign_key": [],
+            "primary_key": [
+                "p_promo_sk"
+            ]
+        },
+        "reason": {
+            "foreign_key": [],
+            "primary_key": [
+                "r_reason_sk"
+            ]
+        },
+        "ship_mode": {
+            "foreign_key": [],
+            "primary_key": [
+                "sm_ship_mode_sk"
+            ]
+        },
+        "store": {
+            "foreign_key": [],
+            "primary_key": [
+                "s_store_sk"
+            ]
+        },
+        "store_returns": {
+            "foreign_key": [],
+            "primary_key": [
+                "sr_item_sk",
+                "sr_item_sk",
+                "sr_ticket_number",
+                "sr_ticket_number"
+            ]
+        },
+        "store_sales": {
+            "foreign_key": [],
+            "primary_key": [
+                "ss_item_sk",
+                "ss_item_sk",
+                "ss_ticket_number",
+                "ss_ticket_number"
+            ]
+        },
+        "time_dim": {
+            "foreign_key": [],
+            "primary_key": [
+                "t_time_sk"
+            ]
+        },
+        "warehouse": {
+            "foreign_key": [],
+            "primary_key": [
+                "w_warehouse_sk"
+            ]
+        },
+        "web_page": {
+            "foreign_key": [],
+            "primary_key": [
+                "wp_web_page_sk"
+            ]
+        },
+        "web_returns": {
+            "foreign_key": [],
+            "primary_key": [
+                "wr_item_sk",
+                "wr_item_sk",
+                "wr_order_number",
+                "wr_order_number"
+            ]
+        },
+        "web_sales": {
+            "foreign_key": [],
+            "primary_key": [
+                "ws_item_sk",
+                "ws_item_sk",
+                "ws_order_number",
+                "ws_order_number"
+            ]
+        },
+        "web_site": {
+            "foreign_key": [],
+            "primary_key": [
+                "web_site_sk"
+            ]
+        }
+    },
+    "number_of_tables": 25,
+    "profile": {
+        "call_center": {
+            "cc_call_center_id": {
+                "count": 24,
+                "distinct_count": 12,
+                "null_percentage": 0.0
+            },
+            "cc_call_center_sk": {
+                "avg": 12.5,
+                "count": 24,
+                "distinct_count": 24,
+                "max": 24.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 6.0,
+                "q50": 12.0,
+                "q75": 18.0,
+                "stddev": 7.0710678118654755
+            },
+            "cc_city": {
+                "count": 24,
+                "distinct_count": 7,
+                "null_percentage": 0.0
+            },
+            "cc_class": {
+                "count": 24,
+                "distinct_count": 3,
+                "null_percentage": 0.0
+            },
+            "cc_closed_date_sk": {
+                "count": 24,
+                "distinct_count": 0,
+                "null_percentage": 416.6666666666667
+            },
+            "cc_company": {
+                "avg": 4.041666666666667,
+                "count": 24,
+                "distinct_count": 6,
+                "max": 6.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 2.0,
+                "q50": 4.0,
+                "q75": 5.0,
+                "stddev": 1.5457984194658723
+            },
+            "cc_company_name": {
+                "count": 24,
+                "distinct_count": 5,
+                "null_percentage": 0.0
+            },
+            "cc_country": {
+                "count": 24,
+                "distinct_count": 1,
+                "null_percentage": 0.0
+            },
+            "cc_county": {
+                "count": 24,
+                "distinct_count": 10,
+                "null_percentage": 0.0
+            },
+            "cc_division": {
+                "avg": 4.166666666666667,
+                "count": 24,
+                "distinct_count": 6,
+                "max": 6.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 3.0,
+                "q50": 4.0,
+                "q75": 5.0,
+                "stddev": 1.493949148388597
+            },
+            "cc_division_name": {
+                "count": 24,
+                "distinct_count": 6,
+                "null_percentage": 0.0
+            },
+            "cc_employees": {
+                "avg": 346.3333333333333,
+                "count": 24,
+                "distinct_count": 21,
+                "max": 696.0,
+                "min": 32.0,
+                "null_percentage": 0.0,
+                "q25": 192.0,
+                "q50": 340.0,
+                "q75": 486.0,
+                "stddev": 176.15572820578427
+            },
+            "cc_gmt_offset": {
+                "avg": -5.458333333333333,
+                "count": 24,
+                "distinct_count": 2,
+                "max": -5.0,
+                "min": -6.0,
+                "null_percentage": 0.0,
+                "q25": -6.0,
+                "q50": -5.0,
+                "q75": -5.0,
+                "stddev": 0.5089773777040516
+            },
+            "cc_hours": {
+                "count": 24,
+                "distinct_count": 3,
+                "null_percentage": 0.0
+            },
+            "cc_manager": {
+                "count": 24,
+                "distinct_count": 17,
+                "null_percentage": 0.0
+            },
+            "cc_market_manager": {
+                "count": 24,
+                "distinct_count": 16,
+                "null_percentage": 0.0
+            },
+            "cc_mkt_class": {
+                "count": 24,
+                "distinct_count": 21,
+                "null_percentage": 0.0
+            },
+            "cc_mkt_desc": {
+                "count": 24,
+                "distinct_count": 17,
+                "null_percentage": 0.0
+            },
+            "cc_mkt_id": {
+                "avg": 3.875,
+                "count": 24,
+                "distinct_count": 5,
+                "max": 6.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 2.0,
+                "q50": 5.0,
+                "q75": 5.0,
+                "stddev": 1.918162617216527
+            },
+            "cc_name": {
+                "count": 24,
+                "distinct_count": 11,
+                "null_percentage": 0.0
+            },
+            "cc_open_date_sk": {
+                "avg": 2451019.5833333335,
+                "count": 24,
+                "distinct_count": 12,
+                "max": 2451146.0,
+                "min": 2450806.0,
+                "null_percentage": 0.0,
+                "q25": 2450988.0,
+                "q50": 2451063.0,
+                "q75": 2451086.0,
+                "stddev": 112.83536165838508
+            },
+            "cc_rec_end_date": {
+                "count": 24,
+                "distinct_count": 3,
+                "null_percentage": 208.33333333333334
+            },
+            "cc_rec_start_date": {
+                "count": 24,
+                "distinct_count": 4,
+                "null_percentage": 0.0
+            },
+            "cc_sq_ft": {
+                "avg": 174454.16666666666,
+                "count": 24,
+                "distinct_count": 20,
+                "max": 402548.0,
+                "min": 18688.0,
+                "null_percentage": 0.0,
+                "q25": 86120.0,
+                "q50": 149452.0,
+                "q75": 234500.0,
+                "stddev": 110419.57029978157
+            },
+            "cc_state": {
+                "count": 24,
+                "distinct_count": 9,
+                "null_percentage": 0.0
+            },
+            "cc_street_name": {
+                "count": 24,
+                "distinct_count": 12,
+                "null_percentage": 0.0
+            },
+            "cc_street_number": {
+                "count": 24,
+                "distinct_count": 13,
+                "null_percentage": 0.0
+            },
+            "cc_street_type": {
+                "count": 24,
+                "distinct_count": 10,
+                "null_percentage": 0.0
+            },
+            "cc_suite_number": {
+                "count": 24,
+                "distinct_count": 12,
+                "null_percentage": 0.0
+            },
+            "cc_tax_percentage": {
+                "avg": 0.0575,
+                "count": 24,
+                "distinct_count": 11,
+                "max": 0.12,
+                "min": 0.0,
+                "null_percentage": 0.0,
+                "q25": 0.0,
+                "q50": 0.0,
+                "q75": 0.0,
+                "stddev": 0.04599149259704829
+            },
+            "cc_zip": {
+                "count": 24,
+                "distinct_count": 12,
+                "null_percentage": 0.0
+            }
+        },
+        "catalog_page": {
+            "cp_catalog_number": {
+                "avg": 54.50096679277007,
+                "count": 12000,
+                "distinct_count": 110,
+                "max": 109.0,
+                "min": 1.0,
+                "null_percentage": 0.008333333333333333,
+                "q25": 27.0,
+                "q50": 54.0,
+                "q75": 82.0,
+                "stddev": 31.221324814322212
+            },
+            "cp_catalog_page_id": {
+                "count": 12000,
+                "distinct_count": 12203,
+                "null_percentage": 0.0
+            },
+            "cp_catalog_page_number": {
+                "avg": 55.904517540169934,
+                "count": 12000,
+                "distinct_count": 115,
+                "max": 111.0,
+                "min": 1.0,
+                "null_percentage": 0.008333333333333333,
+                "q25": 28.0,
+                "q50": 56.0,
+                "q75": 84.0,
+                "stddev": 32.066058231046675
+            },
+            "cp_catalog_page_sk": {
+                "avg": 6000.5,
+                "count": 12000,
+                "distinct_count": 10607,
+                "max": 12000.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 3000.0,
+                "q50": 6000.0,
+                "q75": 9000.0,
+                "stddev": 3464.2459496981455
+            },
+            "cp_department": {
+                "count": 12000,
+                "distinct_count": 1,
+                "null_percentage": 0.008333333333333333
+            },
+            "cp_description": {
+                "count": 12000,
+                "distinct_count": 12544,
+                "null_percentage": 0.008333333333333333
+            },
+            "cp_end_date_sk": {
+                "avg": 2451937.5227674437,
+                "count": 12000,
+                "distinct_count": 74,
+                "max": 2453186.0,
+                "min": 2450844.0,
+                "null_percentage": 0.008333333333333333,
+                "q25": 2451379.0,
+                "q50": 2451929.0,
+                "q75": 2452474.0,
+                "stddev": 633.0369673403544
+            },
+            "cp_start_date_sk": {
+                "avg": 2451878.8018844114,
+                "count": 12000,
+                "distinct_count": 110,
+                "max": 2453005.0,
+                "min": 2450815.0,
+                "null_percentage": 0.008333333333333333,
+                "q25": 2451344.0,
+                "q50": 2451890.0,
+                "q75": 2452432.0,
+                "stddev": 633.2110090077272
+            },
+            "cp_type": {
+                "count": 12000,
+                "distinct_count": 3,
+                "null_percentage": 0.008333333333333333
+            }
+        },
+        "catalog_returns": {
+            "cr_call_center_sk": {
+                "avg": 13.64104647760219,
+                "count": 2158260,
+                "distinct_count": 18,
+                "max": 24.0,
+                "min": 1.0,
+                "null_percentage": 9.266724120356213e-05,
+                "q25": 7.0,
+                "q50": 11.0,
+                "q75": 24.0,
+                "stddev": 7.827903219802282
+            },
+            "cr_catalog_page_sk": {
+                "avg": 5826.7283249099555,
+                "count": 2158260,
+                "distinct_count": 7012,
+                "max": 11211.0,
+                "min": 1.0,
+                "null_percentage": 9.266724120356213e-05,
+                "q25": 2753.0,
+                "q50": 6154.0,
+                "q75": 8374.0,
+                "stddev": 3374.718551064969
+            },
+            "cr_fee": {
+                "avg": 50.235594418421705,
+                "count": 2158260,
+                "distinct_count": 8565,
+                "max": 100.0,
+                "min": 0.5,
+                "null_percentage": 9.266724120356213e-05,
+                "q25": 25.0,
+                "q50": 50.0,
+                "q75": 75.0,
+                "stddev": 28.725118940436282
+            },
+            "cr_item_sk": {
+                "avg": 49294.70341664118,
+                "count": 2158260,
+                "distinct_count": 96025,
+                "max": 102000.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 25048.0,
+                "q50": 52657.0,
+                "q75": 65784.0,
+                "stddev": 26631.301193942356
+            },
+            "cr_net_loss": {
+                "avg": 646.5199565269393,
+                "count": 2158260,
+                "distinct_count": 316010,
+                "max": 15324.93,
+                "min": 0.5,
+                "null_percentage": 9.266724120356213e-05,
+                "q25": 102.0,
+                "q50": 264.0,
+                "q75": 758.0,
+                "stddev": 992.4665276166412
+            },
+            "cr_order_number": {
+                "avg": 799966.2311162696,
+                "count": 2158260,
+                "distinct_count": 1221433,
+                "max": 1600000.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 402824.0,
+                "q50": 798889.0,
+                "q75": 1196185.0,
+                "stddev": 461658.57997792435
+            },
+            "cr_reason_sk": {
+                "avg": 16.119743820806946,
+                "count": 2158260,
+                "distinct_count": 45,
+                "max": 45.0,
+                "min": 1.0,
+                "null_percentage": 9.266724120356213e-05,
+                "q25": 6.0,
+                "q50": 13.0,
+                "q75": 24.0,
+                "stddev": 11.570351263983298
+            },
+            "cr_refunded_addr_sk": {
+                "avg": 85956.52619337842,
+                "count": 2158260,
+                "distinct_count": 215569,
+                "max": 250000.0,
+                "min": 1.0,
+                "null_percentage": 9.266724120356213e-05,
+                "q25": 30474.0,
+                "q50": 70887.0,
+                "q75": 130841.0,
+                "stddev": 65723.96599196353
+            },
+            "cr_refunded_cash": {
+                "avg": 560.1750932162722,
+                "count": 2158260,
+                "distinct_count": 288362,
+                "max": 24234.52,
+                "min": 0.0,
+                "null_percentage": 9.266724120356213e-05,
+                "q25": 26.0,
+                "q50": 148.0,
+                "q75": 580.0,
+                "stddev": 1114.512015412529
+            },
+            "cr_refunded_cdemo_sk": {
+                "avg": 1080077.3847322608,
+                "count": 2158260,
+                "distinct_count": 578609,
+                "max": 1920761.0,
+                "min": 28.0,
+                "null_percentage": 9.266724120356213e-05,
+                "q25": 657621.0,
+                "q50": 1206894.0,
+                "q75": 1487994.0,
+                "stddev": 518212.796826646
+            },
+            "cr_refunded_customer_sk": {
+                "avg": 249195.6517533487,
+                "count": 2158260,
+                "distinct_count": 470846,
+                "max": 499999.0,
+                "min": 2.0,
+                "null_percentage": 9.266724120356213e-05,
+                "q25": 124154.0,
+                "q50": 248737.0,
+                "q75": 373945.0,
+                "stddev": 144514.99530153244
+            },
+            "cr_refunded_hdemo_sk": {
+                "avg": 2904.8554391279845,
+                "count": 2158260,
+                "distinct_count": 6631,
+                "max": 7199.0,
+                "min": 0.0,
+                "null_percentage": 9.266724120356213e-05,
+                "q25": 981.0,
+                "q50": 2314.0,
+                "q75": 4745.0,
+                "stddev": 2132.3227536666827
+            },
+            "cr_return_amount": {
+                "avg": 1119.183307237096,
+                "count": 2158260,
+                "distinct_count": 197688,
+                "max": 28500.0,
+                "min": 0.0,
+                "null_percentage": 9.266724120356213e-05,
+                "q25": 84.0,
+                "q50": 411.0,
+                "q75": 1339.0,
+                "stddev": 1836.1921590221064
+            },
+            "cr_return_amt_inc_tax": {
+                "avg": 1169.5570813194668,
+                "count": 2158260,
+                "distinct_count": 402987,
+                "max": 28785.0,
+                "min": 0.0,
+                "null_percentage": 9.266724120356213e-05,
+                "q25": 88.0,
+                "q50": 429.0,
+                "q75": 1396.0,
+                "stddev": 1920.595479704058
+            },
+            "cr_return_quantity": {
+                "avg": 25.732525530826564,
+                "count": 2158260,
+                "distinct_count": 96,
+                "max": 100.0,
+                "min": 1.0,
+                "null_percentage": 9.266724120356213e-05,
+                "q25": 7.0,
+                "q50": 19.0,
+                "q75": 39.0,
+                "stddev": 22.145475901674523
+            },
+            "cr_return_ship_cost": {
+                "avg": 545.8849978085718,
+                "count": 2158260,
+                "distinct_count": 162993,
+                "max": 13877.78,
+                "min": 0.0,
+                "null_percentage": 9.266724120356213e-05,
+                "q25": 35.0,
+                "q50": 183.0,
+                "q75": 638.0,
+                "stddev": 932.0077147537728
+            },
+            "cr_return_tax": {
+                "avg": 50.42373191973561,
+                "count": 2158260,
+                "distinct_count": 53336,
+                "max": 2322.69,
+                "min": 0.0,
+                "null_percentage": 9.266724120356213e-05,
+                "q25": 1.0,
+                "q50": 12.0,
+                "q75": 51.0,
+                "stddev": 103.33278854563079
+            },
+            "cr_returned_date_sk": {
+                "avg": 2452149.519708469,
+                "count": 2158260,
+                "distinct_count": 2574,
+                "max": 2453217.0,
+                "min": 2450824.0,
+                "null_percentage": 0.0,
+                "q25": 2451642.0,
+                "q50": 2452228.0,
+                "q75": 2452710.0,
+                "stddev": 616.1391276943087
+            },
+            "cr_returned_time_sk": {
+                "avg": 49033.97643981726,
+                "count": 2158260,
+                "distinct_count": 82380,
+                "max": 86399.0,
+                "min": 0.0,
+                "null_percentage": 0.0,
+                "q25": 33121.0,
+                "q50": 49785.0,
+                "q75": 67864.0,
+                "stddev": 21331.836259083986
+            },
+            "cr_returning_addr_sk": {
+                "avg": 85924.37859555488,
+                "count": 2158260,
+                "distinct_count": 219479,
+                "max": 250000.0,
+                "min": 1.0,
+                "null_percentage": 9.266724120356213e-05,
+                "q25": 30514.0,
+                "q50": 70992.0,
+                "q75": 130836.0,
+                "stddev": 65637.87198726833
+            },
+            "cr_returning_cdemo_sk": {
+                "avg": 1079917.3699540133,
+                "count": 2158260,
+                "distinct_count": 707424,
+                "max": 1920781.0,
+                "min": 0.0,
+                "null_percentage": 9.266724120356213e-05,
+                "q25": 655757.0,
+                "q50": 1206724.0,
+                "q75": 1487843.0,
+                "stddev": 518708.4279605557
+            },
+            "cr_returning_customer_sk": {
+                "avg": 178638.04362962308,
+                "count": 2158260,
+                "distinct_count": 478629,
+                "max": 499999.0,
+                "min": 1.0,
+                "null_percentage": 9.266724120356213e-05,
+                "q25": 64145.0,
+                "q50": 149147.0,
+                "q75": 273930.0,
+                "stddev": 134412.69991570493
+            },
+            "cr_returning_hdemo_sk": {
+                "avg": 2904.100214503906,
+                "count": 2158260,
+                "distinct_count": 6631,
+                "max": 7199.0,
+                "min": 0.0,
+                "null_percentage": 9.266724120356213e-05,
+                "q25": 978.0,
+                "q50": 2310.0,
+                "q75": 4743.0,
+                "stddev": 2131.7571962810025
+            },
+            "cr_reversed_charge": {
+                "avg": 282.2525495484975,
+                "count": 2158260,
+                "distinct_count": 187449,
+                "max": 20193.26,
+                "min": 0.0,
+                "null_percentage": 9.266724120356213e-05,
+                "q25": 9.0,
+                "q50": 55.0,
+                "q75": 250.0,
+                "stddev": 665.5596618277475
+            },
+            "cr_ship_mode_sk": {
+                "avg": 7.529209964809891,
+                "count": 2158260,
+                "distinct_count": 21,
+                "max": 20.0,
+                "min": 1.0,
+                "null_percentage": 9.266724120356213e-05,
+                "q25": 3.0,
+                "q50": 6.0,
+                "q75": 11.0,
+                "stddev": 5.008269064305777
+            },
+            "cr_store_credit": {
+                "avg": 276.7247961857542,
+                "count": 2158260,
+                "distinct_count": 191861,
+                "max": 22075.91,
+                "min": 0.0,
+                "null_percentage": 9.266724120356213e-05,
+                "q25": 8.0,
+                "q50": 53.0,
+                "q75": 244.0,
+                "stddev": 655.780707648421
+            },
+            "cr_warehouse_sk": {
+                "avg": 4.083002304555929,
+                "count": 2158260,
+                "distinct_count": 11,
+                "max": 10.0,
+                "min": 1.0,
+                "null_percentage": 9.266724120356213e-05,
+                "q25": 2.0,
+                "q50": 4.0,
+                "q75": 6.0,
+                "stddev": 2.3984019502579623
+            }
+        },
+        "catalog_sales": {
+            "cs_bill_addr_sk": {
+                "avg": 85879.84684538157,
+                "count": 14397492,
+                "distinct_count": 219479,
+                "max": 250000.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 30507.0,
+                "q50": 70762.0,
+                "q75": 130669.0,
+                "stddev": 65687.82750297096
+            },
+            "cs_bill_cdemo_sk": {
+                "avg": 1080242.5358561014,
+                "count": 14397492,
+                "distinct_count": 613437,
+                "max": 1920761.0,
+                "min": 28.0,
+                "null_percentage": 0.0,
+                "q25": 657098.0,
+                "q50": 1207418.0,
+                "q75": 1487864.0,
+                "stddev": 518272.06260721706
+            },
+            "cs_bill_customer_sk": {
+                "avg": 249157.4523354661,
+                "count": 14397492,
+                "distinct_count": 491694,
+                "max": 499999.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 123974.0,
+                "q50": 248482.0,
+                "q75": 374055.0,
+                "stddev": 144525.16892432744
+            },
+            "cs_bill_hdemo_sk": {
+                "avg": 2902.6743227693787,
+                "count": 14397492,
+                "distinct_count": 6631,
+                "max": 7199.0,
+                "min": 0.0,
+                "null_percentage": 0.0,
+                "q25": 980.0,
+                "q50": 2309.0,
+                "q75": 4744.0,
+                "stddev": 2131.6689361125564
+            },
+            "cs_call_center_sk": {
+                "avg": 13.637271069571284,
+                "count": 14397492,
+                "distinct_count": 18,
+                "max": 24.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 7.0,
+                "q50": 11.0,
+                "q75": 24.0,
+                "stddev": 7.829554125309647
+            },
+            "cs_catalog_page_sk": {
+                "avg": 5826.13822394313,
+                "count": 14397492,
+                "distinct_count": 7012,
+                "max": 11211.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 2696.0,
+                "q50": 6156.0,
+                "q75": 8385.0,
+                "stddev": 3376.123899912197
+            },
+            "cs_coupon_amt": {
+                "avg": 219.4496574596411,
+                "count": 14397492,
+                "distinct_count": 517309,
+                "max": 27650.7,
+                "min": 0.0,
+                "null_percentage": 0.0,
+                "q25": 0.0,
+                "q50": 0.0,
+                "q75": 0.0,
+                "stddev": 927.620658801354
+            },
+            "cs_ext_discount_amt": {
+                "avg": 2085.799174742375,
+                "count": 14397492,
+                "distinct_count": 321887,
+                "max": 30000.0,
+                "min": 0.0,
+                "null_percentage": 0.0,
+                "q25": 233.0,
+                "q50": 1001.0,
+                "q75": 2767.0,
+                "stddev": 2859.5339471644193
+            },
+            "cs_ext_list_price": {
+                "avg": 4279.869034922348,
+                "count": 14397492,
+                "distinct_count": 40383,
+                "max": 30000.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 764.0,
+                "q50": 2729.0,
+                "q75": 6144.0,
+                "stddev": 4715.266811237429
+            },
+            "cs_ext_sales_price": {
+                "avg": 2193.9249797752054,
+                "count": 14397492,
+                "distinct_count": 255962,
+                "max": 30000.0,
+                "min": 0.0,
+                "null_percentage": 0.0,
+                "q25": 246.0,
+                "q50": 1083.0,
+                "q75": 2937.0,
+                "stddev": 2955.8740966604246
+            },
+            "cs_ext_ship_cost": {
+                "avg": 1069.8100795816774,
+                "count": 14397492,
+                "distinct_count": 241742,
+                "max": 15000.0,
+                "min": 0.0,
+                "null_percentage": 0.0,
+                "q25": 99.0,
+                "q50": 484.0,
+                "q75": 1416.0,
+                "stddev": 1506.4675198044747
+            },
+            "cs_ext_tax": {
+                "avg": 88.88786792475483,
+                "count": 14397492,
+                "distinct_count": 105898,
+                "max": 2673.0,
+                "min": 0.0,
+                "null_percentage": 0.0,
+                "q25": 3.0,
+                "q50": 26.0,
+                "q75": 102.0,
+                "stddev": 160.08339726596546
+            },
+            "cs_ext_wholesale_cost": {
+                "avg": 2270.500192610387,
+                "count": 14397492,
+                "distinct_count": 1912,
+                "max": 10000.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 447.0,
+                "q50": 1577.0,
+                "q75": 3382.0,
+                "stddev": 2270.43440767163
+            },
+            "cs_item_sk": {
+                "avg": 49279.29490025068,
+                "count": 14397492,
+                "distinct_count": 96025,
+                "max": 102000.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 25151.0,
+                "q50": 52467.0,
+                "q75": 65883.0,
+                "stddev": 26628.376361311228
+            },
+            "cs_list_price": {
+                "avg": 84.74081992405527,
+                "count": 14397492,
+                "distinct_count": 441,
+                "max": 300.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 32.0,
+                "q50": 70.0,
+                "q75": 125.0,
+                "stddev": 69.26869236014852
+            },
+            "cs_net_paid": {
+                "avg": 1974.537893058927,
+                "count": 14397492,
+                "distinct_count": 611198,
+                "max": 30000.0,
+                "min": 0.0,
+                "null_percentage": 0.0,
+                "q25": 184.0,
+                "q50": 896.0,
+                "q75": 2588.0,
+                "stddev": 2802.1656466719296
+            },
+            "cs_net_paid_inc_ship": {
+                "avg": 3044.4799754408614,
+                "count": 14397492,
+                "distinct_count": 1118269,
+                "max": 44700.0,
+                "min": 0.0,
+                "null_percentage": 0.0,
+                "q25": 423.0,
+                "q50": 1632.0,
+                "q75": 4124.0,
+                "stddev": 3905.333088126292
+            },
+            "cs_net_paid_inc_ship_tax": {
+                "avg": 3133.369430081295,
+                "count": 14397492,
+                "distinct_count": 1507256,
+                "max": 46746.0,
+                "min": 0.0,
+                "null_percentage": 0.0,
+                "q25": 435.0,
+                "q50": 1681.0,
+                "q75": 4244.0,
+                "stddev": 4026.8107968217787
+            },
+            "cs_net_paid_inc_tax": {
+                "avg": 2063.4560036953576,
+                "count": 14397492,
+                "distinct_count": 1075751,
+                "max": 32373.0,
+                "min": 0.0,
+                "null_percentage": 0.0,
+                "q25": 194.0,
+                "q50": 934.0,
+                "q75": 2710.0,
+                "stddev": 2930.0462759025686
+            },
+            "cs_net_profit": {
+                "avg": -295.9399431519045,
+                "count": 14397492,
+                "distinct_count": 749073,
+                "max": 20000.0,
+                "min": -10000.0,
+                "null_percentage": 0.0,
+                "q25": -936.0,
+                "q50": -99.0,
+                "q75": 157.0,
+                "stddev": 2009.828190369843
+            },
+            "cs_order_number": {
+                "avg": 799944.9890646926,
+                "count": 14397492,
+                "distinct_count": 1466587,
+                "max": 1600000.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 402296.0,
+                "q50": 796156.0,
+                "q75": 1202644.0,
+                "stddev": 461862.9578862979
+            },
+            "cs_promo_sk": {
+                "avg": 244.83728891243953,
+                "count": 14397492,
+                "distinct_count": 520,
+                "max": 500.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 121.0,
+                "q50": 243.0,
+                "q75": 362.0,
+                "stddev": 140.2561598905934
+            },
+            "cs_quantity": {
+                "avg": 50.49432693567549,
+                "count": 14397492,
+                "distinct_count": 96,
+                "max": 100.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 26.0,
+                "q50": 50.0,
+                "q75": 75.0,
+                "stddev": 28.872298662630325
+            },
+            "cs_sales_price": {
+                "avg": 43.44055046278858,
+                "count": 14397492,
+                "distinct_count": 4159,
+                "max": 300.0,
+                "min": 0.0,
+                "null_percentage": 0.0,
+                "q25": 9.0,
+                "q50": 29.0,
+                "q75": 62.0,
+                "stddev": 46.00366371053858
+            },
+            "cs_ship_addr_sk": {
+                "avg": 85876.03061852379,
+                "count": 14397492,
+                "distinct_count": 219479,
+                "max": 250000.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 30449.0,
+                "q50": 70805.0,
+                "q75": 130747.0,
+                "stddev": 65668.32657040849
+            },
+            "cs_ship_cdemo_sk": {
+                "avg": 1080441.9539772118,
+                "count": 14397492,
+                "distinct_count": 605761,
+                "max": 1920781.0,
+                "min": 28.0,
+                "null_percentage": 0.0,
+                "q25": 657918.0,
+                "q50": 1207008.0,
+                "q75": 1488079.0,
+                "stddev": 518150.6008361238
+            },
+            "cs_ship_customer_sk": {
+                "avg": 240542.79213583894,
+                "count": 14397492,
+                "distinct_count": 501890,
+                "max": 499999.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 113011.0,
+                "q50": 236066.0,
+                "q75": 365249.0,
+                "stddev": 145188.88199874753
+            },
+            "cs_ship_date_sk": {
+                "avg": 2452057.423207186,
+                "count": 14397492,
+                "distinct_count": 2352,
+                "max": 2453042.0,
+                "min": 2450817.0,
+                "null_percentage": 0.0,
+                "q25": 2451536.0,
+                "q50": 2452137.0,
+                "q75": 2452627.0,
+                "stddev": 614.304432592596
+            },
+            "cs_ship_hdemo_sk": {
+                "avg": 2902.2245259508904,
+                "count": 14397492,
+                "distinct_count": 6631,
+                "max": 7199.0,
+                "min": 0.0,
+                "null_percentage": 0.0,
+                "q25": 982.0,
+                "q50": 2309.0,
+                "q75": 4741.0,
+                "stddev": 2131.5124549634893
+            },
+            "cs_ship_mode_sk": {
+                "avg": 9.467738118639922,
+                "count": 14397492,
+                "distinct_count": 21,
+                "max": 20.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 4.0,
+                "q50": 9.0,
+                "q75": 14.0,
+                "stddev": 5.821152650894076
+            },
+            "cs_sold_date_sk": {
+                "avg": 2452011.420866599,
+                "count": 14397492,
+                "distinct_count": 2241,
+                "max": 2452952.0,
+                "min": 2450815.0,
+                "null_percentage": 0.0,
+                "q25": 2451483.0,
+                "q50": 2452087.0,
+                "q75": 2452584.0,
+                "stddev": 613.7585629013481
+            },
+            "cs_sold_time_sk": {
+                "avg": 49012.72630110505,
+                "count": 14397492,
+                "distinct_count": 82380,
+                "max": 86399.0,
+                "min": 0.0,
+                "null_percentage": 0.0,
+                "q25": 33104.0,
+                "q50": 49723.0,
+                "q75": 67883.0,
+                "stddev": 21350.270157383005
+            },
+            "cs_warehouse_sk": {
+                "avg": 5.387196043051969,
+                "count": 14397492,
+                "distinct_count": 11,
+                "max": 10.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 2.0,
+                "q50": 6.0,
+                "q75": 9.0,
+                "stddev": 3.429979209311801
+            },
+            "cs_wholesale_cost": {
+                "avg": 44.95781457493123,
+                "count": 14397492,
+                "distinct_count": 18,
+                "max": 100.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 22.0,
+                "q50": 37.0,
+                "q75": 68.0,
+                "stddev": 32.01517084337514
+            }
+        },
+        "customer": {
+            "c_birth_country": {
+                "count": 500000,
+                "distinct_count": 222,
+                "null_percentage": 0.0008
+            },
+            "c_birth_day": {
+                "avg": 16.466446076754508,
+                "count": 500000,
+                "distinct_count": 29,
+                "max": 31.0,
+                "min": 1.0,
+                "null_percentage": 0.0008,
+                "q25": 9.0,
+                "q50": 16.0,
+                "q75": 23.0,
+                "stddev": 8.923568635889643
+            },
+            "c_birth_month": {
+                "avg": 6.393838264283449,
+                "count": 500000,
+                "distinct_count": 13,
+                "max": 12.0,
+                "min": 1.0,
+                "null_percentage": 0.0008,
+                "q25": 3.0,
+                "q50": 7.0,
+                "q75": 10.0,
+                "stddev": 3.6266861017705483
+            },
+            "c_birth_year": {
+                "avg": 1960.510201882468,
+                "count": 500000,
+                "distinct_count": 75,
+                "max": 1993.0,
+                "min": 1925.0,
+                "null_percentage": 0.0006,
+                "q25": 1944.0,
+                "q50": 1961.0,
+                "q75": 1977.0,
+                "stddev": 19.05168776161661
+            },
+            "c_current_addr_sk": {
+                "avg": 85925.961912,
+                "count": 500000,
+                "distinct_count": 198753,
+                "max": 249998.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 30482.0,
+                "q50": 70798.0,
+                "q75": 130787.0,
+                "stddev": 65696.38075812775
+            },
+            "c_current_cdemo_sk": {
+                "avg": 960696.4340823086,
+                "count": 500000,
+                "distinct_count": 438461,
+                "max": 1920800.0,
+                "min": 3.0,
+                "null_percentage": 0.0006,
+                "q25": 480014.0,
+                "q50": 961351.0,
+                "q75": 1441999.0,
+                "stddev": 554801.0576706941
+            },
+            "c_current_hdemo_sk": {
+                "avg": 3596.745900484149,
+                "count": 500000,
+                "distinct_count": 6602,
+                "max": 7200.0,
+                "min": 1.0,
+                "null_percentage": 0.0008,
+                "q25": 1823.0,
+                "q50": 3596.0,
+                "q75": 5415.0,
+                "stddev": 2078.2516977535547
+            },
+            "c_customer_id": {
+                "count": 500000,
+                "distinct_count": 624630,
+                "null_percentage": 0.0
+            },
+            "c_customer_sk": {
+                "avg": 250000.5,
+                "count": 500000,
+                "distinct_count": 516619,
+                "max": 500000.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 124978.0,
+                "q50": 249960.0,
+                "q75": 374417.0,
+                "stddev": 144337.71163490321
+            },
+            "c_email_address": {
+                "count": 500000,
+                "distinct_count": 473653,
+                "null_percentage": 0.0008
+            },
+            "c_first_name": {
+                "count": 500000,
+                "distinct_count": 5089,
+                "null_percentage": 0.0008
+            },
+            "c_first_sales_date_sk": {
+                "avg": 2450825.3082827553,
+                "count": 500000,
+                "distinct_count": 4425,
+                "max": 2452648.0,
+                "min": 2448998.0,
+                "null_percentage": 0.0008,
+                "q25": 2449915.0,
+                "q50": 2450825.0,
+                "q75": 2451734.0,
+                "stddev": 1052.846860566394
+            },
+            "c_first_shipto_date_sk": {
+                "avg": 2450855.1946196333,
+                "count": 500000,
+                "distinct_count": 4425,
+                "max": 2452678.0,
+                "min": 2449028.0,
+                "null_percentage": 0.0008,
+                "q25": 2449945.0,
+                "q50": 2450854.0,
+                "q75": 2451767.0,
+                "stddev": 1052.9359902138797
+            },
+            "c_last_name": {
+                "count": 500000,
+                "distinct_count": 5065,
+                "null_percentage": 0.0006
+            },
+            "c_last_review_date": {
+                "count": 500000,
+                "distinct_count": 411,
+                "null_percentage": 0.0008
+            },
+            "c_login": {
+                "count": 500000,
+                "distinct_count": 0,
+                "null_percentage": 0.02
+            },
+            "c_preferred_cust_flag": {
+                "count": 500000,
+                "distinct_count": 2,
+                "null_percentage": 0.0008
+            },
+            "c_salutation": {
+                "count": 500000,
+                "distinct_count": 6,
+                "null_percentage": 0.0008
+            }
+        },
+        "customer_address": {
+            "ca_address_id": {
+                "count": 250000,
+                "distinct_count": 295063,
+                "null_percentage": 0.0
+            },
+            "ca_address_sk": {
+                "avg": 125000.5,
+                "count": 250000,
+                "distinct_count": 219479,
+                "max": 250000.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 62684.0,
+                "q50": 124830.0,
+                "q75": 187577.0,
+                "stddev": 72168.92798612686
+            },
+            "ca_city": {
+                "count": 250000,
+                "distinct_count": 864,
+                "null_percentage": 0.0012
+            },
+            "ca_country": {
+                "count": 250000,
+                "distinct_count": 1,
+                "null_percentage": 0.0012
+            },
+            "ca_county": {
+                "count": 250000,
+                "distinct_count": 1705,
+                "null_percentage": 0.0012
+            },
+            "ca_gmt_offset": {
+                "avg": -5.8561610231334695,
+                "count": 250000,
+                "distinct_count": 6,
+                "max": -5.0,
+                "min": -10.0,
+                "null_percentage": 0.0012,
+                "q25": -6.0,
+                "q50": -6.0,
+                "q75": -5.0,
+                "stddev": 0.8548338482352164
+            },
+            "ca_location_type": {
+                "count": 250000,
+                "distinct_count": 3,
+                "null_percentage": 0.0012
+            },
+            "ca_state": {
+                "count": 250000,
+                "distinct_count": 55,
+                "null_percentage": 0.0012
+            },
+            "ca_street_name": {
+                "count": 250000,
+                "distinct_count": 8065,
+                "null_percentage": 0.0012
+            },
+            "ca_street_number": {
+                "count": 250000,
+                "distinct_count": 1082,
+                "null_percentage": 0.0012
+            },
+            "ca_street_type": {
+                "count": 250000,
+                "distinct_count": 17,
+                "null_percentage": 0.0012
+            },
+            "ca_suite_number": {
+                "count": 250000,
+                "distinct_count": 72,
+                "null_percentage": 0.0012
+            },
+            "ca_zip": {
+                "count": 250000,
+                "distinct_count": 8407,
+                "null_percentage": 0.0012
+            }
+        },
+        "customer_demographics": {
+            "cd_credit_rating": {
+                "count": 1920800,
+                "distinct_count": 4,
+                "null_percentage": 0.0
+            },
+            "cd_demo_sk": {
+                "avg": 960400.5,
+                "count": 1920800,
+                "distinct_count": 1814445,
+                "max": 1920800.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 479348.0,
+                "q50": 959841.0,
+                "q75": 1447830.0,
+                "stddev": 554487.3428672613
+            },
+            "cd_dep_college_count": {
+                "avg": 3.0,
+                "count": 1920800,
+                "distinct_count": 7,
+                "max": 6.0,
+                "min": 0.0,
+                "null_percentage": 0.0,
+                "q25": 1.0,
+                "q50": 3.0,
+                "q75": 5.0,
+                "stddev": 2.000000520616614
+            },
+            "cd_dep_count": {
+                "avg": 3.0,
+                "count": 1920800,
+                "distinct_count": 7,
+                "max": 6.0,
+                "min": 0.0,
+                "null_percentage": 0.0,
+                "q25": 1.0,
+                "q50": 3.0,
+                "q75": 5.0,
+                "stddev": 2.0000005206166174
+            },
+            "cd_dep_employed_count": {
+                "avg": 3.0,
+                "count": 1920800,
+                "distinct_count": 7,
+                "max": 6.0,
+                "min": 0.0,
+                "null_percentage": 0.0,
+                "q25": 1.0,
+                "q50": 3.0,
+                "q75": 5.0,
+                "stddev": 2.0000005206166116
+            },
+            "cd_education_status": {
+                "count": 1920800,
+                "distinct_count": 7,
+                "null_percentage": 0.0
+            },
+            "cd_gender": {
+                "count": 1920800,
+                "distinct_count": 2,
+                "null_percentage": 0.0
+            },
+            "cd_marital_status": {
+                "count": 1920800,
+                "distinct_count": 5,
+                "null_percentage": 0.0
+            },
+            "cd_purchase_estimate": {
+                "avg": 5250.0,
+                "count": 1920800,
+                "distinct_count": 24,
+                "max": 10000.0,
+                "min": 500.0,
+                "null_percentage": 0.0,
+                "q25": 2759.0,
+                "q50": 5262.0,
+                "q75": 7787.0,
+                "stddev": 2883.141399173164
+            }
+        },
+        "date_dim": {
+            "d_current_day": {
+                "count": 73049,
+                "distinct_count": 1,
+                "null_percentage": 0.0
+            },
+            "d_current_month": {
+                "count": 73049,
+                "distinct_count": 2,
+                "null_percentage": 0.0
+            },
+            "d_current_quarter": {
+                "count": 73049,
+                "distinct_count": 2,
+                "null_percentage": 0.0
+            },
+            "d_current_week": {
+                "count": 73049,
+                "distinct_count": 1,
+                "null_percentage": 0.0
+            },
+            "d_current_year": {
+                "count": 73049,
+                "distinct_count": 2,
+                "null_percentage": 0.0
+            },
+            "d_date": {
+                "count": 73049,
+                "distinct_count": 63864,
+                "null_percentage": 0.0
+            },
+            "d_date_id": {
+                "count": 73049,
+                "distinct_count": 70478,
+                "null_percentage": 0.0
+            },
+            "d_date_sk": {
+                "avg": 2451546.0,
+                "count": 73049,
+                "distinct_count": 66450,
+                "max": 2488070.0,
+                "min": 2415022.0,
+                "null_percentage": 0.0,
+                "q25": 2433284.0,
+                "q50": 2451546.0,
+                "q75": 2469808.0,
+                "stddev": 21087.57424408981
+            },
+            "d_day_name": {
+                "count": 73049,
+                "distinct_count": 7,
+                "null_percentage": 0.0
+            },
+            "d_dom": {
+                "avg": 15.729455570918152,
+                "count": 73049,
+                "distinct_count": 29,
+                "max": 31.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 8.0,
+                "q50": 16.0,
+                "q75": 23.0,
+                "stddev": 8.800075534106503
+            },
+            "d_dow": {
+                "avg": 2.999986310558666,
+                "count": 73049,
+                "distinct_count": 7,
+                "max": 6.0,
+                "min": 0.0,
+                "null_percentage": 0.0,
+                "q25": 1.0,
+                "q50": 3.0,
+                "q75": 5.0,
+                "stddev": 1.9999828878440216
+            },
+            "d_first_dom": {
+                "avg": 2451531.2705444293,
+                "count": 73049,
+                "distinct_count": 2134,
+                "max": 2488070.0,
+                "min": 2415021.0,
+                "null_percentage": 0.0,
+                "q25": 2433269.0,
+                "q50": 2451531.0,
+                "q75": 2469794.0,
+                "stddev": 21087.572574660622
+            },
+            "d_following_holiday": {
+                "count": 73049,
+                "distinct_count": 2,
+                "null_percentage": 0.0
+            },
+            "d_fy_quarter_seq": {
+                "avg": 400.85489192186066,
+                "count": 73049,
+                "distinct_count": 959,
+                "max": 801.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 201.0,
+                "q50": 401.0,
+                "q75": 601.0,
+                "stddev": 230.93887850291375
+            },
+            "d_fy_week_seq": {
+                "avg": 5218.2857260195215,
+                "count": 73049,
+                "distinct_count": 8763,
+                "max": 10436.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 2609.0,
+                "q50": 5218.0,
+                "q75": 7827.0,
+                "stddev": 3012.510613072876
+            },
+            "d_fy_year": {
+                "avg": 1999.5030732795794,
+                "count": 73049,
+                "distinct_count": 257,
+                "max": 2100.0,
+                "min": 1900.0,
+                "null_percentage": 0.0,
+                "q25": 1950.0,
+                "q50": 2000.0,
+                "q75": 2049.0,
+                "stddev": 57.73395139884548
+            },
+            "d_holiday": {
+                "count": 73049,
+                "distinct_count": 2,
+                "null_percentage": 0.0
+            },
+            "d_last_dom": {
+                "avg": 2451697.6680310476,
+                "count": 73049,
+                "distinct_count": 1858,
+                "max": 2488372.0,
+                "min": 2415020.0,
+                "null_percentage": 0.0,
+                "q25": 2433435.0,
+                "q50": 2451698.0,
+                "q75": 2469960.0,
+                "stddev": 21088.342309754684
+            },
+            "d_month_seq": {
+                "avg": 1199.5598707716738,
+                "count": 73049,
+                "distinct_count": 2482,
+                "max": 2400.0,
+                "min": 0.0,
+                "null_percentage": 0.0,
+                "q25": 600.0,
+                "q50": 1200.0,
+                "q75": 1800.0,
+                "stddev": 692.8157121691395
+            },
+            "d_moy": {
+                "avg": 6.522991416720283,
+                "count": 73049,
+                "distinct_count": 13,
+                "max": 12.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 4.0,
+                "q50": 7.0,
+                "q75": 10.0,
+                "stddev": 3.4487097908165545
+            },
+            "d_qoy": {
+                "avg": 2.502416186395433,
+                "count": 73049,
+                "distinct_count": 4,
+                "max": 4.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 1.0,
+                "q50": 3.0,
+                "q75": 3.0,
+                "stddev": 1.1171142018880558
+            },
+            "d_quarter_name": {
+                "count": 73049,
+                "distinct_count": 1066,
+                "null_percentage": 0.0
+            },
+            "d_quarter_seq": {
+                "avg": 400.85489192186066,
+                "count": 73049,
+                "distinct_count": 959,
+                "max": 801.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 201.0,
+                "q50": 401.0,
+                "q75": 601.0,
+                "stddev": 230.93887850291375
+            },
+            "d_same_day_lq": {
+                "avg": 2451454.689140166,
+                "count": 73049,
+                "distinct_count": 66450,
+                "max": 2487978.0,
+                "min": 2414930.0,
+                "null_percentage": 0.0,
+                "q25": 2433192.0,
+                "q50": 2451455.0,
+                "q75": 2469717.0,
+                "stddev": 21087.573252654936
+            },
+            "d_same_day_ly": {
+                "avg": 2451180.7544935592,
+                "count": 73049,
+                "distinct_count": 66450,
+                "max": 2487705.0,
+                "min": 2414657.0,
+                "null_percentage": 0.0,
+                "q25": 2432918.0,
+                "q50": 2451181.0,
+                "q75": 2469443.0,
+                "stddev": 21087.571448495313
+            },
+            "d_week_seq": {
+                "avg": 5218.2857260195215,
+                "count": 73049,
+                "distinct_count": 8763,
+                "max": 10436.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 2609.0,
+                "q50": 5218.0,
+                "q75": 7827.0,
+                "stddev": 3012.510613072876
+            },
+            "d_weekend": {
+                "count": 73049,
+                "distinct_count": 2,
+                "null_percentage": 0.0
+            },
+            "d_year": {
+                "avg": 1999.5030732795794,
+                "count": 73049,
+                "distinct_count": 257,
+                "max": 2100.0,
+                "min": 1900.0,
+                "null_percentage": 0.0,
+                "q25": 1950.0,
+                "q50": 2000.0,
+                "q75": 2049.0,
+                "stddev": 57.73395139884548
+            }
+        },
+        "dbgen_version": {
+            "dv_cmdline_args": {
+                "count": 1,
+                "distinct_count": 1,
+                "null_percentage": 0.0
+            },
+            "dv_create_date": {
+                "count": 1,
+                "distinct_count": 1,
+                "null_percentage": 0.0
+            },
+            "dv_create_time": {
+                "count": 1,
+                "distinct_count": 1,
+                "null_percentage": 0.0
+            },
+            "dv_version": {
+                "count": 1,
+                "distinct_count": 1,
+                "null_percentage": 0.0
+            }
+        },
+        "household_demographics": {
+            "hd_buy_potential": {
+                "count": 7200,
+                "distinct_count": 6,
+                "null_percentage": 0.0
+            },
+            "hd_demo_sk": {
+                "avg": 3600.5,
+                "count": 7200,
+                "distinct_count": 6602,
+                "max": 7200.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 1800.0,
+                "q50": 3600.0,
+                "q75": 5400.0,
+                "stddev": 2078.605301638577
+            },
+            "hd_dep_count": {
+                "avg": 4.5,
+                "count": 7200,
+                "distinct_count": 11,
+                "max": 9.0,
+                "min": 0.0,
+                "null_percentage": 0.0,
+                "q25": 2.0,
+                "q50": 5.0,
+                "q75": 7.0,
+                "stddev": 2.872480808029696
+            },
+            "hd_income_band_sk": {
+                "avg": 10.5,
+                "count": 7200,
+                "distinct_count": 21,
+                "max": 20.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 5.0,
+                "q50": 10.0,
+                "q75": 15.0,
+                "stddev": 5.766681775253537
+            },
+            "hd_vehicle_count": {
+                "avg": 1.5,
+                "count": 7200,
+                "distinct_count": 6,
+                "max": 4.0,
+                "min": -1.0,
+                "null_percentage": 0.0,
+                "q25": 0.0,
+                "q50": 2.0,
+                "q75": 3.0,
+                "stddev": 1.7079437389826215
+            }
+        },
+        "income_band": {
+            "ib_income_band_sk": {
+                "avg": 10.5,
+                "count": 20,
+                "distinct_count": 21,
+                "max": 20.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 6.0,
+                "q50": 10.0,
+                "q75": 16.0,
+                "stddev": 5.916079783099616
+            },
+            "ib_lower_bound": {
+                "avg": 95000.95,
+                "count": 20,
+                "distinct_count": 20,
+                "max": 190001.0,
+                "min": 0.0,
+                "null_percentage": 0.0,
+                "q25": 45001.0,
+                "q50": 95001.0,
+                "q75": 145001.0,
+                "stddev": 59160.88234678384
+            },
+            "ib_upper_bound": {
+                "avg": 105000.0,
+                "count": 20,
+                "distinct_count": 20,
+                "max": 200000.0,
+                "min": 10000.0,
+                "null_percentage": 0.0,
+                "q25": 55000.0,
+                "q50": 105000.0,
+                "q75": 155000.0,
+                "stddev": 59160.79783099616
+            }
+        },
+        "inventory": {
+            "inv_date_sk": {
+                "avg": 2451725.0,
+                "count": 133110000,
+                "distinct_count": 209,
+                "max": 2452635.0,
+                "min": 2450815.0,
+                "null_percentage": 0.0,
+                "q25": 2451269.0,
+                "q50": 2451725.0,
+                "q75": 2452181.0,
+                "stddev": 527.4056017491713
+            },
+            "inv_item_sk": {
+                "avg": 50999.73180076628,
+                "count": 133110000,
+                "distinct_count": 96025,
+                "max": 102000.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 25500.0,
+                "q50": 50983.0,
+                "q75": 76511.0,
+                "stddev": 29444.863834604086
+            },
+            "inv_quantity_on_hand": {
+                "avg": 493.1217236485463,
+                "count": 133110000,
+                "distinct_count": 1249,
+                "max": 1000.0,
+                "min": 0.0,
+                "null_percentage": 3.75629178874615e-06,
+                "q25": 242.0,
+                "q50": 464.0,
+                "q75": 734.0,
+                "stddev": 296.8658978566545
+            },
+            "inv_warehouse_sk": {
+                "avg": 5.5,
+                "count": 133110000,
+                "distinct_count": 11,
+                "max": 10.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 3.0,
+                "q50": 6.0,
+                "q75": 8.0,
+                "stddev": 2.87228133405805
+            }
+        },
+        "item": {
+            "i_brand": {
+                "count": 102000,
+                "distinct_count": 887,
+                "null_percentage": 0.0
+            },
+            "i_brand_id": {
+                "avg": 6197421.11321107,
+                "count": 102000,
+                "distinct_count": 880,
+                "max": 10016017.0,
+                "min": 1001001.0,
+                "null_percentage": 0.0,
+                "q25": 3003854.0,
+                "q50": 7001721.0,
+                "q75": 9006935.0,
+                "stddev": 3031730.0126186563
+            },
+            "i_category": {
+                "count": 102000,
+                "distinct_count": 11,
+                "null_percentage": 0.0
+            },
+            "i_category_id": {
+                "avg": 6.193391451345003,
+                "count": 102000,
+                "distinct_count": 11,
+                "max": 10.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 3.0,
+                "q50": 7.0,
+                "q75": 9.0,
+                "stddev": 3.029633091559113
+            },
+            "i_class": {
+                "count": 102000,
+                "distinct_count": 106,
+                "null_percentage": 0.0
+            },
+            "i_class_id": {
+                "avg": 4.3612669896710665,
+                "count": 102000,
+                "distinct_count": 20,
+                "max": 16.0,
+                "min": 0.0,
+                "null_percentage": 0.0,
+                "q25": 2.0,
+                "q50": 3.0,
+                "q75": 6.0,
+                "stddev": 3.6883462367702715
+            },
+            "i_color": {
+                "count": 102000,
+                "distinct_count": 91,
+                "null_percentage": 0.0
+            },
+            "i_container": {
+                "count": 102000,
+                "distinct_count": 1,
+                "null_percentage": 0.0
+            },
+            "i_current_price": {
+                "avg": 9.227212557252658,
+                "count": 102000,
+                "distinct_count": 6746,
+                "max": 99.98,
+                "min": 0.09,
+                "null_percentage": 0.0,
+                "q25": 2.0,
+                "q50": 4.0,
+                "q75": 7.0,
+                "stddev": 17.465819885305763
+            },
+            "i_formulation": {
+                "count": 102000,
+                "distinct_count": 74304,
+                "null_percentage": 0.0
+            },
+            "i_item_desc": {
+                "count": 102000,
+                "distinct_count": 80665,
+                "null_percentage": 0.0
+            },
+            "i_item_id": {
+                "count": 102000,
+                "distinct_count": 40747,
+                "null_percentage": 0.0
+            },
+            "i_item_sk": {
+                "avg": 51000.5,
+                "count": 102000,
+                "distinct_count": 96025,
+                "max": 102000.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 25507.0,
+                "q50": 50991.0,
+                "q75": 76484.0,
+                "stddev": 29445.00806588448
+            },
+            "i_manager_id": {
+                "avg": 50.33038855368409,
+                "count": 102000,
+                "distinct_count": 96,
+                "max": 100.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 26.0,
+                "q50": 50.0,
+                "q75": 75.0,
+                "stddev": 28.79869707535116
+            },
+            "i_manufact": {
+                "count": 102000,
+                "distinct_count": 976,
+                "null_percentage": 0.0
+            },
+            "i_manufact_id": {
+                "avg": 486.53804657561165,
+                "count": 102000,
+                "distinct_count": 1232,
+                "max": 1000.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 245.0,
+                "q50": 473.0,
+                "q75": 723.0,
+                "stddev": 281.0617392956804
+            },
+            "i_product_name": {
+                "count": 102000,
+                "distinct_count": 95954,
+                "null_percentage": 0.0
+            },
+            "i_rec_end_date": {
+                "count": 102000,
+                "distinct_count": 3,
+                "null_percentage": 0.049019607843137254
+            },
+            "i_rec_start_date": {
+                "count": 102000,
+                "distinct_count": 4,
+                "null_percentage": 0.0
+            },
+            "i_size": {
+                "count": 102000,
+                "distinct_count": 7,
+                "null_percentage": 0.0
+            },
+            "i_units": {
+                "count": 102000,
+                "distinct_count": 23,
+                "null_percentage": 0.0
+            },
+            "i_wholesale_cost": {
+                "avg": 5.534722861017749,
+                "count": 102000,
+                "distinct_count": 4676,
+                "max": 89.73,
+                "min": 0.02,
+                "null_percentage": 0.0,
+                "q25": 1.0,
+                "q50": 2.0,
+                "q75": 4.0,
+                "stddev": 11.020836813411172
+            }
+        },
+        "promotion": {
+            "p_channel_catalog": {
+                "count": 500,
+                "distinct_count": 2,
+                "null_percentage": 0.2
+            },
+            "p_channel_demo": {
+                "count": 500,
+                "distinct_count": 2,
+                "null_percentage": 0.2
+            },
+            "p_channel_details": {
+                "count": 500,
+                "distinct_count": 493,
+                "null_percentage": 0.2
+            },
+            "p_channel_dmail": {
+                "count": 500,
+                "distinct_count": 2,
+                "null_percentage": 0.2
+            },
+            "p_channel_email": {
+                "count": 500,
+                "distinct_count": 2,
+                "null_percentage": 0.2
+            },
+            "p_channel_event": {
+                "count": 500,
+                "distinct_count": 2,
+                "null_percentage": 0.2
+            },
+            "p_channel_press": {
+                "count": 500,
+                "distinct_count": 2,
+                "null_percentage": 0.4
+            },
+            "p_channel_radio": {
+                "count": 500,
+                "distinct_count": 2,
+                "null_percentage": 0.4
+            },
+            "p_channel_tv": {
+                "count": 500,
+                "distinct_count": 2,
+                "null_percentage": 0.4
+            },
+            "p_cost": {
+                "avg": 1000.0,
+                "count": 500,
+                "distinct_count": 1,
+                "max": 1000.0,
+                "min": 1000.0,
+                "null_percentage": 0.4,
+                "q25": 1000.0,
+                "q50": 1000.0,
+                "q75": 1000.0,
+                "stddev": 0.0
+            },
+            "p_discount_active": {
+                "count": 500,
+                "distinct_count": 2,
+                "null_percentage": 0.4
+            },
+            "p_end_date_sk": {
+                "avg": 2450518.7099391483,
+                "count": 500,
+                "distinct_count": 363,
+                "max": 2450953.0,
+                "min": 2450114.0,
+                "null_percentage": 0.2,
+                "q25": 2450286.0,
+                "q50": 2450525.0,
+                "q75": 2450737.0,
+                "stddev": 238.32754635643977
+            },
+            "p_item_sk": {
+                "avg": 34325.35437881874,
+                "count": 500,
+                "distinct_count": 603,
+                "max": 101234.0,
+                "min": 50.0,
+                "null_percentage": 0.4,
+                "q25": 11309.0,
+                "q50": 25652.0,
+                "q75": 51786.0,
+                "stddev": 27806.76446839312
+            },
+            "p_promo_id": {
+                "count": 500,
+                "distinct_count": 589,
+                "null_percentage": 0.0
+            },
+            "p_promo_name": {
+                "count": 500,
+                "distinct_count": 9,
+                "null_percentage": 0.4
+            },
+            "p_promo_sk": {
+                "avg": 250.5,
+                "count": 500,
+                "distinct_count": 520,
+                "max": 500.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 126.0,
+                "q50": 250.0,
+                "q75": 376.0,
+                "stddev": 144.4818327679989
+            },
+            "p_purpose": {
+                "count": 500,
+                "distinct_count": 1,
+                "null_percentage": 0.2
+            },
+            "p_response_target": {
+                "avg": 1.0,
+                "count": 500,
+                "distinct_count": 1,
+                "max": 1.0,
+                "min": 1.0,
+                "null_percentage": 0.4,
+                "q25": 1.0,
+                "q50": 1.0,
+                "q75": 1.0,
+                "stddev": 0.0
+            },
+            "p_start_date_sk": {
+                "avg": 2450487.154158215,
+                "count": 500,
+                "distinct_count": 351,
+                "max": 2450913.0,
+                "min": 2450096.0,
+                "null_percentage": 0.2,
+                "q25": 2450257.0,
+                "q50": 2450491.0,
+                "q75": 2450706.0,
+                "stddev": 237.7392260473151
+            }
+        },
+        "reason": {
+            "r_reason_desc": {
+                "count": 45,
+                "distinct_count": 48,
+                "null_percentage": 0.0
+            },
+            "r_reason_id": {
+                "count": 45,
+                "distinct_count": 42,
+                "null_percentage": 0.0
+            },
+            "r_reason_sk": {
+                "avg": 23.0,
+                "count": 45,
+                "distinct_count": 45,
+                "max": 45.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 12.0,
+                "q50": 23.0,
+                "q75": 34.0,
+                "stddev": 13.133925536563698
+            }
+        },
+        "ship_mode": {
+            "sm_carrier": {
+                "count": 20,
+                "distinct_count": 20,
+                "null_percentage": 0.0
+            },
+            "sm_code": {
+                "count": 20,
+                "distinct_count": 4,
+                "null_percentage": 0.0
+            },
+            "sm_contract": {
+                "count": 20,
+                "distinct_count": 21,
+                "null_percentage": 0.0
+            },
+            "sm_ship_mode_id": {
+                "count": 20,
+                "distinct_count": 20,
+                "null_percentage": 0.0
+            },
+            "sm_ship_mode_sk": {
+                "avg": 10.5,
+                "count": 20,
+                "distinct_count": 21,
+                "max": 20.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 6.0,
+                "q50": 10.0,
+                "q75": 16.0,
+                "stddev": 5.916079783099616
+            },
+            "sm_type": {
+                "count": 20,
+                "distinct_count": 6,
+                "null_percentage": 0.0
+            }
+        },
+        "store": {
+            "s_city": {
+                "count": 102,
+                "distinct_count": 60,
+                "null_percentage": 0.9803921568627451
+            },
+            "s_closed_date_sk": {
+                "avg": 2451028.533333333,
+                "count": 102,
+                "distinct_count": 21,
+                "max": 2451288.0,
+                "min": 2450833.0,
+                "null_percentage": 69.6078431372549,
+                "q25": 2450867.0,
+                "q50": 2451039.0,
+                "q75": 2451140.0,
+                "stddev": 146.7105368034925
+            },
+            "s_company_id": {
+                "avg": 1.0,
+                "count": 102,
+                "distinct_count": 1,
+                "max": 1.0,
+                "min": 1.0,
+                "null_percentage": 0.9803921568627451,
+                "q25": 1.0,
+                "q50": 1.0,
+                "q75": 1.0,
+                "stddev": 0.0
+            },
+            "s_company_name": {
+                "count": 102,
+                "distinct_count": 1,
+                "null_percentage": 0.0
+            },
+            "s_country": {
+                "count": 102,
+                "distinct_count": 1,
+                "null_percentage": 0.0
+            },
+            "s_county": {
+                "count": 102,
+                "distinct_count": 63,
+                "null_percentage": 0.9803921568627451
+            },
+            "s_division_id": {
+                "avg": 1.0,
+                "count": 102,
+                "distinct_count": 1,
+                "max": 1.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 1.0,
+                "q50": 1.0,
+                "q75": 1.0,
+                "stddev": 0.0
+            },
+            "s_division_name": {
+                "count": 102,
+                "distinct_count": 1,
+                "null_percentage": 0.9803921568627451
+            },
+            "s_floor_space": {
+                "avg": 7726235.722772277,
+                "count": 102,
+                "distinct_count": 100,
+                "max": 9980575.0,
+                "min": 5034295.0,
+                "null_percentage": 0.9803921568627451,
+                "q25": 6484026.0,
+                "q50": 7871376.0,
+                "q75": 8867081.0,
+                "stddev": 1329950.45319269
+            },
+            "s_geography_class": {
+                "count": 102,
+                "distinct_count": 1,
+                "null_percentage": 0.9803921568627451
+            },
+            "s_gmt_offset": {
+                "avg": -5.821782178217822,
+                "count": 102,
+                "distinct_count": 4,
+                "max": -5.0,
+                "min": -8.0,
+                "null_percentage": 0.9803921568627451,
+                "q25": -6.0,
+                "q50": -6.0,
+                "q75": -5.0,
+                "stddev": 0.8648241393943673
+            },
+            "s_hours": {
+                "count": 102,
+                "distinct_count": 3,
+                "null_percentage": 0.0
+            },
+            "s_manager": {
+                "count": 102,
+                "distinct_count": 68,
+                "null_percentage": 0.9803921568627451
+            },
+            "s_market_desc": {
+                "count": 102,
+                "distinct_count": 78,
+                "null_percentage": 0.9803921568627451
+            },
+            "s_market_id": {
+                "avg": 5.215686274509804,
+                "count": 102,
+                "distinct_count": 11,
+                "max": 10.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 3.0,
+                "q50": 5.0,
+                "q75": 7.0,
+                "stddev": 2.634979666182622
+            },
+            "s_market_manager": {
+                "count": 102,
+                "distinct_count": 78,
+                "null_percentage": 0.9803921568627451
+            },
+            "s_number_employees": {
+                "avg": 246.85148514851485,
+                "count": 102,
+                "distinct_count": 54,
+                "max": 299.0,
+                "min": 200.0,
+                "null_percentage": 0.9803921568627451,
+                "q25": 218.0,
+                "q50": 250.0,
+                "q75": 272.0,
+                "stddev": 30.347779536109012
+            },
+            "s_rec_end_date": {
+                "count": 102,
+                "distinct_count": 3,
+                "null_percentage": 49.01960784313726
+            },
+            "s_rec_start_date": {
+                "count": 102,
+                "distinct_count": 4,
+                "null_percentage": 0.9803921568627451
+            },
+            "s_state": {
+                "count": 102,
+                "distinct_count": 37,
+                "null_percentage": 0.0
+            },
+            "s_store_id": {
+                "count": 102,
+                "distinct_count": 43,
+                "null_percentage": 0.0
+            },
+            "s_store_name": {
+                "count": 102,
+                "distinct_count": 9,
+                "null_percentage": 0.0
+            },
+            "s_store_sk": {
+                "avg": 51.5,
+                "count": 102,
+                "distinct_count": 100,
+                "max": 102.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 26.0,
+                "q50": 52.0,
+                "q75": 77.0,
+                "stddev": 29.588849251026982
+            },
+            "s_street_name": {
+                "count": 102,
+                "distinct_count": 77,
+                "null_percentage": 0.9803921568627451
+            },
+            "s_street_number": {
+                "count": 102,
+                "distinct_count": 77,
+                "null_percentage": 0.0
+            },
+            "s_street_type": {
+                "count": 102,
+                "distinct_count": 17,
+                "null_percentage": 0.0
+            },
+            "s_suite_number": {
+                "count": 102,
+                "distinct_count": 49,
+                "null_percentage": 0.0
+            },
+            "s_tax_precentage": {
+                "avg": 0.05366336633663366,
+                "count": 102,
+                "distinct_count": 13,
+                "max": 0.11,
+                "min": 0.0,
+                "null_percentage": 0.9803921568627451,
+                "q25": 0.0,
+                "q50": 0.0,
+                "q75": 0.0,
+                "stddev": 0.034488339254804025
+            },
+            "s_zip": {
+                "count": 102,
+                "distinct_count": 76,
+                "null_percentage": 0.9803921568627451
+            }
+        },
+        "store_returns": {
+            "sr_addr_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "sr_cdemo_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "sr_customer_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "sr_fee": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "sr_hdemo_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "sr_item_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "sr_net_loss": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "sr_reason_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "sr_refunded_cash": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "sr_return_amt": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "sr_return_amt_inc_tax": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "sr_return_quantity": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "sr_return_ship_cost": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "sr_return_tax": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "sr_return_time_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "sr_returned_date_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "sr_reversed_charge": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "sr_store_credit": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "sr_store_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "sr_ticket_number": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            }
+        },
+        "store_sales": {
+            "ss_addr_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ss_cdemo_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ss_coupon_amt": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ss_customer_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ss_ext_discount_amt": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ss_ext_list_price": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ss_ext_sales_price": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ss_ext_tax": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ss_ext_wholesale_cost": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ss_hdemo_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ss_item_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ss_list_price": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ss_net_paid": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ss_net_paid_inc_tax": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ss_net_profit": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ss_promo_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ss_quantity": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ss_sales_price": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ss_sold_date_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ss_sold_time_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ss_store_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ss_ticket_number": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ss_wholesale_cost": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            }
+        },
+        "time_dim": {
+            "t_am_pm": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "t_hour": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "t_meal_time": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "t_minute": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "t_second": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "t_shift": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "t_sub_shift": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "t_time": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "t_time_id": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "t_time_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            }
+        },
+        "warehouse": {
+            "w_city": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "w_country": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "w_county": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "w_gmt_offset": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "w_state": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "w_street_name": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "w_street_number": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "w_street_type": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "w_suite_number": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "w_warehouse_id": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "w_warehouse_name": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "w_warehouse_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "w_warehouse_sq_ft": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "w_zip": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            }
+        },
+        "web_page": {
+            "wp_access_date_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wp_autogen_flag": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wp_char_count": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wp_creation_date_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wp_customer_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wp_image_count": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wp_link_count": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wp_max_ad_count": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wp_rec_end_date": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wp_rec_start_date": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wp_type": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wp_url": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wp_web_page_id": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wp_web_page_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            }
+        },
+        "web_returns": {
+            "wr_account_credit": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wr_fee": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wr_item_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wr_net_loss": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wr_order_number": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wr_reason_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wr_refunded_addr_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wr_refunded_cash": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wr_refunded_cdemo_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wr_refunded_customer_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wr_refunded_hdemo_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wr_return_amt": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wr_return_amt_inc_tax": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wr_return_quantity": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wr_return_ship_cost": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wr_return_tax": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wr_returned_date_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wr_returned_time_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wr_returning_addr_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wr_returning_cdemo_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wr_returning_customer_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wr_returning_hdemo_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wr_reversed_charge": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "wr_web_page_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            }
+        },
+        "web_sales": {
+            "ws_bill_addr_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_bill_cdemo_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_bill_customer_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_bill_hdemo_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_coupon_amt": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_ext_discount_amt": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_ext_list_price": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_ext_sales_price": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_ext_ship_cost": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_ext_tax": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_ext_wholesale_cost": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_item_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_list_price": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_net_paid": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_net_paid_inc_ship": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_net_paid_inc_ship_tax": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_net_paid_inc_tax": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_net_profit": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_order_number": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_promo_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_quantity": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_sales_price": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_ship_addr_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_ship_cdemo_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_ship_customer_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_ship_date_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_ship_hdemo_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_ship_mode_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_sold_date_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_sold_time_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_warehouse_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_web_page_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_web_site_sk": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            },
+            "ws_wholesale_cost": {
+                "count": 0,
+                "distinct_count": 0,
+                "null_percentage": 0.0
+            }
+        },
+        "web_site": {
+            "web_city": {
+                "count": 42,
+                "distinct_count": 22,
+                "null_percentage": 0.0
+            },
+            "web_class": {
+                "count": 42,
+                "distinct_count": 1,
+                "null_percentage": 0.0
+            },
+            "web_close_date_sk": {
+                "avg": 2446567.4,
+                "count": 42,
+                "distinct_count": 13,
+                "max": 2448043.0,
+                "min": 2445017.0,
+                "null_percentage": 40.476190476190474,
+                "q25": 2445153.0,
+                "q50": 2447737.0,
+                "q75": 2447907.0,
+                "stddev": 1390.610513407688
+            },
+            "web_company_id": {
+                "avg": 3.357142857142857,
+                "count": 42,
+                "distinct_count": 5,
+                "max": 5.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 2.0,
+                "q50": 4.0,
+                "q75": 4.0,
+                "stddev": 1.3402116427589934
+            },
+            "web_company_name": {
+                "count": 42,
+                "distinct_count": 5,
+                "null_percentage": 0.0
+            },
+            "web_country": {
+                "count": 42,
+                "distinct_count": 1,
+                "null_percentage": 0.0
+            },
+            "web_county": {
+                "count": 42,
+                "distinct_count": 33,
+                "null_percentage": 0.0
+            },
+            "web_gmt_offset": {
+                "avg": -5.595238095238095,
+                "count": 42,
+                "distinct_count": 4,
+                "max": -5.0,
+                "min": -8.0,
+                "null_percentage": 0.0,
+                "q25": -6.0,
+                "q50": -5.0,
+                "q75": -5.0,
+                "stddev": 0.7344991261521245
+            },
+            "web_manager": {
+                "count": 42,
+                "distinct_count": 29,
+                "null_percentage": 0.0
+            },
+            "web_market_manager": {
+                "count": 42,
+                "distinct_count": 33,
+                "null_percentage": 0.0
+            },
+            "web_mkt_class": {
+                "count": 42,
+                "distinct_count": 32,
+                "null_percentage": 0.0
+            },
+            "web_mkt_desc": {
+                "count": 42,
+                "distinct_count": 30,
+                "null_percentage": 0.0
+            },
+            "web_mkt_id": {
+                "avg": 3.857142857142857,
+                "count": 42,
+                "distinct_count": 5,
+                "max": 6.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 1.0,
+                "q50": 5.0,
+                "q75": 6.0,
+                "stddev": 2.0430898237411306
+            },
+            "web_name": {
+                "count": 42,
+                "distinct_count": 7,
+                "null_percentage": 0.0
+            },
+            "web_open_date_sk": {
+                "avg": 2450638.0,
+                "count": 42,
+                "distinct_count": 21,
+                "max": 2450807.0,
+                "min": 2450475.0,
+                "null_percentage": 0.0,
+                "q25": 2450543.0,
+                "q50": 2450636.0,
+                "q75": 2450730.0,
+                "stddev": 103.77579021134834
+            },
+            "web_rec_end_date": {
+                "count": 42,
+                "distinct_count": 3,
+                "null_percentage": 119.04761904761905
+            },
+            "web_rec_start_date": {
+                "count": 42,
+                "distinct_count": 4,
+                "null_percentage": 0.0
+            },
+            "web_site_id": {
+                "count": 42,
+                "distinct_count": 17,
+                "null_percentage": 0.0
+            },
+            "web_site_sk": {
+                "avg": 21.5,
+                "count": 42,
+                "distinct_count": 43,
+                "max": 42.0,
+                "min": 1.0,
+                "null_percentage": 0.0,
+                "q25": 11.0,
+                "q50": 22.0,
+                "q75": 32.0,
+                "stddev": 12.267844146385297
+            },
+            "web_state": {
+                "count": 42,
+                "distinct_count": 24,
+                "null_percentage": 0.0
+            },
+            "web_street_name": {
+                "count": 42,
+                "distinct_count": 44,
+                "null_percentage": 0.0
+            },
+            "web_street_number": {
+                "count": 42,
+                "distinct_count": 27,
+                "null_percentage": 0.0
+            },
+            "web_street_type": {
+                "count": 42,
+                "distinct_count": 15,
+                "null_percentage": 0.0
+            },
+            "web_suite_number": {
+                "count": 42,
+                "distinct_count": 31,
+                "null_percentage": 0.0
+            },
+            "web_tax_percentage": {
+                "avg": 0.062380952380952384,
+                "count": 42,
+                "distinct_count": 13,
+                "max": 0.12,
+                "min": 0.0,
+                "null_percentage": 0.0,
+                "q25": 0.0,
+                "q50": 0.0,
+                "q75": 0.0,
+                "stddev": 0.03504766954498205
+            },
+            "web_zip": {
+                "count": 42,
+                "distinct_count": 27,
+                "null_percentage": 0.0
+            }
+        }
+    },
+    "table_indexes": {
+        "call_center": [
+            "cc_call_center_sk"
+        ],
+        "catalog_page": [
+            "cp_catalog_page_sk"
+        ],
+        "catalog_returns": [
+            "cr_item_sk, cr_order_number"
+        ],
+        "catalog_sales": [
+            "cs_item_sk, cs_order_number",
+            "cs_ship_date_sk, cs_call_center_sk, cs_ship_mode_sk, cs_warehouse_sk) INCLUDE (cs_item_sk, cs_order_number",
+            "cs_sold_date_sk, cs_bill_customer_sk"
+        ],
+        "customer": [
+            "c_customer_sk",
+            "c_first_name, c_last_name",
+            "c_customer_sk, c_current_addr_sk",
+            "c_birth_month, c_current_addr_sk"
+        ],
+        "customer_address": [
+            "ca_address_sk"
+        ],
+        "customer_demographics": [
+            "cd_demo_sk"
+        ],
+        "date_dim": [
+            "d_date_sk",
+            "d_year, d_month_seq, d_moy, d_date_sk",
+            "d_year, d_moy, d_date_sk",
+            "d_date_sk, d_year, d_moy",
+            "d_year, d_qoy, d_date_sk",
+            "d_moy, d_year, d_date_sk",
+            "d_month_seq) INCLUDE (d_date_sk",
+            "d_year, d_date_sk",
+            "d_year, d_moy",
+            "d_month_seq, d_date"
+        ],
+        "dbgen_version": [],
+        "household_demographics": [
+            "hd_demo_sk"
+        ],
+        "income_band": [
+            "ib_income_band_sk"
+        ],
+        "inventory": [
+            "inv_date_sk, inv_item_sk, inv_warehouse_sk"
+        ],
+        "item": [
+            "i_item_sk",
+            "i_item_sk) INCLUDE (i_item_id, i_item_desc",
+            "i_category, i_class, i_item_sk",
+            "i_color",
+            "i_item_id, i_item_sk"
+        ],
+        "promotion": [
+            "p_promo_sk"
+        ],
+        "reason": [
+            "r_reason_sk"
+        ],
+        "ship_mode": [
+            "sm_ship_mode_sk"
+        ],
+        "store": [
+            "s_store_sk",
+            "s_store_sk) INCLUDE (s_store_id, s_store_name",
+            "s_state, s_store_sk"
+        ],
+        "store_returns": [
+            "sr_item_sk, sr_ticket_number",
+            "sr_returned_date_sk) INCLUDE (sr_item_sk, sr_customer_sk, sr_ticket_number, sr_net_loss",
+            "sr_cdemo_sk) INCLUDE (sr_returned_date_sk, sr_item_sk, sr_ticket_number, sr_return_quantity",
+            "sr_returned_date_sk) INCLUDE (sr_item_sk, sr_customer_sk, sr_ticket_number"
+        ],
+        "store_sales": [
+            "ss_item_sk, ss_ticket_number",
+            "ss_sold_date_sk, ss_net_profit, ss_sales_price, ss_hdemo_sk, ss_store_sk, ss_cdemo_sk, ss_addr_sk) INCLUDE (ss_item_sk, ss_customer_sk, ss_promo_sk, ss_ticket_number, ss_quantity, ss_wholesale_cost, ss_list_price, ss_ext_sales_price, ss_ext_wholesale_cost, ss_coupon_amt",
+            "ss_sold_date_sk, ss_cdemo_sk, ss_store_sk, ss_item_sk) INCLUDE (ss_quantity, ss_list_price, ss_sales_price, ss_coupon_amt",
+            "ss_sold_date_sk, ss_item_sk, ss_ticket_number, ss_customer_sk, ss_store_sk) INCLUDE (ss_promo_sk, ss_ext_sales_price, ss_net_profit",
+            "ss_customer_sk) INCLUDE (ss_sold_date_sk, ss_item_sk, ss_ticket_number, ss_quantity, ss_sales_price",
+            "ss_sold_date_sk, ss_item_sk, ss_ticket_number, ss_customer_sk, ss_store_sk) INCLUDE (ss_net_profit",
+            "ss_sold_date_sk, ss_store_sk) INCLUDE (ss_item_sk, ss_sales_price, ss_ext_sales_price",
+            "ss_item_sk, ss_ticket_number, ss_customer_sk, ss_sold_date_sk, ss_store_sk",
+            "ss_sold_date_sk, ss_item_sk, ss_addr_sk) INCLUDE (ss_ext_sales_price",
+            "ss_sold_date_sk, ss_addr_sk, ss_item_sk) INCLUDE (ss_ext_sales_price",
+            "ss_sold_date_sk, ss_item_sk) INCLUDE (ss_quantity, ss_list_price",
+            "ss_sold_date_sk, ss_customer_sk, ss_item_sk, ss_ticket_number",
+            "ss_customer_sk, ss_sold_date_sk) INCLUDE (ss_ext_sales_price",
+            "ss_item_sk, ss_ticket_number, ss_customer_sk",
+            "ss_ticket_number, ss_item_sk",
+            "ss_customer_sk, ss_store_sk, ss_item_sk, ss_sold_date_sk) INCLUDE (ss_ext_sales_price"
+        ],
+        "time_dim": [
+            "t_time_sk"
+        ],
+        "warehouse": [
+            "w_warehouse_sk"
+        ],
+        "web_page": [
+            "wp_web_page_sk"
+        ],
+        "web_returns": [
+            "wr_item_sk, wr_order_number"
+        ],
+        "web_sales": [
+            "ws_item_sk, ws_order_number",
+            "ws_ship_date_sk, ws_order_number, ws_ship_addr_sk, ws_web_site_sk) INCLUDE (ws_warehouse_sk, ws_ext_ship_cost, ws_net_profit",
+            "ws_sold_date_sk, ws_item_sk, ws_bill_customer_sk) INCLUDE (ws_order_number",
+            "ws_sold_date_sk) INCLUDE (ws_bill_addr_sk, ws_ext_sales_price",
+            "ws_order_number) INCLUDE (ws_warehouse_sk",
+            "ws_sold_date_sk, ws_bill_customer_sk"
+        ],
+        "web_site": [
+            "web_site_sk"
+        ]
+    },
+    "table_names": [
+        "dbgen_version",
+        "customer_address",
+        "customer_demographics",
+        "date_dim",
+        "warehouse",
+        "ship_mode",
+        "time_dim",
+        "reason",
+        "income_band",
+        "item",
+        "store",
+        "call_center",
+        "customer",
+        "web_site",
+        "store_returns",
+        "household_demographics",
+        "web_page",
+        "promotion",
+        "catalog_page",
+        "inventory",
+        "catalog_returns",
+        "web_returns",
+        "web_sales",
+        "catalog_sales",
+        "store_sales"
+    ]
+}

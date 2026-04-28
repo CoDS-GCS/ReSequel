@@ -1,0 +1,86 @@
+{
+    "table": "iglocations22",
+    "rows": 2170654,
+    "columns": [
+        {
+            "name": "calculation9330724145728972",
+            "type": "numeric"
+        },
+        {
+            "name": "mediatype",
+            "type": "character varying"
+        },
+        {
+            "name": "calculation3650724144057954",
+            "type": "character varying"
+        },
+        {
+            "name": "mediaurl",
+            "type": "character varying"
+        },
+        {
+            "name": "longitude",
+            "type": "numeric"
+        },
+        {
+            "name": "calculation4370724142342227",
+            "type": "character varying"
+        },
+        {
+            "name": "caption",
+            "type": "character varying"
+        },
+        {
+            "name": "username",
+            "type": "character varying"
+        },
+        {
+            "name": "state__copy_",
+            "type": "character varying"
+        },
+        {
+            "name": "createdtime",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "calculation8090724143600502",
+            "type": "character varying"
+        },
+        {
+            "name": "likecount",
+            "type": "integer"
+        },
+        {
+            "name": "id",
+            "type": "integer"
+        },
+        {
+            "name": "calculation1750724145742463",
+            "type": "numeric"
+        },
+        {
+            "name": "country",
+            "type": "character varying"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "city",
+            "type": "character varying"
+        },
+        {
+            "name": "state",
+            "type": "character varying"
+        },
+        {
+            "name": "link",
+            "type": "character varying"
+        },
+        {
+            "name": "latitude",
+            "type": "numeric"
+        }
+    ]
+}

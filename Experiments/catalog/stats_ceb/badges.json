@@ -1,0 +1,22 @@
+{
+    "table": "badges",
+    "rows": 79851,
+    "columns": [
+        {
+            "name": "id",
+            "type": "integer"
+        },
+        {
+            "name": "userid",
+            "type": "integer"
+        },
+        {
+            "name": "date",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "name",
+            "type": "character varying"
+        }
+    ]
+}

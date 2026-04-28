@@ -1,0 +1,46 @@
+{
+    "table": "posthistory",
+    "rows": 847593,
+    "columns": [
+        {
+            "name": "id",
+            "type": "integer"
+        },
+        {
+            "name": "posthistorytypeid",
+            "type": "smallint"
+        },
+        {
+            "name": "postid",
+            "type": "integer"
+        },
+        {
+            "name": "creationdate",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "userid",
+            "type": "integer"
+        },
+        {
+            "name": "contentlicense",
+            "type": "character varying"
+        },
+        {
+            "name": "userdisplayname",
+            "type": "character varying"
+        },
+        {
+            "name": "comment",
+            "type": "character varying"
+        },
+        {
+            "name": "revisionguid",
+            "type": "character varying"
+        },
+        {
+            "name": "text",
+            "type": "text"
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "columns": [
+        {
+            "name": "hd_demo_sk",
+            "type": "integer"
+        },
+        {
+            "name": "hd_income_band_sk",
+            "type": "integer"
+        },
+        {
+            "name": "hd_dep_count",
+            "type": "integer"
+        },
+        {
+            "name": "hd_vehicle_count",
+            "type": "integer"
+        },
+        {
+            "name": "hd_buy_potential",
+            "type": "character"
+        }
+    ],
+    "indexes": [
+        "hd_demo_sk"
+    ],
+    "rows": 7200,
+    "table": "household_demographics"
+}

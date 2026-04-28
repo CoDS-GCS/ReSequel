@@ -1,0 +1,730 @@
+{
+    "table": "telco1",
+    "rows": 2913060,
+    "columns": [
+        {
+            "name": "onnetrevp6",
+            "type": "numeric"
+        },
+        {
+            "name": "iddrevp1",
+            "type": "double precision"
+        },
+        {
+            "name": "totalincomingrevp2",
+            "type": "numeric"
+        },
+        {
+            "name": "rechrgtotalloadp6",
+            "type": "double precision"
+        },
+        {
+            "name": "totalvasrevp6",
+            "type": "numeric"
+        },
+        {
+            "name": "chrgdcallsp4",
+            "type": "numeric"
+        },
+        {
+            "name": "totalcallsrevp2",
+            "type": "double precision"
+        },
+        {
+            "name": "onnetcallsp4",
+            "type": "numeric"
+        },
+        {
+            "name": "iddminsp6",
+            "type": "numeric"
+        },
+        {
+            "name": "iddcallsp1",
+            "type": "numeric"
+        },
+        {
+            "name": "chrgdrevp1",
+            "type": "double precision"
+        },
+        {
+            "name": "totaoutgoingrevp3",
+            "type": "numeric"
+        },
+        {
+            "name": "freeminsp3",
+            "type": "double precision"
+        },
+        {
+            "name": "arpup3",
+            "type": "numeric"
+        },
+        {
+            "name": "rechrgtotalloadp1",
+            "type": "double precision"
+        },
+        {
+            "name": "chrgdminsp6",
+            "type": "double precision"
+        },
+        {
+            "name": "iddminsp1",
+            "type": "numeric"
+        },
+        {
+            "name": "offnetrevp3",
+            "type": "numeric"
+        },
+        {
+            "name": "activationdate",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "iddrevp6",
+            "type": "double precision"
+        },
+        {
+            "name": "rchrgamtexpdate",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "rechrgtotaltransp4",
+            "type": "numeric"
+        },
+        {
+            "name": "offnetcallsp2",
+            "type": "numeric"
+        },
+        {
+            "name": "iddcallsp2",
+            "type": "numeric"
+        },
+        {
+            "name": "lstactvtydt",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "incomingincrevp2",
+            "type": "numeric"
+        },
+        {
+            "name": "arpup2",
+            "type": "numeric"
+        },
+        {
+            "name": "totalvasrevp3",
+            "type": "numeric"
+        },
+        {
+            "name": "offnetrevp4",
+            "type": "numeric"
+        },
+        {
+            "name": "totaoutgoingrevp6",
+            "type": "double precision"
+        },
+        {
+            "name": "incomingincrevp3",
+            "type": "numeric"
+        },
+        {
+            "name": "freesmsp6",
+            "type": "double precision"
+        },
+        {
+            "name": "totalsmsp6",
+            "type": "double precision"
+        },
+        {
+            "name": "totalminsp3",
+            "type": "double precision"
+        },
+        {
+            "name": "totaloutgoingminp1",
+            "type": "double precision"
+        },
+        {
+            "name": "totaloutgoingminp6",
+            "type": "double precision"
+        },
+        {
+            "name": "freeminsp2",
+            "type": "double precision"
+        },
+        {
+            "name": "chrgdcallsp2",
+            "type": "numeric"
+        },
+        {
+            "name": "rechrgtotaltransp1",
+            "type": "numeric"
+        },
+        {
+            "name": "totalincomingrevp1",
+            "type": "numeric"
+        },
+        {
+            "name": "totalincomingrevp4",
+            "type": "numeric"
+        },
+        {
+            "name": "chargdsmsp2",
+            "type": "numeric"
+        },
+        {
+            "name": "incomingincrevp6",
+            "type": "numeric"
+        },
+        {
+            "name": "totaoutgoingrevp2",
+            "type": "numeric"
+        },
+        {
+            "name": "balanceendp2",
+            "type": "numeric"
+        },
+        {
+            "name": "totalincomingminp3",
+            "type": "numeric"
+        },
+        {
+            "name": "rechrgtotalsubsp3",
+            "type": "numeric"
+        },
+        {
+            "name": "offnetrevp6",
+            "type": "double precision"
+        },
+        {
+            "name": "revenuesmsp6",
+            "type": "numeric"
+        },
+        {
+            "name": "totaoutgoingrevp4",
+            "type": "double precision"
+        },
+        {
+            "name": "rechrgincminusedp6",
+            "type": "double precision"
+        },
+        {
+            "name": "chargdsmsp1",
+            "type": "numeric"
+        },
+        {
+            "name": "revenuesmsp4",
+            "type": "numeric"
+        },
+        {
+            "name": "uniquesubssmsp3",
+            "type": "double precision"
+        },
+        {
+            "name": "offnetminsp2",
+            "type": "numeric"
+        },
+        {
+            "name": "uniquesubssmsp4",
+            "type": "double precision"
+        },
+        {
+            "name": "incomingincrevp4",
+            "type": "numeric"
+        },
+        {
+            "name": "rechrgtotaltransp2",
+            "type": "numeric"
+        },
+        {
+            "name": "revenuesmsp2",
+            "type": "numeric"
+        },
+        {
+            "name": "onnetminsp1",
+            "type": "double precision"
+        },
+        {
+            "name": "churn",
+            "type": "boolean"
+        },
+        {
+            "name": "iddcallsp6",
+            "type": "numeric"
+        },
+        {
+            "name": "onnetrevp1",
+            "type": "numeric"
+        },
+        {
+            "name": "onnetminsp2",
+            "type": "double precision"
+        },
+        {
+            "name": "freecallsp2",
+            "type": "numeric"
+        },
+        {
+            "name": "totalsmsp1",
+            "type": "double precision"
+        },
+        {
+            "name": "rechrgtotalsubsp2",
+            "type": "numeric"
+        },
+        {
+            "name": "onnetminsp4",
+            "type": "double precision"
+        },
+        {
+            "name": "rechrgtotalloadp4",
+            "type": "double precision"
+        },
+        {
+            "name": "totalminsp4",
+            "type": "numeric"
+        },
+        {
+            "name": "totalcallsp1",
+            "type": "numeric"
+        },
+        {
+            "name": "incomingtotalcallsp4",
+            "type": "numeric"
+        },
+        {
+            "name": "totalminsp6",
+            "type": "double precision"
+        },
+        {
+            "name": "revenuesmsp1",
+            "type": "numeric"
+        },
+        {
+            "name": "iddminsp3",
+            "type": "numeric"
+        },
+        {
+            "name": "lastrchrgamt",
+            "type": "double precision"
+        },
+        {
+            "name": "offnetcallsp3",
+            "type": "numeric"
+        },
+        {
+            "name": "iddminsp2",
+            "type": "numeric"
+        },
+        {
+            "name": "rechrgtotalsubsp1",
+            "type": "numeric"
+        },
+        {
+            "name": "offnetminsp1",
+            "type": "numeric"
+        },
+        {
+            "name": "offnetminsp3",
+            "type": "numeric"
+        },
+        {
+            "name": "incomingincrevp1",
+            "type": "numeric"
+        },
+        {
+            "name": "totalcallsp3",
+            "type": "numeric"
+        },
+        {
+            "name": "onnetcallsp2",
+            "type": "double precision"
+        },
+        {
+            "name": "freesmsp4",
+            "type": "double precision"
+        },
+        {
+            "name": "totaloutgoingminp3",
+            "type": "double precision"
+        },
+        {
+            "name": "freecallsp1",
+            "type": "numeric"
+        },
+        {
+            "name": "arpup6",
+            "type": "double precision"
+        },
+        {
+            "name": "totalcallsrevp6",
+            "type": "double precision"
+        },
+        {
+            "name": "freesmsp3",
+            "type": "double precision"
+        },
+        {
+            "name": "offnetrevp1",
+            "type": "double precision"
+        },
+        {
+            "name": "offnetcallsp1",
+            "type": "numeric"
+        },
+        {
+            "name": "iddcallsp4",
+            "type": "numeric"
+        },
+        {
+            "name": "rechrgtotaltransp3",
+            "type": "numeric"
+        },
+        {
+            "name": "iddrevp3",
+            "type": "double precision"
+        },
+        {
+            "name": "freesmsp2",
+            "type": "double precision"
+        },
+        {
+            "name": "chrgdcallsp3",
+            "type": "numeric"
+        },
+        {
+            "name": "offnetminsp6",
+            "type": "numeric"
+        },
+        {
+            "name": "iddcallsp3",
+            "type": "numeric"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "totalminsp2",
+            "type": "double precision"
+        },
+        {
+            "name": "totalcallsrevp4",
+            "type": "numeric"
+        },
+        {
+            "name": "rechrgtotaltransp6",
+            "type": "numeric"
+        },
+        {
+            "name": "offnetcallsp4",
+            "type": "numeric"
+        },
+        {
+            "name": "onnetcallsp3",
+            "type": "numeric"
+        },
+        {
+            "name": "chrgdcallsp1",
+            "type": "numeric"
+        },
+        {
+            "name": "chrgdminsp4",
+            "type": "numeric"
+        },
+        {
+            "name": "totalsmsp4",
+            "type": "double precision"
+        },
+        {
+            "name": "uniquesubssmsp6",
+            "type": "double precision"
+        },
+        {
+            "name": "arpup4",
+            "type": "numeric"
+        },
+        {
+            "name": "totalminsp1",
+            "type": "double precision"
+        },
+        {
+            "name": "rechrgtotalloadp2",
+            "type": "double precision"
+        },
+        {
+            "name": "onnetminsp3",
+            "type": "double precision"
+        },
+        {
+            "name": "rechrgincminusedp3",
+            "type": "numeric"
+        },
+        {
+            "name": "chrgdminsp2",
+            "type": "double precision"
+        },
+        {
+            "name": "freeminsp4",
+            "type": "numeric"
+        },
+        {
+            "name": "iddminsp4",
+            "type": "numeric"
+        },
+        {
+            "name": "incomingtotalcallsp2",
+            "type": "double precision"
+        },
+        {
+            "name": "rechrgincminusedp2",
+            "type": "double precision"
+        },
+        {
+            "name": "onnetrevp2",
+            "type": "numeric"
+        },
+        {
+            "name": "totalcallsp2",
+            "type": "double precision"
+        },
+        {
+            "name": "chrgdrevp2",
+            "type": "double precision"
+        },
+        {
+            "name": "totaoutgoingrevp1",
+            "type": "double precision"
+        },
+        {
+            "name": "rechrgtotalloadp3",
+            "type": "double precision"
+        },
+        {
+            "name": "totaloutgoingminp2",
+            "type": "double precision"
+        },
+        {
+            "name": "freecallsp4",
+            "type": "numeric"
+        },
+        {
+            "name": "offnetrevp2",
+            "type": "double precision"
+        },
+        {
+            "name": "offnetcallsp6",
+            "type": "double precision"
+        },
+        {
+            "name": "totalsmsp3",
+            "type": "double precision"
+        },
+        {
+            "name": "incomingtotalcallsp6",
+            "type": "double precision"
+        },
+        {
+            "name": "iddrevp2",
+            "type": "double precision"
+        },
+        {
+            "name": "totalvasrevp4",
+            "type": "numeric"
+        },
+        {
+            "name": "revenuesmsp3",
+            "type": "numeric"
+        },
+        {
+            "name": "freeminsp6",
+            "type": "double precision"
+        },
+        {
+            "name": "rechrgtotalsubsp6",
+            "type": "numeric"
+        },
+        {
+            "name": "rechrgincminusedp1",
+            "type": "double precision"
+        },
+        {
+            "name": "chrgdminsp3",
+            "type": "numeric"
+        },
+        {
+            "name": "onnetrevp3",
+            "type": "numeric"
+        },
+        {
+            "name": "rechrgtotalsubsp4",
+            "type": "numeric"
+        },
+        {
+            "name": "totalincomingrevp6",
+            "type": "numeric"
+        },
+        {
+            "name": "totalcallsp6",
+            "type": "double precision"
+        },
+        {
+            "name": "totalvasrevp2",
+            "type": "numeric"
+        },
+        {
+            "name": "chrgdrevp3",
+            "type": "numeric"
+        },
+        {
+            "name": "offnetminsp4",
+            "type": "numeric"
+        },
+        {
+            "name": "totalcallsrevp1",
+            "type": "double precision"
+        },
+        {
+            "name": "chrgdrevp4",
+            "type": "numeric"
+        },
+        {
+            "name": "onnetcallsp6",
+            "type": "double precision"
+        },
+        {
+            "name": "totalincomingrevp3",
+            "type": "numeric"
+        },
+        {
+            "name": "chrgdrevp6",
+            "type": "double precision"
+        },
+        {
+            "name": "statusendp2",
+            "type": "numeric"
+        },
+        {
+            "name": "uniquesubssmsp2",
+            "type": "double precision"
+        },
+        {
+            "name": "freesmsp1",
+            "type": "double precision"
+        },
+        {
+            "name": "totalcallsp4",
+            "type": "numeric"
+        },
+        {
+            "name": "chargdsmsp4",
+            "type": "numeric"
+        },
+        {
+            "name": "rechrgincminusedp4",
+            "type": "numeric"
+        },
+        {
+            "name": "iddrevp4",
+            "type": "double precision"
+        },
+        {
+            "name": "freecallsp3",
+            "type": "numeric"
+        },
+        {
+            "name": "chrgdcallsp6",
+            "type": "double precision"
+        },
+        {
+            "name": "freecallsp6",
+            "type": "double precision"
+        },
+        {
+            "name": "totaloutgoingminp4",
+            "type": "double precision"
+        },
+        {
+            "name": "onnetcallsp1",
+            "type": "numeric"
+        },
+        {
+            "name": "totalincomingminp1",
+            "type": "double precision"
+        },
+        {
+            "name": "incomingtotalcallsp3",
+            "type": "numeric"
+        },
+        {
+            "name": "onnetminsp6",
+            "type": "double precision"
+        },
+        {
+            "name": "totalvasrevp1",
+            "type": "numeric"
+        },
+        {
+            "name": "chargdsmsp3",
+            "type": "numeric"
+        },
+        {
+            "name": "chargdsmsp6",
+            "type": "numeric"
+        },
+        {
+            "name": "freeminsp1",
+            "type": "double precision"
+        },
+        {
+            "name": "totalincomingminp2",
+            "type": "numeric"
+        },
+        {
+            "name": "totalincomingminp6",
+            "type": "double precision"
+        },
+        {
+            "name": "totalcallsrevp3",
+            "type": "numeric"
+        },
+        {
+            "name": "chrgdminsp1",
+            "type": "numeric"
+        },
+        {
+            "name": "msisdn",
+            "type": "double precision"
+        },
+        {
+            "name": "arpup1",
+            "type": "numeric"
+        },
+        {
+            "name": "lstrchrgdate",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "onnetrevp4",
+            "type": "numeric"
+        },
+        {
+            "name": "uniquesubssmsp1",
+            "type": "double precision"
+        },
+        {
+            "name": "totalincomingminp4",
+            "type": "numeric"
+        },
+        {
+            "name": "incomingtotalcallsp1",
+            "type": "double precision"
+        },
+        {
+            "name": "totalsmsp2",
+            "type": "double precision"
+        },
+        {
+            "name": "packagename",
+            "type": "character varying"
+        }
+    ]
+}

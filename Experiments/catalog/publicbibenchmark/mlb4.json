@@ -1,0 +1,102 @@
+{
+    "table": "mlb4",
+    "rows": 2918552,
+    "columns": [
+        {
+            "name": "month",
+            "type": "smallint"
+        },
+        {
+            "name": "league",
+            "type": "character varying"
+        },
+        {
+            "name": "battedballtype",
+            "type": "character varying"
+        },
+        {
+            "name": "stand",
+            "type": "character varying"
+        },
+        {
+            "name": "pitchername",
+            "type": "character varying"
+        },
+        {
+            "name": "calculation40532458064297984",
+            "type": "date"
+        },
+        {
+            "name": "r",
+            "type": "numeric"
+        },
+        {
+            "name": "inning",
+            "type": "smallint"
+        },
+        {
+            "name": "our_y",
+            "type": "double precision"
+        },
+        {
+            "name": "pthrows",
+            "type": "character varying"
+        },
+        {
+            "name": "inningside",
+            "type": "character varying"
+        },
+        {
+            "name": "hometeam",
+            "type": "character varying"
+        },
+        {
+            "name": "atbatdes",
+            "type": "character varying"
+        },
+        {
+            "name": "our_x",
+            "type": "double precision"
+        },
+        {
+            "name": "bheight",
+            "type": "character varying"
+        },
+        {
+            "name": "year",
+            "type": "smallint"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "theta",
+            "type": "double precision"
+        },
+        {
+            "name": "awayteam",
+            "type": "character varying"
+        },
+        {
+            "name": "level",
+            "type": "character varying"
+        },
+        {
+            "name": "event",
+            "type": "character varying"
+        },
+        {
+            "name": "day",
+            "type": "smallint"
+        },
+        {
+            "name": "des",
+            "type": "character varying"
+        },
+        {
+            "name": "battername",
+            "type": "character varying"
+        }
+    ]
+}

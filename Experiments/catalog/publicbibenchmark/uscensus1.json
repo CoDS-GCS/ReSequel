@@ -1,0 +1,2082 @@
+{
+    "table": "uscensus1",
+    "rows": 3132795,
+    "columns": [
+        {
+            "name": "decade",
+            "type": "smallint"
+        },
+        {
+            "name": "fbathp",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp22",
+            "type": "smallint"
+        },
+        {
+            "name": "fcowp",
+            "type": "smallint"
+        },
+        {
+            "name": "fhins6p",
+            "type": "smallint"
+        },
+        {
+            "name": "mhp",
+            "type": "smallint"
+        },
+        {
+            "name": "psf",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp55",
+            "type": "smallint"
+        },
+        {
+            "name": "adjinc",
+            "type": "integer"
+        },
+        {
+            "name": "wgtp22",
+            "type": "smallint"
+        },
+        {
+            "name": "nwre",
+            "type": "smallint"
+        },
+        {
+            "name": "hupac",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp1",
+            "type": "smallint"
+        },
+        {
+            "name": "racwht",
+            "type": "smallint"
+        },
+        {
+            "name": "fwklp",
+            "type": "smallint"
+        },
+        {
+            "name": "eng",
+            "type": "smallint"
+        },
+        {
+            "name": "modem",
+            "type": "smallint"
+        },
+        {
+            "name": "fsatellitep",
+            "type": "smallint"
+        },
+        {
+            "name": "jwmnp",
+            "type": "smallint"
+        },
+        {
+            "name": "fmigp",
+            "type": "smallint"
+        },
+        {
+            "name": "smx",
+            "type": "smallint"
+        },
+        {
+            "name": "smp",
+            "type": "smallint"
+        },
+        {
+            "name": "valp",
+            "type": "integer"
+        },
+        {
+            "name": "fddrsp",
+            "type": "smallint"
+        },
+        {
+            "name": "fjwtrp",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp58",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp9",
+            "type": "smallint"
+        },
+        {
+            "name": "multg",
+            "type": "smallint"
+        },
+        {
+            "name": "fpubcovp",
+            "type": "smallint"
+        },
+        {
+            "name": "hincp",
+            "type": "integer"
+        },
+        {
+            "name": "citwp",
+            "type": "smallint"
+        },
+        {
+            "name": "fwagp",
+            "type": "smallint"
+        },
+        {
+            "name": "mlpa",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp37",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp50",
+            "type": "smallint"
+        },
+        {
+            "name": "watp",
+            "type": "smallint"
+        },
+        {
+            "name": "sch",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp30",
+            "type": "smallint"
+        },
+        {
+            "name": "nop",
+            "type": "smallint"
+        },
+        {
+            "name": "fmvp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp39",
+            "type": "smallint"
+        },
+        {
+            "name": "ffulp",
+            "type": "smallint"
+        },
+        {
+            "name": "nativity",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp71",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp62",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp76",
+            "type": "smallint"
+        },
+        {
+            "name": "mlpcd",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp69",
+            "type": "smallint"
+        },
+        {
+            "name": "ssip",
+            "type": "smallint"
+        },
+        {
+            "name": "flanp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp62",
+            "type": "smallint"
+        },
+        {
+            "name": "fdphyp",
+            "type": "smallint"
+        },
+        {
+            "name": "mig",
+            "type": "smallint"
+        },
+        {
+            "name": "fferp",
+            "type": "smallint"
+        },
+        {
+            "name": "fbdsp",
+            "type": "smallint"
+        },
+        {
+            "name": "hugcl",
+            "type": "smallint"
+        },
+        {
+            "name": "fhins3c",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp12",
+            "type": "smallint"
+        },
+        {
+            "name": "fcitp",
+            "type": "smallint"
+        },
+        {
+            "name": "dear",
+            "type": "smallint"
+        },
+        {
+            "name": "jwap",
+            "type": "smallint"
+        },
+        {
+            "name": "fmarhwp",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp23",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp16",
+            "type": "smallint"
+        },
+        {
+            "name": "mrgi",
+            "type": "smallint"
+        },
+        {
+            "name": "racnh",
+            "type": "smallint"
+        },
+        {
+            "name": "access",
+            "type": "smallint"
+        },
+        {
+            "name": "fdisp",
+            "type": "smallint"
+        },
+        {
+            "name": "elep",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp6",
+            "type": "smallint"
+        },
+        {
+            "name": "fstovp",
+            "type": "smallint"
+        },
+        {
+            "name": "jwtr",
+            "type": "smallint"
+        },
+        {
+            "name": "fsmxhp",
+            "type": "smallint"
+        },
+        {
+            "name": "fsinkp",
+            "type": "smallint"
+        },
+        {
+            "name": "frwatp",
+            "type": "smallint"
+        },
+        {
+            "name": "fmrgp",
+            "type": "smallint"
+        },
+        {
+            "name": "vps",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp45",
+            "type": "smallint"
+        },
+        {
+            "name": "broadbnd",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp41",
+            "type": "smallint"
+        },
+        {
+            "name": "fwrkp",
+            "type": "smallint"
+        },
+        {
+            "name": "hupaoc",
+            "type": "smallint"
+        },
+        {
+            "name": "fdratp",
+            "type": "smallint"
+        },
+        {
+            "name": "fhins3p",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp38",
+            "type": "smallint"
+        },
+        {
+            "name": "fvalp",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp77",
+            "type": "smallint"
+        },
+        {
+            "name": "adjhsg",
+            "type": "integer"
+        },
+        {
+            "name": "racnum",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp6",
+            "type": "smallint"
+        },
+        {
+            "name": "ftoilp",
+            "type": "smallint"
+        },
+        {
+            "name": "occp",
+            "type": "smallint"
+        },
+        {
+            "name": "fancp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp50",
+            "type": "smallint"
+        },
+        {
+            "name": "marhyp",
+            "type": "smallint"
+        },
+        {
+            "name": "othsvcex",
+            "type": "smallint"
+        },
+        {
+            "name": "frntmp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp24",
+            "type": "smallint"
+        },
+        {
+            "name": "ags",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp33",
+            "type": "smallint"
+        },
+        {
+            "name": "lanp",
+            "type": "smallint"
+        },
+        {
+            "name": "ssmc",
+            "type": "smallint"
+        },
+        {
+            "name": "r65",
+            "type": "smallint"
+        },
+        {
+            "name": "powpuma",
+            "type": "integer"
+        },
+        {
+            "name": "fpap",
+            "type": "smallint"
+        },
+        {
+            "name": "mrgx",
+            "type": "smallint"
+        },
+        {
+            "name": "migpuma",
+            "type": "integer"
+        },
+        {
+            "name": "mlpfg",
+            "type": "smallint"
+        },
+        {
+            "name": "marhm",
+            "type": "smallint"
+        },
+        {
+            "name": "fmilsp",
+            "type": "smallint"
+        },
+        {
+            "name": "fhins4c",
+            "type": "smallint"
+        },
+        {
+            "name": "stov",
+            "type": "smallint"
+        },
+        {
+            "name": "grntp",
+            "type": "smallint"
+        },
+        {
+            "name": "anc2p",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp17",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp59",
+            "type": "smallint"
+        },
+        {
+            "name": "ocpip",
+            "type": "smallint"
+        },
+        {
+            "name": "fdremp",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp8",
+            "type": "smallint"
+        },
+        {
+            "name": "wagp",
+            "type": "integer"
+        },
+        {
+            "name": "wgtp58",
+            "type": "smallint"
+        },
+        {
+            "name": "satellite",
+            "type": "smallint"
+        },
+        {
+            "name": "fschlp",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp67",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp59",
+            "type": "smallint"
+        },
+        {
+            "name": "rwatpr",
+            "type": "smallint"
+        },
+        {
+            "name": "fwkhp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp1",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp26",
+            "type": "smallint"
+        },
+        {
+            "name": "hht",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp3",
+            "type": "smallint"
+        },
+        {
+            "name": "fod2p",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp7",
+            "type": "smallint"
+        },
+        {
+            "name": "fdratxp",
+            "type": "smallint"
+        },
+        {
+            "name": "ssp",
+            "type": "integer"
+        },
+        {
+            "name": "fmrgtp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp25",
+            "type": "smallint"
+        },
+        {
+            "name": "gcl",
+            "type": "smallint"
+        },
+        {
+            "name": "fs",
+            "type": "smallint"
+        },
+        {
+            "name": "dratx",
+            "type": "smallint"
+        },
+        {
+            "name": "resmode",
+            "type": "smallint"
+        },
+        {
+            "name": "fiberop",
+            "type": "smallint"
+        },
+        {
+            "name": "ybl",
+            "type": "smallint"
+        },
+        {
+            "name": "fintp",
+            "type": "smallint"
+        },
+        {
+            "name": "fbusp",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp14",
+            "type": "smallint"
+        },
+        {
+            "name": "insp",
+            "type": "smallint"
+        },
+        {
+            "name": "dout",
+            "type": "smallint"
+        },
+        {
+            "name": "sciengrlp",
+            "type": "smallint"
+        },
+        {
+            "name": "oip",
+            "type": "integer"
+        },
+        {
+            "name": "fhisp",
+            "type": "smallint"
+        },
+        {
+            "name": "fmarhtp",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp21",
+            "type": "smallint"
+        },
+        {
+            "name": "fwkwp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp3",
+            "type": "smallint"
+        },
+        {
+            "name": "fgrntp",
+            "type": "smallint"
+        },
+        {
+            "name": "rt1",
+            "type": "character varying"
+        },
+        {
+            "name": "sciengp",
+            "type": "smallint"
+        },
+        {
+            "name": "gasp",
+            "type": "smallint"
+        },
+        {
+            "name": "sfn",
+            "type": "smallint"
+        },
+        {
+            "name": "hins5",
+            "type": "smallint"
+        },
+        {
+            "name": "fothsvcexp",
+            "type": "smallint"
+        },
+        {
+            "name": "anc1p",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp51",
+            "type": "smallint"
+        },
+        {
+            "name": "intp",
+            "type": "integer"
+        },
+        {
+            "name": "wgtp19",
+            "type": "smallint"
+        },
+        {
+            "name": "hhl",
+            "type": "smallint"
+        },
+        {
+            "name": "fmhp",
+            "type": "smallint"
+        },
+        {
+            "name": "hins7",
+            "type": "smallint"
+        },
+        {
+            "name": "findp",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp39",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp18",
+            "type": "smallint"
+        },
+        {
+            "name": "fsmocp",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp57",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp7",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp64",
+            "type": "smallint"
+        },
+        {
+            "name": "vacs",
+            "type": "bigint"
+        },
+        {
+            "name": "rac3p",
+            "type": "smallint"
+        },
+        {
+            "name": "wif",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp15",
+            "type": "smallint"
+        },
+        {
+            "name": "schg",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp55",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp10",
+            "type": "smallint"
+        },
+        {
+            "name": "handheld",
+            "type": "smallint"
+        },
+        {
+            "name": "fmilpp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp11",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp54",
+            "type": "smallint"
+        },
+        {
+            "name": "fgasp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp30",
+            "type": "smallint"
+        },
+        {
+            "name": "fes",
+            "type": "smallint"
+        },
+        {
+            "name": "indp",
+            "type": "smallint"
+        },
+        {
+            "name": "taxp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp79",
+            "type": "smallint"
+        },
+        {
+            "name": "fcompothxp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp46",
+            "type": "smallint"
+        },
+        {
+            "name": "migsp",
+            "type": "smallint"
+        },
+        {
+            "name": "fcitwp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp34",
+            "type": "smallint"
+        },
+        {
+            "name": "wkl",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp44",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp20",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp28",
+            "type": "smallint"
+        },
+        {
+            "name": "fer",
+            "type": "smallint"
+        },
+        {
+            "name": "serialno1",
+            "type": "integer"
+        },
+        {
+            "name": "wgtp72",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp29",
+            "type": "smallint"
+        },
+        {
+            "name": "ten",
+            "type": "smallint"
+        },
+        {
+            "name": "fpernp",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp36",
+            "type": "smallint"
+        },
+        {
+            "name": "rntm",
+            "type": "smallint"
+        },
+        {
+            "name": "plm",
+            "type": "smallint"
+        },
+        {
+            "name": "npp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp77",
+            "type": "smallint"
+        },
+        {
+            "name": "hins4",
+            "type": "smallint"
+        },
+        {
+            "name": "fod1p",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp76",
+            "type": "smallint"
+        },
+        {
+            "name": "wkhp",
+            "type": "smallint"
+        },
+        {
+            "name": "fsmp",
+            "type": "smallint"
+        },
+        {
+            "name": "fagep",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp8",
+            "type": "smallint"
+        },
+        {
+            "name": "frelp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp33",
+            "type": "smallint"
+        },
+        {
+            "name": "noc",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp75",
+            "type": "smallint"
+        },
+        {
+            "name": "agep",
+            "type": "smallint"
+        },
+        {
+            "name": "fssip",
+            "type": "smallint"
+        },
+        {
+            "name": "workstat",
+            "type": "smallint"
+        },
+        {
+            "name": "pernp",
+            "type": "integer"
+        },
+        {
+            "name": "wgtp56",
+            "type": "smallint"
+        },
+        {
+            "name": "dphy",
+            "type": "smallint"
+        },
+        {
+            "name": "jwdp",
+            "type": "smallint"
+        },
+        {
+            "name": "ffsp",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp65",
+            "type": "smallint"
+        },
+        {
+            "name": "mlpk",
+            "type": "smallint"
+        },
+        {
+            "name": "fhins1p",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp68",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp43",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp37",
+            "type": "smallint"
+        },
+        {
+            "name": "npf",
+            "type": "smallint"
+        },
+        {
+            "name": "wkexrel",
+            "type": "smallint"
+        },
+        {
+            "name": "fmigsp",
+            "type": "smallint"
+        },
+        {
+            "name": "povpip",
+            "type": "smallint"
+        },
+        {
+            "name": "type",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp4",
+            "type": "smallint"
+        },
+        {
+            "name": "fhins5c",
+            "type": "smallint"
+        },
+        {
+            "name": "fplmp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp69",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp21",
+            "type": "smallint"
+        },
+        {
+            "name": "fagsp",
+            "type": "smallint"
+        },
+        {
+            "name": "hins2",
+            "type": "smallint"
+        },
+        {
+            "name": "fdoutp",
+            "type": "smallint"
+        },
+        {
+            "name": "marhw",
+            "type": "smallint"
+        },
+        {
+            "name": "fhandheldp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp13",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp35",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp42",
+            "type": "smallint"
+        },
+        {
+            "name": "fgcrp",
+            "type": "smallint"
+        },
+        {
+            "name": "powsp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp",
+            "type": "smallint"
+        },
+        {
+            "name": "st1",
+            "type": "smallint"
+        },
+        {
+            "name": "gcr",
+            "type": "smallint"
+        },
+        {
+            "name": "fdeyep",
+            "type": "smallint"
+        },
+        {
+            "name": "facrp",
+            "type": "smallint"
+        },
+        {
+            "name": "wrk",
+            "type": "smallint"
+        },
+        {
+            "name": "puma",
+            "type": "integer"
+        },
+        {
+            "name": "oc",
+            "type": "smallint"
+        },
+        {
+            "name": "fmrgxp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp43",
+            "type": "smallint"
+        },
+        {
+            "name": "foccp",
+            "type": "smallint"
+        },
+        {
+            "name": "fgclp",
+            "type": "smallint"
+        },
+        {
+            "name": "frefrp",
+            "type": "smallint"
+        },
+        {
+            "name": "ffodp",
+            "type": "smallint"
+        },
+        {
+            "name": "fsexp",
+            "type": "smallint"
+        },
+        {
+            "name": "fbldp",
+            "type": "smallint"
+        },
+        {
+            "name": "kit",
+            "type": "smallint"
+        },
+        {
+            "name": "rt",
+            "type": "character varying"
+        },
+        {
+            "name": "bus",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp13",
+            "type": "smallint"
+        },
+        {
+            "name": "fhincp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp42",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp16",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp40",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp49",
+            "type": "smallint"
+        },
+        {
+            "name": "privcov",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp72",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp5",
+            "type": "smallint"
+        },
+        {
+            "name": "fbroadbndp",
+            "type": "smallint"
+        },
+        {
+            "name": "sink",
+            "type": "smallint"
+        },
+        {
+            "name": "region",
+            "type": "smallint"
+        },
+        {
+            "name": "semp",
+            "type": "integer"
+        },
+        {
+            "name": "wgtp2",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp66",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp49",
+            "type": "smallint"
+        },
+        {
+            "name": "toil",
+            "type": "smallint"
+        },
+        {
+            "name": "waob",
+            "type": "smallint"
+        },
+        {
+            "name": "qtrbir",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp44",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp4",
+            "type": "smallint"
+        },
+        {
+            "name": "fsemp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp31",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp66",
+            "type": "smallint"
+        },
+        {
+            "name": "gcm",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp32",
+            "type": "smallint"
+        },
+        {
+            "name": "r18",
+            "type": "smallint"
+        },
+        {
+            "name": "adjinc1",
+            "type": "integer"
+        },
+        {
+            "name": "rmsp",
+            "type": "smallint"
+        },
+        {
+            "name": "racaian",
+            "type": "smallint"
+        },
+        {
+            "name": "ftenp",
+            "type": "smallint"
+        },
+        {
+            "name": "ddrs",
+            "type": "smallint"
+        },
+        {
+            "name": "rntp",
+            "type": "smallint"
+        },
+        {
+            "name": "racsor",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp17",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp79",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp67",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp27",
+            "type": "smallint"
+        },
+        {
+            "name": "mil",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp80",
+            "type": "smallint"
+        },
+        {
+            "name": "fhins5p",
+            "type": "smallint"
+        },
+        {
+            "name": "bld",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp53",
+            "type": "smallint"
+        },
+        {
+            "name": "mlpi",
+            "type": "smallint"
+        },
+        {
+            "name": "hicov",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp52",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp73",
+            "type": "smallint"
+        },
+        {
+            "name": "sval",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp38",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp52",
+            "type": "smallint"
+        },
+        {
+            "name": "fconp",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp18",
+            "type": "smallint"
+        },
+        {
+            "name": "sex",
+            "type": "smallint"
+        },
+        {
+            "name": "felep",
+            "type": "smallint"
+        },
+        {
+            "name": "esp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp12",
+            "type": "smallint"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "lngi",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp47",
+            "type": "smallint"
+        },
+        {
+            "name": "fmarhdp",
+            "type": "smallint"
+        },
+        {
+            "name": "conp",
+            "type": "smallint"
+        },
+        {
+            "name": "mar",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp80",
+            "type": "smallint"
+        },
+        {
+            "name": "flaptopp",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp45",
+            "type": "smallint"
+        },
+        {
+            "name": "sfr",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp60",
+            "type": "smallint"
+        },
+        {
+            "name": "fincp",
+            "type": "integer"
+        },
+        {
+            "name": "agep__bin_",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp78",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp75",
+            "type": "smallint"
+        },
+        {
+            "name": "nwav",
+            "type": "smallint"
+        },
+        {
+            "name": "fmarhyp",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp41",
+            "type": "smallint"
+        },
+        {
+            "name": "relp",
+            "type": "smallint"
+        },
+        {
+            "name": "table_name1",
+            "type": "character varying"
+        },
+        {
+            "name": "pwgtp19",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp65",
+            "type": "smallint"
+        },
+        {
+            "name": "huparc",
+            "type": "smallint"
+        },
+        {
+            "name": "marhd",
+            "type": "smallint"
+        },
+        {
+            "name": "partner",
+            "type": "smallint"
+        },
+        {
+            "name": "wkw",
+            "type": "smallint"
+        },
+        {
+            "name": "nwlk",
+            "type": "smallint"
+        },
+        {
+            "name": "retp",
+            "type": "integer"
+        },
+        {
+            "name": "wgtp27",
+            "type": "smallint"
+        },
+        {
+            "name": "foip",
+            "type": "smallint"
+        },
+        {
+            "name": "esr",
+            "type": "smallint"
+        },
+        {
+            "name": "fdearp",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp51",
+            "type": "smallint"
+        },
+        {
+            "name": "fvehp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp61",
+            "type": "smallint"
+        },
+        {
+            "name": "naicsp",
+            "type": "character varying"
+        },
+        {
+            "name": "pwgtp25",
+            "type": "smallint"
+        },
+        {
+            "name": "fesrp",
+            "type": "smallint"
+        },
+        {
+            "name": "fsmxsp",
+            "type": "smallint"
+        },
+        {
+            "name": "mlph",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp73",
+            "type": "smallint"
+        },
+        {
+            "name": "grpip",
+            "type": "smallint"
+        },
+        {
+            "name": "deye",
+            "type": "smallint"
+        },
+        {
+            "name": "fwatp",
+            "type": "smallint"
+        },
+        {
+            "name": "fmarp",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp28",
+            "type": "smallint"
+        },
+        {
+            "name": "racblk",
+            "type": "smallint"
+        },
+        {
+            "name": "fpincp",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp15",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp5",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp63",
+            "type": "smallint"
+        },
+        {
+            "name": "fjwdp",
+            "type": "smallint"
+        },
+        {
+            "name": "srnt",
+            "type": "smallint"
+        },
+        {
+            "name": "ftelp",
+            "type": "smallint"
+        },
+        {
+            "name": "puma1",
+            "type": "integer"
+        },
+        {
+            "name": "fgcmp",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp68",
+            "type": "smallint"
+        },
+        {
+            "name": "drem",
+            "type": "smallint"
+        },
+        {
+            "name": "fhins2p",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp10",
+            "type": "smallint"
+        },
+        {
+            "name": "fjwmnp",
+            "type": "smallint"
+        },
+        {
+            "name": "table_name",
+            "type": "character varying"
+        },
+        {
+            "name": "cow",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp46",
+            "type": "smallint"
+        },
+        {
+            "name": "st",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp54",
+            "type": "smallint"
+        },
+        {
+            "name": "wagp__bin_",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp9",
+            "type": "smallint"
+        },
+        {
+            "name": "schl",
+            "type": "smallint"
+        },
+        {
+            "name": "laptop",
+            "type": "smallint"
+        },
+        {
+            "name": "pincp",
+            "type": "integer"
+        },
+        {
+            "name": "nwab",
+            "type": "smallint"
+        },
+        {
+            "name": "fschp",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp34",
+            "type": "smallint"
+        },
+        {
+            "name": "pobp",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp48",
+            "type": "smallint"
+        },
+        {
+            "name": "fmodemp",
+            "type": "smallint"
+        },
+        {
+            "name": "pubcov",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp63",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp26",
+            "type": "smallint"
+        },
+        {
+            "name": "jwrip",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp64",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp23",
+            "type": "smallint"
+        },
+        {
+            "name": "rac2p",
+            "type": "smallint"
+        },
+        {
+            "name": "fmrgip",
+            "type": "smallint"
+        },
+        {
+            "name": "nrc",
+            "type": "smallint"
+        },
+        {
+            "name": "flanxp",
+            "type": "smallint"
+        },
+        {
+            "name": "paoc",
+            "type": "smallint"
+        },
+        {
+            "name": "tel",
+            "type": "smallint"
+        },
+        {
+            "name": "rwat",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp32",
+            "type": "smallint"
+        },
+        {
+            "name": "fschgp",
+            "type": "smallint"
+        },
+        {
+            "name": "fhins7p",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp20",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp61",
+            "type": "smallint"
+        },
+        {
+            "name": "division",
+            "type": "smallint"
+        },
+        {
+            "name": "mrgp",
+            "type": "smallint"
+        },
+        {
+            "name": "mlpe",
+            "type": "smallint"
+        },
+        {
+            "name": "marht",
+            "type": "smallint"
+        },
+        {
+            "name": "hins6",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp24",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp53",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp2",
+            "type": "smallint"
+        },
+        {
+            "name": "fvacsp",
+            "type": "smallint"
+        },
+        {
+            "name": "fpowsp",
+            "type": "smallint"
+        },
+        {
+            "name": "racpi",
+            "type": "smallint"
+        },
+        {
+            "name": "fprivcovp",
+            "type": "smallint"
+        },
+        {
+            "name": "lanx",
+            "type": "smallint"
+        },
+        {
+            "name": "dis",
+            "type": "smallint"
+        },
+        {
+            "name": "pap",
+            "type": "smallint"
+        },
+        {
+            "name": "dialup",
+            "type": "smallint"
+        },
+        {
+            "name": "fhflp",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp11",
+            "type": "smallint"
+        },
+        {
+            "name": "mrgt",
+            "type": "smallint"
+        },
+        {
+            "name": "racasn",
+            "type": "smallint"
+        },
+        {
+            "name": "drat",
+            "type": "smallint"
+        },
+        {
+            "name": "fmarhmp",
+            "type": "smallint"
+        },
+        {
+            "name": "fdialupp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp14",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp48",
+            "type": "smallint"
+        },
+        {
+            "name": "fssp",
+            "type": "smallint"
+        },
+        {
+            "name": "fhins4p",
+            "type": "smallint"
+        },
+        {
+            "name": "fretp",
+            "type": "smallint"
+        },
+        {
+            "name": "fengp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp78",
+            "type": "smallint"
+        },
+        {
+            "name": "drivesp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp70",
+            "type": "smallint"
+        },
+        {
+            "name": "rac1p",
+            "type": "smallint"
+        },
+        {
+            "name": "yoep",
+            "type": "smallint"
+        },
+        {
+            "name": "msp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp35",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp40",
+            "type": "smallint"
+        },
+        {
+            "name": "nwla",
+            "type": "smallint"
+        },
+        {
+            "name": "sporder",
+            "type": "smallint"
+        },
+        {
+            "name": "cit",
+            "type": "smallint"
+        },
+        {
+            "name": "fyoep",
+            "type": "smallint"
+        },
+        {
+            "name": "fparc",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp74",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp57",
+            "type": "smallint"
+        },
+        {
+            "name": "rc",
+            "type": "smallint"
+        },
+        {
+            "name": "bath",
+            "type": "smallint"
+        },
+        {
+            "name": "faccessp",
+            "type": "smallint"
+        },
+        {
+            "name": "mlpb",
+            "type": "smallint"
+        },
+        {
+            "name": "fpobp",
+            "type": "smallint"
+        },
+        {
+            "name": "nr",
+            "type": "smallint"
+        },
+        {
+            "name": "hins1",
+            "type": "smallint"
+        },
+        {
+            "name": "fyblp",
+            "type": "smallint"
+        },
+        {
+            "name": "mlpj",
+            "type": "smallint"
+        },
+        {
+            "name": "hfl",
+            "type": "smallint"
+        },
+        {
+            "name": "ffiberopp",
+            "type": "smallint"
+        },
+        {
+            "name": "fjwrip",
+            "type": "smallint"
+        },
+        {
+            "name": "serialno",
+            "type": "integer"
+        },
+        {
+            "name": "acr",
+            "type": "smallint"
+        },
+        {
+            "name": "veh",
+            "type": "smallint"
+        },
+        {
+            "name": "ffincp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp29",
+            "type": "smallint"
+        },
+        {
+            "name": "fkitp",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp60",
+            "type": "smallint"
+        },
+        {
+            "name": "ftaxp",
+            "type": "smallint"
+        },
+        {
+            "name": "hisp",
+            "type": "smallint"
+        },
+        {
+            "name": "fdslp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp47",
+            "type": "smallint"
+        },
+        {
+            "name": "frntp",
+            "type": "smallint"
+        },
+        {
+            "name": "fulp",
+            "type": "smallint"
+        },
+        {
+            "name": "np",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp31",
+            "type": "smallint"
+        },
+        {
+            "name": "hins3",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp70",
+            "type": "smallint"
+        },
+        {
+            "name": "finsp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp36",
+            "type": "smallint"
+        },
+        {
+            "name": "mv",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp56",
+            "type": "smallint"
+        },
+        {
+            "name": "compothx",
+            "type": "smallint"
+        },
+        {
+            "name": "socp",
+            "type": "character varying"
+        },
+        {
+            "name": "frmsp",
+            "type": "smallint"
+        },
+        {
+            "name": "frwatprp",
+            "type": "smallint"
+        },
+        {
+            "name": "fracp",
+            "type": "smallint"
+        },
+        {
+            "name": "wgtp71",
+            "type": "smallint"
+        },
+        {
+            "name": "dsl",
+            "type": "smallint"
+        },
+        {
+            "name": "r60",
+            "type": "smallint"
+        },
+        {
+            "name": "pwgtp74",
+            "type": "smallint"
+        },
+        {
+            "name": "smocp",
+            "type": "smallint"
+        },
+        {
+            "name": "anc",
+            "type": "smallint"
+        },
+        {
+            "name": "refr",
+            "type": "smallint"
+        },
+        {
+            "name": "bdsp",
+            "type": "smallint"
+        }
+    ]
+}

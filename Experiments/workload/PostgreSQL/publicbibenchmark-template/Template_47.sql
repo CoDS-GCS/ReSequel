@@ -1,0 +1,18 @@
+SELECT SUM(CAST(realestate11.number_of_records AS BIGINT)) AS sumnumberofrecordsok,
+       CAST(EXTRACT(YEAR
+                    FROM realestate11.date_of_transfer) AS BIGINT) AS yrdateoftransferok
+FROM realestate11
+WHERE ((CAST(EXTRACT(YEAR
+                     FROM realestate11.date_of_transfer) AS BIGINT) IN (2005,
+                                                                        2006,
+                                                                        2007,
+                                                                        2008,
+                                                                        2009,
+                                                                        2010,
+                                                                        2011,
+                                                                        2012,
+                                                                        2013,
+                                                                        2014))
+       AND (CAST(realestate11.date_of_transfer AS DATE) >= cast('2005-01-01' AS DATE))
+       AND (CAST(realestate11.date_of_transfer AS DATE) <= cast('2015-03-31' AS DATE)))
+GROUP BY yrdateoftransferok;

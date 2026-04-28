@@ -1,0 +1,133 @@
+{
+    "columns": [
+        {
+            "name": "cc_call_center_sk",
+            "type": "integer"
+        },
+        {
+            "name": "cc_rec_start_date",
+            "type": "date"
+        },
+        {
+            "name": "cc_rec_end_date",
+            "type": "date"
+        },
+        {
+            "name": "cc_closed_date_sk",
+            "type": "integer"
+        },
+        {
+            "name": "cc_open_date_sk",
+            "type": "integer"
+        },
+        {
+            "name": "cc_employees",
+            "type": "integer"
+        },
+        {
+            "name": "cc_sq_ft",
+            "type": "integer"
+        },
+        {
+            "name": "cc_mkt_id",
+            "type": "integer"
+        },
+        {
+            "name": "cc_division",
+            "type": "integer"
+        },
+        {
+            "name": "cc_company",
+            "type": "integer"
+        },
+        {
+            "name": "cc_gmt_offset",
+            "type": "numeric"
+        },
+        {
+            "name": "cc_tax_percentage",
+            "type": "numeric"
+        },
+        {
+            "name": "cc_state",
+            "type": "character"
+        },
+        {
+            "name": "cc_mkt_class",
+            "type": "character"
+        },
+        {
+            "name": "cc_mkt_desc",
+            "type": "character varying"
+        },
+        {
+            "name": "cc_market_manager",
+            "type": "character varying"
+        },
+        {
+            "name": "cc_zip",
+            "type": "character"
+        },
+        {
+            "name": "cc_division_name",
+            "type": "character varying"
+        },
+        {
+            "name": "cc_country",
+            "type": "character varying"
+        },
+        {
+            "name": "cc_company_name",
+            "type": "character"
+        },
+        {
+            "name": "cc_call_center_id",
+            "type": "character"
+        },
+        {
+            "name": "cc_street_number",
+            "type": "character"
+        },
+        {
+            "name": "cc_street_name",
+            "type": "character varying"
+        },
+        {
+            "name": "cc_street_type",
+            "type": "character"
+        },
+        {
+            "name": "cc_suite_number",
+            "type": "character"
+        },
+        {
+            "name": "cc_name",
+            "type": "character varying"
+        },
+        {
+            "name": "cc_class",
+            "type": "character varying"
+        },
+        {
+            "name": "cc_city",
+            "type": "character varying"
+        },
+        {
+            "name": "cc_county",
+            "type": "character varying"
+        },
+        {
+            "name": "cc_hours",
+            "type": "character"
+        },
+        {
+            "name": "cc_manager",
+            "type": "character varying"
+        }
+    ],
+    "indexes": [
+        "cc_call_center_sk"
+    ],
+    "rows": 24,
+    "table": "call_center"
+}

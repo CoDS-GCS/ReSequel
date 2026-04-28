@@ -1,0 +1,18 @@
+{
+    "table": "keyword",
+    "rows": 134170,
+    "columns": [
+        {
+            "name": "id",
+            "type": "integer"
+        },
+        {
+            "name": "keyword",
+            "type": "character varying"
+        },
+        {
+            "name": "phonetic_code",
+            "type": "character varying"
+        }
+    ]
+}

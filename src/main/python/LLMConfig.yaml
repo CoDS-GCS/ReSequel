@@ -1,0 +1,42 @@
+--- 
+ 
+- llm_platform: OpenAI
+  gpt-4o:
+    token_limit: 4096
+    system_delimiter: '### '
+    user_delimiter: '### '
+    delay: 0
+    temperature: 0
+
+
+- llm_platform: Groq
+  gpt-oss-120b:
+    token_limit: 45000
+    system_delimiter: '### '
+    user_delimiter: '### '
+    delay: 70
+    temperature: 0
+
+  gpt-oss-20b:
+    token_limit: 45000
+    system_delimiter: '### '
+    user_delimiter: '### '
+    delay: 70
+    temperature: 0
+
+- llm_platform: Google
+  gemini-2.5-pro:
+    token_limit: 3200000
+    max_output_tokens: 3200000
+    system_delimiter: '### '
+    user_delimiter: '### '
+    delay: 10
+    temperature: 0
+    top_p: 0.95
+    top_k: 64
+
+
+
+
+
+

@@ -1,0 +1,102 @@
+{
+    "table": "mlb3",
+    "rows": 2918552,
+    "columns": [
+        {
+            "name": "battername",
+            "type": "character varying"
+        },
+        {
+            "name": "des",
+            "type": "character varying"
+        },
+        {
+            "name": "day",
+            "type": "smallint"
+        },
+        {
+            "name": "event",
+            "type": "character varying"
+        },
+        {
+            "name": "level",
+            "type": "character varying"
+        },
+        {
+            "name": "awayteam",
+            "type": "character varying"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "theta",
+            "type": "double precision"
+        },
+        {
+            "name": "bheight",
+            "type": "character varying"
+        },
+        {
+            "name": "year",
+            "type": "smallint"
+        },
+        {
+            "name": "our_x",
+            "type": "double precision"
+        },
+        {
+            "name": "atbatdes",
+            "type": "character varying"
+        },
+        {
+            "name": "pthrows",
+            "type": "character varying"
+        },
+        {
+            "name": "inningside",
+            "type": "character varying"
+        },
+        {
+            "name": "hometeam",
+            "type": "character varying"
+        },
+        {
+            "name": "our_y",
+            "type": "double precision"
+        },
+        {
+            "name": "inning",
+            "type": "smallint"
+        },
+        {
+            "name": "r",
+            "type": "numeric"
+        },
+        {
+            "name": "calculation40532458064297984",
+            "type": "date"
+        },
+        {
+            "name": "pitchername",
+            "type": "character varying"
+        },
+        {
+            "name": "battedballtype",
+            "type": "character varying"
+        },
+        {
+            "name": "stand",
+            "type": "character varying"
+        },
+        {
+            "name": "league",
+            "type": "character varying"
+        },
+        {
+            "name": "month",
+            "type": "smallint"
+        }
+    ]
+}

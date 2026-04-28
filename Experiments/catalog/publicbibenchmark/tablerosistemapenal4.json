@@ -1,0 +1,90 @@
+{
+    "table": "tablerosistemapenal4",
+    "rows": 2974820,
+    "columns": [
+        {
+            "name": "rit",
+            "type": "smallint"
+        },
+        {
+            "name": "ilegalidaddetencion",
+            "type": "numeric"
+        },
+        {
+            "name": "año_causa",
+            "type": "smallint"
+        },
+        {
+            "name": "rechaza_prisión_preventiva__copia_",
+            "type": "character varying"
+        },
+        {
+            "name": "idevento",
+            "type": "integer"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "tipo",
+            "type": "smallint"
+        },
+        {
+            "name": "sentencia",
+            "type": "numeric"
+        },
+        {
+            "name": "prisionpreventivadecretada",
+            "type": "numeric"
+        },
+        {
+            "name": "codmateria",
+            "type": "smallint"
+        },
+        {
+            "name": "tribunal",
+            "type": "character varying"
+        },
+        {
+            "name": "país",
+            "type": "character varying"
+        },
+        {
+            "name": "codtrib",
+            "type": "smallint"
+        },
+        {
+            "name": "delito",
+            "type": "character varying"
+        },
+        {
+            "name": "prisionpreventiva",
+            "type": "numeric"
+        },
+        {
+            "name": "cautelar",
+            "type": "numeric"
+        },
+        {
+            "name": "corte",
+            "type": "character varying"
+        },
+        {
+            "name": "fecha_audiencia",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "codcte",
+            "type": "smallint"
+        },
+        {
+            "name": "prisionpreventivarechazada",
+            "type": "numeric"
+        },
+        {
+            "name": "agrupador",
+            "type": "character varying"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "table": "company_name",
+    "rows": 234997,
+    "columns": [
+        {
+            "name": "imdb_id",
+            "type": "integer"
+        },
+        {
+            "name": "id",
+            "type": "integer"
+        },
+        {
+            "name": "country_code",
+            "type": "character varying"
+        },
+        {
+            "name": "md5sum",
+            "type": "character varying"
+        },
+        {
+            "name": "name_pcode_nf",
+            "type": "character varying"
+        },
+        {
+            "name": "name_pcode_sf",
+            "type": "character varying"
+        },
+        {
+            "name": "name",
+            "type": "character varying"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "table": "linktypes",
+    "rows": 2,
+    "columns": [
+        {
+            "name": "id",
+            "type": "smallint"
+        },
+        {
+            "name": "name",
+            "type": "character varying"
+        }
+    ]
+}

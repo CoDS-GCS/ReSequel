@@ -1,0 +1,178 @@
+{
+    "table": "generico2",
+    "rows": 23365928,
+    "columns": [
+        {
+            "name": "codigo",
+            "type": "integer"
+        },
+        {
+            "name": "concatenar1",
+            "type": "character varying"
+        },
+        {
+            "name": "soporte",
+            "type": "character varying"
+        },
+        {
+            "name": "disco",
+            "type": "smallint"
+        },
+        {
+            "name": "a_o",
+            "type": "smallint"
+        },
+        {
+            "name": "www2",
+            "type": "character varying"
+        },
+        {
+            "name": "inversionq",
+            "type": "double precision"
+        },
+        {
+            "name": "anunciante",
+            "type": "character varying"
+        },
+        {
+            "name": "inversionus",
+            "type": "double precision"
+        },
+        {
+            "name": "cadena",
+            "type": "character varying"
+        },
+        {
+            "name": "subsector",
+            "type": "character varying"
+        },
+        {
+            "name": "est",
+            "type": "character varying"
+        },
+        {
+            "name": "medio2",
+            "type": "character varying"
+        },
+        {
+            "name": "plgs",
+            "type": "smallint"
+        },
+        {
+            "name": "circulacion",
+            "type": "character varying"
+        },
+        {
+            "name": "www1",
+            "type": "character varying"
+        },
+        {
+            "name": "posicionedicion",
+            "type": "smallint"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "cols",
+            "type": "smallint"
+        },
+        {
+            "name": "ver_anuncio",
+            "type": "character varying"
+        },
+        {
+            "name": "marca",
+            "type": "character varying"
+        },
+        {
+            "name": "producto",
+            "type": "character varying"
+        },
+        {
+            "name": "unidad",
+            "type": "character varying"
+        },
+        {
+            "name": "genero",
+            "type": "character varying"
+        },
+        {
+            "name": "categoria",
+            "type": "character varying"
+        },
+        {
+            "name": "horapagina",
+            "type": "integer"
+        },
+        {
+            "name": "diasemana",
+            "type": "smallint"
+        },
+        {
+            "name": "extencion",
+            "type": "character varying"
+        },
+        {
+            "name": "duracion",
+            "type": "smallint"
+        },
+        {
+            "name": "aviso",
+            "type": "character varying"
+        },
+        {
+            "name": "franja",
+            "type": "character varying"
+        },
+        {
+            "name": "denpags",
+            "type": "smallint"
+        },
+        {
+            "name": "concatenar2",
+            "type": "character varying"
+        },
+        {
+            "name": "sector",
+            "type": "character varying"
+        },
+        {
+            "name": "primeralinea",
+            "type": "character varying"
+        },
+        {
+            "name": "semana",
+            "type": "smallint"
+        },
+        {
+            "name": "fecha",
+            "type": "date"
+        },
+        {
+            "name": "vehiculo",
+            "type": "character varying"
+        },
+        {
+            "name": "corte",
+            "type": "smallint"
+        },
+        {
+            "name": "numanuncios",
+            "type": "smallint"
+        },
+        {
+            "name": "mes",
+            "type": "character varying"
+        },
+        {
+            "name": "medio",
+            "type": "character varying"
+        },
+        {
+            "name": "holding",
+            "type": "character varying"
+        }
+    ]
+}

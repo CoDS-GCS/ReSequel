@@ -1,0 +1,15 @@
+SELECT generico5.anunciante AS anunciante,
+       generico5.anunciante AS datoscopia,
+       SUM(generico5.inversionus) AS temptc26225288700,
+       SUM(generico5.inversionus) AS sumcalculation0061002123102817ok,
+       CAST(EXTRACT(YEAR
+                    FROM generico5.fecha) AS BIGINT) AS yrfechaok
+FROM generico5
+WHERE ((generico5.anunciante IN (N_SSS))
+       AND (CAST(EXTRACT(YEAR
+                         FROM generico5.fecha) AS BIGINT) >= 2010)
+       AND (CAST(EXTRACT(YEAR
+                         FROM generico5.fecha) AS BIGINT) <= 2015))
+GROUP BY generico5.anunciante,
+         yrfechaok,
+         generico5.anunciante;

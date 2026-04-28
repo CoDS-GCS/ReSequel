@@ -1,0 +1,330 @@
+{
+    "table": "uberlandia1",
+    "rows": 7559227,
+    "columns": [
+        {
+            "name": "nomedaue",
+            "type": "character varying"
+        },
+        {
+            "name": "codibgedaue",
+            "type": "integer"
+        },
+        {
+            "name": "data_de_nascimento_aluno",
+            "type": "date"
+        },
+        {
+            "name": "municipiodolocaldaoferta",
+            "type": "character varying"
+        },
+        {
+            "name": "nomecursocatalogoguia",
+            "type": "character varying"
+        },
+        {
+            "name": "cor_da_pele",
+            "type": "character varying"
+        },
+        {
+            "name": "eixotecnologicocatalogoguia",
+            "type": "character varying"
+        },
+        {
+            "name": "data_de_confirmacao",
+            "type": "date"
+        },
+        {
+            "name": "nosistemaensino",
+            "type": "character varying"
+        },
+        {
+            "name": "calculation838513981443702785",
+            "type": "character varying"
+        },
+        {
+            "name": "nutelefonecelular",
+            "type": "character varying"
+        },
+        {
+            "name": "turno",
+            "type": "character varying"
+        },
+        {
+            "name": "pcd",
+            "type": "character varying"
+        },
+        {
+            "name": "nodependenciaadmin",
+            "type": "character varying"
+        },
+        {
+            "name": "tipodaoferta",
+            "type": "character varying"
+        },
+        {
+            "name": "populacaocampo",
+            "type": "character varying"
+        },
+        {
+            "name": "codigo_diploma_certificado",
+            "type": "character varying"
+        },
+        {
+            "name": "municipiodaue",
+            "type": "character varying"
+        },
+        {
+            "name": "edital",
+            "type": "character varying"
+        },
+        {
+            "name": "comatriculaestudante",
+            "type": "integer"
+        },
+        {
+            "name": "chdaoferta",
+            "type": "integer"
+        },
+        {
+            "name": "segurodesenprego",
+            "type": "character varying"
+        },
+        {
+            "name": "number_of_records",
+            "type": "smallint"
+        },
+        {
+            "name": "valorhoraaulaproposto",
+            "type": "character varying"
+        },
+        {
+            "name": "chcatalogoguia",
+            "type": "smallint"
+        },
+        {
+            "name": "povoindigena",
+            "type": "character varying"
+        },
+        {
+            "name": "dsidentificadorturma",
+            "type": "character varying"
+        },
+        {
+            "name": "noprograma",
+            "type": "character varying"
+        },
+        {
+            "name": "desempregado",
+            "type": "character varying"
+        },
+        {
+            "name": "stextemporaneoturma",
+            "type": "boolean"
+        },
+        {
+            "name": "subtipocurso",
+            "type": "character varying"
+        },
+        {
+            "name": "ufdaue",
+            "type": "character varying"
+        },
+        {
+            "name": "nome_aluno",
+            "type": "character varying"
+        },
+        {
+            "name": "nosubdependenciaadmin",
+            "type": "character varying"
+        },
+        {
+            "name": "mantenedora",
+            "type": "character varying"
+        },
+        {
+            "name": "ofertacadastroonline",
+            "type": "character varying"
+        },
+        {
+            "name": "calculation838513978982854656",
+            "type": "character varying"
+        },
+        {
+            "name": "vagas",
+            "type": "smallint"
+        },
+        {
+            "name": "instituicao",
+            "type": "character varying"
+        },
+        {
+            "name": "data_pré_matricula",
+            "type": "date"
+        },
+        {
+            "name": "dsemail",
+            "type": "character varying"
+        },
+        {
+            "name": "transferenciarenda",
+            "type": "character varying"
+        },
+        {
+            "name": "noparceirodemandante",
+            "type": "character varying"
+        },
+        {
+            "name": "formaingresso",
+            "type": "character varying"
+        },
+        {
+            "name": "nomedocurso",
+            "type": "character varying"
+        },
+        {
+            "name": "ufdolocaldaoferta",
+            "type": "character varying"
+        },
+        {
+            "name": "totalfreqaluno",
+            "type": "smallint"
+        },
+        {
+            "name": "nomodalidade",
+            "type": "character varying"
+        },
+        {
+            "name": "coddaunidadedeensino",
+            "type": "integer"
+        },
+        {
+            "name": "chminimadocurso",
+            "type": "smallint"
+        },
+        {
+            "name": "data_diploma_certificado",
+            "type": "timestamp without time zone"
+        },
+        {
+            "name": "cpf_aluno",
+            "type": "character varying"
+        },
+        {
+            "name": "nome_da_sit_matricula__situacao_detalhada_",
+            "type": "character varying"
+        },
+        {
+            "name": "situacaodaturma",
+            "type": "character varying"
+        },
+        {
+            "name": "eixotecnológico",
+            "type": "character varying"
+        },
+        {
+            "name": "codigodocurso",
+            "type": "integer"
+        },
+        {
+            "name": "datadapublicacao",
+            "type": "date"
+        },
+        {
+            "name": "unidadedemandante",
+            "type": "character varying"
+        },
+        {
+            "name": "dtcadastro",
+            "type": "character varying"
+        },
+        {
+            "name": "escolaridade_do_aluno",
+            "type": "character varying"
+        },
+        {
+            "name": "nomedauer",
+            "type": "character varying"
+        },
+        {
+            "name": "stfinanciavel",
+            "type": "character varying"
+        },
+        {
+            "name": "comunidadequilombola",
+            "type": "character varying"
+        },
+        {
+            "name": "datadeinicio",
+            "type": "date"
+        },
+        {
+            "name": "datadeconclusao",
+            "type": "character varying"
+        },
+        {
+            "name": "datadeprevisaodetermino",
+            "type": "date"
+        },
+        {
+            "name": "chmaximapermitida",
+            "type": "smallint"
+        },
+        {
+            "name": "escolaridadecatalogoguia",
+            "type": "character varying"
+        },
+        {
+            "name": "dstipobeneficiario",
+            "type": "character varying"
+        },
+        {
+            "name": "nutelefone",
+            "type": "character varying"
+        },
+        {
+            "name": "stextemporaneomatricula",
+            "type": "boolean"
+        },
+        {
+            "name": "ead",
+            "type": "character varying"
+        },
+        {
+            "name": "codibgedolocaldaoferta",
+            "type": "integer"
+        },
+        {
+            "name": "codigodaoferta",
+            "type": "integer"
+        },
+        {
+            "name": "edicaocatalogoguia",
+            "type": "character varying"
+        },
+        {
+            "name": "chmaxfinanciavel",
+            "type": "smallint"
+        },
+        {
+            "name": "chminfinanciavel",
+            "type": "smallint"
+        },
+        {
+            "name": "tipodolocaldaoferta",
+            "type": "character varying"
+        },
+        {
+            "name": "totalconffreqaluno",
+            "type": "character varying"
+        },
+        {
+            "name": "calculation838513981462429699",
+            "type": "character varying"
+        },
+        {
+            "name": "sexo_do_aluno",
+            "type": "character varying"
+        }
+    ]
+}
