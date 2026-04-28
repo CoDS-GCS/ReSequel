@@ -4,13 +4,6 @@
 
 <img src="images/ReSequel-Arch.png" alt="ReSequel System Architecture" width="700">
 
-This repository is a simplified version of the main  `ReSequel` repository, prepared for `VLDB 2026`. In the Project Structure section, we outline the contents of the repository. At the root level, there is a `src` folder containing the core implementation of `ReSequel`, and an `Experiments` folder with scripts for running `ReSequel` and the baselines.
-
-We have also included the workloads used in the paper, all of which are open-source. Due to space limitations, we did not include the baseline code directly, but we provide links to their open repositories in the setup section.
-
-A step-by-step guide for installation and execution is provided at the end.
-
-
 ## Project Structure
 
 ```
