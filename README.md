@@ -51,7 +51,7 @@ A step-by-step guide for installation and execution is provided at the end.
 ---
 The `./run1SetupDependencies.sh` script installs all required dependencies:
 
-* **JDK 11**: for Java-based baselines (LearnedRewrite, LLM-R2, R-Bot)
+* **JDK 17**: for Java-based baselines (LearnedRewrite, LLM-R2, R-Bot)
 * **unzip**, **unrar**, and **xz-utils**: for decompressing datasets
 * **Python 3.10**: for Python-based baselines
 * **C++17**: for our downsampling system
