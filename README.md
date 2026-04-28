@@ -39,7 +39,7 @@ A step-by-step guide for installation and execution is provided at the end.
     └── run*.sh                   # Top-level setup & execution scripts
 ```
 
-**Hardware and Software Info:** We ran all experiments on a server node (VM) with an Intel Core CPU (32 vcores) and 150 GB of DDR4 RAM. The software stack consisted of Ubuntu 22.04, OpenJDK 11 (for Java baselines), PostgreSQL 17.1, MySQL 8, DuckDB, Python 3.10, and C++17.
+**Hardware and Software Info:** We ran all experiments on a server node (VM) with an Intel Core CPU (32 vcores) and 150 GB of DDR4 RAM. The software stack consisted of Ubuntu 22.04, OpenJDK 17 (for Java baselines), PostgreSQL 17.1, MySQL 8, DuckDB, Python 3.10, and C++17.
 
 **Setup and Experiments:** The repository is pre-populated with the paper's experimental results (`./results`). The entire experimental evaluation can be run via `./runAll.sh`, which deletes the results and performs setup, dataset download, data preparation, data generation, and local experiments. However, for a more controlled evaluation, we recommend running the individual steps separately as described below.
 
