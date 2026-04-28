@@ -2,7 +2,7 @@
 
 **Overview:** ReSequel is an outer optimization layer on top of existing DBMSs that rewrites SQL queries using large language models. We leverage catalog and statistical metadata to infer template-specific rewriting rules that guide the LLM toward effective query transformations. We generate, verify for correctness on sampled data, and rank rewritten query variants to ensure both result accuracy and runtime improvements. ReSequel yields workload-level speedups of up to 16× over native DBMSs and 22× over LLM-based systems, with individual queries exceeding 600×, across eight benchmarks (JOB, TPC-H, Stats, Stats-CEB, Public BI, IMDB, DSB, StackOverflow) and three DBMSs (PostgreSQL, MySQL, DuckDB).
 
-![ReSequel System Architecture](images/ReSequel-Arch.png)
+<img src="images/ReSequel-Arch.png" alt="ReSequel System Architecture" width="700">
 
 This repository is a simplified version of the main  `ReSequel` repository, prepared for `VLDB 2026`. In the Project Structure section, we outline the contents of the repository. At the root level, there is a `src` folder containing the core implementation of `ReSequel`, and an `Experiments` folder with scripts for running `ReSequel` and the baselines.
 
@@ -45,7 +45,7 @@ A step-by-step guide for installation and execution is provided at the end.
 
 ---
 
-## Reproduction Guide
+## Reproduce Guide
 
 ### Step 1: Install Dependencies
 ---
