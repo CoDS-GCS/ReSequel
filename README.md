@@ -80,11 +80,12 @@ ReSequel uses LLM services (Google Gemini and Groq) for query rewriting. Create 
 
 ### Step 3: Set Up Baselines
 ---
-The `./run2SetupBaseLines.sh` script automatically compiles the Java and Python baseline implementations and sets up runnable apps in the `Setup` directory. There are three baselines used in our paper; we made minor modifications to each to integrate them into our evaluation pipeline:
+The `./run2SetupBaseLines.sh` script automatically compiles the Java and Python baseline implementations and sets up runnable apps in the `Setup` directory. There are three query rewriting baselines and one equivalence checking baseline used in our paper; we made minor modifications to each to integrate them into our evaluation pipeline:
 
 * **LearnedRewrite**: [https://github.com/XuanheZhou/LearnedRewrite](https://github.com/XuanheZhou/LearnedRewrite)
 * **LLM-R2**: [https://github.com/DAMO-NLP-SG/LLM-R2](https://github.com/DAMO-NLP-SG/LLM-R2)
 * **R-Bot**: [https://github.com/curtis-sun/LLM4Rewrite](https://github.com/curtis-sun/LLM4Rewrite)
+* **SQLSolver** *(query equivalence checker)*: [https://github.com/SJTU-IPADS/SQLSolver](https://github.com/SJTU-IPADS/SQLSolver)
 
 ```bash
 ./run2SetupBaseLines.sh
