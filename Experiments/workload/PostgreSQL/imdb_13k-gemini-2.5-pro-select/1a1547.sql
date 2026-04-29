@@ -1,0 +1,39 @@
+ 
+ WITH filtered_t AS
+  (SELECT t.id
+   FROM title AS t
+   JOIN kind_type AS kt ON t.kind_id = kt.id
+   WHERE t.production_year <= 2015
+     AND t.production_year > 1990
+     AND kt.kind IN ('episode',
+                  'video movie'))
+SELECT COUNT(*)
+FROM filtered_t AS t
+JOIN movie_info AS mi1 ON t.id = mi1.movie_id
+JOIN movie_info AS mi2 ON t.id = mi2.movie_id
+JOIN cast_info AS ci ON t.id = ci.movie_id
+JOIN role_type AS rt ON ci.role_id = rt.id
+JOIN name AS n ON ci.person_id = n.id
+WHERE mi1.info_type_id = '8'
+  AND mi1.info IN ('Argentina',
+                   'Brazil',
+                   'Czech Republic',
+                   'France',
+                   'Greece',
+                   'India',
+                   'Italy',
+                   'Nigeria',
+                   'Philippines',
+                   'South Korea',
+                   'Spain')
+  AND mi2.info_type_id = '4'
+  AND mi2.info IN ('Czech',
+                   'English',
+                   'French',
+                   'Greek',
+                   'Korean',
+                   'Portuguese',
+                   'Spanish',
+                   'Tagalog')
+  AND rt.role IN ('cinematographer')
+  AND n.gender IN ('f');

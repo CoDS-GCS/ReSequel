@@ -1,0 +1,34 @@
+ 
+ 
+SELECT COUNT(*)
+FROM cast_info AS ci
+JOIN name AS n ON ci.person_id = n.id
+AND n.gender IN ('f',
+                    'm')
+JOIN role_type AS rt ON ci.role_id = rt.id
+AND rt.role IN ('actress',
+                   'miscellaneous crew')
+JOIN title AS t ON ci.movie_id = t.id
+AND t.production_year BETWEEN 1950 AND 1990
+JOIN kind_type AS kt ON t.kind_id = kt.id
+AND kt.kind IN ('tv series',
+                   'video game',
+                   'video movie')
+JOIN movie_info AS mi1 ON t.id = mi1.movie_id
+JOIN info_type AS it1 ON mi1.info_type_id = it1.id
+AND it1.id IN ('18')
+AND mi1.info IN ('20th Century Fox Studios - 10201 Pico Blvd., Century City, Los Angeles, California, USA',
+                    'London, England, UK',
+                    'Mexico City, Distrito Federal, Mexico',
+                    'Paris, France',
+                    'Republic Studios - 4024 Radford Avenue, North Hollywood, Los Angeles, California, USA',
+                    'Rome, Lazio, Italy')
+JOIN movie_info AS mi2 ON t.id = mi2.movie_id
+JOIN info_type AS it2 ON mi2.info_type_id = it2.id
+AND it2.id IN ('8')
+AND mi2.info IN ('France',
+                    'Italy',
+                    'Mexico',
+                    'UK',
+                    'USA')
+JOIN movie_keyword AS mk ON t.id = mk.movie_id;
