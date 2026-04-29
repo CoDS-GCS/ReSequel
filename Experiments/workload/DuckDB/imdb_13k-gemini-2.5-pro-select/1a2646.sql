@@ -1,0 +1,40 @@
+
+SELECT COUNT(*)
+FROM title AS t
+JOIN kind_type AS kt ON t.kind_id = kt.id
+JOIN movie_info AS mi1 ON t.id = mi1.movie_id
+JOIN info_type AS it1 ON mi1.info_type_id = it1.id
+JOIN movie_info AS mi2 ON t.id = mi2.movie_id
+JOIN info_type AS it2 ON mi2.info_type_id = it2.id
+JOIN cast_info AS ci ON t.id = ci.movie_id
+JOIN role_type AS rt ON ci.role_id = rt.id
+JOIN name AS n ON ci.person_id = n.id
+WHERE t.production_year BETWEEN 1975 AND 2015
+  AND kt.kind IN ('episode',
+                   'movie',
+                   'tv movie',
+                   'tv series')
+  AND it1.id IN ('18')
+  AND mi1.info IN ('15001 Calvert Street, Van Nuys, Los Angeles, California, USA',
+                    'British Columbia, Canada',
+                    'CBS Studio Center - 4024 Radford Avenue, Studio City, Los Angeles, California, USA',
+                    'France',
+                    'Germany',
+                    'Hamburg, Germany',
+                    'Montréal, Québec, Canada',
+                    'New York City, New York, USA',
+                    'New York, USA',
+                    'Santa Clarita, California, USA',
+                    'Shepperton Studios, Shepperton, Surrey, England, UK',
+                    'Stage 25, Paramount Studios - 5555 Melrose Avenue, Hollywood, Los Angeles, California, USA',
+                    'Sydney, New South Wales, Australia')
+  AND it2.id IN ('6')
+  AND mi2.info IN ('70 mm 6-Track',
+                    'DTS',
+                    'DTS-Stereo',
+                    'Dolby Digital EX',
+                    'Dolby Digital',
+                    'Dolby',
+                    'Ultra Stereo')
+  AND n.gender IS NULL
+  AND rt.role IN ('costume designer');

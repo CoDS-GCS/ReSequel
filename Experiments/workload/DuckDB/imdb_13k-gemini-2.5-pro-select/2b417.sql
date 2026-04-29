@@ -1,0 +1,39 @@
+WITH ci_filtered AS
+  (SELECT ci.movie_id
+   FROM cast_info AS ci
+   JOIN name AS n ON ci.person_id = n.id
+   JOIN role_type AS rt ON ci.role_id = rt.id
+   WHERE n.gender IS NULL
+     AND rt.role IN ('production designer'))
+SELECT COUNT(*)
+FROM title AS t
+JOIN kind_type AS kt ON t.kind_id = kt.id
+JOIN movie_info AS mi1 ON t.id = mi1.movie_id
+JOIN info_type AS it1 ON mi1.info_type_id = it1.id
+JOIN movie_info AS mi2 ON t.id = mi2.movie_id
+JOIN info_type AS it2 ON mi2.info_type_id = it2.id
+JOIN movie_keyword AS mk ON t.id = mk.movie_id
+JOIN keyword AS k ON mk.keyword_id = k.id
+JOIN ci_filtered ON t.id = ci_filtered.movie_id
+WHERE t.production_year BETWEEN 1875 AND 1975
+  AND kt.kind IN ('movie',
+                   'tv movie')
+  AND it1.id IN ('3')
+  AND mi1.info IN ('Crime',
+                    'Drama',
+                    'Musical',
+                    'Mystery',
+                    'Short')
+  AND it2.id IN ('7')
+  AND mi2.info IN ('MET:600 m',
+                    'OFM:35 mm',
+                    'PCS:Spherical',
+                    'PFM:35 mm')
+  AND k.keyword IN ('bare-chested-male',
+                     'based-on-novel',
+                     'blood',
+                     'death',
+                     'family-relationships',
+                     'husband-wife-relationship',
+                     'murder',
+                     'suicide');

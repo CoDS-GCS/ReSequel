@@ -1,0 +1,44 @@
+WITH TopPosts AS
+  (SELECT Id,
+          Title,
+          CreationDate,
+          OwnerUserId
+   FROM Posts
+   WHERE PostTypeId = 1
+   ORDER BY CreationDate DESC
+   LIMIT 10),
+     CommentCounts AS
+  (SELECT PostId,
+          COUNT(Id) AS Cnt
+   FROM Comments
+   WHERE PostId IN
+       (SELECT Id
+        FROM TopPosts)
+   GROUP BY PostId),
+     VoteCounts AS
+  (SELECT PostId,
+          SUM(CASE
+                  WHEN VoteTypeId = 2 THEN 1
+                  ELSE 0
+              END) AS Up,
+          SUM(CASE
+                  WHEN VoteTypeId = 3 THEN 1
+                  ELSE 0
+              END) AS Down
+   FROM Votes
+   WHERE PostId IN
+       (SELECT Id
+        FROM TopPosts)
+   GROUP BY PostId)
+SELECT p.Id AS PostId,
+       p.Title,
+       p.CreationDate,
+       u.DisplayName AS OWNER,
+       COALESCE(cc.Cnt, 0) AS CommentCount,
+       COALESCE(vc.Up, 0) AS UpVotes,
+       COALESCE(vc.Down, 0) AS DownVotes
+FROM TopPosts p
+JOIN Users u ON p.OwnerUserId = u.Id
+LEFT JOIN CommentCounts cc ON p.Id = cc.PostId
+LEFT JOIN VoteCounts vc ON p.Id = vc.PostId
+ORDER BY p.CreationDate DESC;

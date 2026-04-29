@@ -1,0 +1,58 @@
+WITH t_filtered AS
+  (SELECT t.id
+   FROM title t
+   JOIN kind_type kt ON t.kind_id = kt.id
+   WHERE t.production_year BETWEEN 1975 AND 2015
+     AND kt.kind IN ('episode',
+                   'movie',
+                   'video movie')),
+     mi1_filtered AS
+  (SELECT mi.movie_id
+   FROM movie_info mi
+   WHERE mi.info_type_id IN ('2')
+     AND mi.info IN ('Color')),
+     mi2_filtered AS
+  (SELECT mi.movie_id
+   FROM movie_info mi
+   WHERE mi.info_type_id IN ('7')
+     AND mi.info IN ('LAB:Consolidated Film Industries (CFI), Hollywood (CA), USA',
+                    'LAB:DeLuxe',
+                    'OFM:35 mm',
+                    'RAT:16:9 HD')),
+     ci_filtered AS
+  (SELECT ci.movie_id
+   FROM cast_info ci
+   JOIN role_type rt ON ci.role_id = rt.id
+   JOIN name n ON ci.person_id = n.id
+   WHERE rt.role IN ('cinematographer')
+     AND n.gender IN ('m')),
+     mk_filtered AS
+  (SELECT mk.movie_id
+   FROM movie_keyword mk
+   JOIN keyword k ON mk.keyword_id = k.id
+   WHERE k.keyword IN ('bare-breasts',
+                     'bare-chested-male',
+                     'based-on-novel',
+                     'based-on-play',
+                     'death',
+                     'family-relationships',
+                     'female-nudity',
+                     'gay',
+                     'hardcore',
+                     'homosexual',
+                     'husband-wife-relationship',
+                     'mother-son-relationship',
+                     'non-fiction',
+                     'nudity',
+                     'oral-sex',
+                     'police',
+                     'revenge',
+                     'sex',
+                     'surrealism',
+                     'violence'))
+SELECT COUNT(*)
+FROM t_filtered t
+JOIN mi1_filtered mi1 ON t.id = mi1.movie_id
+JOIN mi2_filtered mi2 ON t.id = mi2.movie_id
+JOIN ci_filtered ci ON t.id = ci.movie_id
+JOIN mk_filtered mk ON t.id = mk.movie_id;

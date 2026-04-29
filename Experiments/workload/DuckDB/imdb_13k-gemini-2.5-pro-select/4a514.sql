@@ -1,0 +1,44 @@
+WITH name_an AS
+  (SELECT n.id AS person_id
+   FROM name AS n
+   JOIN aka_name AS an ON n.id = an.person_id
+   WHERE n.gender IS NULL
+     AND n.name_pcode_nf IN ('A4562',
+                           'B6324',
+                           'C6216',
+                           'G6232',
+                           'J154',
+                           'J2126',
+                           'J525',
+                           'J5626',
+                           'M6261',
+                           'M6265',
+                           'N2423',
+                           'S6215',
+                           'T164',
+                           'T32',
+                           'T532')),
+     name_an_pi AS
+  (SELECT na.person_id
+   FROM name_an AS na
+   JOIN person_info AS pi1 ON na.person_id = pi1.person_id
+   JOIN info_type AS it1 ON pi1.info_type_id = it1.id
+   WHERE it1.id IN ('22'))
+SELECT COUNT(*)
+FROM name_an_pi AS napi
+JOIN cast_info AS ci ON napi.person_id = ci.person_id
+JOIN role_type AS rt ON ci.role_id = rt.id
+WHERE rt.role IN ('cinematographer',
+                   'composer',
+                   'editor',
+                   'miscellaneous crew',
+                   'producer',
+                   'writer')
+  AND (ci.note IN ('(associate producer)',
+                   '(director of photography)',
+                   '(idea)',
+                   '(location scout)',
+                   '(producer)',
+                   '(production assistant)',
+                   '(writing supervised by)')
+       OR ci.note IS NULL);
