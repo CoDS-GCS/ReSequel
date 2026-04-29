@@ -1,0 +1,18 @@
+
+SELECT p.Id AS PostId,
+       p.Title,
+       u.DisplayName AS OwnerDisplayName,
+       p.CreationDate,
+       p.Score,
+       p.ViewCount,
+       p.AnswerCount,
+       p.CommentCount
+FROM Posts p
+JOIN Users u ON p.OwnerUserId = u.Id
+WHERE p.PostTypeId = 1
+  AND EXISTS
+    (SELECT 1
+     FROM Users u2
+     WHERE u2.Id = p.OwnerUserId)
+ORDER BY p.CreationDate DESC
+LIMIT 10;

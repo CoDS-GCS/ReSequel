@@ -1,0 +1,16 @@
+
+SELECT p.Id AS PostId,
+       p.Title,
+       u.DisplayName AS Author,
+       p.CreationDate,
+       p.Score,
+       p.ViewCount
+FROM Posts p
+JOIN
+  (SELECT Id
+   FROM Posts
+   WHERE PostTypeId = 1
+   ORDER BY CreationDate DESC
+   LIMIT 10) AS TopPosts ON p.Id = TopPosts.Id
+JOIN Users u ON p.OwnerUserId = u.Id
+ORDER BY p.CreationDate DESC;
