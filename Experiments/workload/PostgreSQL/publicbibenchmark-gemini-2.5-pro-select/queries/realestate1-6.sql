@@ -1,0 +1,6 @@
+
+SELECT AVG(price) AS avgpriceok,
+       YEAR AS yrdateoftransferok
+FROM realestate11
+WHERE YEAR IN ('2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014')
+GROUP BY YEAR;

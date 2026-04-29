@@ -1,0 +1,48 @@
+
+SELECT COUNT(*)
+FROM title AS t
+JOIN movie_info AS mi1 ON t.id = mi1.movie_id
+JOIN cast_info AS ci ON t.id = ci.movie_id
+JOIN name AS n ON ci.person_id = n.id
+JOIN movie_companies AS mc ON t.id = mc.movie_id
+JOIN movie_keyword AS mk ON t.id = mk.movie_id
+WHERE t.production_year BETWEEN 1990 AND 2015
+  AND t.kind_id IN
+    (SELECT id
+     FROM kind_type
+     WHERE kind IN ('episode'))
+  AND mi1.info_type_id IN ('18')
+  AND mi1.info IN ('Paramount Studios - 5555 Melrose Avenue, Hollywood, Los Angeles, California, USA',
+                    'Warner Brothers Burbank Studios - 4000 Warner Boulevard, Burbank, California, USA')
+  AND ci.role_id IN
+    (SELECT id
+     FROM role_type
+     WHERE ROLE IN ('actor',
+                   'miscellaneous crew'))
+  AND n.gender IN ('m')
+  AND (n.surname_pcode IN ('B6',
+                           'B62',
+                           'C',
+                           'C5',
+                           'D25',
+                           'F652',
+                           'J52',
+                           'L2',
+                           'M25',
+                           'M62',
+                           'M635',
+                           'R2',
+                           'T52',
+                           'W452')
+       OR n.surname_pcode IS NULL)
+  AND mc.company_type_id IN
+    (SELECT id
+     FROM company_type
+     WHERE kind IN ('distributors',
+                   'production companies'))
+  AND mc.company_id IN
+    (SELECT id
+     FROM company_name
+     WHERE name IN ('ABS-CBN',
+                   'American Broadcasting Company (ABC)',
+                   'British Broadcasting Corporation (BBC)'));

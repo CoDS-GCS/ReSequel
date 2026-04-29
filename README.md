@@ -24,8 +24,9 @@
     ├── catalog/                  # Pre-extracted DB metadata (JSON) for all benchmarks
     ├── workload/                 # SQL queries + schemas per benchmark x DBMS
     │   └── {PostgreSQL, MySQL, DuckDB}/
-    │       ├── {benchmark}/          # Original queries
-    │       └── {benchmark}-template/ # Templatized queries (extracted by ReSequel)
+    │       ├── {benchmark}/                     # Original queries
+    │       ├── {benchmark}-template/            # Templatized queries (extracted by ReSequel)   
+    │       └── {benchmark}-{LLM-model}-select/  # ReSequel rewrite queries
     ├── explocal/                 # Experiment scripts
     │   ├── exp1_ReSequel/        # ReSequel pipeline stage scripts
     │   └── exp2_Baselines/       # Baseline experiment scripts

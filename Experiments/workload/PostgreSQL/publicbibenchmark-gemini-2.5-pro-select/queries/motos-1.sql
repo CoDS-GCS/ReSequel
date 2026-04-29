@@ -1,0 +1,8 @@
+WITH filtered_motos AS
+  (SELECT marca
+   FROM motos1
+   WHERE categoria IN ('CAMIONES', 'CAMIONES, BUSES Y PANELES', 'MOTOCICLETAS', 'PICK UPS, VANS Y JEEPS', 'PICK-UPS', 'SUV Y JEEPS', 'VEHICULOS NUEVOS')
+     AND a_o BETWEEN 2010 AND 2012)
+SELECT DISTINCT marca AS datoscopia
+FROM filtered_motos
+ORDER BY datoscopia ASC;
